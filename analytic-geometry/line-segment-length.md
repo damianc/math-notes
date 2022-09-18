@@ -8,7 +8,8 @@ for endpoints:
 
 $$
 A = (x_1, y_1)
-\\
+$$
+$$
 B = (x_2, y_2)
 $$
 
@@ -18,6 +19,7 @@ The solution derives from **Pythagorean theorem**:
 
 $$
 |AB|^2 = |AC|^2 + |BC|^2
-\\\ \\\ \\
+$$
+$$
 |AB| = \sqrt{|AC|^2 + |BC|^2}
 $$
