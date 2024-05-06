@@ -2,6 +2,8 @@
 
 Construct a box with maximum possible volume.
 
+![Assembled box](https://github.com/damianc/math-notes/blob/master/_images/pract/box/box-done.png) 
+
 | | |
 |--|--|
 | | ![Square plane](https://github.com/damianc/math-notes/blob/master/_images/pract/box/box-plane-sq.png) |
