@@ -22,4 +22,4 @@ Getting proper values comes down to three steps:
 
 - convert _volume formula_ to a _cubic function_
 - get its _derivative_ (being a _quadratic function_)
-- get _roots_ and pick a reasonable one
+- get its _quadratic roots_ and pick a reasonable one
