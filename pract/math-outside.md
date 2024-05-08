@@ -2,7 +2,7 @@
 
 ## Approachable Objects
 
-### With Angle
+### with angle
 
 ![Distance to an approachable object with angle](https://github.com/damianc/math-notes/blob/master/_images/pract/env/env-01.png)
 
@@ -14,7 +14,7 @@ d = \frac{h}{\tan(\alpha)}
 \end{array}
 $$
 
-### Without Angle
+### without angle
 
 ![Distance to an approachable object without angle](https://github.com/damianc/math-notes/blob/master/_images/pract/env/env-02.png)
 
@@ -28,7 +28,7 @@ $$
 
 ## Distant Objects
 
-### With Tangent
+### with tangent
 
 ![Distance to a distant object with tangent](https://github.com/damianc/math-notes/blob/master/_images/pract/env/env-03.png)
 
@@ -36,7 +36,7 @@ $$
 d = s \cdot \tan(\alpha)
 $$
 
-### With Thales' Theorem
+### with Thales' theorem
 
 ![Distance to a distant object with Thales' theorem](https://github.com/damianc/math-notes/blob/master/_images/pract/env/env-04.png)
 
@@ -44,9 +44,9 @@ $$
 d = \frac{ts_2}{s_1-s_2}
 $$
 
-### With 2 Points
+### with 2 points
 
-#### With angles
+#### with angles
 
 ![Distance to a distant object with two angles](https://github.com/damianc/math-notes/blob/master/_images/pract/env/env-05.png)
 
@@ -70,7 +70,7 @@ h = \frac{
 }
 $$
 
-#### Without angles
+#### without angles
 
 ![Distance to a distant object with two points](https://github.com/damianc/math-notes/blob/master/_images/pract/env/env-06.png)
 
