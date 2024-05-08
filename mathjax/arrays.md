@@ -243,7 +243,6 @@ $$
 
 ## Labelled Array
 
-```
 $$
 \begin{array}{c|cc}
   & \color{#aaa}{A}
@@ -256,8 +255,8 @@ $$
   \\
 \end{array}
 $$
-```
 
+```
 $$
 \begin{array}{c|cc}
   & \color{#aaa}{A}
@@ -270,6 +269,7 @@ $$
   \\
 \end{array}
 $$
+```
 
 ## Simulating Graphs
 
