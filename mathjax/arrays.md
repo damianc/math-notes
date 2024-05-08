@@ -5,6 +5,7 @@
 - [Horizontal and Vertical Lines](#horizontal-and-vertical-lines)
 - [Aligning](#aligning)
 - [Nested Arrays](#nested-arrays)
+- [Labelled Array](#labelled-array)
 - [Simulating Graphs](#simulating-graphs)
 
 ## Basic Array
@@ -239,6 +240,36 @@ $$
 \right]
 $$
 ```
+
+## Labelled Array
+
+```
+$$
+\begin{array}{c|cc}
+  & \color{#aaa}{A}
+  & \color{#aaa}{B}
+  \\
+  \hline
+  \color{#aaa}{A} & 1 & 0
+  \\
+  \color{#aaa}{B} & 0 & 1
+  \\
+\end{array}
+$$
+```
+
+$$
+\begin{array}{c|cc}
+  & \color{#aaa}{A}
+  & \color{#aaa}{B}
+  \\
+  \hline
+  \color{#aaa}{A} & 1 & 0
+  \\
+  \color{#aaa}{B} & 0 & 1
+  \\
+\end{array}
+$$
 
 ## Simulating Graphs
 
