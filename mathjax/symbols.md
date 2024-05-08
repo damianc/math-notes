@@ -1,0 +1,16 @@
+# MathJax Symbols
+
+- [Common Symbols and Operators](#common-symbols-and-operators)
+- [Assertion Formulation](#assertion-formulation)
+- [Operators](#operators)
+  - [Sets](#sets)
+  - [Number Theory](#number-theory)
+- [Functions and Other Text-Represented Stuff](#functions-and-other-text-represented-stuff)
+- [Arrows](#arrows)
+  - [Horizontal](#horizontal)
+  - [Vertical](#vertical)
+  - [Diagonal](#diagonal)
+  - [Harpoons](#harpoons)
+- [Shapes](#shapes)
+  - [Lines](#lines)
+  - [Triangles](#triangles)
