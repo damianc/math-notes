@@ -69,3 +69,45 @@ x_{
  _{i \times n}
 }
 ```
+
+## Braces Aside
+
+$$
+\text{label}
+\begin{cases}
+ x = a+b
+ \\
+ y = 2x
+\end{cases}
+$$
+
+```
+\text{label}
+\begin{cases}
+ x = a+b
+ \\
+ y = 2x
+\end{cases}
+```
+
+$$
+\left.
+\begin{array}{l}
+ x = a+b
+ \\
+ y = 2x
+\end{array}
+\right\\}
+\text{label}
+$$
+
+```
+\left.
+\begin{array}{l}
+ x = a+b
+ \\
+ y = 2x
+\end{array}
+\right\\}
+\text{label}
+```
