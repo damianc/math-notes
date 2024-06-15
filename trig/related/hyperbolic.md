@@ -10,3 +10,14 @@
 | $$\text{csch}(x)$$ | $$\frac{2}{e^x-e^{-x}}$$ | $$\frac{2e^x}{e^{2x}-1}$$ |
 | $$\text{sech}(x)$$ | $$\frac{2}{e^x+e^{-x}}$$ | $$\frac{2e^x}{e^{2x}+1}$$ |
 | $$\text{coth}(x)$$ | $$\frac{e^x+e^{-x}}{e^x-e^{-x}}$$ | $$\frac{e^{2x}+1}{e^{2x}-1}$$ |
+
+## Domain and Range
+
+| Function | Domain | Range |
+|--|--|--|
+| sinh | $\mathbb{R}$ | $\mathbb{R}$ |
+| cosh | $\mathbb{R}$ | $\langle 1,\infty)$ |
+| tanh | $\mathbb{R}$ | $(-1,1)$ |
+| csch | $\mathbb{R} \setminus \\{0\\}$ | $\mathbb{R} \setminus \\{0\\}$ |
+| sech | $\mathbb{R}$ | $(0,1 \rangle$ |
+| coth | $\mathbb{R} \setminus \\{0\\}$ | $(-\infty,-1)\cup(1,\infty)$ |
