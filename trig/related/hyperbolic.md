@@ -22,3 +22,13 @@
 | sech | $\mathbb{R}$ | $(0,1 \rangle$ |
 | coth | $\mathbb{R} \setminus \\{0\\}$ | $\mathbb{R} \setminus \langle -1,1 \rangle$ |
 | | | $(-\infty,-1) \cup (1,\infty)$ |
+
+## $\ln \varphi$ Identities
+
+| | |
+|--|--|
+| $\sinh(\ln\varphi) = \frac{1}{2}$ | $\text{csch}(\ln\varphi) = 2$ |
+| $\cosh(\ln\varphi) = \frac{\sqrt{5}}{2}$ | $\text{sech}(\ln\varphi) = \frac{2}{\sqrt{5}}$ |
+| $\tanh(\ln\varphi) = \frac{1}{\sqrt{5}}$ | $\coth(\ln\varphi) = \sqrt{5}$ |
+
+
