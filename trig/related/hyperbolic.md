@@ -20,4 +20,5 @@
 | tanh | $\mathbb{R}$ | $(-1,1)$ |
 | csch | $\mathbb{R} \setminus \\{0\\}$ | $\mathbb{R} \setminus \\{0\\}$ |
 | sech | $\mathbb{R}$ | $(0,1 \rangle$ |
-| coth | $\mathbb{R} \setminus \\{0\\}$ | $(-\infty,-1)\cup(1,\infty)$ |
+| coth | $\mathbb{R} \setminus \\{0\\}$ | $\mathbb{R} \setminus \langle -1,1 \rangle$ |
+| | | $(-\infty,-1) \cup (1,\infty)$ |
