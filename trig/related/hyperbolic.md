@@ -39,4 +39,15 @@
 | $\cosh(\ln\varphi) = \frac{\sqrt{5}}{2}$ | $\text{sech}(\ln\varphi) = \frac{2}{\sqrt{5}}$ |
 | $\tanh(\ln\varphi) = \frac{1}{\sqrt{5}}$ | $\coth(\ln\varphi) = \sqrt{5}$ |
 
+## Derivatives
+
+| $f(x)$ | $\frac{d}{dx} f(x)$ |
+|--|--|
+| sinh | $\cosh(x)$ |
+| cosh | $\sinh(x)$ |
+| tanh | $\text{sech}^2(x)$ |
+| csch | $-\coth(x) \text{csch}(x)$ |
+| sech | $-\text{sech}(x) \tanh(x)$ |
+| coth | $-\text{csch}^2(x)$ |
+
 
