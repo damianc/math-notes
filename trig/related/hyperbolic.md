@@ -23,6 +23,14 @@
 | coth | $\mathbb{R} \setminus \\{0\\}$ | $\mathbb{R} \setminus \langle -1,1 \rangle$ |
 | | | $(-\infty,-1) \cup (1,\infty)$ |
 
+## Reciprocal Identities
+
+| | |
+|--|--|
+| $\text{sinh}(x) = \frac{1}{\text{csch} (x)}$ | $\text{csch}(x) = \frac{1}{\text{sinh} (x)}$ |
+| $\text{cosh}(x) = \frac{1}{\text{sech} (x)}$ | $\text{sech}(x) = \frac{1}{\text{cosh} (x)}$ |
+| $\text{tanh}(x) = \frac{1}{\text{coth} (x)}$ | $\text{coth}(x) = \frac{1}{\text{tanh} (x)}$ |
+
 ## $\ln \varphi$ Identities
 
 | | |
