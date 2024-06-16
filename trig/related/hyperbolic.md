@@ -41,7 +41,7 @@
 
 ## Derivatives
 
-| $f(x)$ | $\frac{d}{dx} f(x)$ |
+| $\boldsymbol{f(x)}$ | $\boldsymbol {\frac{d}{dx} f(x)}$ |
 |--|--|
 | sinh | $\cosh(x)$ |
 | cosh | $\sinh(x)$ |
@@ -49,5 +49,17 @@
 | csch | $-\coth(x) \text{csch}(x)$ |
 | sech | $-\text{sech}(x) \tanh(x)$ |
 | coth | $-\text{csch}^2(x)$ |
+
+## Integrals
+
+| $\boldsymbol{f(x)}$ | $\boldsymbol{\int f(x) \ dx}$ |
+|--|--|
+| sinh | $\cosh(x)+C$ |
+| cosh | $\sinh(x)+C$ |
+| tanh | $\ln(\cosh(x))+C$ |
+| csch | $\ln\left(\tanh\left(\frac{x}{2}\right)\right)+C$ |
+| sech | $2\arctan\left(\tanh\left(\frac{x}{2}\right)\right)+C$ |
+| | $\cup \ \  \arctan(\sinh(x))+C$ |
+| coth | $\ln(\sinh(x))+ C$ |
 
 
