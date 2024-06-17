@@ -23,7 +23,9 @@
 | coth | $\mathbb{R} \setminus \\{0\\}$ | $\mathbb{R} \setminus \langle -1,1 \rangle$ |
 | | | $(-\infty,-1) \cup (1,\infty)$ |
 
-## Reciprocal Identities
+## Identities
+
+### Reciprocal Identities
 
 | | |
 |--|--|
@@ -31,7 +33,7 @@
 | $\text{cosh}(x) = \frac{1}{\text{sech} (x)}$ | $\text{sech}(x) = \frac{1}{\text{cosh} (x)}$ |
 | $\text{tanh}(x) = \frac{1}{\text{coth} (x)}$ | $\text{coth}(x) = \frac{1}{\text{tanh} (x)}$ |
 
-## Quotient Identities
+### Quotient Identities
 
 | Function | Quotient | Alt. Quotient | Implied Product |
 |--|--|--|--|
@@ -42,7 +44,7 @@
 | **sech(x)** | $$\frac{\text{tanh}\ x}{\text{sinh}\ x}$$ | $$\frac{\text{csch}\ x}{\text{coth}\ x}$$ | $$\text{tanh}(x)\ \text{csch}(x)$$ |
 | **coth(x)** | $$\frac{\text{cosh}\ x}{\text{sinh}\ x}$$ | $$\frac{\text{csch}\ x}{\text{sech}\ x}$$ | $$\text{cosh}(x)\ \text{csch}(x)$$ |
 
-## $\ln \varphi$ Identities
+### $\ln \varphi$ Identities
 
 | | |
 |--|--|
