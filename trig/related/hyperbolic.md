@@ -27,11 +27,11 @@
 
 ### Reciprocal Identities
 
-| | |
-|--|--|
-| $\text{sinh}(x) = \frac{1}{\text{csch} (x)}$ | $\text{csch}(x) = \frac{1}{\text{sinh} (x)}$ |
-| $\text{cosh}(x) = \frac{1}{\text{sech} (x)}$ | $\text{sech}(x) = \frac{1}{\text{cosh} (x)}$ |
-| $\text{tanh}(x) = \frac{1}{\text{coth} (x)}$ | $\text{coth}(x) = \frac{1}{\text{tanh} (x)}$ |
+| $\boldsymbol{f(x)}$ | $\boldsymbol{\frac{1}{f(x)}}$ | $\boldsymbol{1}$ |
+|--|--|--|
+| $\text{sinh}(x) = \frac{1}{\text{csch} (x)}$ | $\text{csch}(x) = \frac{1}{\text{sinh} (x)}$ | $\text{sinh}(x)\ \text{csch}(x) = 1$ |
+| $\text{cosh}(x) = \frac{1}{\text{sech} (x)}$ | $\text{sech}(x) = \frac{1}{\text{cosh} (x)}$ | $\text{cosh}(x)\ \text{sech}(x) = 1$ |
+| $\text{tanh}(x) = \frac{1}{\text{coth} (x)}$ | $\text{coth}(x) = \frac{1}{\text{tanh} (x)}$ | $\text{tanh}(x)\ \text{coth}(x) = 1$ |
 
 ### Quotient Identities
 
