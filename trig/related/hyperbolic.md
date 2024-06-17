@@ -31,6 +31,17 @@
 | $\text{cosh}(x) = \frac{1}{\text{sech} (x)}$ | $\text{sech}(x) = \frac{1}{\text{cosh} (x)}$ |
 | $\text{tanh}(x) = \frac{1}{\text{coth} (x)}$ | $\text{coth}(x) = \frac{1}{\text{tanh} (x)}$ |
 
+## Quotient Identities
+
+| | | |
+|--|--|--|
+| $$\text{sinh}(x)$$ | $$\frac{\text{tanh}\ x}{\text{sech}\ x}$$ | $$\frac{\text{cosh}\ x}{\text{coth}\ x}$$ |
+| $$\text{cosh}(x)$$ | $$\frac{\text{sinh}\ x}{\text{tanh}\ x}$$ | $$\frac{\text{coth}\ x}{\text{csch}\ x}$$ |
+| $$\text{tanh}(x)$$ | $$\frac{\text{sinh}\ x}{\text{cosh}\ x}$$ | $$\frac{\text{sech}\ x}{\text{csch}\ x}$$ |
+| $$\text{csch}(x)$$ | $$\frac{\text{sech}\ x}{\text{tanh}\ x}$$ | $$\frac{\text{coth}\ x}{\text{cosh}\ x}$$ |
+| $$\text{sech}(x)$$ | $$\frac{\text{tanh}\ x}{\text{sinh}\ x}$$ | $$\frac{\text{csch}\ x}{\text{coth}\ x}$$ |
+| $$\text{coth}(x)$$ | $$\frac{\text{cosh}\ x}{\text{sinh}\ x}$$ | $$\frac{\text{csch}\ x}{\text{sech}\ x}$$ |
+
 ## $\ln \varphi$ Identities
 
 | | |
