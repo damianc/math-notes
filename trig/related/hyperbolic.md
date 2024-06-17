@@ -33,14 +33,14 @@
 
 ## Quotient Identities
 
-| | | |
-|--|--|--|
-| $$\text{sinh}(x)$$ | $$\frac{\text{tanh}\ x}{\text{sech}\ x}$$ | $$\frac{\text{cosh}\ x}{\text{coth}\ x}$$ |
-| $$\text{cosh}(x)$$ | $$\frac{\text{sinh}\ x}{\text{tanh}\ x}$$ | $$\frac{\text{coth}\ x}{\text{csch}\ x}$$ |
-| $$\text{tanh}(x)$$ | $$\frac{\text{sinh}\ x}{\text{cosh}\ x}$$ | $$\frac{\text{sech}\ x}{\text{csch}\ x}$$ |
-| $$\text{csch}(x)$$ | $$\frac{\text{sech}\ x}{\text{tanh}\ x}$$ | $$\frac{\text{coth}\ x}{\text{cosh}\ x}$$ |
-| $$\text{sech}(x)$$ | $$\frac{\text{tanh}\ x}{\text{sinh}\ x}$$ | $$\frac{\text{csch}\ x}{\text{coth}\ x}$$ |
-| $$\text{coth}(x)$$ | $$\frac{\text{cosh}\ x}{\text{sinh}\ x}$$ | $$\frac{\text{csch}\ x}{\text{sech}\ x}$$ |
+| Function | Quotient | Alt. Quotient | Implied Product |
+|--|--|--|--|
+| $$\text{sinh}(x)$$ | $$\frac{\text{tanh}\ x}{\text{sech}\ x}$$ | $$\frac{\text{cosh}\ x}{\text{coth}\ x}$$ | $$\text{cosh}(x)\ \text{tanh}(x)$$ |
+| $$\text{cosh}(x)$$ | $$\frac{\text{sinh}\ x}{\text{tanh}\ x}$$ | $$\frac{\text{coth}\ x}{\text{csch}\ x}$$ | $$\text{sinh}(x)\ \text{coth}(x)$$ |
+| $$\text{tanh}(x)$$ | $$\frac{\text{sinh}\ x}{\text{cosh}\ x}$$ | $$\frac{\text{sech}\ x}{\text{csch}\ x}$$ | $$\text{sinh}(x)\ \text{sech}(x)$$ |
+| $$\text{csch}(x)$$ | $$\frac{\text{sech}\ x}{\text{tanh}\ x}$$ | $$\frac{\text{coth}\ x}{\text{cosh}\ x}$$ | $$\text{sech}(x)\ \text{coth}(x)$$ |
+| $$\text{sech}(x)$$ | $$\frac{\text{tanh}\ x}{\text{sinh}\ x}$$ | $$\frac{\text{csch}\ x}{\text{coth}\ x}$$ | $$\text{tanh}(x)\ \text{csch}(x)$$ |
+| $$\text{coth}(x)$$ | $$\frac{\text{cosh}\ x}{\text{sinh}\ x}$$ | $$\frac{\text{csch}\ x}{\text{sech}\ x}$$ | $$\text{cosh}(x)\ \text{csch}(x)$$ |
 
 ## $\ln \varphi$ Identities
 
