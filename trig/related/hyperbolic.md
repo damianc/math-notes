@@ -27,25 +27,12 @@
 
 ### Hyp. Functions of Sum/Difference
 
-$$
-\sinh(x \pm y) =
-\sinh x \cosh y \pm \cosh x \sinh y
-$$
-
-$$
-\cosh(x \pm y) =
-\cosh x \cosh y \pm \sinh x \sinh y
-$$
-
-$$
-\tanh(x \pm y) =
-\frac{\tanh x \pm \tanh y}{1 \pm \tanh x \tanh y}
-$$
-
-$$
-\coth(x \pm y) =
-\frac{\coth x \coth y \pm 1}{\coth y \pm \coth x}
-$$
+| |
+|--|
+| $$\sinh(x \pm y) = \sinh x \cosh y \pm \cosh x \sinh y$$ |
+| $$\cosh(x \pm y) = \cosh x \cosh y \pm \sinh x \sinh y$$ |
+| $$\tanh(x \pm y) = \frac{\tanh x \pm \tanh y}{1 \pm \tanh x \tanh y}$$ |
+| $$\coth(x \pm y) = \frac{\coth x \coth y \pm 1}{\coth y \pm \coth x}$$ |
 
 ### Reciprocal Identities
 
