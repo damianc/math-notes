@@ -97,4 +97,6 @@ console.log(res);
 */
 ```
 
+![Checking points](https://github.com/damianc/math-notes/blob/master/_images/coords/barycentric-coords.png)
+
 
