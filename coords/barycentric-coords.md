@@ -60,7 +60,7 @@ function checkTriangle([A,B,C], [xp,yp]) {
   const vl = L.filter(x => x >= 0 && x <= 1);
 	
   if (vl.length === 3) {
-    const m = L.reduce((acc,curr)=>acc*curr,1);
+    const m = L.reduce((acc,curr) => acc*curr,1);
     if (m !== 0) return 'within';
     else return 'on';
   } else {
