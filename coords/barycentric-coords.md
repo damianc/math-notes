@@ -43,3 +43,49 @@ P \text{ is beyond } \triangle_{ABC} \text{ if}:
 \lambda_i \notin \langle0,1\rangle
 \end{array}
 $$
+
+## Implementation
+
+```
+function checkTriangle([A,B,C], [xp,yp]) {
+  const [[xa,ya],[xb,yb],[xc,yc]] = [A,B,C];
+  const D = (yb-yc)*(xa-xc)+(xc-xb)*(ya-yc);
+  const f = (a,b) => a*(xp-xc)+b*(yp-yc);
+	
+  const L1 = f(yb-yc,xc-xb)/D;
+  const L2 = f(yc-ya,xa-xc)/D;
+  const L3 = 1-L1-L2;
+	
+  const L = [L1,L2,L3];
+  const vl = L.filter(x => x >= 0 && x <= 1);
+	
+  if (vl.length === 3) {
+    const m = L.reduce((acc,curr)=>acc*curr,1);
+    if (m !== 0) return 'within';
+    else return 'on';
+  } else {
+    return 'beyond';
+  }
+}
+```
+
+use:
+
+```
+const A = [2,3];
+const B = [6,7];
+const C = [4,10];
+
+const points = [
+  [5,7], [5,8], [4,5], [5,6], [6,8]
+];
+const res = points.map(p => {
+  return `(${p}): ${
+    checkTriangle([A,B,C],p)
+  }`;
+});
+
+console.log(res);
+```
+
+
