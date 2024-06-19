@@ -11,9 +11,9 @@ $$
 \Lambda(v,h) = v(x_P-x_C) + h(y_P-y_C)
 \\
 \\
-\lambda_1 = \Lambda(y_B-y_C,x_C-x_B)
+\lambda_1 = \frac{1}{\Delta} \Lambda(y_B-y_C,x_C-x_B)
 \\
-\lambda_2 = \Lambda(y_C-y_A,x_A-x_C)
+\lambda_2 = \frac{1}{\Delta} \Lambda(y_C-y_A,x_A-x_C)
 \\
 \lambda_3 = 1 - \lambda_1 - \lambda_2
 \\
