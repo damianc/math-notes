@@ -18,7 +18,7 @@ $$
 \lambda_3 = 1 - \lambda_1 - \lambda_2
 \\
 \\
-P \text{ is within } \triangle_{ABC} \text{ if}:
+P \text{ is \color{green}{within} } \triangle_{ABC} \text{ if}:
 \\
 \quad
 \underset{i\in\langle1,3\rangle}{\large\forall}
@@ -27,7 +27,7 @@ P \text{ is within } \triangle_{ABC} \text{ if}:
 \lambda_1\lambda_2\lambda_3 \neq 0
 \\
 \\
-P \text{ is on edge of } \triangle_{ABC} \text{ if}:
+P \text{ is \color{blue}{on edge} of } \triangle_{ABC} \text{ if}:
 \\
 \quad
 \underset{i\in\langle1,3\rangle}{\large\forall}
@@ -36,7 +36,7 @@ P \text{ is on edge of } \triangle_{ABC} \text{ if}:
 \lambda_1\lambda_2\lambda_3 = 0
 \\
 \\
-P \text{ is beyond } \triangle_{ABC} \text{ if}:
+P \text{ is \color{red}{beyond} } \triangle_{ABC} \text{ if}:
 \\
 \quad
 \underset{i\in\langle1,3\rangle}{\large\exists}
