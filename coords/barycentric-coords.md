@@ -86,6 +86,15 @@ const res = points.map(p => {
 });
 
 console.log(res);
+/*
+[
+  "(5,7): within",
+  "(5,8): within",
+  "(4,5): on",
+  "(5,6): on",
+  "(6,8): beyond"
+]
+*/
 ```
 
 
