@@ -22,6 +22,14 @@
 | asech | $(0,1\rangle$ | $\langle 0,\infty )$ |
 | acoth | $\mathbb{R} \setminus \langle -1,1 \rangle$ | $\mathbb{R} \setminus \\{0\\}$ |
 
+## Identities
+
+### Reciprocal Identities
+
+| $\boldsymbol{f(x)}$ | $\boldsymbol{f\left(\frac{1}{x}\right)}$ | $\boldsymbol{1}$ | $\boldsymbol{f^2(x)}$ |
+|--|--|--|--|
+| $$\text{asinh}(x) = \text{acsch}\left(\frac{1}{x}\right)$$ | $$\text{acsch}(x) = \text{asinh}\left(\frac{1}{x}\right)$$ | $$\frac{\text{asinh}\(x)}{\text{acsch}\left(\frac{1}{x}\right)} = 1$$ | $$\text{asinh}(x)\text{acsch}\left(\frac{1}{x}\right) = \text{asinh}^2(x)$$ |
+
 ## Derivatives
 
 | $\boldsymbol{f(x)}$ | $\boldsymbol{\frac{d}{dx} f(x)}$ |
