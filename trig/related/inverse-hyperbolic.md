@@ -35,7 +35,7 @@
 
 ## Integrals
 
-| $\boldsymbol{f(x)}$ | $\boldsymbol{\int f(x)}$ |
+| $\boldsymbol{f(x)}$ | $\boldsymbol{\int f(x) dx}$ |
 |--|--|
 | asinh | $$x\ \text{asinh}(x)-\sqrt{x^2+1} + C$$ |
 | acosh | $$x\ \text{acosh}(x)-\sqrt{x-1}\sqrt{x+1} + C$$ |
