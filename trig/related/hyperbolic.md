@@ -53,11 +53,11 @@
 
 ### Reciprocal Identities
 
-| $\boldsymbol{f(x)}$ | $\boldsymbol{\frac{1}{f(x)}}$ | $\boldsymbol{1}$ |
-|--|--|--|
-| $\text{sinh}(x) = \frac{1}{\text{csch} (x)}$ | $\text{csch}(x) = \frac{1}{\text{sinh} (x)}$ | $\text{sinh}(x)\ \text{csch}(x) = 1$ |
-| $\text{cosh}(x) = \frac{1}{\text{sech} (x)}$ | $\text{sech}(x) = \frac{1}{\text{cosh} (x)}$ | $\text{cosh}(x)\ \text{sech}(x) = 1$ |
-| $\text{tanh}(x) = \frac{1}{\text{coth} (x)}$ | $\text{coth}(x) = \frac{1}{\text{tanh} (x)}$ | $\text{tanh}(x)\ \text{coth}(x) = 1$ |
+| $\boldsymbol{f(x)}$ | $\boldsymbol{\frac{1}{f(x)}}$ | $\boldsymbol{1}$ | $\boldsymbol{f^2(x)}$ |
+|--|--|--|--|
+| $\text{sinh}(x) = \frac{1}{\text{csch} (x)}$ | $\text{csch}(x) = \frac{1}{\text{sinh} (x)}$ | $\text{sinh}(x)\ \text{csch}(x) = 1$ | $\frac{\text{sinh}(x)}{\text{csch}(x)} = \text{sinh}^2(x)$ |
+| $\text{cosh}(x) = \frac{1}{\text{sech} (x)}$ | $\text{sech}(x) = \frac{1}{\text{cosh} (x)}$ | $\text{cosh}(x)\ \text{sech}(x) = 1$ | $\frac{\text{cosh}(x)}{\text{sech}(x)} = \text{cosh}^2(x)$ |
+| $\text{tanh}(x) = \frac{1}{\text{coth} (x)}$ | $\text{coth}(x) = \frac{1}{\text{tanh} (x)}$ | $\text{tanh}(x)\ \text{coth}(x) = 1$ | $\frac{\text{tanh}(x)}{\text{coth}(x)} = \text{tanh}^2(x)$ |
 
 ### Quotient Identities
 
