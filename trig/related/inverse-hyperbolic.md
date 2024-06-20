@@ -28,7 +28,7 @@
 
 | $\boldsymbol{f(x)}$ | $\boldsymbol{f\left(\frac{1}{x}\right)}$ | $\boldsymbol{1}$ | $\boldsymbol{f^2(x)}$ |
 |--|--|--|--|
-| $\text{asinh}(x) = \text{acsch}(1 \div x)$ | $\text{acsch}(x) = \text{asinh}(1 \div x)$ | $\frac{\text{asinh}(x)}{\text{acsch}(1 \div x)} = 1$ | $\text{asinh}(x)\text{acsch}(1 \div x) = \text{asinh}^2(x)$ |
+| $\text{asinh}(x) = \text{acsch}(1 / x)$ | $\text{acsch}(x) = \text{asinh}(1 / x)$ | $\frac{\text{asinh}(x)}{\text{acsch}(1 / x)} = 1$ | $\text{asinh}(x)\text{acsch}(1 / x) = \text{asinh}^2(x)$ |
 
 ## Derivatives
 
