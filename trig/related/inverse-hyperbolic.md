@@ -40,5 +40,8 @@
 | asinh | $$x\ \text{asinh}(x)-\sqrt{x^2+1} + C$$ |
 | acosh | $$x\ \text{acosh}(x)-\sqrt{x-1}\sqrt{x+1} + C$$ |
 | atanh | $$\frac{1}{2} \ln(1-x^2)+x\ \text{atanh}(x) + C$$ |
+| acsch | $$x\left(\frac{\sqrt{\frac{1}{x^2}+1}\ \text{asinh}(x)}{\sqrt{x^2+1}}+\text{acsch}(x)\right) + C$$ |
+| asech | $$x\ \text{asech}(x) - \frac{\sqrt{\frac{1-x}{1+x}}\sqrt{1-x^2}\ \text{asinh}(x)}{x-1} + C$$ |
+| acoth | $$\frac{1}{2} \ln(1-x^2)+x\ \text{acoth}(x) + C$$ |
 
 
