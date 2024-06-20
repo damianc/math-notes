@@ -31,5 +31,6 @@
 | atanh | $$\frac{1}{1-x^2}$$ |
 | acsch | $$-\frac{1}{\sqrt{\frac{1}{x^2}+1} \ \ x^2}$$ |
 | asech | $$-\frac{1}{\sqrt{\frac{1}{x}-1}\sqrt{\frac{1}{x}+1}\ \  x^2}$$ |
+| acoth | $$\frac{1}{1-x^2}$$ |
 
 
