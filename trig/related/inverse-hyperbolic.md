@@ -24,9 +24,12 @@
 
 ## Derivatives
 
-| $f(x)$ | $\frac{d}{dx} f(x)$ |
+| $\boldsymbol{f(x)}$ | $\boldsymbol{\frac{d}{dx} f(x)}$ |
 |--|--|
 | asinh | $$\frac{1}{\sqrt{x^2+1}}$$ |
 | acosh | $$\frac{1}{\sqrt{x-1}\sqrt{x+1}}$$ |
+| atanh | $$\frac{1}{1-x^2}$$ |
+| acsch | $$-\frac{1}{\sqrt{\frac{1}{x^2}+1} \ \ x^2}$$ |
+| asech | $$-\frac{1}{\sqrt{\frac{1}{x}-1}\sqrt{\frac{1}{x}+1}\ \  x^2}$$ |
 
 
