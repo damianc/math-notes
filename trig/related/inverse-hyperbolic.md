@@ -33,4 +33,12 @@
 | asech | $$-\frac{1}{\sqrt{\frac{1}{x}-1}\sqrt{\frac{1}{x}+1}\ \  x^2}$$ |
 | acoth | $$\frac{1}{1-x^2}$$ |
 
+## Integrals
+
+| $\boldsymbol{f(x)}$ | $\boldsymbol{\int f(x)}$ |
+|--|--|
+| asinh | $$x\ \text{asinh}(x)-\sqrt{x^2+1} + C$$ |
+| acosh | $$x\ \text{acosh}(x)-\sqrt{x-1}\sqrt{x+1} + C$$ |
+| atanh | $$\frac{1}{2} \ln(1-x^2)+x\ \text{atanh}(x) + C$$ |
+
 
