@@ -34,6 +34,14 @@
 | $$\tanh(x \pm y) = \frac{\tanh x \pm \tanh y}{1 \pm \tanh x \tanh y}$$ |
 | $$\coth(x \pm y) = \frac{\coth x \coth y \pm 1}{\coth y \pm \coth x}$$ |
 
+### Sum and Difference of sinh/cosh
+
+| |
+|--|
+| $$\sinh x \pm \sinh y = 2 \sinh\left(\frac{x \pm y}{2}\right)\cosh\left(\frac{x \mp y}{2}\right)$$ |
+| $$\cosh x + \cosh y = 2 \cosh\left(\frac{x + y}{2}\right)\cosh\left(\frac{x - y}{2}\right)$$ |
+| $$\cosh x - \cosh y = 2 \sinh\left(\frac{x + y}{2}\right)\sinh\left(\frac{x - y}{2}\right)$$ |
+
 ### Reciprocal Identities
 
 | $\boldsymbol{f(x)}$ | $\boldsymbol{\frac{1}{f(x)}}$ | $\boldsymbol{1}$ |
