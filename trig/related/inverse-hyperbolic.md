@@ -21,3 +21,12 @@
 | acsch | $\mathbb{R} \setminus \\{0\\}$ | $\mathbb{R} \setminus \\{0\\}$ |
 | asech | $(0,1\rangle$ | $\langle 0,\infty )$ |
 | acoth | $\mathbb{R} \setminus \langle -1,1 \rangle$ | $\mathbb{R} \setminus \\{0\\}$ |
+
+## Derivatives
+
+| $f(x)$ | $\frac{d}{dx} f(x)$ |
+|--|--|
+| asinh | $$\frac{1}{\sqrt{x^2+1}}$$ |
+| acosh | $$\frac{1}{\sqrt{x-1}\sqrt{x+1}}$$ |
+
+
