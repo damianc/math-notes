@@ -42,6 +42,15 @@
 | $$\cosh x + \cosh y = 2 \cosh\left(\frac{x + y}{2}\right)\cosh\left(\frac{x - y}{2}\right)$$ |
 | $$\cosh x - \cosh y = 2 \sinh\left(\frac{x + y}{2}\right)\sinh\left(\frac{x - y}{2}\right)$$ |
 
+### Products of sinh/cosh
+
+| |
+|--|
+| $$\sinh x \cosh y = \frac{1}{2}[\sinh(x+y)+\sinh(x-y)]$$ |
+| $$\cosh x \sinh y = \frac{1}{2}[\sinh(x+y)-\sinh(x-y)]$$ |
+| $$\sinh x \sinh y = \frac{1}{2}[\cosh(x+y)-\cosh(x-y)]$$ |
+| $$\cosh x \cosh y = \frac{1}{2}[\cosh(x+y)+\cosh(x-y)]$$ |
+
 ### Reciprocal Identities
 
 | $\boldsymbol{f(x)}$ | $\boldsymbol{\frac{1}{f(x)}}$ | $\boldsymbol{1}$ |
