@@ -29,6 +29,8 @@
 | $\boldsymbol{f(x)}$ | $\boldsymbol{f\left(\frac{1}{x}\right)}$ | $\boldsymbol{1}$ | $\boldsymbol{f^2(x)}$ |
 |--|--|--|--|
 | $\text{asinh}(x) = \text{acsch}(1 / x)$ | $\text{acsch}(x) = \text{asinh}(1 / x)$ | $\frac{\text{asinh}(x)}{\text{acsch}(1 / x)} = 1$ | $\text{asinh}(x)\text{acsch}(1 / x) = \text{asinh}^2(x)$ |
+| $\text{acosh}(x) = \text{asech}(1 / x)$ | $\text{asech}(x) = \text{acosh}(1 / x)$ | $\frac{\text{acosh}(x)}{\text{asech}(1 / x)} = 1$ | $\text{acosh}(x)\text{asech}(1 / x) = \text{acosh}^2(x)$ |
+| $\text{atanh}(x) = \text{acoth}(1 / x)$ | $\text{acoth}(x) = \text{atanh}(1 / x)$ | $\frac{\text{atanh}(x)}{\text{acoth}(1 / x)} = 1$ | $\text{atanh}(x)\text{acoth}(1 / x) = \text{atanh}^2(x)$ |
 
 ## Derivatives
 
