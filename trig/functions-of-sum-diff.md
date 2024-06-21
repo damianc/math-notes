@@ -17,3 +17,26 @@ $$
 }
 \end{array}
 $$
+
+## Cosecant, Secant and Cotangent
+
+$$
+\begin{array}{l}
+\csc(\alpha \pm \beta) =
+\frac
+{\sec \alpha \sec \beta \csc \alpha \csc \beta}
+{\sec \alpha \csc \beta\ \pm\ \csc \alpha \sec \beta}
+\\
+\\
+\sec(\alpha \pm \beta) =
+\frac
+{\sec \alpha \sec \beta \csc \alpha \csc \beta}
+{\csc \alpha \csc \beta\ \mp\ \sec \alpha \sec \beta}
+\\
+\\
+\cot(\alpha \pm \beta) =
+\frac
+{\cot \alpha \cot \beta\ \mp\ 1}
+{\cot \beta\ \pm\ \cot \alpha}
+\end{array}
+$$
