@@ -48,9 +48,11 @@ $$
 
 $$
 \begin{array}{l}
-\lambda_1 = \frac{1}{\Delta} [(y_B-y_C)(x_P-x_C)+(x_C-x_B)(y_P-y_C)]
+\lambda_1 = \large\frac{(y_B-y_C)(x_P-x_C)+(x_C-x_B)(y_P-y_C)}{(y_B-y_C)(x_A-x_C)+(x_C-x_B)(y_A-y_C)}
 \\
-\lambda_2 = \frac{1}{\Delta} [(y_C-y_A)(x_P-x_C)+(x_A-x_C)(y_P-y_C)]
+\\
+\lambda_2 = \large\frac{(y_C-y_A)(x_P-x_C)+(x_A-x_C)(y_P-y_C)}{(y_B-y_C)(x_A-x_C)+(x_C-x_B)(y_A-y_C)}
+\\
 \\
 \lambda_3 = 1-\lambda_1-\lambda_2
 \end{array}
