@@ -1,6 +1,6 @@
 # Even and Odd Functions
 
-## Evenness of functions
+## Evenness of Functions
 
  - $cos$ is an **even function**:
    - $\cos(-\alpha) = \cos(\alpha)$
@@ -11,7 +11,9 @@
   - $\tan(-\alpha) = -\tan(\alpha)$
   - therefore: $\tan(\alpha-\beta) = -\tan(\beta-\alpha)$
 
-## Sum/Difference of Sine/Cosine
+## Sum and Difference in Terms of Evenness
+
+### Sum/Difference of Sine/Cosine
 
 $$
 \left[\begin{array}{l}
@@ -23,7 +25,7 @@ $$
 \end{array}\right.
 $$
 
-## Sum/Difference of Cosine/Sine
+### Sum/Difference of Cosine/Sine
 
 $$
 \left[\begin{array}{l}
@@ -32,5 +34,29 @@ $$
 \cos(-x) \pm \sin(-x) = \cos(x) \mp \sin(x)
 \\
 \cos(-x) - \sin(x) = \cos(x)-\sin(x)
+\end{array}\right.
+$$
+
+### Sum/Difference of Sines
+
+$$
+\left[\begin{array}{l}
+\sin(x) + \sin(-x) = 0
+\\
+\sin(\pm x) - \sin(\mp x) = 2\sin(\pm x)
+\\
+\sin(-x) \pm \sin(-x) = (-1 \mp 1)\sin(x)
+\end{array}\right.
+$$
+
+### Sum/Difference of Cosines
+
+$$
+\left[\begin{array}{l}
+\cos(x) + \cos(-x) = 2\cos(x)
+\\
+\cos(\pm x) - \cos(\mp x) = 0
+\\
+\cos(-x) \pm \cos(-x) = (1 \pm 1)\cos(x)
 \end{array}\right.
 $$
