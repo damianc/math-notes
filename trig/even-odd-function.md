@@ -69,6 +69,16 @@ $$
 \end{array}\right.
 $$
 
+$$
+\left[\begin{array}{l}
+\sin(\alpha) + \sin(-\beta) = \sin(\alpha) - \sin(\beta)
+\\
+\sin(\pm \alpha) - \sin(\mp \beta) = \pm \sin(\alpha) \pm \sin(\beta)
+\\
+\sin(-\alpha) \pm \sin(-\beta) = \mp \sin(\alpha) \mp \sin(\beta)
+\end{array}\right.
+$$
+
 ### Cosines
 
 $$
@@ -78,5 +88,15 @@ $$
 \cos(\pm x) - \cos(\mp x) = 0
 \\
 \cos(-x) \pm \cos(-x) = (1 \pm 1)\cos(x)
+\end{array}\right.
+$$
+
+$$
+\left[\begin{array}{l}
+\cos(\alpha) + \cos(-\beta) = \cos(\alpha) + \cos(\beta)
+\\
+\cos(\pm \alpha) - \cos(\mp \beta) = \cos(\alpha) - \cos(\beta)
+\\
+\cos(-\alpha) \pm \cos(-\beta) = \cos(\alpha) \pm \cos(\beta)
 \end{array}\right.
 $$
