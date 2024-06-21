@@ -15,5 +15,9 @@ $$
 \\
 \\
 \sin \alpha - \cos \alpha & = -(\cos \alpha - \sin \alpha)
+\\
+& = -\sqrt{2} \cos(45°+\alpha)
+\\
+& = \sqrt{2} \sin(\alpha - 45°)
 \end{array}
 $$
