@@ -25,6 +25,16 @@ $$
 \end{array}\right.
 $$
 
+$$
+\left[\begin{array}{l}
+\sin(\alpha) \pm \cos(-\beta) = \sin(\alpha) \pm \cos(\beta)
+\\
+\sin(-\alpha) \pm \cos(-\beta) = -\sin(\alpha) \pm \cos(\beta)
+\\
+\sin(-\alpha) - \cos(\beta) = -\sin(\alpha)-\cos(\beta)
+\end{array}\right.
+$$
+
 ### Cosine/Sine
 
 $$
@@ -34,6 +44,16 @@ $$
 \cos(-x) \pm \sin(-x) = \cos(x) \mp \sin(x)
 \\
 \cos(-x) - \sin(x) = \cos(x)-\sin(x)
+\end{array}\right.
+$$
+
+$$
+\left[\begin{array}{l}
+\cos(\alpha) \pm \sin(-\beta) = \cos(\alpha) \mp \sin(\beta)
+\\
+\cos(-\alpha) \pm \sin(-\beta) = \cos(\alpha) \mp \sin(\beta)
+\\
+\cos(-\alpha) - \sin(\beta) = \cos(\alpha)-\sin(\beta)
 \end{array}\right.
 $$
 
