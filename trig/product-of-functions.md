@@ -9,7 +9,7 @@
 
 | | $\boldsymbol{\alpha+n}$ | $\boldsymbol{\alpha-n}$ | $\boldsymbol{n-\alpha}$ |
 |--|--|--|--|
-| $\sin(\alpha)\cdot\sin(...)$ | $\frac{1}{2}[\cos(n)-\cos(2\alpha+n)]$ | $\frac{1}{2}[\cos(n)-\cos(2\alpha-n)]$ | $\frac{1}{2}[\cos(2\alpha-n)-\cos(n)]$ |
-| $\cos(\alpha)\cdot\cos(...)$ | $\frac{1}{2}[\cos(n)+\cos(2\alpha+n)]$ | $\frac{1}{2}[\cos(n)+\cos(2\alpha-n)]$ | $\frac{1}{2}[\cos(2\alpha-n)+\cos(n)]$ |
-| $\sin(\alpha)\cdot\cos(...)$ | $\frac{1}{2}[\sin(2\alpha+n)-\sin(n)]$ | $\frac{1}{2}[\sin(n)+\sin(2\alpha-n)]$ | $\frac{1}{2}[\sin(2\alpha-n)+\sin(n)]$ |
-| $\cos(\alpha)\cdot\sin(...)$ | $\frac{1}{2}[\sin(2\alpha+n)+\sin(n)]$ | $\frac{1}{2}[\sin(2\alpha-n)-\sin(n)]$ | $\frac{1}{2}[\sin(n)-\sin(2\alpha-n)]$ |
+| $\boldsymbol{\sin(\alpha)\cdot\sin(...)}$ | $\frac{1}{2}[\cos(n)-\cos(2\alpha+n)]$ | $\frac{1}{2}[\cos(n)-\cos(2\alpha-n)]$ | $\frac{1}{2}[\cos(2\alpha-n)-\cos(n)]$ |
+| $\boldsymbol{\cos(\alpha)\cdot\cos(...)}$ | $\frac{1}{2}[\cos(n)+\cos(2\alpha+n)]$ | $\frac{1}{2}[\cos(n)+\cos(2\alpha-n)]$ | $\frac{1}{2}[\cos(2\alpha-n)+\cos(n)]$ |
+| $\boldsymbol{\sin(\alpha)\cdot\cos(...)}$ | $\frac{1}{2}[\sin(2\alpha+n)-\sin(n)]$ | $\frac{1}{2}[\sin(n)+\sin(2\alpha-n)]$ | $\frac{1}{2}[\sin(2\alpha-n)+\sin(n)]$ |
+| $\boldsymbol{\cos(\alpha)\cdot\sin(...)}$ | $\frac{1}{2}[\sin(2\alpha+n)+\sin(n)]$ | $\frac{1}{2}[\sin(2\alpha-n)-\sin(n)]$ | $\frac{1}{2}[\sin(n)-\sin(2\alpha-n)]$ |
