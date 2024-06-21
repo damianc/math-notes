@@ -13,7 +13,7 @@
 
 ## Sum and Difference in Terms of Evenness
 
-### Sum/Difference of Sine/Cosine
+### Sine/Cosine
 
 $$
 \left[\begin{array}{l}
@@ -25,7 +25,7 @@ $$
 \end{array}\right.
 $$
 
-### Sum/Difference of Cosine/Sine
+### Cosine/Sine
 
 $$
 \left[\begin{array}{l}
@@ -37,7 +37,7 @@ $$
 \end{array}\right.
 $$
 
-### Sum/Difference of Sines
+### Sines
 
 $$
 \left[\begin{array}{l}
@@ -49,7 +49,7 @@ $$
 \end{array}\right.
 $$
 
-### Sum/Difference of Cosines
+### Cosines
 
 $$
 \left[\begin{array}{l}
