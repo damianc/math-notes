@@ -71,6 +71,7 @@ $$
 - if $n$ is even:
 
 $$
+\begin{array}{l}
 \sin^n(\theta) = \frac{1}{2^n}
 \binom{n}{n/2} +
 \frac{2}{2^n}
@@ -78,4 +79,5 @@ $$
 (-1)^{\frac{n}{2}-k}
 \binom{n}{k}
 \cos((n-2k)\theta)
+\end{array}
 $$
