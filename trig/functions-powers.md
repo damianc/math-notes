@@ -58,28 +58,6 @@ $$
 
 ### Sine
 
-- if $n$ is odd:
-
-$$
-\sin^n(\theta) = \frac{2}{2^n}
-\sum_{k=0}^{\frac{n-1}{2}}
-(-1)^{\frac{n-1}{2}-k}
-\binom{n}{k}
-\sin((n-2k)\theta)
-$$
-
-- if $n$ is even:
-
-$$
-\sin^n(\theta) = \frac{1}{2^n}
-\binom{n}{n/2} +
-\frac{2}{2^n}
-\sum_{k=0}^{\frac{n}{2}-1}
-(-1)^{\frac{n}{2}-k}
-\binom{n}{k}
-\cos((n-2k)\theta)
-$$
-
 | $n$ | Formula |
 |--|--|
 | odd | $\displaystyle\sin^n(\theta) = \frac{2}{2^n}\sum_{k=0}^{\frac{n-1}{2}}(-1)^{\frac{n-1}{2}-k}\binom{n}{k}\sin((n-2k)\theta)$ |
@@ -87,29 +65,9 @@ $$
 
 ### Cosine
 
-- if $n$ is odd:
-
-$$
-\cos^n(\theta) =
-\frac{2}{2^n}
-\sum_{k=0}^{\frac{n-1}{2}}
-\binom{n}{k}
-\cos((n-2k)\theta)
-$$
-
-- if $n$ is even:
-
-$$
-\cos^n(\theta) =
-\frac{1}{2^n}
-\binom{n}{n/2} +
-\frac{2}{2^n}
-\sum_{k=0}^{\frac{n}{2}-1}
-\binom{n}{k}
-\cos((n-2k)\theta)
-$$
-
 | $n$ | Formula |
 |--|--|
 | odd | $\displaystyle\cos^n(\theta) = \frac{2}{2^n}\sum_{k=0}^{\frac{n-1}{2}}\binom{n}{k}\cos((n-2k)\theta)$ |
 | even | $\displaystyle\cos^n(\theta) = \frac{1}{2^n}\binom{n}{n/2} + \frac{2}{2^n}\sum_{k=0}^{\frac{n}{2}-1}\binom{n}{k}\cos((n-2k)\theta)$ |
+
+> $\binom{n}{k} = \frac{n!}{k!\ \cdot\ (n-k)!}$
