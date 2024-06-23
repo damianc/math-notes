@@ -53,3 +53,29 @@ $$
 \frac{1}{16}[10 \cos(\theta) + 5\cos(3\theta) + \cos(5\theta)]
 \end{array}
 $$
+
+## Power of $n$
+
+### Sine
+
+- if $n$ is odd:
+
+$$
+\sin^n(\theta) = \frac{2}{2^n}
+\sum_{k=0}^{\frac{n-1}{2}}
+(-1)^{\frac{n-1}{2}-k}
+\binom{n}{k}
+\sin((n-2k)\theta)
+$$
+
+- if $n$ is even:
+
+$$
+\sin^n(\theta) = \frac{1}{2^n}
+\binom{n}{n/2} +
+\frac{2}{2^n}
+\sum_{k=0}^{\frac{n}{2}-1}
+(-1)^{\frac{n}{2}-k}
+\binom{n}{k}
+\cos((n-2k)\theta)
+$$
