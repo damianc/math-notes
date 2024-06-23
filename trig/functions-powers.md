@@ -63,6 +63,13 @@ $$
 | odd | $\displaystyle\sin^n(\theta) = \frac{2}{2^n}\sum_{k=0}^{\frac{n-1}{2}}(-1)^{\frac{n-1}{2}-k}\binom{n}{k}\sin((n-2k)\theta)$ |
 | even | $\displaystyle\sin^n(\theta) = \frac{1}{2^n}\binom{n}{n/2} + \frac{2}{2^n}\sum_{k=0}^{\frac{n}{2}-1}(-1)^{\frac{n}{2}-k}\binom{n}{k}\cos((n-2k)\theta)$ |
 
+or:
+
+| | |
+|--|--|
+| $\sin^{2n}(x)$ | $\displaystyle \frac{1}{2^{2n}} \binom{2n}{n} + \frac{(-1)^n}{2^{2n-1}} \sum_{k=0}^{n-1} (-1)^k \binom{2n}{k} \cos(2(n-k)x)$ |
+| $\sin^{2n+1}(x)$ | $\displaystyle \frac{(-1)^n}{4^n} \sum_{k=0}^{n} (-1)^k \binom{2n+1}{k} \sin((2n+1-2k)x)$ |
+
 ### Cosine
 
 | $n$ | Formula |
