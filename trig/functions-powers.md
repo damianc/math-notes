@@ -65,7 +65,7 @@ $$
 
 or:
 
-| | |
+| $\sin$ | Formula |
 |--|--|
 | $\sin^{2n}(x)$ | $\displaystyle \frac{1}{2^{2n}} \binom{2n}{n} + \frac{(-1)^n}{2^{2n-1}} \sum_{k=0}^{n-1} (-1)^k \binom{2n}{k} \cos(2(n-k)x)$ |
 | $\sin^{2n+1}(x)$ | $\displaystyle \frac{(-1)^n}{4^n} \sum_{k=0}^{n} (-1)^k \binom{2n+1}{k} \sin((2n+1-2k)x)$ |
@@ -76,5 +76,12 @@ or:
 |--|--|
 | odd | $\displaystyle\cos^n(\theta) = \frac{2}{2^n}\sum_{k=0}^{\frac{n-1}{2}}\binom{n}{k}\cos((n-2k)\theta)$ |
 | even | $\displaystyle\cos^n(\theta) = \frac{1}{2^n}\binom{n}{n/2} + \frac{2}{2^n}\sum_{k=0}^{\frac{n}{2}-1}\binom{n}{k}\cos((n-2k)\theta)$ |
+
+or:
+
+| $sin$ | Formula |
+|--|--|
+| $\cos^{2n}(x)$ | $\displaystyle\frac{1}{2^{2n}} \binom{2n}{n} + \frac{1}{2^{2n-1}} \sum_{k=0}^{n-1} \binom{2n}{k} \cos(2(n-k)x)$ |
+| $\cos^{2n+1}(x)$ | $\displaystyle\frac{1}{4^n} \sum_{k=0}^{n} \binom{2n+1}{k} \cos((2n+1-2k)x)$ |
 
 > $\binom{n}{k} = \frac{n!}{k!\ \cdot\ (n-k)!}$
