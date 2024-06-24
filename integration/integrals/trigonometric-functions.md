@@ -2,7 +2,7 @@
 
 > $\nabla = ax+b$
 
-| $f(x)$ | $\int f(x) dx$ |
+| $\boldsymbol{f(x)}$ | $\boldsymbol{\int f(x) dx}$ |
 |--|--|
 | $\sin(ax+b)$ | $$-\frac{\cos \nabla}{a}$$ |
 | $\cos(ax+b)$ | $$\frac{\sin \nabla}{a}$$ |
@@ -10,7 +10,7 @@
 
 ## Squared Trigonometric Functions
 
-| $f(x)$ | $\int f(x) dx$ |
+| $\boldsymbol{f(x)}$ | $\boldsymbol{\int f(x) dx}$ |
 |--|--|
 | $\sin^2(ax+b)$ | $$-\frac{\sin(2\nabla)-2\nabla}{4a}$$ |
 | $\cos^2(ax+b)$ | $$\frac{2\nabla+\sin(2\nabla)}{4a}$$
@@ -18,7 +18,7 @@
 
 ## Cubed Trigonometric Functions
 
-| $f(x)$ | $\int f(x) dx$ |
+| $\boldsymbol{f(x)}$ | $\boldsymbol{\int f(x) dx}$ |
 |--|--|
 | $\sin^3(ax+b)$ | $$\frac{\cos(3\nabla)-9\cos(\nabla)}{12a}$$ |
 | $\cos^3(ax+b)$ | $$\frac{\sin(\nabla)(\cos(2\nabla)+5)}{6a}$$ |
