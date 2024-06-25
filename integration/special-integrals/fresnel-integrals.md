@@ -45,15 +45,17 @@ $$
 \\
 \\
 \int \sin(ax^2+b)\ dx & = &
+\tiny
 \frac{1}{\sqrt{a}} \left[
 \sqrt{\frac{\pi}{2}}\
 (\sin(b)\ C(\nabla x) +
 \\
+\\
 \cos(b)\ S(\nabla x))
 \right]
 \\
-\\
 \int \cos(ax^2+b)\ dx & = &
+\tiny
 \frac{1}{\sqrt{a}} \left[
 \sqrt{\frac{\pi}{2}}\
 (\cos(b)\ C(\nabla x) -
@@ -62,3 +64,5 @@ $$
 \right]
 \end{array}
 $$
+
+> $\nabla = \sqrt{a} \sqrt{\frac{2}{\pi}}$
