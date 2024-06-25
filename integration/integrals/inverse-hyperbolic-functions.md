@@ -8,3 +8,12 @@
 | $\text{acosh}(ax+b)$ | $$\frac{1}{a}\left[-\sqrt{\nabla-1}\sqrt{\nabla+1}+2b\ \text{asinh}\left(\frac{\sqrt{\nabla-1}}{\sqrt{2}}\right)+ax\ \text{acosh}(\nabla)\right]$$ |
 | $\text{atanh}(ax+b)$ | $$\frac{1}{2a}\left[(b+1)\ln(\nabla+1)-(b-1)\ln(1-\nabla)\right]+x\ \text{atanh}(\nabla)$$ |
 
+## Squared Inverse Hyperbolic Functions
+
+| $\boldsymbol{f(x)}$ | $\boldsymbol{\int f(x) dx}$ |
+|--|--|
+| $\text{asinh}^2(ax+b)$ | $$\frac{1}{a}\left[2\nabla+\nabla\text{asinh}^2(\nabla)-2\sqrt{\nabla^2+1}\ \text{asinh}(\nabla)\right]$$ |
+| $\text{acosh}^2(ax+b)$ | $$\frac{1}{a}\left[2\nabla+\nabla\text{acosh}^2(\nabla)-2\sqrt{\nabla-1}\sqrt{\nabla+1}\ \text{acosh}(\nabla)\right]$$ |
+
+
+
