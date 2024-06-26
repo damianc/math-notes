@@ -2,5 +2,16 @@
 
 $$
 \Large
-[f(g(x))]' = f'(g(x)) \cdot g'(x)
+[\ f(g(x))\ ]' = f'(g(x)) \cdot g'(x)
 $$
+
+
+| Step | Example 1 | Example 2 | Example 3 |
+|--|--|--|--|
+| | $$\frac{d}{dx}\ \sin(x^2)$$ | $$\frac{d}{dx}\ e^{3x}$$ | $$\frac{d}{dx}\ \ln(x^2+4x)$$ |
+| **1**.Identify outer function $f(x)$ | $$f(x)=\sin(x)$$ | $$f(x)=e^x$$ | $$f(x)=\ln(x)$$ |
+| **2**.Identify inner function $g(x)$ | $$g(x)=x^2$$ | $$g(x)=3x$$ | $$g(x)=x^2+4x$$ |
+| **3**.Let $u$ be assigned the inner function $g(x)$ | $$u=g(x)=x^2$$ | $$u=g(x)=3x$$ | $$u=g(x)=x^2+4x$$ |
+| **4**.Differentiate the outet function with respect to $u$ | $$f'(x)=\frac{d}{du} \sin(u)$$
+
+
