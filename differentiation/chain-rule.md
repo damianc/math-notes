@@ -19,4 +19,7 @@ $$
 | **DONE** | $$\frac{d}{dx} \sin(x^2) =$$ | $$\frac{d}{dx} e^{3x} =$$ | $$\frac{d}{dx} \ln(x^2+4x) =$$ |
 | | $$2x \cos(x^2)$$ | $$3e^{3x}$$ | $$\frac{2x+4}{x^2+4x} = \frac{2(x+2)}{x(x+4)}$$ |
 
+> As the **Example 3** reads:
+> $$\frac{d}{dx} \ln(f(x)) = \frac{f'(x)}{f(x)}$$
+
 
