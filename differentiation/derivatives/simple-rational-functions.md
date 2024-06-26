@@ -41,4 +41,41 @@ $$
 \right] = \frac{k \cdot f'(x)}{f^2(x)}
 $$
 
+----
+
+$$
+\uparrow
+$$
+
+$$
+\ 
+$$
+
+$$
+...
+$$
+
+$$
+\because
+$$
+
+$$
+\frac{\partial}{\partial x}
+\left[
+\frac{f(x)}{g(x)}
+\right] = \frac{g(x)f'(x)-f(x)g'(x)}{g^2(x)}
+$$
+
+$$
+\leadsto
+$$
+
+
+$$
+\frac{\partial}{\partial x}
+\left[
+\frac{kx}{f(x)}
+\right] = \frac{k[f(x)-xf'(x)]}{f^2(x)}
+$$
+
 
