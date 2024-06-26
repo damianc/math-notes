@@ -22,4 +22,5 @@ $$
 > As the **Example 3** reads:
 > $$\frac{d}{dx} \ln(f(x)) = \frac{f'(x)}{f(x)}$$
 
-
+> Due to the above:
+> $$\int \frac{f'(x)}{f(x)}\ dx = \ln(f(x)) + C$$
