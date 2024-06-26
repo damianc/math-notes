@@ -21,5 +21,5 @@
 | $$\frac{k}{ax+b}$$ | $$\frac{k \ln(ax+b)}{a}$$ |
 | $$\frac{k}{ax^2+b}$$ | $$\frac{k \arctan\left(\frac{x\sqrt{a}}{\sqrt{b}}\right)}{\sqrt{a}\sqrt{b}}$$ |
 | $$\frac{k}{ax^2+bx}$$ | $$\frac{k (\ln(x)-\ln(ax+b))}{b}$$ |
-| $$\frac{k}{ax^2+bx+c}$$ | $$\frac{2k \arctan\left(\frac{2ax+b}{\sqrt{4ac-b^2}}\right)}{\sqrt{4ac-b^2}}$$ |
-
+| $$\frac{k}{ax^2+bx+c}$$ | $$\frac{1}{\nabla}\left[2k \arctan\left(\frac{2ax+b}{\nabla}\right)\right]$$ |
+| | $$\nabla = \sqrt{4ac-b^2}$$ |
