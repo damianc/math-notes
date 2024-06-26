@@ -1,5 +1,7 @@
 # Integrals of Simple Rational Functions
 
+> $$\int \frac{f(x)}{k}\ dx = \frac{1}{k} \int f(x)\ dx$$
+
 | $\boldsymbol{f(x)}$ | $\boldsymbol{\int f(x)\ dx}$ |
 |--|--|
 | $$\frac{k}{ax}$$ | $$\frac{k\ln(x)}{a}$$ |
