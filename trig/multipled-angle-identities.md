@@ -234,13 +234,13 @@ $$
 
 ### HAI Using DAI
 
-- sine
+#### Sine
 
 $$
 \sin\alpha = 2\sin\left(\frac{1}{2}\alpha\right)\cos\left(\frac{1}{2}\alpha\right)
 $$
 
-- cosine
+#### Cosine
 
 $$
 \begin{array}{rl}
@@ -256,7 +256,7 @@ $$
 \end{array}
 $$
 
-- tangent
+#### Tangent
 
 $$
 \tan\alpha =
