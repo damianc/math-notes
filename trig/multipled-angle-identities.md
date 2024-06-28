@@ -48,19 +48,19 @@ $$
 \begin{array}{rl}
 \csc(2\alpha) & = \frac{\sec(\alpha)\csc(\alpha)}{2}
 \\
-& = \color{red}{\frac{1+\tan^2\alpha}{2\tan\alpha}}
+& = \color{blue}{\frac{1+\tan^2\alpha}{2\tan\alpha}}
 \\
 \\
 \sec(2\alpha) & =
 \frac{\sec^2\alpha}{2-\sec^2\alpha}
 \\
-& = \color{red}{\frac{1+\tan^2\alpha}{1-\tan^2\alpha}}
+& = \color{blue}{\frac{1+\tan^2\alpha}{1-\tan^2\alpha}}
 \\
 \\
 \cot(2\alpha) & =
 \frac{\cot(\alpha)-\tan(\alpha)}{2}
 \\
-& = \color{red}{\frac{\cot^2(\alpha)-1}{2 \cot(\alpha)}}
+& = \color{blue}{\frac{\cot^2(\alpha)-1}{2 \cot(\alpha)}}
 \\
 \\
 & = \frac{1-\tan^2\alpha}{2\tan\alpha}
@@ -106,6 +106,31 @@ $$
 \\
 & \equiv
 (\cos^2(\alpha)-3\sin^2(\alpha))\cos(\alpha)
+\end{array}
+$$
+
+### Tangent
+
+$$
+\begin{array}{rl}
+\tan(3\alpha) & =
+\frac{3\tan(\alpha)-\tan^3(\alpha)}{1-3\tan^2(\alpha)}
+\\
+& =
+\tan(\alpha)\tan(60\degree-\alpha)\tan(60\degree+\alpha)
+\end{array}
+$$
+
+### Others
+
+$$
+\begin{array}{rl}
+\csc(3\alpha) & =
+\frac{\csc^3(\alpha)}{3\csc^2(\alpha)-4}
+\\
+\\
+\sec(3\alpha) & =
+\frac{\sec^3\alpha}{4-3\sec^2\alpha}
 \end{array}
 $$
 
