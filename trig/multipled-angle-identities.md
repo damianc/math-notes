@@ -48,19 +48,20 @@ $$
 \begin{array}{rl}
 \csc(2\alpha) & = \frac{\sec(\alpha)\csc(\alpha)}{2}
 \\
-& = \frac{1+\tan^2\alpha}{2\tan\alpha}
+& = \color{red}{\frac{1+\tan^2\alpha}{2\tan\alpha}}
 \\
 \\
 \sec(2\alpha) & =
 \frac{\sec^2\alpha}{2-\sec^2\alpha}
 \\
-& = \frac{1+\tan^2\alpha}{1-\tan^2\alpha}
+& = \color{red}{\frac{1+\tan^2\alpha}{1-\tan^2\alpha}}
 \\
 \\
 \cot(2\alpha) & =
 \frac{\cot(\alpha)-\tan(\alpha)}{2}
 \\
-& = \frac{\cot^2(\alpha)-1}{2 \cot(\alpha)}
+& = \color{red}{\frac{\cot^2(\alpha)-1}{2 \cot(\alpha)}}
+\\
 \\
 & = \frac{1-\tan^2\alpha}{2\tan\alpha}
 \end{array}
