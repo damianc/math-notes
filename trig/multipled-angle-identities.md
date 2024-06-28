@@ -267,5 +267,15 @@ $$
 }
 $$
 
+### HAF Using Semiperimeter
+
+> $s = \frac{a+b+c}{2}$
+
+| $\nabla$ | $\sin(\nabla)$ | $\cos(\nabla)$ | $\tan(\nabla)$ |
+|--|--|--|--|
+| $$\frac{1}{2}A$$ | $$\sqrt{\frac{(s-b)(s-c)}{bc}}$$ | $$\sqrt{\frac{s(s-a)}{bc}}$$ | $$\sqrt{\frac{(s-b)(s-c)}{s(s-a)}}$$ |
+| $$\frac{1}{2}B$$ | $$\sqrt{\frac{(s-c)(s-a)}{ca}}$$ | $$\sqrt{\frac{s(s-b)}{ca}}$$ | $$\sqrt{\frac{(s-c)(s-a)}{s(s-b)}}$$ |
+| $$\frac{1}{2}C$$ | $$\sqrt{\frac{(s-a)(s-b)}{ab}}$$ | $$\sqrt{\frac{s(s-c)}{ab}}$$ | $$\sqrt{\frac{(s-a)(s-b)}{s(s-c)}}$$ |
+
 
 
