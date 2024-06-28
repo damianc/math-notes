@@ -30,6 +30,7 @@
 |--|--|
 | $$\frac{k}{ax^2+bx+c}$$ | $$-\frac{k(2ax+b)}{(x(ax+b)+c)^2}$$ |
 | $$\frac{k}{ax^3+bx^2+cx}$$ | $$-\frac{k(x(3ax+2b)+c)}{x^2(x(ax+b)+c)^2}$$ |
+| $$\frac{k}{ax^3+bx^2+c}$$ | $$-\frac{kx(3ax+2b)}{(ax^3+bx^2+c)^2}$$ |
 | $$\frac{k}{ax^3+bx+c}$$ | $$-\frac{k(3ax^2+b)}{(ax^3+bx+c)^2}$$ |
 
 ## Polynomials in General
