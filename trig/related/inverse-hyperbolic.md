@@ -1,5 +1,11 @@
 # Inverse Hyperbolic Functions
 
+- [Definitions](#definitions)
+- [Domain and Range](#domain-and-range)
+- [Identities](#identities)
+- [Derivatives](#derivatives)
+- [Integrals](#integrals)
+
 ## Definitions
 
 | Function | Formula |
