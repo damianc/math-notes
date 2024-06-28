@@ -102,7 +102,7 @@ $$
 \\
 & = 4\cos(\alpha)\cos(60\degree-\alpha)\cos(60\degree+\alpha)
 \\
-& = \cos^3(\alpha)-3\sin^2(\alpha)-\cos(\alpha)
+& = \cos^3(\alpha)-3\sin^2(\alpha)\cos(\alpha)
 \\
 & \equiv
 (\cos^2(\alpha)-3\sin^2(\alpha))\cos(\alpha)
