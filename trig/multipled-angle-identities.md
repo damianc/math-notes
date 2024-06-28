@@ -117,6 +117,9 @@ $$
 \frac{3\tan(\alpha)-\tan^3(\alpha)}{1-3\tan^2(\alpha)}
 \\
 & =
+\frac{1-3\cot^2(\alpha)}{3\cot(\alpha)-\cot^3(\alpha)}
+\\
+& =
 \tan(\alpha)\tan(60\degree-\alpha)\tan(60\degree+\alpha)
 \end{array}
 $$
@@ -131,6 +134,16 @@ $$
 \\
 \sec(3\alpha) & =
 \frac{\sec^3\alpha}{4-3\sec^2\alpha}
+\\
+\\
+\tan(3\alpha) & =
+\frac{3\cot(\alpha)-\cot^3(\alpha)}{1-3\cot^2(\alpha)}
+\\
+& =
+\frac{1-3\tan^2(\alpha)}{3\tan(\alpha)-\tan^3(\alpha)}
+\\
+& =
+\cot(\alpha) \cot(60\degree-\alpha) \cot(60\degree+\alpha)
 \end{array}
 $$
 
