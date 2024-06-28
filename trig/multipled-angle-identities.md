@@ -1,5 +1,9 @@
 # Multipled Angle Identities
 
+- [Double Angle Identities](#double-angle-identities)
+- [Triple Angle Identities](#triple-angle-identities)
+- [Half Angle Identities](#half-angle-identities)
+
 ## Double Angle Identities
 
 ### Sine
