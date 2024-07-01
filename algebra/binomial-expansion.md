@@ -1,19 +1,6 @@
 # Binomial Expansion
 
 $$
-\large
-(a+b)^n = \sum_{k=0}^n
-\binom{n}{k} a^{n-k} b^k
-$$
-
-$$
-{\color{#666}\text{where }}
-\tiny
-\binom{n}{k} =
-\frac{n!}{k!(n-k)!}
-$$
-
-$$
 \begin{array}{rcl}
 \boldsymbol{(a+b)^2} & = &
 a^2+2ab+b^2
@@ -62,8 +49,35 @@ a^8+8a^7b+28a^6b^2+56a^5b^3\ +
 \\
 \\
 \boldsymbol{(a+b)^9} & = &
-a^9+9a^8b+36a^7b^2+84a^6b^3+126a^5b^4
+a^9+9a^8b+36a^7b^2\ +
 \\
-& & b^9+9ab^8+36a^2b^7+84a^3b^6+126a^4b^5
+& & 84a^6b^3\ + 126a^5b^4\ +
+\\
+& & b^9+9ab^8+36a^2b^7\ +
+\\
+& & 84a^3b^6\ + 126a^4b^5
+\\
+\\
+\boldsymbol{(a+b)^{10}} & = &
+a^{10}+10a^9b+45a^8b^2\ +
+\\
+& & 120a^7b^3+210a^6b^4\ +
+\\
+& & 252a^5b^5\ +
+\\
+& & b^{10}+10ab^9+45a^2b^8\ +
+\\
+& & 120a^3b^7+210a^4b^6
+\\
+\\
+\boldsymbol{(a+b)^n} & = &
+\displaystyle
+\sum_{k=0}^n \binom{n}{k}
+a^{n-k} b^k
+\\
+& &
+{\color{#666}\text{where }}
+\binom{n}{k} =
+\frac{n!}{k!(n-k)!}
 \end{array}
 $$
