@@ -2,7 +2,7 @@
 
 $$
 \tiny
-\begin{array}{ccccccccc}
+\begin{array}{cccccccccccc}
 &&&&&& \binom{0}{0} &&&&&& \\
 &&&&& \binom{1}{0} && \binom{1}{1} &&&&& \\
 &&&& \binom{2}{0} && \binom{2}{1} && \binom{2}{2} &&&& \\
