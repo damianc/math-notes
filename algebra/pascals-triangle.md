@@ -14,7 +14,7 @@ $$
 \end{array}
 $$
 
-- with __Newton's binomial__:
+- with __binomial coefficients__:
 
 $$
 \tiny
