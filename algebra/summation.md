@@ -33,9 +33,11 @@ x_n
 \sum_{n=a}^b x_n
 $$
 
-## Constant Term
+## Identities
 
-### Constant Multiplier
+### Constant Term
+
+#### Constant Multiplier
 
 $$
 \sum_{n=s}^t {\color{red}k}f(n)
@@ -49,7 +51,7 @@ $$
 \frac{\displaystyle\sum_{n=s}^t f(n)}{{\color{red}{k}}}
 $$
 
-### Constant Summand
+#### Constant Summand
 
 $$
 \sum_{n=s}^t {\color{red}k} + f(n)
@@ -74,7 +76,7 @@ $$
 
 > $\Delta = t-s+1$
 
-## Index Shift
+### Index Shift
 
 $$
 \sum_{n=s}^t f(n)
