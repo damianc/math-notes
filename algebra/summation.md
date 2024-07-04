@@ -1,6 +1,8 @@
 # Summation
 
-## Constant Multiplier
+## Constant Term
+
+### Constant Multiplier
 
 $$
 \sum_{n=s}^t {\color{red}k}f(n)
@@ -14,7 +16,7 @@ $$
 \frac{\displaystyle\sum_{n=s}^t f(n)}{{\color{red}{k}}}
 $$
 
-## Constant Summand
+### Constant Summand
 
 $$
 \sum_{n=s}^t {\color{red}k} + f(n)
@@ -38,6 +40,23 @@ $$
 $$
 
 > $\Delta = t-s+1$
+
+## Index Shift
+
+$$
+\sum_{n=s}^t f(n)
+\quad = \quad
+\sum_{n=s \pm {\color{red}p}}^{t \pm {\color{red}p}}
+f(n \mp {\color{red}p})
+$$
+
+- it can be generalized - for a bijection $\lambda$ from a finite set $A$ onto a set $B$ ($\lambda: A \rightarrow B$):
+
+$$
+\sum_{n \in B} f(n)
+\quad = \quad
+\sum_{m \in A} f({\color{red}\lambda}(m))
+$$
 
 
 
