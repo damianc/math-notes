@@ -50,13 +50,15 @@ $$
 f(n \mp {\color{red}p})
 $$
 
-- it can be generalized - for a bijection $\lambda$ from a finite set $A$ onto a set $B$ ($\lambda: A \rightarrow B$):
+- it can be generalized - for a bijection ${\color{red}\lambda}$ from a finite set $A$ onto a set $B$:
 
 $$
 \sum_{n \in B} f(n)
 \quad = \quad
 \sum_{m \in A} f({\color{red}\lambda}(m))
 $$
+
+> ${\color{red}\lambda}: A \rightarrow B$
 
 
 
