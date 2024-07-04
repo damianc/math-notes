@@ -1,5 +1,38 @@
 # Summation
 
+- explicit boundaries:
+
+$$
+\sum_{n=s}^t x_n
+\quad = \quad
+x_s + x_{s+1} + x_{s+2} + \cdots + x_t
+$$
+
+- boundaries as inequality:
+
+$$
+\sum_{a \leq n \leq b} x_n
+\quad = \quad
+\sum_{n=a}^b x_n
+$$
+
+- summing terms of a set:
+
+$$
+\sum_{n \in S} n
+\quad = \quad
+\sum_{n=1}^{\overline{\overline S}} S_n
+$$
+
+- a set defined with set-builder notation:
+
+$$
+\sum_{ n \in \\{ i:\ i \in [a,b] \\} }
+x_n
+\quad = \quad
+\sum_{n=a}^b x_n
+$$
+
 ## Constant Term
 
 ### Constant Multiplier
