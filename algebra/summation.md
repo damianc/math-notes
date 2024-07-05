@@ -111,6 +111,14 @@ $$
 \sum_{n=0}^t f(t-n)
 $$
 
+$$
+\color{green}{
+a+b+c+d
+\ \ =\ \ 
+d+c+b+a
+}
+$$
+
 ### Splitting a Sum
 
 $$
@@ -121,8 +129,11 @@ $$
 $$
 
 $$
-\color{green}
-a+b+c+d = [a+b] + [c+d]
+\color{green}{
+a+b+c+d
+\ \ =\ \ 
+[a+b] + [c+d]
+}
 $$
 
 - a variant with subtracting sum:
@@ -135,8 +146,11 @@ $$
 $$
 
 $$
-\color{green}
-c+d = [a+b+c+d] - [a+b]
+\color{green}{
+c+d
+\ \ =\ \ 
+[a+b+c+d] - [a+b]
+}
 $$
 
 
