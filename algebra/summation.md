@@ -111,5 +111,23 @@ $$
 \sum_{n=0}^t f(t-n)
 $$
 
+### Splitting a Sum
+
+$$
+\sum_{n=s}^t f(n)
+\quad = \quad
+\sum_{n=s}^j f(n) +
+\sum_{n=j+1}^t f(n)
+$$
+
+- a variant with subtracting sum:
+
+$$
+\sum_{n=a}^b f(n)
+\quad = \quad
+\sum_{n=0}^b f(n) -
+\sum_{n=0}^{a-1} f(n)
+$$
+
 
 
