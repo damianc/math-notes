@@ -95,6 +95,21 @@ $$
 
 > ${\color{red}\lambda}: A \rightarrow B$
 
+### Direction of Summation
+
+The sum from the first term up to the last is equal to the sum from the last down to the first.
+
+$$
+\sum_{n=s}^t f(n)
+\quad = \quad
+\sum_{n=0}^{t-s} f(t-n)
+$$
+
+$$
+\sum_{n=0}^t f(n)
+\quad = \quad
+\sum_{n=0}^t f(t-n)
+$$
 
 
 
