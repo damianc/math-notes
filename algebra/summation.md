@@ -120,6 +120,11 @@ $$
 \sum_{n=j+1}^t f(n)
 $$
 
+$$
+\color{green}
+a+b+c+d = [a+b] + [c+d]
+$$
+
 - a variant with subtracting sum:
 
 $$
@@ -127,6 +132,11 @@ $$
 \quad = \quad
 \sum_{n=0}^b f(n) -
 \sum_{n=0}^{a-1} f(n)
+$$
+
+$$
+\color{green}
+c+d = [a+b+c+d] - [a+b]
 $$
 
 
