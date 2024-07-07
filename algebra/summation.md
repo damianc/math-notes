@@ -153,5 +153,39 @@ c+d
 }
 $$
 
+### Integral Calculus
+
+$$
+{\Large \int} \left[
+\sum_{i=1}^n f_i(x)
+\right]
+\ dx =
+\sum_{i=1}^n \int f_i(x)\ dx
+$$
+
+$$
+\color{green}{
+{\tiny \int} f(x)+g(x)\ dx =
+{\tiny \int} f(x)\ dx +
+{\tiny \int} g(x)\ dx
+}
+$$
+
+$$
+\frac{\partial}{\partial x}
+\left[
+\sum_{i=1}^n f_i(x)
+\right] =
+\sum_{i=1}^n
+{\small\frac{\partial}{\partial x}}
+f_i(x)
+$$
+
+$$
+\color{green}{
+[f(x)+g(x)]' = f'(x) + g'(x)
+}
+$$
+
 
 
