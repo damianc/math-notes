@@ -93,3 +93,6 @@ $$
 | | $S \subseteq \Omega$ |
 | function | $f(x) = 0$ |
 | | $\|\sin(x)\| \neq 1$ |
+| set | $n \in \mathbb{N}^{+}$ |
+| | $p_n \in {\cal P}(\omega_n) \setminus \varnothing$ |
+
