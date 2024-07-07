@@ -85,3 +85,11 @@ $$
 | logic _or_ | $x < 1 \lor x > 1$ |
 | logic _and_ | $x \geq 10 \land x \propto 5$ |
 | logic _not_ | $\lnot(x \propto k)$ |
+| perpendicularity | $k_i \perp l_i$ |
+| parallelity | $k_i \parallel \ell_i$ |
+| cardinality of set | $\|S\| = 2$ |
+| | $\\#S = 2$ |
+| set relation | $A \subset B$ |
+| | $S \subseteq \Omega$ |
+| function | $f(x) = 0$ |
+| | $\|\sin(x)\| \neq 1$ |
