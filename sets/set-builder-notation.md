@@ -1,4 +1,4 @@
-# Set Builder Notation
+# Set-Builder Notation
 
 The following denotes the set formed by the values of $x$ for which $P(x)$ is true:
 
