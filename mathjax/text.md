@@ -57,3 +57,6 @@
 | `cancel` | $\cancel{abc}$ |
 | `bcancel` | $\bcancel{abc}$ |
 | `xcancel` | $\xcancel{abc}$ |
+
+> __ADDITIONALLY__:  
+> `\cancelto{abc}{def}` produces $\cancelto{abc}{def}$
