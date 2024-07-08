@@ -97,7 +97,15 @@ $$
 P(x) = x \in [1,4]
 $$
 
-> both of the above yields $\\{ 1,4,9,16 \\}$
+- predicate defined in expression:
+
+$$
+\\{
+x^2 \ |\ P(x), P(x) = x \in [1,4]
+\\}
+$$
+
+> every of the above yields $\\{ 1,4,9,16 \\}$
 
 ### Predicate Components
 
