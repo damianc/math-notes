@@ -43,7 +43,7 @@ $$
 \\{ 1k,2k,3k,4k,... \\}
 $$
 
-- very first expression may be a polynomial:
+- the very first expression may be a polynomial:
 
 $$
 \\{ 2k+1 \ \|\ k \in \mathbb{N}_0 \\} =
