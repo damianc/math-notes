@@ -42,6 +42,13 @@ $$
 \\{ 1k,2k,3k,4k,... \\}
 $$
 
+- very first expression may be a polynomial:
+
+$$
+\\{ 2k+1 \ \|\ k \in \mathbb{N}_0 \\} =
+\\{ 1,3,5,7,9,... \\}
+$$
+
 ### Examples in Terms of Series
 
 | | |
