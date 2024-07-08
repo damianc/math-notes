@@ -49,12 +49,14 @@ $$
 \\{ 1,3,5,7,9,... \\}
 $$
 
-### Examples in Terms of Series
+### Examples in Terms of Sequences
 
-| | |
+| Sequence | Expression |
 |--|--|
-| arithmetic series with $n$ terms | $\\{\ a_0 + (k-1)\Delta \ \|\  k \in [1,n] \ \\}$ |
-| artihmetic series going to $t$ | $\\{\ x_k \ \|\ x_k = a_0+(k-1)\Delta, k \in \mathbb{N}, x_k \leq t\ \\}$ |
+| arithmetic sequence with $n$ terms | $\\{\ a_0 + (k-1)\Delta \ \|\  k \in [1,n] \ \\}$ |
+| artihmetic sequence going to $t$ | $\\{\ x_k \ \|\ x_k = a_0+(k-1)\Delta, k \in \mathbb{N}, x_k \leq t\ \\}$ |
+| geometric sequence with $n$ terms | $\\{\ a_0\Delta^{k-1} \ \|\  k \in [1,n] \ \\}$ |
+| geometric sequence going to $t$ | $\\{\ x_k \ \|\ x_k = a_0\Delta^{k-1}, k \in \mathbb{N}, x_k \leq t\ \\}$ |
 
 ## Predicate
 
