@@ -17,14 +17,26 @@
 | `mathfrak` | $\mathfrak{ABC\ abc\ 123}$ | `frak` | $\frak{ABC\ abc\ 123}$ |
 | `mathscr` | $\mathscr{ABC\ abc\ 123}$ | `scr` | $\scr{ABC\ abc\ 123}$ |
 | `mathcal` | $\mathcal{ABC\ abc\ 123}$ | `cal` | $\cal{ABC\ abc\ 123}$ |
-| `mathbb` | $\mathbb{ABC\ abc\ 123}$ |
-| `boldsymbol` | $\boldsymbol{ABC\ abc\ 123}$ |
+| `mathbb` | $\mathbb{ABC\ abc\ 123}$ | `Bbb` | $\Bbb{ABC\ abc\ 123}$ |
 
-| Style | Preview |
+> __ADDITIONALLY__:  
+> `text` may be used instead of `textnormal`
+
+## Decoration
+
+```
+\DECORATION{text}
+```
+
+| Decoration | Preview |
 |--|--|
-| `Bbb` | $\Bbb{ABC\ abc\ 123}$ |
-| `pmb` | $\pmb{ABC\ abc\ 123}$ |
-| `text` | $\text{ABC\ abc\ 123}$ |
+| `boldsymbol` | $\boldsymbol{ABC\ abc}$ |
+| `pmb` | $\pmb{ABC\ abc}$ |
+| `underline` | $\underline{ABC\ abc}$ |
+| `overline` | $\overline{ABC\ abc}$ |
+
+> __ADDITIONALLY__:  
+> `\textnormal` and `\mathnormal` can be used within some decorations (e.g., `boldsymbol`) to remove its effects
 
 ## Font Size
 
