@@ -3,6 +3,7 @@
 The following denotes the set formed by the values of $x$ for which $P(x)$ is _true_:
 
 $$
+\Large
 \\{\ x\ |\ P(x)\ \\}
 $$
 
