@@ -14,9 +14,9 @@
 | `mathbf` | $\mathbf{ABC\ abc\ 123}$ | `textbf` | $\textbf{ABC\ abc\ 123}$ |
 | `mathit` | $\mathit{ABC\ abc\ 123}$ | `textit` | $\textit{ABC\ abc\ 123}$ |
 | `mathtt` | $\mathtt{ABC\ abc\ 123}$ | `texttt` | $\texttt{ABC\ abc\ 123}$ |
-| `mathfrak` | $\mathfrak{ABC\ abc\ 123}$ |
-| `mathscr` | $\mathscr{ABC\ abc\ 123}$ |
-| `mathcal` | $\mathcal{ABC\ abc\ 123}$ |
+| `mathfrak` | $\mathfrak{ABC\ abc\ 123}$ | `frak` | $\frak{ABC\ abc\ 123}$ |
+| `mathscr` | $\mathscr{ABC\ abc\ 123}$ | `scr` | $\scr{ABC\ abc\ 123}$ |
+| `mathcal` | $\mathcal{ABC\ abc\ 123}$ | `cal` | $\cal{ABC\ abc\ 123}$ |
 | `mathbb` | $\mathbb{ABC\ abc\ 123}$ |
 | `boldsymbol` | $\boldsymbol{ABC\ abc\ 123}$ |
 
@@ -45,3 +45,15 @@
 | `LARGE` | ${\LARGE ABC\ abc}$ |
 | `huge` | ${\huge ABC\ abc}$ |
 | `Huge` | ${\Huge ABC\ abc}$ |
+
+## Crossing Out
+
+```
+\CROSSING{text}
+```
+
+| Crossing | Preview |
+|--|--|
+| `cancel` | $\cancel{abc}$ |
+| `bcancel` | $\bcancel{abc}$ |
+| `xcancel` | $\xcancel{abc}$ |
