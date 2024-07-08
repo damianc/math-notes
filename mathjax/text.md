@@ -38,25 +38,9 @@
 > __ADDITIONALLY__:  
 > `\textnormal` and `\mathnormal` can be used within some decorations (e.g., `boldsymbol`) to remove its effects
 
-To get a dashed line trick must be used:
+### Dashed Line
 
-```
-\begin{matrix}
-\ 
-\\
-\hdashline
-abc
-\end{matrix}
-```
-
-$$
-\begin{matrix}
-\ 
-\\
-\hdashline
-abc
-\end{matrix}
-$$
+To get a dashed line a trick with matrix must be used:
 
 ```
 \begin{matrix}
@@ -76,7 +60,25 @@ abc
 \end{matrix}
 $$
 
-> there is a space after each standalone __\\__: `\ `
+```
+\begin{matrix}
+\ 
+\\
+\hdashline
+abc
+\end{matrix}
+```
+
+$$
+\begin{matrix}
+\ 
+\\
+\hdashline
+abc
+\end{matrix}
+$$
+
+> There is a space after each standalone __\\__ (`\ `).
 
 ## Font Size
 
