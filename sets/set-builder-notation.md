@@ -51,6 +51,9 @@ $$
 
 ### Examples in Terms of Sequences
 
+> $a_0$ - initial term in a sequence  
+> $\Delta$ - common difference and ratio
+
 | Sequence | Expression |
 |--|--|
 | arithmetic sequence with $n$ terms | $\\{\ a_0 + (k-1)\Delta \ \|\  k \in [1,n] \ \\}$ |
