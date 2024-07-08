@@ -73,6 +73,15 @@ $$
 | $A^{\complement}$ | $U \setminus A$ = $\\{\ x \in U: x \notin A\ \\}$ |
 | ${\cal P}(A)$ | $\\{\ X: X \subseteq A\ \\}$ |
 
+### Examples in Terms of Numbers Sets
+
+| Set | Expression |
+|--|--|
+| $\mathbb{Z}$ | $\\{\ x \in \mathbb{R}: {\tt T}\left(\frac{x}{2}\right) \in \\{0,0.5\\}, {\tt T}(n) = n - \lfloor n \rfloor \ \\}$ |
+| $\mathbb{N}$ | $\\{\ x \in \mathbb{Z}: x \gt 0 \ \\}$ |
+| $\mathbb{N}_0$ | $\\{\ x \in \mathbb{N}: x \geq 0 \ \\}$ |
+| $\mathbb{Q}$ | $\left\\{\ \frac{p}{q}: p,q \in \mathbb{Z}, q \neq 0 \ \right\\}$ |
+
 ## Predicate
 
 ### Predicate Location
