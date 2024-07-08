@@ -61,6 +61,18 @@ $$
 | geometric sequence with $n$ terms | $\\{\ a_0\Delta^{k-1} \ \|\  k \in [1,n] \ \\}$ |
 | geometric sequence going to $t$ | $\\{\ x_k \ \|\ x_k = a_0\Delta^{k-1}, k \in \mathbb{N}, x_k \leq t\ \\}$ |
 
+### Examples in Terms of Set Operations
+
+| Operation | Expression |
+|--|--|
+| $A \cup B$ | $\\{\ x: x \in A \lor x \in B \ \\}$ |
+| $A \cap B$ | $\\{\ x: x \in A \land x \in B \ \\}$ |
+| $A \setminus B$ | $\\{\ x \in A: x \notin B\ \\}$ |
+| $A \mathop{\triangle} B$ | $\\{\ x: (x \in A \land x \notin B) \lor (x \in B \land x \notin A)\ \\}$ |
+| $A \times B$ | $\\{\ (a,b): a \in A \land b \in B\ \\}$ |
+| $A^{\complement}$ | $U \setminus A$ = $\\{\ x \in U: x \notin A\ \\}$ |
+| ${\cal P}(A)$ | $\\{\ X: X \subseteq A\ \\}$ |
+
 ## Predicate
 
 ### Predicate Location
