@@ -229,16 +229,21 @@ $$
 \left\\{\ {\color{blue}p} \in \mathbb{N} \ \|\ \forall({\color{red}k} \in \mathbb{N} \setminus \\{1,{\color{blue}p}\\})\left(\frac{{\color{blue}p}}{{\color{red}k}} \notin \mathbb{Z}\right) \ \right\\}
 $$
 
-- every point $p$ from $M$ that has neighbor $q$ at a distance $\Delta$ or less
+- **concentrated points**: every point ${\color{blue}p}$ from ${\Bbb M}$ that has a neighbor ${\color{red}q}$ at a distance $\Delta$ or less
 
 $$
 \\{\ 
-p \in \Bbb{R}^2:
-p \subset M \land
-(\exists q \in \Bbb{R}^2)(
-q \subset M \land
-(p_1-q_1)^2+(p_2-q_2)^2 \leq \Delta^2
+{\color{blue}p} \in \Bbb{R}^2:
+{\color{blue}p} \subset {\Bbb M} \land
+(\exists {\color{red}q} \in \Bbb{R}^2)(
+{\color{red}q} \subset {\Bbb M} \land
+{\tt D}({\color{blue}p},{\color{red}q})
 )
 \ \\}
+$$
+
+$$
+{\tt D}(p,q) =
+(p_1-q_1)^2+(p_2-q_2)^2 \leq \Delta^2
 $$
 
