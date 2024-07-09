@@ -236,7 +236,7 @@ $$
 {\color{blue}p} \in \Bbb{R}^2:
 {\color{blue}p} \subset {\Bbb M} \land
 (\exists {\color{red}q} \in \Bbb{R}^2)(
-{\color{red}q} \subset {\Bbb M} \land
+{\color{red}q} \subset {\Bbb M}\setminus\\{p\\} \land
 {\tt D}({\color{blue}p},{\color{red}q})
 )
 \ \\}
