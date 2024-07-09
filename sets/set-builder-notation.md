@@ -50,6 +50,19 @@ $$
 \\{ 1,3,5,7,9,... \\}
 $$
 
+### Common and Useful Examples
+
+| Example | Expression |
+|--|--|
+| even numbers | $\\{\ 2k \ \|\ k \in \mathbb{Z} \ \\}$ |
+| | $\\{\ k \in \mathbb{Z} \ \|\ k \equiv 0 \pmod 2 \ \\}$ |
+| odd numbers | $\\{\ 2k+1 \ \|\ k \in \mathbb{Z} \ \\}$ |
+| | $\\{\ k \in \mathbb{Z} \ \|\ k \equiv 1 \pmod 2 \ \\}$ |
+| prime numbers | $\\{\ p \in \mathbb{Z} \ \|\ \forall(k \in \mathbb{Z} \setminus \\{1,p\\})\left(\frac{p}{k} \notin \mathbb{Z}\right) \ \\}$ |
+| roots of the function | $\\{\ x \ \|\ f(x) = 0 \ \\}$ |
+| combinations | $\\{\ X \in {\cal P}(S): \|X\| = k \ \\}$ |
+| | $\\{\ X \subseteq S: \|X\| = k \ \\}$ |
+
 ### Examples in Terms of Sequences
 
 > $a_0$ - initial term in a sequence  
