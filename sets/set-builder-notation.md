@@ -82,6 +82,9 @@ $$
 | $\mathbb{N}$ | $\\{\ x \in \mathbb{Z}: x \gt 0 \ \\}$ |
 | $\mathbb{N}_0$ | $\\{\ x \in \mathbb{N}: x \geq 0 \ \\}$ |
 | $\mathbb{Q}$ | $\left\\{\ \frac{p}{q}: p,q \in \mathbb{Z}, q \neq 0 \ \right\\}$ |
+| $\mathbb{I}$ | $\\{\ x \in \mathbb{R}: x \notin \mathbb{Q} \ \\}$ |
+| $\mathbb{C}$ | $\\{\ a+bi: a,b \in \mathbb{R}, i^2 = -1 \ \\}$ |
+| $\mathbb{R}$ | $\\{\ x: x \notin \mathbb{C} \ \\}$ |
 
 ## Predicate
 
