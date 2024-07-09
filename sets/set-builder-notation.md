@@ -221,3 +221,11 @@ $$
 
 > membership must be specified for a term bound to a quantifier: e.g., $\exists n \in \mathbb{N}$ is proper, while $\exists n$ not
 
+### Examples Using Quantifiers
+
+- **prime numbers**: every natural number ${\color{blue}p}$ which can be divided by itself, 1 and nothing else
+
+$$
+\left\\{\ {\color{blue}p} \in \mathbb{N} \ \|\ \forall({\color{red}k} \in \mathbb{N} \setminus \\{1,{\color{blue}p}\\})\left(\frac{{\color{blue}p}}{{\color{red}k}} \notin \mathbb{Z}\right) \ \right\\}
+$$
+
