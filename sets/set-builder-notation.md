@@ -137,6 +137,29 @@ $$
 
 > every of the above yields $\\{ 1,4,9,16 \\}$
 
+### Multiple Predicates
+
+$$
+\\{\ x_i \ \|\  {\tt P}_1(x_i)
+\land {\tt P}_2(i)
+\ \\}
+$$
+
+- example that yields $\\{2,6,10,14\\}$:
+
+$$
+\\{ x_i \in \mathbb{N} \ \|\ {\tt C_t}(x_i) \land
+{\tt C_i}(i) \ \\}
+$$
+
+$$
+{\tt C_t}(x_i) = (x_i = 2+4(i-1))
+$$
+
+$$
+{\tt C_i}(i) = i \in [1,4]
+$$
+
 ### Predicate Components
 
 | Component | Example |
