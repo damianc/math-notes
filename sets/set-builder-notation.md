@@ -199,24 +199,24 @@ $$
 > - ${\tt T}(x,k)$ is a predicate
 > - ${\tt G}(x,k)$ is a generator of the value
 
-- every term $x$ from $S_1$ for which there is term $k$ from $S_2$ such that ${\tt T}(x,k)$ returns _true_
+- every term ${\color{blue}x}$ from $S_1$ for which there is term ${\color{red}k}$ from $S_2$ such that ${\tt T}({\color{blue}x},{\color{red}k})$ returns _true_
 
 $$
-\\{\ x \in S_1: (\exists k \in S_2)({\tt T}(x,k)) \ \\}
-$$
-
-$$
-\\{\ x \in S_1: (\exists k \in S_2)({\tt T}(x,k) \implies x={\tt G}(x,k)) \ \\}
-$$
-
-- every term $x$ from $S_1$ for which all terms $k$'s of $S_2$ satisfy ${\tt T}(x,k)$
-
-$$
-\\{\ x \in S_1: (\forall k \in S_2)({\tt T}(x,k)) \ \\}
+\\{\ {\color{blue}x} \in S_1: (\exists {\color{red}k} \in S_2)({\tt T}({\color{blue}x},{\color{red}k})) \ \\}
 $$
 
 $$
-\\{\ x \in S_1: (\forall k \in S_2)({\tt T}(x,k) \implies x={\tt G}(x,k)) \ \\}
+\\{\ {\color{blue}x} \in S_1: (\exists {\color{red}k} \in S_2)({\tt T}({\color{blue}x},{\color{red}k}) \implies {\color{blue}x}={\tt G}({\color{blue}x},{\color{red}k})) \ \\}
+$$
+
+- every term ${\color{blue}x}$ from $S_1$ for which all terms ${\color{red}k}$'s of $S_2$ satisfy ${\tt T}({\color{blue}x},{\color{red}k})$
+
+$$
+\\{\ {\color{blue}x} \in S_1: (\forall {\color{red}k} \in S_2)({\tt T}({\color{blue}x},{\color{red}k})) \ \\}
+$$
+
+$$
+\\{\ {\color{blue}x} \in S_1: (\forall {\color{red}k} \in S_2)({\tt T}({\color{blue}x},{\color{red}k}) \implies {\color{blue}x}={\tt G}({\color{blue}x},{\color{red}k})) \ \\}
 $$
 
 > membership must be specified for a term bound to a quantifier: e.g., $\exists n \in \mathbb{N}$ is proper, while $\exists n$ not
