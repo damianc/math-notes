@@ -188,3 +188,17 @@ $$
 | set | $n \in \mathbb{N}^{+}$ |
 | | $p_n \in {\cal P}(\omega_n)$ |
 
+## Quantifiers
+
+- $\forall n \in S$ - the universal quantifier that reads _"for all"_
+- $\exists n \in S$ - the existential quantifier that reads _"exists such"_
+
+### Examples Using Quantifiers
+
+| Example | Expression |
+|--|--|
+| every term $x$ from $S_1$ for which there is term $k$ from $S_2$ such that $T(x,k)$ returns _true_ | $\\{\ x \in S_1: (\exists k \in S_2)(T(x,k)) \ \\}$ |
+| every term $x$ from $S_1$ for which all terms $k$'s of $S_2$ satisfy $T(x,k)$ | $\\{\ x \in S_1: (\forall k \in S_2)(T(x,k)) \ \\}$ | 
+
+> membership must be specified for a term bound to quantifier: $\exists n \in \mathbb{N}$ is proper, while $\exists n$ not
+
