@@ -62,8 +62,8 @@ $$
 | roots of the function | $\\{\ x \ \|\ f(x) = 0 \ \\}$ |
 | combinations | $\\{\ X \in {\cal P}(S): \|X\| = k \ \\}$ |
 | | $\\{\ X \subseteq S: \|X\| = k \ \\}$ |
-| points forming a circle | $\\{\ (x,y) \in \mathbb{R}^2 \ \|\ (x-a)^2+(y-b)^2=r^2 \land a,b,r \in \mathbb{R} \ \\}$ |
-| | $\\{\ p \in \mathbb{R}^2 \ \|\ (p_1-a)^2+(p_2-b)^2=r^2 \land a,b,r \in \mathbb{R} \ \\}$ |
+| points forming a circle | $\\{\ (x,y) \in \mathbb{R}^2 \ \|\ (x-a)^2+(y-b)^2=r^2 \land (a,b,r \in \mathbb{R}) \ \\}$ |
+| | $\\{\ p \in \mathbb{R}^2 \ \|\ (p_1-a)^2+(p_2-b)^2=r^2 \land (a,b,r \in \mathbb{R}) \ \\}$ |
 
 ### Examples in Terms of Sequences
 
