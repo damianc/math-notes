@@ -195,10 +195,17 @@ $$
 
 ### Examples Using Quantifiers
 
-| Example | Expression |
-|--|--|
-| every term $x$ from $S_1$ for which there is term $k$ from $S_2$ such that $T(x,k)$ returns _true_ | $\\{\ x \in S_1: (\exists k \in S_2)(T(x,k)) \ \\}$ |
-| every term $x$ from $S_1$ for which all terms $k$'s of $S_2$ satisfy $T(x,k)$ | $\\{\ x \in S_1: (\forall k \in S_2)(T(x,k)) \ \\}$ | 
+- every term $x$ from $S_1$ for which there is term $k$ from $S_2$ such that $T(x,k)$ returns _true_
 
-> membership must be specified for a term bound to quantifier: $\exists n \in \mathbb{N}$ is proper, while $\exists n$ not
+$$
+\\{\ x \in S_1: (\exists k \in S_2)(T(x,k)) \ \\}
+$$
+
+- every term $x$ from $S_1$ for which all terms $k$'s of $S_2$ satisfy $T(x,k)$
+
+$$
+\\{\ x \in S_1: (\forall k \in S_2)(T(x,k)) \ \\}
+$$
+
+> membership must be specified for a term bound to a quantifier: e.g., $\exists n \in \mathbb{N}$ is proper, while $\exists n$ not
 
