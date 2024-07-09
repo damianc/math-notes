@@ -229,3 +229,16 @@ $$
 \left\\{\ {\color{blue}p} \in \mathbb{N} \ \|\ \forall({\color{red}k} \in \mathbb{N} \setminus \\{1,{\color{blue}p}\\})\left(\frac{{\color{blue}p}}{{\color{red}k}} \notin \mathbb{Z}\right) \ \right\\}
 $$
 
+- every point $p$ from $M$ that has neighbor $q$ at a distance $\Delta$ or less
+
+$$
+\\{\ 
+p \in \Bbb{R}^2:
+p \subset M \land
+(\exists q \in \Bbb{R}^2)(
+q \subset M \land
+(p_1-q_1)^2+(p_2-q_2)^2 \leq \Delta^2
+)
+\ \\}
+$$
+
