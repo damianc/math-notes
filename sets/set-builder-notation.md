@@ -94,12 +94,14 @@ $$
 | Set | Expression |
 |--|--|
 | $\mathbb{Z}$ | $\\{\ x \in \mathbb{R}: {\tt T}\left(\frac{x}{2}\right) \in \\{0,0.5\\}, {\tt T}(n) = n - \lfloor n \rfloor \ \\}$ |
+| $\mathbb{Z}^{+}$ | $\\{\ x \in \mathbb{Z}: x \gt 0 \ \\}$ or $\\{\ x: x \in \mathbb{N} \ \\}$ |
 | $\mathbb{N}$ | $\\{\ x \in \mathbb{Z}: x \gt 0 \ \\}$ |
 | $\mathbb{N}_0$ | $\\{\ x \in \mathbb{N}: x \geq 0 \ \\}$ |
 | $\mathbb{Q}$ | $\left\\{\ \frac{p}{q}: p,q \in \mathbb{Z}, q \neq 0 \ \right\\}$ |
 | $\mathbb{I}$ | $\\{\ x \in \mathbb{R}: x \notin \mathbb{Q} \ \\}$ |
 | $\mathbb{C}$ | $\\{\ a+bi: a,b \in \mathbb{R}, i^2 = -1 \ \\}$ |
 | $\mathbb{R}$ | $\\{\ x: x \notin \mathbb{C} \ \\}$ |
+| $\mathbb{R}^2$ | $\\{\ (x,y): x,y \in \mathbb{R} \ \\}$ |
 
 ## Predicate
 
