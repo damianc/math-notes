@@ -56,3 +56,24 @@ $$
 {\tt D}(p,q) =
 (p_1-q_1)^2+(p_2-q_2)^2 \leq \Delta^2
 $$
+
+### Complex Quantifier
+
+- **permutations**: every permutation $\color{blue}p$ ($\Bbb{R}^n$) that consists of all necessary terms without repetition, i.e., terms of $\Bbb{T}$ in all possible arrangements
+
+$$
+\begin{array}{ll}
+\\{\ {\color{blue}p} \in \Bbb{R}^n \ \|
+\\
+\quad (\forall {\color{red}i},{\color{orange}j} \in [1,n], {\color{red}i} \neq {\color{orange}j})
+({\color{blue}p}\_{\color{red}i} \neq {\color{blue}p}\_{\color{orange}j})
+\\
+\quad\quad \land
+\\
+\quad (\forall {\color{red}i} \in [1,n])({\color{blue}p}_{\color{red}i} \in \Bbb{T})
+\\
+\ \\}
+\end{array}
+$$
+
+
