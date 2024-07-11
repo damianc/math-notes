@@ -187,3 +187,15 @@ $$
 | | $\|\sin(x)\| \neq 1$ |
 | set | $n \in \mathbb{N}^{+}$ |
 | | $p_n \in {\cal P}(\omega_n)$ |
+
+## Nested Expressions
+
+Example of nested expressions - picking unique terms from set $\Bbb{D}$:
+
+$$
+\\{\ x_i \in \Bbb{D} \ \|\ x_i \notin
+\\{\ x_j \ \|\ j \neq i,
+j \in \Bbb{N}
+\ \\}
+\ \\}
+$$
