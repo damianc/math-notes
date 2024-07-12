@@ -54,3 +54,15 @@ $$
 
 - in terms of **combinations**: $(a,b) \equiv (b,a)$
 - in terms of **variations**: $(a,b) \not\equiv (b,a)$
+
+For example, having to pick 2 terms from $(a,b,c)$:
+
+| Option | In Combinations | In Variations |
+|--|--|--|
+| $(a,b)$ | counted | counted |
+| $(a,c)$ | counted | counted |
+| $(b,a)$ | not counted as $(b,a) \equiv (a,b)$ | counted |
+| $(b,c)$ | counted | counted |
+| $(c,a)$ | not counted as $(c,a) \equiv (a,c)$ | counted |
+| $(c,b)$ | not counted as $(c,b) \equiv (b,c)$ | counted |
+| **result** | $$C_3^2 = \binom{3}{2} = 3$$ | $$V_{\ 3}^2 = \frac{3!}{(3-2)!} = 6$$ |
