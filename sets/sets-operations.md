@@ -29,7 +29,8 @@ $\large\boldsymbol{{\cal P}(A)}$
 $\small\\{ X: X \subseteq A \\}$
 
 $\large\boldsymbol{|A|}\quad$ (or $\large\boldsymbol{\overline{\overline{A}}}$, $\large\boldsymbol{\\#A}$)  
-**cardinality**: number of elements of the set $A$
+**cardinality**: number of elements of the set $A$  
+$\small \displaystyle\sum_{n \in A} 1$
 
 ## Examples
 
@@ -93,5 +94,12 @@ $$
 \\
 \\}
 \end{array}
+$$
+
+### Cardinality
+
+$$
+|\ \\{ 1,2,2,3 \\}\ | =
+|\ \\{ 1,2,3 \\}\ | = 3
 $$
 
