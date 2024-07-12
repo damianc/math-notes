@@ -36,7 +36,7 @@ $$
 - **prime numbers**: every natural number ${\color{blue}p}$ which can be divided by itself, 1 and nothing else
 
 $$
-\left\\{\ {\color{blue}p} \in \mathbb{N} \ \|\ \forall({\color{red}k} \in \mathbb{N} \setminus \\{1,{\color{blue}p}\\})\left(\frac{{\color{blue}p}}{{\color{red}k}} \notin \mathbb{Z}\right) \ \right\\}
+\left\\{\ {\color{blue}p} \in \mathbb{N} \ \|\ (\forall{\color{red}k} \in \mathbb{N} \setminus \\{1,{\color{blue}p}\\})\left(\frac{{\color{blue}p}}{{\color{red}k}} \notin \mathbb{Z}\right) \ \right\\}
 $$
 
 - **concentrated points**: every point ${\color{blue}p}$ from ${\Bbb M}$ that has a neighbor ${\color{red}q}$ at a distance $\Delta$ or less
@@ -68,12 +68,14 @@ $$
 \\
 & |{\color{blue}q}|={\color{red}k} \ \land
 \\
-& (\forall i \in [2,{\color{red}k}])
-({\color{blue}q}\_i - {\color{blue}q}_{i-1} = 1)
+& (\forall {\color{orange}i} \in [2,{\color{red}k}])
+({\color{blue}q}\_{\color{orange}i} - {\color{blue}q}_{{\color{orange}i}-1} = 1)
 \\
 \\}
 \end{array}
 $$
+
+> For example, having $S = \\{ 1,2,3,4 \\}$, when $k=2$, the resultant set is: $\\{ (1,2),(2,3),(3,4) \\}$, but when $k=3$, the resultant set is: $\\{ (1,2,3),(2,3,4) \\}$.
 
 ### Complex Quantifier
 
