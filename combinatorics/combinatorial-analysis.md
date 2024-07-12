@@ -59,10 +59,10 @@ For example, having to pick 2 terms from $(a,b,c)$:
 
 | Option | In Combinations | In Variations |
 |--|--|--|
-| $(a,b)$ | counted | counted |
-| $(a,c)$ | counted | counted |
-| $(b,a)$ | not counted as $(b,a) \equiv (a,b)$ | counted |
-| $(b,c)$ | counted | counted |
-| $(c,a)$ | not counted as $(c,a) \equiv (a,c)$ | counted |
-| $(c,b)$ | not counted as $(c,b) \equiv (b,c)$ | counted |
+| $(a,b)$ | $\tt{\color{green}counted}$ | $\tt{\color{green}counted}$ |
+| $(a,c)$ | $\tt{\color{green}counted}$ | $\tt{\color{green}counted}$ |
+| $(b,a)$ | $\color{red}{\tt not\ counted\ as\ }$ $\color{red} (b,a) \equiv (a,b)$ | $\tt{\color{green}counted}$  |
+| $(b,c)$ | $\tt{\color{green}counted}$ | $\tt{\color{green}counted}$ |
+| $(c,a)$ | $\color{red}{\tt not\ counted\ as\ }$ $\color{red} (c,a) \equiv (a,c)$ | $\tt{\color{green}counted}$  |
+| $(c,b)$ | $\color{red}{\tt not\ counted\ as\ }$ $\color{red} (c,b) \equiv (b,c)$ | $\tt{\color{green}counted}$ |
 | **result** | $$C_3^2 = \binom{3}{2} = 3$$ | $$V_{\ 3}^2 = \frac{3!}{(3-2)!} = 6$$ |
