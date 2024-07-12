@@ -50,7 +50,8 @@ $$
 
 ### Cartesian Product
 
-For $A = \\{1,2 \\}$ and $B = \\{ 2,3 \\}$:
+> Given:  
+> $A = \\{1,2 \\}$, $B = \\{ 2,3 \\}$
 
 $$
 A \times B = \\{
@@ -60,7 +61,8 @@ $$
 
 ### Complement
 
-For $A = \\{ 1,2,3 \\}$ in universe $\Bbb{U} = \\{ 1,2,3,4,5 \\}$:
+> Given:  
+> $A = \\{ 1,2,3 \\}$, $\Bbb{U} = \\{ 1,2,3,4,5 \\}$
 
 $$
 A^{\complement} = {\Bbb U} \setminus A =
@@ -69,7 +71,8 @@ $$
 
 ### Power Set
 
-For $A = \\{ 1,2,3 \\}$:
+> Given:  
+> $A = \\{ 1,2,3 \\}$
 
 $$
 \begin{array}{ll}
