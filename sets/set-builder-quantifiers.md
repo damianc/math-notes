@@ -57,6 +57,24 @@ $$
 (p_1-q_1)^2+(p_2-q_2)^2 \leq \Delta^2
 $$
 
+- **consecutive numbers**: every sequence/subset ${\color{blue}q}$ of set $S$, such that $|{\color{blue}q}| = {\color{red}k}$ and $|S| \gt {\color{red}k}$
+
+$$
+\begin{array}{ll}
+\\{
+\\
+& {\color{blue}q} \in \Bbb{N}^{\color{red}k}
+\ |\ {\color{blue}q} \subset S \ \land
+\\
+& |{\color{blue}q}|={\color{red}k} \ \land
+\\
+& (\forall i \in [2,{\color{red}k}])
+({\color{blue}q}\_i - {\color{blue}q}_{i-1} = 1)
+\\
+\\}
+\end{array}
+$$
+
 ### Complex Quantifier
 
 - **permutations**: every permutation $\color{blue}p$ ($\Bbb{R}^n$) that consists of all necessary terms without repetition, i.e., terms of $\Bbb{T}$ in all possible arrangements
