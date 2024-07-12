@@ -74,4 +74,4 @@ Notation may vary among different sources, for example for combinations the foll
 - $C^k_n$
 - $^nC_k$
 - $_nC_k$
-- $C(n,k)$.
+- $C(n,k)$
