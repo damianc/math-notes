@@ -66,3 +66,12 @@ For example, having to pick 2 terms from $(a,b,c)$:
 | $(c,a)$ | $\color{red}{\tt not\ counted\ as\ }$ $\color{red} (c,a) \equiv (a,c)$ | $\tt{\color{green}counted}$  |
 | $(c,b)$ | $\color{red}{\tt not\ counted\ as\ }$ $\color{red} (c,b) \equiv (b,c)$ | $\tt{\color{green}counted}$ |
 | **Result** | $$C_3^2 = \binom{3}{2} = 3$$ | $$V_{\ 3}^2 = \frac{3!}{(3-2)!} = 6$$ |
+
+## Notation
+
+Notation may vary among different sources, for example for combinations the following are possible:
+
+- $C^k_n$
+- $^nC_k$
+- $_nC_k$
+- $C(n,k)$.
