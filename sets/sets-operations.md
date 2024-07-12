@@ -28,6 +28,9 @@ $\large\boldsymbol{{\cal P}(A)}$
 **power set**: set of all possible subsets of $A$ (including itself and empty set)  
 $\small\\{ X: X \subseteq A \\}$
 
+$\large\boldsymbol{|A|}\quad$ (or $\large\boldsymbol{\overline{\overline{A}}}$, $\large\boldsymbol{\\#A}$)  
+**cardinality**: number of elements of the set $A$
+
 ## Examples
 
 ### Union, Intersection and Differences
@@ -47,6 +50,8 @@ $$
 \\{ 1,3 \\}
 \end{array}
 $$
+
+> $\\{ 1,2,2,3 \\} \equiv \\{ 1,2,3 \\}$, or more generally: $\\{ a,a \\} \equiv \\{ a \\}$
 
 ### Cartesian Product
 
