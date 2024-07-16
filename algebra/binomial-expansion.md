@@ -84,23 +84,17 @@ $$
 
 ## Alternative Representation
 
-given:
-
 $$
-\Lambda^p: (S\ \cup\ R=\\{0\\}) = \lambda^p_0 +
-\sum_{i=1}^{\overline{\overline{S}}}
-\lambda^{p-i}\_i +
-\frac{R_0}{2}\lambda^{p/2}_{p/2}
-$$
-
-$$
-\lambda^m_n = a^mb^n + a^nb^m
-$$
-
-----
-
-$$
-(a+b)^6 = \Lambda^6: \\{6,15\\}
-\ \cup\ 
-\\{20\\}
+\begin{array}{l}
+\text{given:}
+\\
+{\large\lambda}^a_b(m,n) = a^m b^n + a^n b^m
+\\
+k = \left\lceil \frac{n+1}{2} \right\rceil
+\\
+\\
+{\large (a+b)^n} = \displaystyle\sum_{i=0}^{k-1}
+\binom{n}{i}
+{\Large\lambda}^a_b(n-i,i)
+\end{array}
 $$
