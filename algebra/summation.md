@@ -35,24 +35,48 @@ $$
 
 ## Subtracting
 
+- $\color{green}{a-b-c-d}$
+
 $$
-x_1 - \sum_{i=2}^{k} x_i =
+\begin{array}{c}
+x_1 - \displaystyle\sum_{i=2}^{k}\ x_i
+\\
+\=
 x_1 - x_2 - x_3 - x_4 - \cdots - x_k
+\end{array}
 $$
 
+- $\color{green}{-a+b-c+d}$
+
 $$
-\sum_{i=1}^k (-1)^i x_i =
+\begin{array}{c}
+\displaystyle\sum_{i=1}^k\ (-1)^i x_i
+\\
+\=
 -x_1 + x_2 - x_3 + x_4 \cdots x_k
+\end{array}
 $$
 
+- $\color{green}{a-b+c-d}$
+
 $$
-\sum_{i=1}^k (-1)^{i+1} x_i =
+\begin{array}{c}
+\displaystyle\sum_{i=1}^k\ (-1)^{i+1} x_i
+\\
+\=
 x_1 - x_2 + x_3 - x_4 \cdots x_k
+\end{array}
 $$
 
+- $\color{green}{a+b-c+d}$
+
 $$
-2x_1 - \sum_{i=1}^k (-1)^{i+1} x_i =
+\begin{array}{c}
+2x_1 - \displaystyle\sum_{i=1}^k\ (-1)^{i+1} x_i
+\\
+\=
 x_1 + x_2 - x_3 + x_4 \cdots x_k
+\end{array}
 $$
 
 ## Identities
