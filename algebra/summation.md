@@ -118,13 +118,13 @@ $$
 
 $$
 \left(
-\sum_{i=s_1}^{t_1} x_i
+{\color{red}{\sum_{i=s_1}^{t_1}}\ \ x_i}
 \right) \left(
-\sum_{j=s_2}^{t_2} y_j
+{\color{blue}{\sum_{j=s_2}^{t_2}}\ \ y_j}
 \right) =
-\sum_{i=s_1}^{t_1}
-\sum_{j=s_2}^{t_2}
-x_i y_j
+{\color{red}{\sum_{i=s_1}^{t_1}}}
+\ \ {\color{blue}{\sum_{j=s_2}^{t_2}}}
+\ \ {\color{red} x_i} {\color{blue} y_j}
 $$
 
 $$
@@ -136,12 +136,12 @@ $$
 ## Sigma-Sums Swap
 
 $$
-\sum_{i=s_1}^{t_1}
-\sum_{j=s_2}^{t_2}
-f(i,j) =
-\sum_{j=s_2}^{t_2}
-\sum_{i=s_1}^{t_1}
-f(i,j)
+{\color{red}{\sum_{i=s_1}^{t_1}}}
+\ \ {\color{blue}{\sum_{j=s_2}^{t_2}}}
+\ \ {\large{x_{i,j}}} =
+{\color{blue}{\sum_{j=s_2}^{t_2}}}
+\ \ {\color{red}{\sum_{i=s_1}^{t_1}}}
+\ \ {\large{x_{i,j}}}
 $$
 
 $$
