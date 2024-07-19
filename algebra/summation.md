@@ -381,6 +381,30 @@ A = \\{ x_i\ |\ i \in \Bbb{N}, x_i = f^{-1}(y_i) \\}
 \end{array}
 $$
 
+#### Function $f$ From $\Bbb{Z} \times \Bbb{Z}$
+
+$$
+\sum_{m=0}^k
+\sum_{n=0}^m
+f(m,n) =
+\sum_{m=0}^k
+\sum_{n=m}^k
+f(n,m)
+$$
+
+$$
+\color{green}
+\begin{array}{l}
+f(0,0) + \Bigl(f(1,0) + f(1,1)\Bigr) +
+\\
+\Bigl(f(2,0) + f(2,1) + f(2,2)\Bigr) =
+\\
+\Bigl(f(0,0) + f(1,0) + f(2,0)\Bigr) +
+\\
+\Bigl(f(2,1) + f(1,1)\Bigr) + f(2,2)
+\end{array}
+$$
+
 ### Integral Calculus
 
 $$
