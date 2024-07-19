@@ -133,6 +133,29 @@ $$
 }
 $$
 
+## Sigma-Sums Swap
+
+$$
+\sum_{i=s_1}^{t_1}
+\sum_{j=s_2}^{t_2}
+f(i,j) =
+\sum_{j=s_2}^{t_2}
+\sum_{i=s_1}^{t_1}
+f(i,j)
+$$
+
+$$
+\begin{array}{c}
+\color{green}{
+(f(1,2)+f(1,3))+(f(2,2)+f(2,3)) =
+}
+\\
+\color{green}{
+(f(1,2)+f(2,2))+(f(1,3)+f(2,3))
+}
+\end{array}
+$$
+
 ## Identities
 
 ### Constant Term
