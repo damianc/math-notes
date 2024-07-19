@@ -21,7 +21,7 @@ $$
 $$
 \sum_{n \in S} n
 \quad = \quad
-\sum_{n=1}^{\overline{\overline S}} S_n
+\sum_{n=1}^{|S|} S_n
 $$
 
 - a set defined with set-builder notation:
