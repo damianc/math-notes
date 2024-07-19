@@ -107,16 +107,14 @@ $$
 \right] \pm \left[
 \sum_{j=s_2}^{t_2} y_j
 \right] = \sum_{i=s_1}^{t_1}
-x_i y_{i+(s_2-s_1)}
+x_i y_{i+\Delta}
+$$
+
+$$
+\iff \Delta = s_2 - s_1
 $$
 
 ## Sigma-Sums Multiplication
-
-$$
-\color{green}{
-(a+b)(c+d) = (ac+ad)+(bc+bd)
-}
-$$
 
 $$
 \left(
@@ -127,6 +125,12 @@ $$
 \sum_{i=s_1}^{t_1}
 \sum_{j=s_2}^{t_2}
 x_i y_j
+$$
+
+$$
+\color{green}{
+(a+b)(c+d) = (ac+ad)+(bc+bd)
+}
 $$
 
 ## Identities
