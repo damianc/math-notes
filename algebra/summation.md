@@ -343,6 +343,44 @@ $$
 }
 $$
 
+#### Bijection $f: A \to B$
+
+$$
+\sum_{x \in A} f(x) =
+\sum_{y \in B} y
+$$
+
+$$
+\color{green}
+\begin{array}{c}
+A_1 + A_2 = B_1 + B_2
+\\
+\iff
+\\
+A = \\{ x_i\ |\ i \in \Bbb{N}, x_i \in \Bbb{R} \\}
+\\
+B = \\{ y_i\ |\ i \in \Bbb{N}, y_i = f(x_i) \\}
+\end{array}
+$$
+
+$$
+\sum_{y \in B} f^{-1}(y) =
+\sum_{x \in A} x
+$$
+
+$$
+\color{green}
+\begin{array}{c}
+B_1 + B_2 = A_1 + A_2
+\\
+\iff
+\\
+B = \\{ y_i\ |\ i \in \Bbb{N}, y_i \in \Bbb{R} \\}
+\\
+A = \\{ x_i\ |\ i \in \Bbb{N}, x_i = f^{-1}(y_i) \\}
+\end{array}
+$$
+
 ### Integral Calculus
 
 $$
