@@ -24,6 +24,7 @@ $$
 \sum_{n=1}^{|S|} S_n
 $$
 
+<!--
 - a set defined with set-builder notation:
 
 $$
@@ -32,6 +33,7 @@ x_n
 \quad = \quad
 \sum_{n=a}^b x_n
 $$
+-->
 
 ## Subtracting with Sigma
 
