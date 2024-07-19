@@ -286,12 +286,26 @@ $$
 \sum_{n=s}^t x_{2n+1}
 $$
 
+$$
+\color{green}{
+x_2 + x_3 + x_4 + x_5 =
+(x_2 + x_4) + (x_3 + x_5)
+}
+$$
+
 - for odd indexes:
 
 $$
 \sum_{n=2s+1}^{2t} x_n =
 \sum_{n=s+1}^t x_{2n} +
 \sum_{n=s+1}^t x_{2n-1}
+$$
+
+$$
+\color{green}{
+x_1 + x_2 + x_3 + x_4 =
+(x_2 + x_4) + (x_1 + x_3)
+}
 $$
 
 ### Integral Calculus
