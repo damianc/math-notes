@@ -33,6 +33,28 @@ x_n
 \sum_{n=a}^b x_n
 $$
 
+## Subtracting
+
+$$
+x_1 - \sum_{i=2}^{k} x_i =
+x_1 - x_2 - x_3 - x_4 - \cdots - x_k
+$$
+
+$$
+\sum_{i=1}^k (-1)^i x_i =
+-x_1 + x_2 - x_3 + x_4 \cdots x_k
+$$
+
+$$
+\sum_{i=1}^k (-1)^{i+1} x_i =
+x_1 - x_2 + x_3 - x_4 \cdots x_k
+$$
+
+$$
+2x_1 - \sum_{i=1}^k (-1)^{i+1} x_i =
+x_1 + x_2 - x_3 + x_4 \cdots x_k
+$$
+
 ## Identities
 
 ### Constant Term
