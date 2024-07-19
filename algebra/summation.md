@@ -90,6 +90,13 @@ $$
 f(n) \pm g(n)
 $$
 
+$$
+\color{green}{
+(a+b) \pm (c+d) =
+(a \pm c) + (b \pm d)
+}
+$$
+
 - different intervals of the same length, i.e., $t_1-s_1 = t_2-s_2$:
 
 $$
