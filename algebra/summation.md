@@ -308,6 +308,41 @@ x_1 + x_2 + x_3 + x_4 =
 }
 $$
 
+### Functions
+
+#### Exponential
+
+The exponential of a sum is the product of the exponential of the summands.
+
+> it also applies for base other than $e$
+
+$$
+{\Large e^{
+\Sigma_{n=s}^t\ f(n)
+}} = \prod_{n=s}^t {\large e^{f(n)}}
+$$
+
+$$
+\color{green}{
+c^{a+b} = c^a \cdot c^b
+}
+$$
+
+#### Logarithm
+
+The logarithm of a product is the sum of the logarithms of the factors.
+
+$$
+\sum_{n=s}^t \log_b(f(n)) =
+\log_b\left(\prod_{n=s}^t f(n)\right)
+$$
+
+$$
+\color{green}{
+\log_n(a) + \log_n(b) = \log_n(ab)
+}
+$$
+
 ### Integral Calculus
 
 $$
