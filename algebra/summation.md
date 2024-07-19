@@ -79,6 +79,28 @@ x_1 + x_2 - x_3 + x_4 \cdots x_k
 \end{array}
 $$
 
+## Sigma-Sums Addition/Subtraction
+
+$$
+\left[
+\sum_{n=s}^t f(n)
+\right] \pm \left[
+\sum_{n=s}^t g(n)
+\right] = \sum_{n=s}^t
+f(n) \pm g(n)
+$$
+
+- different intervals of the same length, i.e., $t_1-s_1 = t_2-s_2$:
+
+$$
+\left[
+\sum_{i=s_1}^{t_1} x_i
+\right] \pm \left[
+\sum_{j=s_2}^{t_2} y_j
+\right] = \sum_{i=s_1}^{t_1}
+x_i y_{i+(s_2-s_1)}
+$$
+
 ## Identities
 
 ### Constant Term
