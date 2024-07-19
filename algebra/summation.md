@@ -50,7 +50,7 @@ $$
 
 $$
 \begin{array}{c}
-\displaystyle\sum_{i=1}^k\ (-1)^i x_i
+\displaystyle\sum_{i=1}^k\ (-1)^i \cdot x_i
 \\
 \=
 -x_1 + x_2 - x_3 + x_4 \cdots x_k
@@ -61,7 +61,7 @@ $$
 
 $$
 \begin{array}{c}
-\displaystyle\sum_{i=1}^k\ (-1)^{i+1} x_i
+\displaystyle\sum_{i=1}^k\ (-1)^{i+1} \cdot x_i
 \\
 \=
 x_1 - x_2 + x_3 - x_4 \cdots x_k
@@ -72,7 +72,7 @@ $$
 
 $$
 \begin{array}{c}
-2x_1 - \displaystyle\sum_{i=1}^k\ (-1)^{i+1} x_i
+2x_1 - \displaystyle\sum_{i=1}^k\ (-1)^{i+1} \cdot x_i
 \\
 \=
 x_1 + x_2 - x_3 + x_4 \cdots x_k
