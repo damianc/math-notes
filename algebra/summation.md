@@ -328,6 +328,20 @@ c^{a+b} = c^a \cdot c^b
 }
 $$
 
+$$
+{\Large e^{
+f(s)-\Sigma_{n=s+1}^t\ f(n)
+}} =
+{\large e^{f(s)}} \cdot
+\prod_{n=s+1}^t {\large \frac{1}{e^{f(n)}}}
+$$
+
+$$
+\color{green}{
+c^{a-b} = \frac{c^a}{c^b}
+}
+$$
+
 #### Logarithm
 
 The logarithm of a product is the sum of the logarithms of the factors.
@@ -340,6 +354,21 @@ $$
 $$
 \color{green}{
 \log_n(a) + \log_n(b) = \log_n(ab)
+}
+$$
+
+$$
+\log_b(f(s)) - \sum_{n=s+1}^t
+\log_b(f(n)) =
+\log_b \left(
+f(s) \cdot
+\prod_{n=s+1}^t \frac{1}{f(n)}
+\right)
+$$
+
+$$
+\color{green}{
+\log_n(a) - \log_n(b) = \log_n\left(\frac{a}{b}\right)
 }
 $$
 
