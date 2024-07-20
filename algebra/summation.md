@@ -308,6 +308,25 @@ x_1 + x_2 + x_3 + x_4 =
 }
 $$
 
+### Commutativity and Associativity
+
+$$
+\begin{array}{ll}
+\displaystyle\sum_{k \leq j \leq i \leq n}
+a_{i,j} & =
+\displaystyle\sum_{i=k}^n
+\displaystyle\sum_{j=k}^i
+a_{i,j}
+\\
+& = \displaystyle\sum_{j=k}^n
+\displaystyle\sum_{i=j}^n
+a_{i,j}
+\\
+& = \displaystyle\sum_{j=0}^{n-k}
+\displaystyle\sum_{i=k}^{n-j} a_{i+j,i}
+\end{array}
+$$
+
 ### Functions
 
 #### Exponential
