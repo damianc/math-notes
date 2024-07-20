@@ -312,18 +312,18 @@ $$
 
 $$
 \begin{array}{ll}
-\displaystyle\sum_{k \leq j \leq i \leq n}
+\displaystyle\sum_{{\color{red}k} \leq j \leq i \leq {\color{blue}n}}
 a_{i,j} & =
-\displaystyle\sum_{i=k}^n
-\displaystyle\sum_{j=k}^i
+\displaystyle\sum_{i={\color{red}k}}^{\color{blue}n}
+\displaystyle\sum_{j={\color{red}k}}^i
 a_{i,j}
 \\
-& = \displaystyle\sum_{j=k}^n
-\displaystyle\sum_{i=j}^n
+& = \displaystyle\sum_{j={\color{red}k}}^{\color{blue}n}
+\displaystyle\sum_{i=j}^{\color{blue}n}
 a_{i,j}
 \\
-& = \displaystyle\sum_{j=0}^{n-k}
-\displaystyle\sum_{i=k}^{n-j} a_{i+j,i}
+& = \displaystyle\sum_{j=0}^{{\color{blue}n}-{\color{red}k}}
+\displaystyle\sum_{i={\color{red}k}}^{{\color{blue}n}-j} a_{i+j,i}
 \end{array}
 $$
 
