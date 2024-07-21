@@ -28,3 +28,14 @@ $$
 &...&...&...&...&...&...&...&...&...&...&...
 \end{array}
 $$
+
+## Terms of n-th Row
+
+A set of terms of n-th row of Pascal's triangle can be defined with set-builder notation as follows:
+
+$$
+\left\\{
+t_i \ |\ i \in [0,n],
+t_i = \binom{n}{i}
+\right\\}
+$$
