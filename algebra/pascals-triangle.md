@@ -35,7 +35,7 @@ A set of terms of n-th row of Pascal's triangle can be defined with set-builder 
 
 $$
 \left\\{
-t_i \ |\ i \in [0,n],
-t_i = \binom{n}{i}
+t_i \ |\ i \in [1,n+1],
+t_i = \binom{n}{i-1}
 \right\\}
 $$
