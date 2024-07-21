@@ -64,6 +64,7 @@ $$
 | | $\\{\ X \subseteq S: \|X\| = k \ \\}$ |
 | points forming a circle | $\\{\ (x,y) \in \mathbb{R}^2 \ \|\ (x-a)^2+(y-b)^2=r^2 \land (a,b,r \in \mathbb{R}) \ \\}$ |
 | | $\\{\ p \in \mathbb{R}^2 \ \|\ (p_1-a)^2+(p_2-b)^2=r^2 \land (a,b,r \in \mathbb{R}) \ \\}$ |
+| terms of n-th row of the Pascal's triangle | $\left\\{ t_i \ \|\ i \in [1,n+1],t_i = \binom{n}{i-1} \right\\}$ |
 
 ### Examples in Terms of Sequences
 
