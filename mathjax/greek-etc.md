@@ -29,6 +29,36 @@
 | $\psi$ | `\psi` | $\Psi$ | `\Psi` | $\varPsi$ | `\varPsi` |
 | $\omega$ | `\omega` | $\Omega$ | `\Omega` | $\varOmega$ | `\varOmega` |
 
+### "Up" Letters
+
+| Char(s) | Symbol |
+|--|--|
+| $\upalpha$ | `\upalpha` |
+| $\upbeta$ | `\upbeta` |
+| $\upgamma$, $\Upgamma$ | `\upgamma`, `\Upgamma` |
+| $\updelta$, $\Updelta$ | `\updelta`, `\Updelta` |
+| $\upepsilon$ | `\upepsilon` |
+| $\upzeta$ | `\upzeta` |
+| $\upeta$ | `\upeta` |
+| $\uptheta$, $\Uptheta$ | `\uptheta`, `\Uptheta` |
+| $\upiota$ | `\upiota` |
+| $\upkappa$ | `\upkappa` |
+| $\uplambda$, $\Uplambda$ | `\uplambda`, `\Uplambda` |
+| $\upmu$ | `\upmu` |
+| $\upnu$ | `\upnu` |
+| $\upxi$, $\Upxi$ | `\upxi`, `\Upxi` |
+| $\upomicron$ | `\upomicron` |
+| $\uppi$, $\Uppi$ | `\uppi`, `\Uppi` |
+| $\uprho$ | `\uprho` |
+| $\upsigma$, $\Upsigma$ | `\upsigma`, `\Upsigma` |
+| $\uptau$ | `\uptau` |
+| $\upupsilon$, $\Upupsilon$ | `\upupsilon`, `\Upupsilon` |
+| $\upphi$, $\Upphi$ | `\upphi`, `\Upphi` |
+| $\upchi$ | `\upchi` |
+| $\uppsi$, $\Uppsi$ | `\uppsi`, `\Uppsi` |
+| $\upomega$, $\Upomega$ | `\upomega`, `\Upomega` |
+
+
 ## Others
 
 ### Greek-like
