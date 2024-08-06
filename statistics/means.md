@@ -9,4 +9,4 @@
 | root (with degree $d$) | $$\overline{x}_{\tiny R(d)} = \left(\frac{\sum \sqrt[d]{x}}{n}\right)^d$$ | $$\overline{x}_{\tiny WR(d)} = \left(\frac{\sum \sqrt[d]{x} \cdot w}{\sum w}\right)^d$$ |
 | logarithmic (with base $b$) | $$\overline{x}_{\tiny L(b)} = e^{\square}, \square = \frac{\sum \log_b(x)}{n}$$ | $$\overline{x}_{\tiny WL(b)} = e^{\square}, \square = \frac{\sum \log_b(x) \cdot w}{\sum w}$$ |
 
-> $\sum \log_b(x) {\color{#aaa} \cdot w}$ can be replaced with $\log_b\left( \prod x^{\color{#aaa} w} \right)$
+> $\sum \log_b(x) {\color{#aaa} \cdot w}$ can be replaced with $\log_b\left( \prod x^{\color{#aaa} w} \right)$ (it also applies to $\ln$)
