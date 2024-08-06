@@ -27,5 +27,8 @@ $$
 | arithmetic | $$\frac{\hat{x}[\Sigma w] - \Sigma xw}{\nabla-\hat{x}} = \frac{\Sigma w(\hat{x}-x)}{\nabla-\hat{x}}$$ |
 | geometric | $$\frac{\ln(\Pi x^w)-[\Sigma w]\ln(\hat{x})}{\ln(\hat{x})-\ln(\nabla)}$$ |
 | harmonic | $$\frac{\nabla\left(\left[\sum w\right]-\hat{x}\sum\frac{w}{x}\right)}{\hat{x}-\nabla}$$ |
+| power | $$\frac{\hat{x}^p[\Sigma w]-\Sigma wx^p}{\nabla^p-\hat{x}^p}$$ |
+| root | $$\frac{\sqrt[d]{\hat{x}}[\Sigma w]-\Sigma w \sqrt[d]{x}}{\sqrt[d]{\nabla}-\sqrt[d]{\hat{x}}}$$ |
+| logarithmic | $$\frac{[\Sigma w]\ln(\hat{x})-\log_b(\Pi x^w)}{\log_b(\nabla)-\ln(\hat{x})}$$ |
 
 
