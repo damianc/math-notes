@@ -17,3 +17,4 @@ $$
 | geometric | $$\cfrac{\hat{x}^{n+1}}{\Pi x}$$ | $$\sqrt[\lambda]{\cfrac{\hat{x}^{\lambda+\Sigma w}}{\Pi x^w}}$$ |
 | harmonic | $$\left( \frac{n+1}{\hat{x}} - \sum \frac{1}{x} \right)^{-1}$$ | $${\large\lambda} \cdot \left( \frac{\lambda+\Sigma w}{\hat{x}} - \sum \frac{w}{x} \right)^{-1}$$ |
 | power | $$\sqrt[p]{\hat{x}^p(n+1)-\Sigma x^p}$$ | $$\sqrt[p]{{\large\lambda}^{-1} \cdot \left[ \hat{x}^p(\lambda+\Sigma w) - \Sigma wx^p \right]}$$ |
+| root | $$\left( \sqrt[d]{\hat{x}}(n+1)-\Sigma \sqrt[d]{x} \right)^d$$ | $$\left( {\large\lambda}^{-1} \cdot \left[ \sqrt[d]{\hat{x}} \left( {\large\lambda}+\sum w \right) - \sum w \sqrt[d]{x} \right] \right)^d$$ |
