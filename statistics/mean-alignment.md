@@ -14,5 +14,5 @@ $$
 | Type | $\nabla$ | $\nabla_W$ |
 |--|--|--|
 | arithmetic | $$\hat{x}(n+1)-\Sigma x$$ | $$\frac{1}{\lambda}\left[ \hat{x}\left(\lambda + \Sigma w\right) - \Sigma xw \right]$$ |
-| geometric | $$\frac{\hat{x}^{n+1}}{\Pi x}$$ | $$\sqrt[\lambda]{\frac{\hat{x}^{\lambda+\Sigma w}}{\Pi x^w}}$$ |
+| geometric | $$\cfrac{\hat{x}^{n+1}}{\Pi x}$$ | $$\sqrt[\lambda]{\cfrac{\hat{x}^{\lambda+\Sigma w}}{\Pi x^w}}$$ |
 | harmonic | $$\left( \frac{n+1}{\hat{x}} - \sum \frac{1}{x} \right)^{-1}$$ | $${\large\lambda}\left( \frac{\lambda+\Sigma w}{\hat{x}} - \sum \frac{w}{x} \right)^{-1}$$ |
