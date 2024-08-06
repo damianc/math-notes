@@ -20,7 +20,7 @@ $$
 | root | $$\left( \sqrt[d]{\hat{x}}(n+1)-\Sigma \sqrt[d]{x} \right)^d$$ | $$\left( {\large\lambda}^{-1} \cdot \left[ \sqrt[d]{\hat{x}} \left( {\large\lambda}+\sum w \right) - \sum w \sqrt[d]{x} \right] \right)^d$$ |
 | logarithmic | $${\large b}^{(n+1)\ln(\hat{x})-\Sigma \log_b(x)}$$ | $$\sqrt[\lambda]{{\large b}^{(\lambda+\Sigma w)\ln(\hat{x})-\Sigma w \log_b(x)}}$$ |
 
-## Weight $\lambda$ of new value $\nabla_W$ to set mean $\hat{x}$
+## Weight $\lambda$ of new value $\nabla$ to set mean $\hat{x}$
 
 | Type | $\lambda$ |
 |--|--|
@@ -31,4 +31,4 @@ $$
 | root | $$\frac{\sqrt[d]{\hat{x}}[\Sigma w]-\Sigma w \sqrt[d]{x}}{\sqrt[d]{\nabla}-\sqrt[d]{\hat{x}}}$$ |
 | logarithmic | $$\frac{[\Sigma w]\ln(\hat{x})-\log_b(\Pi x^w)}{\log_b(\nabla)-\ln(\hat{x})}$$ |
 
-
+> $\log_b\left( \prod x^{\color{#aaa} w} \right)$ can be replaced with $\sum \log_b(x) {\color{#aaa} \cdot w}$ (it also applies to $\ln$)
