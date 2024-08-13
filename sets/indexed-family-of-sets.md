@@ -32,3 +32,27 @@ $$
 & A_2 = \\{ 2,4 \\}
 \end{array}
 $$
+
+----
+
+- if indexing set $T = \\{ 1,2,3,4 \\}$
+- _t-th_ set of ${\cal F}$ is defined as $A_t = \\{ m \in {\mathbb N}: t \lt m \\}$
+- ${\cal F}$ is thereby as follows:
+
+$$
+{\cal F} = \\{A_t\\}_{t \in T} = \\{ m \in {\mathbb N}: t \lt m \\}
+$$
+
+- terms of ${\cal F}$ are as follows:
+
+$$
+\begin{array}{l}
+A_1 = \\{ 2,3,4,5,\dots \\}
+\\
+A_2 = \\{ 3,4,5,6,\dots \\}
+\\
+A_3 = \\{ 4,5,6,7,\dots \\}
+\\
+A_4 = \\{ 5,6,7,8,\dots \\}
+\end{array}
+$$
