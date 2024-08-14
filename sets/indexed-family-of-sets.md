@@ -40,7 +40,7 @@ $$
 - ${\cal F}$ is thereby as follows:
 
 $$
-{\cal F} = \\{A_t\\}_{t \in T} = \\{ m \in {\mathbb N}: t \lt m \\}
+{\cal F} = \\{A_t\\}_{t \in T} = \\{ m \in {\mathbb N}: t \lt m \\}\_{t \in T}
 $$
 
 - terms of ${\cal F}$ are as follows:
