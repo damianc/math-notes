@@ -15,6 +15,8 @@ $$
 
 ## Examples
 
+### Example 1
+
 indexing set:  
 $I = \\{ 1,2 \\}$
 
@@ -34,7 +36,7 @@ A_2 & = & \\{ 2,4 \\}
 \end{array}
 $$
 
-----
+### Example 2
 
 indexing set:  
 $T = \\{ 1,2,3,4 \\}$
@@ -67,7 +69,7 @@ A_4 & = & \\{ m \in {\Bbb N}: 4 \lt m \\}
 \end{array}
 $$
 
-----
+### Example 3
 
 indexing set:  
 $T = \\{ 1,2,3,4 \\}$
@@ -100,7 +102,7 @@ A_4 & = & \\{ x \in T: x \neq 4 \\}
 \end{array}
 $$
 
-----
+### Example 4
 
 indexing set:  
 $T = {\Bbb N}$
@@ -137,7 +139,7 @@ $$
 \cdots \cdots \cdots \cdots
 $$
 
-----
+### Example 5
 
 > index is not required to be a natural number; index $i$ can belong to any set, for example ${\Bbb Z}$ or ${\Bbb R}$, and therefore be assigned value like $-\sqrt{2}$ or $\frac{1}{2}$
 
