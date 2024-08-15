@@ -50,7 +50,9 @@ $$
 \underset{t \in T}{\large\exists}
 \left( x \notin A_t \right)$$
 
-## Example
+## Examples
+
+### Example 1
 
 indexing set:  
 $I = \\{ 1,2 \\}$
@@ -83,6 +85,50 @@ $$
 \displaystyle\bigcap_{i \in I} A_i & = & A_1 \cap A_2
 \\
 & = & \\{ 2 \\}
+\end{array}
+$$
+
+### Example 2
+
+indexing set:  
+$T = \\{ 1,2,3,4 \\}$
+
+indexed family:  
+${\cal F} = \\{ A_t \\}_{t \in T} = \\{ A_1,A_2,A_3,A_4 \\}$
+
+_t-th_ term of ${\cal F}$:  
+$A_t = \\{ m \in {\Bbb N}: t \lt m \\}$
+
+terms of ${\cal F}$:
+
+$$
+\begin{array}{rcl}
+A_1 & = & \\{ 2,3,4,5,\dots \\}
+\\
+A_2 & = & \\{ 3,4,5,6,\dots \\}
+\\
+A_3 & = & \\{ 4,5,6,7,\dots \\}
+\\
+A_4 & = & \\{ 5,6,7,8,\dots \\}
+\end{array}
+$$
+
+generalized union and intersection:
+
+$$
+\begin{array}{rcl}
+\displaystyle\bigcup_{t \in T} A_t & = & A_1 \cup A_2 \cup A_3 \cup A_4
+\\
+& = & \\{ 2,3,4,5,\dots \\}
+\\
+& = & {\Bbb N} \setminus \\{ 1 \\}
+\\
+\\
+\displaystyle\bigcap_{t \in T} A_t & = & A_1 \cap A_2 \cap A_3 \cap A_4
+\\
+& = & \\{ 5,6,7,8,\dots \\}
+\\
+& = & {\Bbb N} \setminus \\{ 1,2,3,4 \\}
 \end{array}
 $$
 
