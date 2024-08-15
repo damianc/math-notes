@@ -173,3 +173,46 @@ $$
 $$
 \cdots \cdots \cdots \cdots
 $$
+
+----
+
+> index is not required to be a natural number; index $i$ can belong to any set, for example ${\Bbb Z}$ or ${\Bbb R}$, and therefore be assigned value like $-\sqrt{2}$ or $\frac{1}{2}$
+
+indexing set:  
+$K = {\Bbb Z}$
+
+indexed family:  
+${\cal F} = \\{ A_k \\}\_{k \in K} = \\{ A_k \\}\_{k \in {\Bbb Z}} = \\{ \dots,A_{-1},A_0,A_1,A_2,\dots \\}$
+
+_k-th_ term of ${\cal F}$:  
+$A_k = \\{ x \in {\Bbb Z}: |x| \le k^2 \\}$
+
+example terms of ${\cal F}$:
+
+$$
+\cdots \cdots \cdots \cdots
+$$
+
+$$
+\begin{array}{ccl}
+A_{-1} & = &  \\{ x \in {\Bbb Z}: |x| \le 1 \\}
+\\
+& = & \\{ -1,0,1 \\}
+\\
+A_0 & = &  \\{ x \in {\Bbb Z}: |x| \le 0 \\}
+\\
+& = & \\{ 0 \\}
+\\
+A_1 & = &  \\{ x \in {\Bbb Z}: |x| \le 1 \\}
+\\
+& = & \\{ -1,0,1 \\}
+\\
+A_2 & = &  \\{ x \in {\Bbb Z}: |x| \le 4 \\}
+\\
+& = & \\{ -4,-3,-2,-1,0,1,2,3,4 \\}
+\end{array}
+$$
+
+$$
+\cdots \cdots \cdots \cdots
+$$
