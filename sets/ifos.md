@@ -1,5 +1,5 @@
 $$
-\begin{array}{rlcl}
+\begin{array}{rccl}
 \because &
 I & = & \\{ 1,2 \\}
 \\
@@ -21,7 +21,7 @@ $$
 ----
 
 $$
-\begin{array}{rlcl}
+\begin{array}{rccl}
 \because &
 T & = & \\{ 1,2,3,4 \\}
 \\
