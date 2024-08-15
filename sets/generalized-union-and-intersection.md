@@ -48,7 +48,12 @@ $$
 \left( x \notin \bigcap_{t \in T} A_t \right)
 \iff
 \underset{t \in T}{\large\exists}
-\left( x \notin A_t \right)$$
+\left( x \notin A_t \right)
+$$
+
+> **simply put:**
+> - $x$ belongs to a union if it is present in _at least one subset_ of a family
+> - $x$ belongs to an intersection if it is present in _every subset_ of the family
 
 ## Examples
 
@@ -129,6 +134,46 @@ $$
 & = & \\{ 5,6,7,8,\dots \\}
 \\
 & = & {\Bbb N} \setminus \\{ 1,2,3,4 \\}
+\end{array}
+$$
+
+### Example 3
+
+indexing set:  
+$T = \\{ 1,2,3,4 \\}$
+
+indexed family:  
+${\cal F} = \\{ A_t \\}_{t \in T} = \\{ A_1,A_2,A_3,A_4 \\}$
+
+_t-th_ term of ${\cal F}$:  
+$A_t = \\{ x \in T: x \neq t \\}$
+
+terms of ${\cal F}$:
+
+$$
+\begin{array}{rcl}
+A_1 & = & \\{ 2,3,4 \\}
+\\
+A_2 & = & \\{ 1,3,4 \\}
+\\
+A_3 & = & \\{ 1,2,4 \\}
+\\
+A_4 & = & \\{ 1,2,3 \\}
+\end{array}
+$$
+
+generalized union and intersection:
+
+$$
+\begin{array}{rcl}
+\displaystyle\bigcup_{t \in T} A_t & = & A_1 \cup A_2 \cup A_3 \cup A_4
+\\
+& = & \\{ 1,2,3,4 \\}
+\\
+\\
+\displaystyle\bigcap_{t \in T} A_t & = & A_1 \cap A_2 \cap A_3 \cap A_4
+\\
+& = & \varnothing
 \end{array}
 $$
 
