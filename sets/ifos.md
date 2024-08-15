@@ -143,7 +143,7 @@ indexing set:
 $T = {\Bbb N}$
 
 indexed family:  
-${\cal F} = \\{ A_n \\}\_{n \in T} = \\{ A_n \\}_{n \in {\Bbb N}} = \\{ A_1,A_2,A_3,A_4,\dots \\}$
+${\cal F} = \\{ A_n \\}\_{n \in T} = \\{ A_1,A_2,A_3,A_4,\dots \\}$
 
 _n-th_ term of ${\cal F}$:  
 $A_n = \\{ x \in {\Bbb Z}: (-1)^n \le x \le n \\}$
@@ -182,7 +182,7 @@ indexing set:
 $K = {\Bbb Z}$
 
 indexed family:  
-${\cal F} = \\{ A_k \\}\_{k \in K} = \\{ A_k \\}\_{k \in {\Bbb Z}} = \\{ \dots,A_{-1},A_0,A_1,A_2,\dots \\}$
+${\cal F} = \\{ A_k \\}\_{k \in K} = \\{ \dots,A_{-1},A_0,A_1,A_2,\dots \\}$
 
 _k-th_ term of ${\cal F}$:  
 $A_k = \\{ x \in {\Bbb Z}: |x| \le k^2 \\}$
