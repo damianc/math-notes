@@ -49,3 +49,36 @@ A_4 & = & \\{ m \in {\Bbb N}: 4 \lt m \\}
 & = & \\{ 5,6,7,8,\dots \\}
 \end{array}
 $$
+
+----
+
+indexing set:  
+$T = \\{ 1,2,3,4 \\}$
+
+indexed family:  
+${\cal F} = \\{ A_t \\}_{t \in T} = \\{ A_1,A_2,A_3,A_4 \\}$
+
+_t-th_ term of ${\cal F}$:  
+$A_t = \\{ x \in T: x \neq t \\}$
+
+terms of ${\cal F}$:
+
+$$
+\begin{array}{ccl}
+A_1 & = & \\{ x \in T: x \neq 1 \\}
+\\
+& = & \\{ 2,3,4 \\}
+\\
+A_2 & = & \\{ x \in T: x \neq 2 \\}
+\\
+& = & \\{ 1,3,4 \\}
+\\
+A_3 & = & \\{ x \in T: x \neq 3 \\}
+\\
+& = & \\{ 1,2,4 \\}
+\\
+A_4 & = & \\{ x \in T: x \neq 4 \\}
+\\
+& = & \\{ 1,2,3 \\}
+\end{array}
+$$
