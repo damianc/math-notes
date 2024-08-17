@@ -10,5 +10,6 @@
 | logarithmic (with base $b$) | $$\overline{x}_{\tiny L(b)} = e^{\square}, \square = \frac{\sum \log_b(x)}{n}$$ | $$\overline{x}_{\tiny WL(b)} = e^{\square}, \square = \frac{\sum \log_b(x) \cdot w}{\sum w}$$ |
 | contraharmonic (Lehmer mean with $p=2$) | $$\overline{x}_{\tiny C} = \frac{\Sigma x^2}{\Sigma x}$$ | $$\overline{x}_{\tiny WC} = \frac{\Sigma wx^2}{\Sigma wx}$$ |
 | Lehmer | $$\overline{x}_{\tiny Lh(p)} = \frac{\Sigma x^p}{\Sigma x^{p-1}}$$ | $$\overline{x}_{\tiny WLh(p)} = \frac{\Sigma wx^p}{\Sigma wx^{p-1}}$$ |
+| generalized _f_-mean (with function $f(x)$ ) | $$\overline{x}_{\tiny F(f)} = f^{-1}\left( \frac{\Sigma f(x)}{n} \right)$$ | $$\overline{x}_{\tiny WF(f)} = f^{-1}\left( \frac{\Sigma w \cdot f(x)}{\Sigma w} \right)$$ |
 
 > $\sum \log_b(x) {\color{#aaa} \cdot w}$ can be replaced with $\log_b\left( \prod x^{\color{#aaa} w} \right)$ (it also applies to $\ln$)
