@@ -78,3 +78,48 @@ A \cap \left[ \displaystyle\bigcup_{t \in T} A_t \right] \quad=\quad
 \end{array}
 $$
 
+----
+
+$$
+\begin{array}{l}
+\left|\begin{array}{l}
+A - \displaystyle\bigcup_{t \in T} A_t =
+\displaystyle\bigcap_{t \in T}\ (A-A_t)
+\\
+\ 
+\\
+A - \displaystyle\bigcap_{t \in T} A_t =
+\displaystyle\bigcup_{t \in T}\ (A-A_t)
+\end{array}\right.
+\\
+\ 
+\\
+\ 
+\\
+\left|\begin{array}{l}
+X - \displaystyle\bigcup_{t \in T} A_t =
+\displaystyle\bigcap_{t \in T}\ (X-A_t)
+\\
+\ 
+\\
+X - \displaystyle\bigcap_{t \in T} A_t =
+\displaystyle\bigcup_{t \in T}\ (X-A_t)
+\end{array}\right.
+\\
+\ 
+\\
+\ 
+\\
+\left|\begin{array}{l}
+\ - \displaystyle\bigcup_{t \in T} A_t =
+\displaystyle\bigcap_{t \in T}\ -A_t
+\\
+\ 
+\\
+\ - \displaystyle\bigcap_{t \in T} A_t =
+\displaystyle\bigcup_{t \in T}\ -A_t
+\end{array}\right.
+\end{array}
+$$
+
+
