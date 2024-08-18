@@ -167,4 +167,24 @@ X - \displaystyle\bigcap_{t \in T} A_t =
 \end{array}
 $$
 
+----
+
+$$
+\begin{array}{l}
+P = \wp(A)
+\\
+\displaystyle\bigcup_{p \in P} p =
+A
+\end{array}
+$$
+
+$$
+\begin{array}{l}
+P = \wp(A)
+\\
+\displaystyle\bigcap_{p \in P} p =
+\varnothing
+\end{array}
+$$
+
 
