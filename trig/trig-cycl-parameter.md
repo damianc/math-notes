@@ -9,3 +9,5 @@
 | $2 \arcsin(x)$ | $$2x\sqrt{1-x^2}$$ | $$1-2x^2$$ | $$\frac{2x\sqrt{1-x^2}}{1-2x^2}$$ |
 | $2 \arccos(x)$ | $$2x\sqrt{1-x^2}$$ | $$2x^2-1$$ | $$\frac{2x\sqrt{1-x^2}}{2x^2-1}$$ |
 | $2 \arctan(x)$ | $$\frac{2x}{1+x^2}$$ | $$\frac{2}{1+x^2}-1$$ | $$\frac{2x}{1-x^2}$$ |
+
+> examples: $\cos(\arcsin(x)) = \sqrt{1-x^2}$, $\cos(2 \arcsin(x)) = 1-2x^2$
