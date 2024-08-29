@@ -6,6 +6,8 @@
 | between point $P$ and line $f(x)$ | $$\frac{\vert ax_p - y_p + b \vert}{\sqrt{1+a^2}}$$ | $$\frac{\vert f(x_p) - y_p \vert}{\sqrt{1+([f(x)]_0^1)^2}}$$ |
 | between points $A$ and $B$ | $$\sqrt{(x_2 - x_1)^2+(y_2 - y_1)^2}$$ | |
 
+> $[f(x)]_0^1 \equiv f(1)-f(0)$
+
 > **Formulas above hold having lines:**  
 > $f(x) = a_1 x + b_1$ (or: $ax+b$)  
 > $g(x) = a_2 x + b_2$  
@@ -14,5 +16,3 @@
 > $P = (x_p, y_p)$  
 > $A = (x_1,y_1)$  
 > $B = (x_2,y_2)$
-
-> $[f(x)]_0^1 \equiv f(1)-f(0)$
