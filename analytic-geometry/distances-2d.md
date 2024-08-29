@@ -8,11 +8,11 @@
 
 > $[f(x)]_0^1 \equiv f(1)-f(0)$
 
-> **Formulas above hold, having lines:**  
+> **Formulas above hold for lines:**  
 > $f(x) = a_1 x + b_1$ (or: $ax+b$)  
 > $g(x) = a_2 x + b_2$  
 >   
-> **and points:**  
+> **and for points:**  
 > $P = (x_p, y_p)$  
 > $A = (x_1,y_1)$  
 > $B = (x_2,y_2)$
