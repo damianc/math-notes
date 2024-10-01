@@ -40,6 +40,20 @@ a_1 \cdot n & \text{if } \Delta=1
 \end{cases}
 $$
 
+## Other Formulas
+
+- position of term $x$:
+
+$$
+n = 1+\log_{\Delta}\left(\frac{x}{a_1}\right)
+$$
+
+- size of a finite sequence (with $z$ being the last term):
+
+$$
+L = 1+log_{\Delta}\left(\frac{z}{a_1}\right)
+$$
+
 ## Constructing a Sequence
 
 $$
