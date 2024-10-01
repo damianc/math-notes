@@ -14,6 +14,8 @@ $$
 
 > the difference factor $\Delta$ can be negative and form a descending sequence like $4,2,0,-2,-4,-6,...$
 
+> every term is arithmetic mean of its siblings: $a_{n+1} = \frac{a_n+a_{n+2}}{2}$
+
 Arithmetic sequence may be defined in set-builder notation as:
 
 $$
