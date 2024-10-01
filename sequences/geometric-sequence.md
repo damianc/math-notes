@@ -39,3 +39,24 @@ a_1 \cdot \frac{1-\Delta^n}{1-\Delta} & \text{if } \Delta \neq 1
 a_1 \cdot n & \text{if } \Delta=1
 \end{cases}
 $$
+
+## Constructing a Sequence
+
+$$
+\Delta = \sqrt[n-1]{\frac{a_n}{a_1}}
+$$
+
+Where:
+- $a_1$ - first term
+- $a_n$ - last term
+- $n$ - desired length of the sequence
+
+For example, if $a_1=2$, $a_n=16$ and $n=4$:
+
+$$
+\Delta = \sqrt[4-1]{\frac{16}{2}} = \sqrt[3]{8} = 2
+$$
+
+| $a_1$ | $a_2$ | $a_3$ | $a_4$ |
+|--|--|--|--|
+| 2 | 4 | 8 | 16 |
