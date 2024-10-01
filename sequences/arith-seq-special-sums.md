@@ -18,4 +18,4 @@
 | terms from _k-th_ to _t-th_ ** | $$S_{k → t}^{(s)} = \frac{1}{2}\left( \frac{t-k}{s} + 1 \right)(a_k + a_t)$$ | $$S_{k → t}^{(s)} = \left(\frac{t-k}{s}+1\right)\left( a_1 + \frac{1}{2}\Delta(k+t-2) \right)$$ |
 
 > \* - for a finite sequence $L$ in length  
-> \** - for $r(a,b) = a-b \cdot \lfloor \frac{a}{b} \rfloor$, if $\overline{r} = r(t-k,s) \neq 0$, then $t=t-\overline{r}, a_t=a_{t-\overline{r}}$
+> \** - for $r(a,b) = a-b \cdot \lfloor \frac{a}{b} \rfloor$, if $\overline{r} = r(t-k,s) \neq 0$ (i.e., $(t-k) \not\equiv 0 \bmod s$), then $t=t-\overline{r}, a_t=a_{t-\overline{r}}$
