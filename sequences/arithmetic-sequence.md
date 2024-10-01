@@ -43,3 +43,24 @@ or as repeated $n$ times arithmetic mean of first and last terms:
 $$
 S_n = \frac{a_1+a_n}{2} \cdot n
 $$
+
+## Other Formulas
+
+- position of term $x$:
+
+$$
+n = 1+\frac{x-a_1}{\Delta}
+$$
+
+- size of a finite sequence (with $z$ being the last term):
+
+$$
+L = 1+\frac{z-a_1}{\Delta}
+$$
+
+- _m-th_ term by _k-th_ and _n-th_ terms:
+
+$$
+a_m = a_k + \frac{(n-2k+1)(a_n-a_k)}{n-k}
+$$
+
