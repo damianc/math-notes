@@ -12,6 +12,12 @@ $$
 0,2,4,6,8,10,12,14,...
 $$
 
+Arithmetic sequence may be defined in set-builder notation as:
+
+$$
+\\{ a_1 + (n-1)\Delta \vert n \geqslant 1 \\}
+$$
+
 ## Getting _n-th_ Term
 
 $$
