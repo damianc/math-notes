@@ -64,3 +64,23 @@ $$
 a_m = a_k + \frac{(n-2k+1)(a_n-a_k)}{n-k}
 $$
 
+## Constructing a Sequence
+
+$$
+\Delta = \frac{a_n-a_1}{n-1}
+$$
+
+Where:
+- $a_1$ - first term
+- $a_n$ - last term
+- $n$ - desired length of the sequence
+
+For example, if $a_1=4$, $a_n=24$ and $n=6$:
+
+$$
+\Delta = \frac{24-4}{6-1} = 4
+$$
+
+| $a_1$ | $a_2$ | $a_3$ | $a_4$ | $a_5$ | $a_6$ |
+|--|--|--|--|--|--|
+| 4 | 8 | 12 | 16 | 20 | 24 |
