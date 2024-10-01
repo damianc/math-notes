@@ -12,6 +12,8 @@ For example, if the very first term $a_1=2$:
 - for $\Delta=-2$, the sequence is $2,-4,8,-16,32,-64,...$
 - for $\Delta=0.5$, the sequence is $2,1,\frac{1}{2},\frac{1}{4},\frac{1}{8},\frac{1}{16},...$
 
+> every term is geometric mean of its siblings: $a_{n+1} = \sqrt{a_n \cdot a_{n+2}}$
+
 Geometric sequence may be defined in set-builder notation as:
 
 $$
