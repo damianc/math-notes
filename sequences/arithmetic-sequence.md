@@ -23,3 +23,15 @@ $$
 $$
 a_n = a_k + (n-k)\Delta
 $$
+
+## Sum of $n$ First Terms
+
+$$
+S_n = \left[ a_1+ \frac{(n-1)\Delta}{2} \right] \cdot n
+$$
+
+or as repeated $n$ times arithmetic mean of first and last terms:
+
+$$
+S_n = \frac{a_1+a_n}{2} \cdot n
+$$
