@@ -12,6 +12,8 @@ $$
 0,2,4,6,8,10,12,14,...
 $$
 
+> the difference factor $\Delta$ can be negative and form a descending sequence like $4,2,0,-2,-4,-6,...$
+
 Arithmetic sequence may be defined in set-builder notation as:
 
 $$
