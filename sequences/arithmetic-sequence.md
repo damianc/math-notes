@@ -63,7 +63,7 @@ $$
 - _m-th_ term by _k-th_ and _n-th_ terms ($k \lt m \lt n$):
 
 $$
-a_m = a_k + \frac{(n-2k+1)(a_n-a_k)}{n-k}
+a_m = a_k + \frac{(m-k)(a_n-a_k)}{n-k}
 $$
 
 ## Constructing a Sequence
