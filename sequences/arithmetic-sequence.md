@@ -60,7 +60,7 @@ $$
 L = 1+\frac{z-a_1}{\Delta}
 $$
 
-- _m-th_ term by _k-th_ and _n-th_ terms:
+- _m-th_ term by _k-th_ and _n-th_ terms ($k \lt m \lt n$):
 
 $$
 a_m = a_k + \frac{(n-2k+1)(a_n-a_k)}{n-k}
