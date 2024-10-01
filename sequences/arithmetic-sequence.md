@@ -3,7 +3,7 @@
 Arithemic sequence is a sequence in which _n-th_ term is defined as:
 
 $$
-a_n = a_{n-1}+\Delta
+a_{n+1} = a_{n}+\Delta
 $$
 
 For example, for a difference factor $\Delta = 2$ and the very first term $a_1=0$, the sequence starts as follows:
