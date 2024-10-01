@@ -56,7 +56,7 @@ $$
 L = 1+log_{\Delta}\left(\frac{z}{a_1}\right)
 $$
 
-- _m-th_ term by _k-th_ and _n-th_ terms:
+- _m-th_ term by _k-th_ and _n-th_ terms ($k \lt m \lt n$):
 
 $$
 a_m = a_k \cdot \left(\frac{a_n}{a_k}\right)^{\frac{n-m}{n-1}}
