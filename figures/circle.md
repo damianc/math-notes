@@ -14,3 +14,30 @@
 | segment area | $\frac{1}{2}r^2(\alpha - \sin(\alpha))$ | $\sqrt{\frac{2x}{\alpha - \sin(\alpha)}}$ | by *numeral methods* |
 | perpendicular distance from circle center to chord | $r \cdot \cos(\frac{\alpha}{2})$ | $\frac{x}{\cos(\frac{\alpha}{2})}$ | $2 \cdot \arccos(\frac{x}{r})$ |
 | perpendicular distance from circle edge to chord | $\left(1-\cos\left(\frac{\alpha}{2}\right)\right)r$ | $\frac{x}{1-\cos\left(\frac{\alpha}{2}\right)}$ | $2 \cdot \arccos\left(1-\frac{x}{r}\right)$ |
+
+## $\alpha - \sin(\alpha)$
+
+Operation $\alpha - \sin(\alpha)$ cannot be simply reversed, some technique must be employeed.  
+  
+The function below uses the **Newton-Raphson method**:
+
+$x = \alpha - \sin(\alpha) \implies \alpha \approx \text{calcAlpha}(x)$
+
+```
+function calcAlpha(x) {
+  const f = alpha => alpha - Math.sin(alpha) - x;
+  const df = alpha => 1 - Math.cos(alpha);
+  
+  const tolerance = 1e-10;
+  let alpha = x;
+  let error = Infinity;
+
+  while (error > tolerance) {
+    const nextAlpha = alpha - f(alpha) / df(alpha);
+    error = Math.abs(nextAlpha - alpha);
+    alpha = nextAlpha;
+  }
+
+  return alpha;
+}
+```
