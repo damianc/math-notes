@@ -1,6 +1,6 @@
 # Circle Parameters
 
-| | |
+| Arc and Sector | Chord and Segment |
 |--|--|
 | ![Circle Arc and Sector](https://raw.githubusercontent.com/damianc/math-notes/refs/heads/master/_images/anal-geom/circle/circle-arc-sector.png) | ![Circle Chord and Segment](https://raw.githubusercontent.com/damianc/math-notes/refs/heads/master/_images/anal-geom/circle/circle-chord-segment.png) |
 
