@@ -84,6 +84,8 @@ $$
 
 $$
 \begin{array}{l}
+\varphi = \left(\frac{b}{a}\right)^2
+\\
 A = m^2+\varphi
 \\
 B = 2im
