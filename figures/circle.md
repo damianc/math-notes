@@ -1,5 +1,9 @@
 # Circle Parameters
 
+| | |
+|--|--|
+| ![Circle Arc and Sector](https://raw.githubusercontent.com/damianc/math-notes/refs/heads/master/_images/anal-geom/circle/circle-arc-sector.png) | ![Circle Chord and Segment](https://raw.githubusercontent.com/damianc/math-notes/refs/heads/master/_images/anal-geom/circle/circle-chord-segment.png) |
+
 | Parameter | Formula | Getting r from Parameter | Getting $\alpha$ from Parameter |
 |--|:--:|:--:|:--:|
 | circumference | $2{\pi}r$ | $\frac{x}{2\pi}$ | - |
