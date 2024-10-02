@@ -41,3 +41,6 @@ function calcAlpha(x) {
   return alpha;
 }
 ```
+
+> angle by segment area $x$ and radius $r$:  
+> $\alpha \approx \text{calcAlpha}\left( \frac{2x}{r^2} \right)$
