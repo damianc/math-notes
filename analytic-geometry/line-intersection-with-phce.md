@@ -52,6 +52,18 @@ C = a^2 + (b-i)^2 - r^2
 \end{array}
 $$
 
+- for a circle with center at $(0,0)$:
+
+$$
+\begin{array}{l}
+A = 1+m^2
+\\
+B = 2im
+\\
+C = i^2-r^2
+\end{array}
+$$
+
 ## Intersection with Ellipse
 
 ![Intersection of line and ellipse](https://raw.githubusercontent.com/damianc/math-notes/refs/heads/master/_images/anal-geom/intersection/line-intersection-with-ellipse.png)
@@ -65,6 +77,18 @@ A = m^2 + \varphi
 B = 2((i-k)m-\varphi h)
 \\
 C = (i-k)^2-b^2+\varphi h^2
+\end{array}
+$$
+
+- for an ellipse with center at $(0,0)$:
+
+$$
+\begin{array}{l}
+A = m^2+\varphi
+\\
+B = 2im
+\\
+C = i^2-b^2
 \end{array}
 $$
 
