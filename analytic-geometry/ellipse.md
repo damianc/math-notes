@@ -60,7 +60,7 @@ when $P=(h,k \pm b)$, then $d_1 = d_2 = a$
 
 ## Ellipse Components
 
-![Ellipse Components](https://raw.githubusercontent.com/damianc/math-notes/refs/heads/master/_images/anal-geom/ellipse/ellipse-components.png)
+![Ellipse Components](https://raw.githubusercontent.com/damianc/math-notes/refs/heads/master/_images/anal-geom/ellipse/ellipse-components.jpg)
 
 **major axis** ($2a$)  
 - the longest diameter of the ellipse
