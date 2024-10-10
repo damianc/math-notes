@@ -91,3 +91,9 @@ $$
  \sqrt{1+\tan^2(\phi)}
 }-x\right)\cot(\phi)+k
 $$
+
+Rotated ellipse lines are described as follows:
+
+- latus rectum: $LR_{1,2} = \Gamma(x,\pm c)$ for $c=\sqrt{a^2-b^2}$
+- directrix: $D_{1,2} = \Gamma(x,\pm d)$ for $d=\frac{a^2}{c}$
+- minor axis: $\Gamma(x,0)$
