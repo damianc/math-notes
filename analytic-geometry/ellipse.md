@@ -4,10 +4,10 @@
 
 ## Equation
 
-Given:
-- $a$ - semi-major axis (or: the longest radius)
-- $b$ - semi-minor axis (or: the shortest radius)
-- $(h,k)$ - the center of the ellipse
+> Given:
+> - $a$ - semi-major axis (or: the longest radius)
+> - $b$ - semi-minor axis (or: the shortest radius)
+> - $(h,k)$ - the center of the ellipse
 
 $$
 \frac{(x-h)^2}{a^2} + \frac{(y-k)^2}{b^2} = 1
