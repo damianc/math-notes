@@ -42,15 +42,15 @@ E = \left\\{
 \right\\}
 $$
 
+> given $d_1(P) = |PF_1|$ and $d_2(P) = |PF_2|$:
+>   
+> $\underset{P \in E}{\forall} d_1(P) + d_2(P) = 2a$
+
 ![Sum of Distances from Foci](https://raw.githubusercontent.com/damianc/math-notes/refs/heads/master/_images/anal-geom/ellipse/ellipse-dists-sum.png)
 
 $$
 {\color{#2ae} d_1} + {\color{#2ae} d_2} = {\color{purple} 2a}
 $$
-
-> given $d_1(P) = |PF_1|$ and $d_2(P) = |PF_2|$:
->   
-> $\underset{P \in E}{\forall} d_1(P) + d_2(P) = 2a$
 
 ### Special Case
 
