@@ -26,3 +26,14 @@ $$
 \end{array}
 $$
 
+## Point on Rotated Ellipse
+
+![Point on Rotated Ellipse](https://raw.githubusercontent.com/damianc/math-notes/refs/heads/master/_images/anal-geom/ellipse/rotated-ellipse-point-location.png)
+
+$$
+\begin{cases}
+P_x = a \cos(\phi) \cos(\theta) - b \sin(\phi) \sin(\theta) + h
+\\
+P_y = a \cos(\theta) \sin(\phi) + b \sin(\theta) \cos(\phi) + k
+\end{cases}
+$$
