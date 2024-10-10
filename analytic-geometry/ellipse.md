@@ -33,7 +33,7 @@ $$
 
 ## Definition
 
-An ellipse is a set of points where the sum of the distances from the fixed points (foci: $F_1$ and $F_2$) is constant and equal to $2a$ (length of the major axis).
+An ellipse is a set of points where the sum of the distances to two fixed points (foci: $F_1$ and $F_2$) is constant and equal to $2a$ (length of the major axis).
 
 $$
 E = \left\\{
