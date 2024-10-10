@@ -11,3 +11,25 @@ b^2 = a^2 + c^2 - 2ac \cos(\beta)
 c^2 = a^2 + b^2 - 2ab \cos(\gamma)
 \end{array}
 $$
+
+## Reading Angles
+
+$$
+\begin{array}{rcl}
+\cos(\alpha) & = & \frac{b^2+c^2-a^2}{2bc}
+\\
+\alpha &=& \arccos\left( \frac{b^2+c^2-a^2}{2bc} \right)
+\\
+\ 
+\\
+\cos(\beta) & = & \frac{a^2+c^2-b^2}{2ac}
+\\
+\beta &=& \arccos\left( \frac{a^2+c^2-b^2}{2ac} \right)
+\\
+\ 
+\\
+\cos(\gamma) & = & \frac{a^2+b^2-c^2}{2ab}
+\\
+\gamma &=& \arccos\left( \frac{a^2+b^2-c^2}{2ab} \right)
+\end{array}
+$$
