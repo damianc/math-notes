@@ -56,4 +56,9 @@ $$
 
 when $P=(h,k \pm b)$, then $d_1 = d_2 = a$
 
-![Sum of EqualDistances from Foci](https://raw.githubusercontent.com/damianc/math-notes/refs/heads/master/_images/anal-geom/ellipse/ellipse-dists-sum-special.png)
+![Sum of Equal Distances from Foci](https://raw.githubusercontent.com/damianc/math-notes/refs/heads/master/_images/anal-geom/ellipse/ellipse-dists-sum-special.png)
+
+## Ellipse Components
+
+![Ellipse Components](https://raw.githubusercontent.com/damianc/math-notes/refs/heads/master/_images/anal-geom/ellipse/ellipse-components.png)
+
