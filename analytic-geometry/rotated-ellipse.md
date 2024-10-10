@@ -38,6 +38,16 @@ P_y = a \cos(\theta) \sin(\phi) + b \sin(\theta) \cos(\phi) + k
 \end{cases}
 $$
 
+## Location of Special Points of Rotated Ellipse
+
+| Points | Location |
+|--|--|
+| foci | $$F_{1,2} = (h \pm c \cos(\phi), k \pm c \sin(\phi))$$ |
+| vertices | $$V_{1,2} = (h \pm a \cos(\phi), k \pm a \sin(\phi))$$ |
+| co-vertices | $$W_{1,2} = (h \mp b \sin(\phi), k \pm b \cos(\phi))$$ |
+
+> $c = \sqrt{a^2-b^2}$
+
 ## Equations of Lines of Rotated Ellipse
 
 ### Major Axis Line
