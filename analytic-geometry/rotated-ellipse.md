@@ -48,6 +48,52 @@ $$
 
 > $c = \sqrt{a^2-b^2}$
 
+### Latus Rectum Endpoints
+
+$$
+L_1 = \begin{cases}
+(h+\overline{x}, k+\hat{y})
+\\
+(h+\hat{x}, k+\overline{y})
+\end{cases}
+$$
+
+$$
+L_2 = \begin{cases}
+(h-\overline{x}, k-\hat{y})
+\\
+(h-\hat{x}, k-\overline{y})
+\end{cases}
+$$
+
+where:
+
+$$
+\begin{array}{l}
+\overline{x} = \lambda(ca,-lb)
+\\
+\hat{x} = \lambda(ca,lb)
+\\
+\ 
+\\
+\overline{y} = \lambda(-lb,ca)
+\\
+\hat{y} = \lambda(lb,ca)
+\end{array}
+$$
+
+for:
+
+$$
+\begin{array}{l}
+l = \frac{2b^2}{a}
+\\
+u = \sqrt{c^2 + l^2}
+\\
+\lambda(c,s) = \frac{1}{u}(c \cos(\phi) + s \sin(\phi))
+\end{array}
+$$
+
 ## Equations of Lines of Rotated Ellipse
 
 ### Major Axis Line
