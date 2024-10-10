@@ -18,3 +18,15 @@ For an ellipse with center at $(0,0)$:
 $$
 \frac{x^2}{a^2} + \frac{y^2}{b^2} = 1
 $$
+
+## Point Location
+
+![Point on Ellipse](https://raw.githubusercontent.com/damianc/math-notes/refs/heads/master/_images/anal-geom/ellipse/ellipse-point-location.png)
+
+$$
+\begin{cases}
+P_x = a \cos(\theta) + h
+\\
+P_y = b \sin(\theta) + k
+\end{cases}
+$$
