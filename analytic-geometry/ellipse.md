@@ -19,7 +19,7 @@ $$
 \frac{x^2}{a^2} + \frac{y^2}{b^2} = 1
 $$
 
-## Point Location
+## Point on Ellipse
 
 ![Point on Ellipse](https://raw.githubusercontent.com/damianc/math-notes/refs/heads/master/_images/anal-geom/ellipse/ellipse-point-location.png)
 
