@@ -1,6 +1,6 @@
 # Rotated Ellipse
 
-![](https://raw.githubusercontent.com/damianc/math-notes/refs/heads/master/_images/anal-geom/ellipse/rotated-ellipse.png)
+![Rotated Ellipse](https://raw.githubusercontent.com/damianc/math-notes/refs/heads/master/_images/anal-geom/ellipse/rotated-ellipse.png)
 
 ## Equation
 
@@ -16,8 +16,8 @@ splitting up:
 
 $$
 \begin{array}{l}
-\frac{\partial_E^x}{a^2} +
-\frac{\partial_E^y}{b^2} = 1
+{\large\frac{\partial_E^x}{a^2} +
+\frac{\partial_E^y}{b^2} = 1}
 \\
 \\
 \partial_E^x = ((x-h)\cos(\phi)+(y-k)\sin(\phi))^2
