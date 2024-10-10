@@ -129,3 +129,13 @@ $$
 \ell = \frac{b^2}{a} = a(1-e^2)
 $$
 
+### Directrices
+
+**directrix**  
+a line outside the ellipse perpendicular to the _major axis_ whose distance from the center of the ellipse is $d$
+
+$$
+d = \frac{a^2}{c}
+$$
+
+![Ellipse Directrices](https://raw.githubusercontent.com/damianc/math-notes/refs/heads/master/_images/anal-geom/ellipse/ellipse-directrix.png)
