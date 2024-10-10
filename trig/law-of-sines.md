@@ -51,3 +51,11 @@ $$
 \sin(\gamma) = \frac{r(a+b+c)}{ab}
 \end{array}
 $$
+
+- as well as its sides:
+
+| side | by $\sin(\alpha)$ | by $\sin(\beta)$ | by $\sin(\gamma)$ |
+|--|--|--|--|
+| $a$ | $$\frac{bc \sin(\alpha)}{r}-(b+c)$$ | $$\frac{r(b+c)}{c \sin(\beta)-r}$$ | $$\frac{r(b+c)}{b \sin(\gamma)-r}$$ |
+| $b$ | $$\frac{r(a+c)}{c \sin(\alpha)-r}$$ | $$\frac{ac \sin(\beta)}{r}-(a+c)$$ | $$\frac{r(a+c)}{a \sin(\gamma)-r}$$ |
+| $c$ | $$\frac{r(a+b)}{b \sin(\alpha)-r}$$ | $$\frac{r(a+b)}{a \sin(\beta)-r}$$ | $$\frac{ab \sin(\gamma)}{r}-(a+b)$$ |
