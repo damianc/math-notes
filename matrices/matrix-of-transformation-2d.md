@@ -117,7 +117,7 @@ $$
 \end{bmatrix}
 $$
 
-### Reflect by horizontal line $y=n$
+### Reflection by horizontal line $y=n$
 
 $$
 \begin{bmatrix}
@@ -129,7 +129,7 @@ $$
 \end{bmatrix}
 $$
 
-### Reflect by vertical line $x=m$
+### Reflection by vertical line $x=m$
 
 $$
 \begin{bmatrix}
