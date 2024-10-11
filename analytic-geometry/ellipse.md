@@ -91,7 +91,7 @@ $$
 the distance from the center of the ellipse to either focus ($F_1$ or $F_2$)
 
 $$
-c = \sqrt{a^2 - b^2}
+c = \sqrt{a^2 - b^2} = ae
 $$
 
 **eccentricity** (denoted as $e$)  
@@ -139,3 +139,41 @@ d = \frac{a^2}{c}
 $$
 
 ![Ellipse Directrices](https://raw.githubusercontent.com/damianc/math-notes/refs/heads/master/_images/anal-geom/ellipse/ellipse-directrix.png)
+
+#### Properties of Directrices
+
+For every point $P$ there are two points related to it:
+
+$$
+\begin{array}{l}
+D_1 = (h+d, P_y)
+\\
+D_2 = (h-d, P_y)
+\\
+\text{where } d = \frac{a^2}{c}
+\end{array}
+$$
+
+For which the following properties hold:
+
+$$
+\begin{array}{rl}
+\because & d_1 = e \cdot |PD_1|
+\\
+& d_2 = e \cdot |PD_2|
+\\
+\ 
+\\
+\therefore & d_1+d_2 = e(|PD_1|+|PD_2|) = 2a
+\\
+\ 
+\\
+\therefore & |PD_1| = \frac{d_1}{e}
+\\
+& |PD_2| = \frac{d_2}{e}
+\\
+\ 
+\\
+& e = \frac{d_1}{|PD_1|} = \frac{d_2}{|PD_2|}
+\end{array}
+$$
