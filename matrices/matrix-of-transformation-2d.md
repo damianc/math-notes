@@ -140,3 +140,15 @@ $$
 0 & 0 & 1
 \end{bmatrix}
 $$
+
+### Reflection by line $y=mx+i$
+
+$$
+\frac{1}{1+m^2} \times \begin{bmatrix}
+1-m^2 & 2m & -2mi
+\\
+2m & m^2-1 & 2i
+\\
+0 & 0 & 1
+\end{bmatrix}
+$$
