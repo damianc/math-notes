@@ -116,3 +116,27 @@ $$
 0 & 0 & 1
 \end{bmatrix}
 $$
+
+### Reflect by horizontal line $y=n$
+
+$$
+\begin{bmatrix}
+1 & 0 & 0
+\\
+0 & -1 & 2n
+\\
+0 & 0 & 1
+\end{bmatrix}
+$$
+
+### Reflect by vertical line $x=m$
+
+$$
+\begin{bmatrix}
+-1 & 0 & 2m
+\\
+0 & 1 & 0
+\\
+0 & 0 & 1
+\end{bmatrix}
+$$
