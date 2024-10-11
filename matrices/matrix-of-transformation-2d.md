@@ -12,8 +12,8 @@ ry & sy & ty
 \end{bmatrix}
 $$
 
-> _s_ - scale
-> _r_ - rotate
+> _s_ - scale  
+> _r_ - rotate  
 > _t_ - translate
 
 Coordinates of a point $P'$ being the point $P$ after applying the transformation $T$ is obtained by matrices multiplication:
