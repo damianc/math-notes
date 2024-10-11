@@ -117,6 +117,18 @@ $$
 \end{bmatrix}
 $$
 
+### Reflection by point $(R_x,R_y)$
+
+$$
+\begin{bmatrix}
+-1 & 0 & 2R_x
+\\
+0 & -1 & 2R_y
+\\
+0 & 0 & 1
+\end{bmatrix}
+$$
+
 ### Reflection by horizontal line $y=n$
 
 $$
