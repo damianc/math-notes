@@ -38,3 +38,17 @@ and:
 - $\sin(\alpha-\beta) = -\sin(\beta-\alpha)$
 - $\cos(\alpha-\beta) = \cos(\beta-\alpha)$
 - $\tan(\alpha-\beta) = -\tan(\beta-\alpha)$
+
+For example:
+
+$$
+\begin{array}{rl}
+\tan(90°-\arcsin(x)) & = \cot(\arcsin(x))
+\\
+& = [\ \tan(\arcsin(x))\ ]^{-1}
+\\
+& = \left[\ \frac{x}{\sqrt{1-x^2}}\ \right]^{-1}
+\\
+& = \frac{\sqrt{1-x^2}}{x}
+\end{array}
+$$
