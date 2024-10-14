@@ -31,6 +31,7 @@ Remaining values can be obtained with use of the following identities:
 - $\cos(90°-\theta) = \sin(\theta)$
 - $\tan(90°+\theta) = -\cot(\theta)$
 - $\tan(90°-\theta) = \cot(\theta)$
+- $\cot(\theta) = \frac{1}{\tan(\theta)}$
 
 and:
 
