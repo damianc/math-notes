@@ -14,3 +14,4 @@
 
 Example use of the obtained line:
 - [Circle Segment](https://github.com/damianc/math-notes/blob/master/desmos/circle-segment.md)
+- [Circle Sector](https://github.com/damianc/math-notes/blob/master/desmos/circle-sector.md)
