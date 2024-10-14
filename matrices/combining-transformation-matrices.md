@@ -62,16 +62,16 @@ $$
 \begin{array}{rl}
 P'_x & = sx_1(P_xsx_2+P_yrx_2+tx_2)
 \\
-& +rx_1(P_xry_2+P_ysy_2+ty_2)
+& + \ rx_1(P_xry_2+P_ysy_2+ty_2)
 \\
-& +tx_1
+& + \ tx_1
 \\
 \ 
 \\
 P'_y & = ry_1(P_xsx_2+P_yrx_2+tx_2)
 \\
-& + sy_1(P_xry_2+P_ysy_2+ty_2)
+& + \ sy_1(P_xry_2+P_ysy_2+ty_2)
 \\
-& +ty_1
+& + \ ty_1
 \end{array}
 $$
