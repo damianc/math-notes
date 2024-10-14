@@ -1,4 +1,4 @@
-# Desmos: Circle Segment
+# Desmos: Circle Sector
 
 | | |
 |--|--|
