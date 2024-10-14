@@ -52,3 +52,11 @@ $$
 & = \frac{\sqrt{1-x^2}}{x}
 \end{array}
 $$
+
+$$
+\begin{array}{rl}
+\sin(90°+2 \arccos(x)) & = \cos(2 \arccos(x))
+\\
+& = 2x^2-1
+\end{array}
+$$
