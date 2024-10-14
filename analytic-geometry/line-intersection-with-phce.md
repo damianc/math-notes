@@ -94,4 +94,83 @@ C = i^2-b^2
 \end{array}
 $$
 
+## Intersection with Rotated Ellipse
+
+![Intersection of line and rotated ellipse](https://raw.githubusercontent.com/damianc/math-notes/refs/heads/master/_images/anal-geom/intersection/line-intersection-with-rotated-ellipse.png)
+
+In case of rotated ellipse a little bit more math must be done:
+- let the ellipse and the intersecting line be a system $E$, then unrotate it and move to $(0,0)$
+- get intersection points
+- rotate back given points with respect to the center of the ellipse $(h,k)$
+
+To begin with, define functions that rotate a point relative to the center of the ellipse:
+
+$$
+\begin{array}{rl}
+\Gamma_x(x,y,\theta)  &
+= x \cos(\theta) - y \sin(\theta)
+\\
+& + \ h(1-\cos(\theta)) + k \sin(\theta)
+\\
+\ 
+\\
+\Gamma_y(x,y,\theta) &
+= x \sin(\theta) + y \cos(\theta)
+\\
+& + \ k(1-\cos(\theta)) - h \sin(\theta)
+\end{array}
+$$
+
+Reset rotation and translation of the ellipse and move the line along with it:
+
+$$
+\begin{array}{l}
+g(x) = nx+j
+\\
+n = \tan(\arctan(m)-\phi)
+\\
+j = nh + (\partial_g - k)
+\\
+\partial_g = \Gamma_y(0,i,-\phi) - n \cdot \Gamma_x(0,i,-\phi)
+\end{array}
+$$
+
+Get intersection points:
+
+$$
+\begin{array}{l}
+A = n^2 + \left(\frac{b}{a}\right)^2
+\\
+B = 2nj
+\\
+C = j^2 - b^2
+\\
+\Delta = B^2 - 4AC
+\\
+\ 
+\\
+x'\_{1,2} = \frac{-B \pm \sqrt{\Delta}}{2A}
+\\
+y'\_{1,2} = g(x'_{1,2})
+\end{array}
+$$
+
+Rotate these points back:
+
+$$
+\begin{cases}
+x_1 = \Gamma_x(x'_1+h, y'_1+k, \phi)
+\\
+y_1 = \Gamma_y(x'_1+h, y'_1+k, \phi)
+\end{cases}
+$$
+
+$$
+\begin{cases}
+x_2 = \Gamma_x(x'_2+h, y'_2+k, \phi)
+\\
+y_2 = \Gamma_y(x'_2+h, y'_2+k, \phi)
+\end{cases}
+$$
+
 
