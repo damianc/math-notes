@@ -1,5 +1,7 @@
 # Closed-Form Trigonometric Values
 
+![Circle with Trigonometric Values](https://raw.githubusercontent.com/damianc/math-notes/refs/heads/master/_images/trigonometry/trig-values-circle.png)
+
 ## sin/cos/tan
 
 | $\theta$ | $\sin(\theta)$ | $\cos(\theta)$ | $\tan(\theta)$ |
