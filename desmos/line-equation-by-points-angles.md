@@ -11,3 +11,6 @@
 | | getting line by points |
 | 5 | $L(x,A,B) = (x-A.x)\frac{A.y-B.y}{A.x-B.x}+A.y$ |
 | 6 | $f(x) = L(x,P_1,P_2)$ |
+
+Example use of the obtained line:
+- [Circle Segment](https://github.com/damianc/math-notes/blob/master/desmos/circle-segment.md)
