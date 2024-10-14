@@ -101,7 +101,7 @@ $$
 In case of rotated ellipse a little bit more math must be done:
 - let the ellipse and the intersecting line be a system $E$, then unrotate it and move to $(0,0)$
 - get intersection points
-- rotate back given points with respect to the center of the ellipse $(h,k)$
+- move to $(h,k)$ and rotate back given points with respect to the center of the ellipse $(h,k)$
 
 To begin with, define functions that rotate a point relative to the center of the ellipse:
 
@@ -155,7 +155,7 @@ y'\_{1,2} = g(x'_{1,2})
 \end{array}
 $$
 
-Rotate these points back:
+Move and rotate these points back:
 
 $$
 \begin{cases}
