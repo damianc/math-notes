@@ -60,3 +60,17 @@ $$
 & = 2x^2-1
 \end{array}
 $$
+
+For summand other than $90°$ [function of sum/difference identities](https://github.com/damianc/math-notes/blob/master/trig/functions-of-sum-diff.md) can be used, for example:
+
+$$
+\begin{array}{rl}
+\tan(\theta-\arctan(x)) & = \frac{
+\tan(\theta)-\tan(\arctan(x))
+}{
+1+\tan(\theta)\tan(\arctan(x))
+}
+\\
+& = \frac{\tan(\theta)-x}{1+x \tan(\theta)}
+\end{array}
+$$
