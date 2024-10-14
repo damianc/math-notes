@@ -107,18 +107,20 @@ To begin with, define functions that rotate a point relative to the center of th
 
 $$
 \begin{array}{rl}
-\Gamma_x(x,y,\theta)  &
-= x \cos(\theta) - y \sin(\theta)
+\lambda(\theta,f_c,f_s,f_1,f_2)  &= f_c \cos(\theta) + f_s \sin(\theta)
 \\
-& + \ h(1-\cos(\theta)) + k \sin(\theta)
+& + \ f_1 (1-\cos(\theta))
 \\
-\ 
-\\
-\Gamma_y(x,y,\theta) &
-= x \sin(\theta) + y \cos(\theta)
-\\
-& + \ k(1-\cos(\theta)) - h \sin(\theta)
+& + \ f_2 \sin(\theta)
 \end{array}
+$$
+
+$$
+\Gamma_x(x,y,\theta) = \lambda(\theta,x,-y,h,k)
+$$
+
+$$
+\Gamma_y(x,y,\theta) = \lambda(\theta,y,x,k,-h)
 $$
 
 Reset rotation and translation of the ellipse and move the line along with it:
