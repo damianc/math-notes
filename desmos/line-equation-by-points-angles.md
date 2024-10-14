@@ -13,5 +13,6 @@
 | 6 | $f(x) = L(x,P_1,P_2)$ |
 
 Example use of the obtained line:
-- [Circle Segment](https://github.com/damianc/math-notes/blob/master/desmos/circle-segment.md)
+- [Circle Chord and Arc](https://github.com/damianc/math-notes/blob/master/desmos/circle-chord-and-arc.md)
 - [Circle Sector](https://github.com/damianc/math-notes/blob/master/desmos/circle-sector.md)
+- [Circle Segment](https://github.com/damianc/math-notes/blob/master/desmos/circle-segment.md)
