@@ -93,9 +93,7 @@ $$
 
 $$
 \begin{array}{l}
-\varphi = \left(\frac{b}{a}\right)^2
-\\
-A = m^2+\varphi
+A = m^2+\left(\frac{b}{a}\right)^2
 \\
 B = 2im
 \\
