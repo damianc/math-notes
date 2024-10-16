@@ -64,6 +64,15 @@ C = i^2-r^2
 \end{array}
 $$
 
+> Alternatively, with translation of the circle with center at $(a,b)$ to $(0,0)$:  
+>  
+> $t=i+ma-b$  
+> $A=1+m^2$  
+> $B=2mt$  
+> $C=t^2-r^2$  
+> $\Delta=B^2-4AC$  
+> $x_{1,2}=\frac{-B \pm \sqrt{\Delta}}{2A} + a$
+
 ## Intersection with Ellipse
 
 ![Intersection of line and ellipse](https://raw.githubusercontent.com/damianc/math-notes/refs/heads/master/_images/anal-geom/intersection/line-intersection-with-ellipse.png)
@@ -93,6 +102,15 @@ B = 2im
 C = i^2-b^2
 \end{array}
 $$
+
+> Alternatively, with translation of the ellipse with center at $(h,k)$ to $(0,0)$:  
+>  
+> $t=i+mh-k$  
+> $A=b^2+a^2m^2$  
+> $B=2a^2mn$  
+> $C=a^2(n^2-b^2)$  
+> $\Delta=B^2-4AC$  
+> $x_{1,2} = \frac{-B \pm \sqrt{\Delta}}{2A}+h$
 
 ## Intersection with Rotated Ellipse
 
