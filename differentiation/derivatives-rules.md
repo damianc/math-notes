@@ -1,6 +1,18 @@
 # Derivatives Rules
 
-## Power Rule
+| Rule | Formula |
+|--|--|
+| power rule | $$\large [x^n]' = nx^{n-1}$$ |
+| constant rule | $$\large C' = 0$$ |
+| constant multiple rule | $$\large [C\ f(x)]' = C\ f'(x)$$ |
+| sum/difference rule | $$\large [f(x) \pm g(x)]' = f'(x) \pm g'(x)$$ |
+| chain rule | $$\large [f(g(x))]' = f'(g(x))g'(x)$$ |
+| product rule | $$\large [f(x)g(x)]' = f(x)g'(x) + g(x)f'(x)$$ |
+| quotient rule | $$\large \left[\frac{f(x)}{g(x)}\right]' = \frac{g(x)f'(x)-f(x)g'(x)}{[g(x)]^2}$$ |
+
+## Examples
+
+### Power Rule
 
 $$
 \large
@@ -13,7 +25,7 @@ $$
 [x^3]' = 3x^2
 $$
 
-## Constant Rule
+### Constant Rule
 
 $$
 \large
@@ -26,7 +38,7 @@ $$
 [2]' = 0
 $$
 
-## Constant Multiple Rule
+### Constant Multiple Rule
 
 $$
 \large
@@ -45,7 +57,7 @@ $$
 \end{array}
 $$
 
-## Sum/Difference Rule
+### Sum/Difference Rule
 
 $$
 \large
@@ -62,7 +74,7 @@ $$
 \end{array}
 $$
 
-## Chain Rule
+### Chain Rule
 
 $$
 \large
@@ -79,7 +91,7 @@ $$
 \end{array}
 $$
 
-## Product Rule
+### Product Rule
 
 $$
 \large
@@ -98,7 +110,7 @@ $$
 \end{array}
 $$
 
-## Quotient Rule
+### Quotient Rule
 
 $$
 \large
