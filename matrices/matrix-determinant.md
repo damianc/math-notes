@@ -1,6 +1,6 @@
 # Matrix Determinant
 
-> Determinant of a matrix can be obtained with the [**Laplace extension**](https://github.com/damianc/math-notes/blob/master/matrices/laplace-extension.md).
+> Determinant of a matrix can be obtained with the [**Laplace expansion**](https://github.com/damianc/math-notes/blob/master/matrices/laplace-expansion.md).
 >
 > For matrix $3 \times 3$ [**Sarrus' rule**](https://github.com/damianc/math-notes/blob/master/matrices/sarrus-rule.md) can be used.
 
