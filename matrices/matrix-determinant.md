@@ -1,5 +1,7 @@
 # Matrix Determinant
 
+> Determinant of a matrix can be obtained with the [**Laplace extension**](https://github.com/damianc/math-notes/blob/master/matrices/laplace-extension.md).
+
 ## Matrix 1x1
 
 $$
