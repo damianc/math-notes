@@ -66,7 +66,7 @@ $$
 \det M = \Sigma_1 - \Sigma_2
 $$
 
-### Expansion
+## Expansion
 
 Everything can be put together as:
 
