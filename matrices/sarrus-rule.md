@@ -74,3 +74,30 @@ $$
 \det M = {\color{red}aei} + {\color{green}bfg} + {\color{blue}cdh} - {\color{red}ceg} - {\color{green}afh} - {\color{blue}bdi}
 $$
 
+### Indexed Form Matrix
+
+If matrix is represented with index notation:
+
+$$
+\begin{bmatrix}
+a_{11} & a_{12} & a_{13}
+\\
+a_{21} & a_{22} & a_{23}
+\\
+a_{31} & a_{32} & a_{33}
+\end{bmatrix}
+$$
+
+The sums of the products are as follows:
+
+$$
+\Sigma_1 = {\color{red}a_{11} a_{22} a_{33}} + {\color{green}a_{12} a_{23} a_{31}} + {\color{blue}a_{13} a_{21} a_{32}}
+$$
+
+$$
+\Sigma_2 = {\color{red}a_{13} a_{22} a_{31}} + {\color{green}a_{11} a_{23} a_{32}} + {\color{blue}a_{12} a_{21} a_{33}}
+$$
+
+> as previously, $\det M = \Sigma_1 - \Sigma_2$
+
+
