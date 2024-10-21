@@ -1,0 +1,38 @@
+# Matrix Multiplication
+
+## JavaScript Implementation
+
+```
+function multiply(A,B) {
+  const colsA = A[0].length;
+  const rowsB = B.length;
+  if (colsA !== rowsB) {
+    throw new Error('incompatible matrices');
+  }
+ 
+  const rowsA = A.length;
+  const colsB = B[0].length;
+  const C = initNullMatrix(rowsA,colsB);
+ 
+  for (let i=0; i<rowsA; i++) {
+    for (let j=0; j<colsB; j++) {
+      let sum = 0;
+      for (let k=0; k<colsA; k++) {
+        sum += A[i][k] * B[k][j];
+      }
+      C[i][j] = sum;
+    }
+  }
+
+  return C;
+}
+
+function initNullMatrix(m,n) {
+  const M = [];
+  for (let i=1; i<=m; i++) {
+    M.push((new Array(n)).fill(0));
+  }
+  return M;
+}
+```
+
