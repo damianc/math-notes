@@ -111,4 +111,5 @@ function det(M,R=1) {
 }
 ```
 
+> [`minor()`](https://github.com/damianc/math-notes/blob/master/matrices/matrix-minor.md#javascript-implementation)
 
