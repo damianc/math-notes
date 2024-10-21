@@ -123,4 +123,5 @@ function minorize(M,i,j) {
 }
 ```
 
+> [`det()`](https://github.com/damianc/math-notes/blob/master/matrices/matrix-determinant.md#javascript-implementation)
 
