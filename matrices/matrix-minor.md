@@ -90,4 +90,37 @@ M_{21} & M_{22}
 \end{bmatrix}
 $$
 
+## JavaScript Implementation
+
+```
+function minor(M,i,j) {
+  return det(minorize(M,i,j));
+}
+
+function minorize(M,i,j) {
+  const rows = M.length;
+  const cols = M[0].length;
+  if (
+    i < 1 || j < 1 ||
+    i > rows || j > cols
+  ) {
+    throw new Error(
+      `invalid index [${i}][${j}]`
+    );
+  }
+
+  const m = [];
+  for (let row=1; row <= rows; row++) {
+    if (row === i) continue;
+    const currRow = [];
+    for (let col=1; col <= cols; col++) {
+      if (col === j) continue;
+      currRow.push(M[row-1][col-1]);
+    }
+    m.push(currRow);
+  }
+  return m;
+}
+```
+
 
