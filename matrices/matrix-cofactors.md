@@ -7,11 +7,11 @@ $$
 C_{ij} = (-1)^{i+j} \cdot M_{ij}
 $$
 
-For example for matrix $M$, cofactor of the element $a_{11}$ is $C_{11}$:
+For example for matrix $A$, cofactor of the element $a_{11}$ is $C_{11}$:
 
 
 $$
-M = \begin{bmatrix}
+A = \begin{bmatrix}
 1 & 2 & 3
 \\
 4 & 5 & 6
@@ -22,13 +22,15 @@ $$
 
 $$
 \begin{array}{rl}
-C_{11} & = (-1)^{1+1} \cdot \begin{vmatrix}
+C_{11} & = (-1)^{1+1} \cdot M_{11}
+\\
+& = (-1)^2 \cdot \begin{vmatrix}
 5 & 6
 \\
 8 & 9
 \end{vmatrix}
 \\
-& = (-1)^2 \cdot (5 \cdot 9 - 6 \cdot 8)
+& = 1 \cdot (5 \cdot 9 - 6 \cdot 8)
 \\
 & = 1 \cdot (45-48)
 \\
