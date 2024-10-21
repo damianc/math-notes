@@ -113,3 +113,4 @@ function cofactors(M) {
 }
 ```
 
+> [`minor()`](https://github.com/damianc/math-notes/blob/master/matrices/matrix-minor.md#javascript-implementation)
