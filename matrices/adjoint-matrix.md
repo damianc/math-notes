@@ -24,6 +24,42 @@ C_{12} & C_{22} & \cdots
 \end{array}
 $$
 
+## Example
+
+- for matrix $A$:
+
+$$
+A = \begin{bmatrix}
+1 & 2
+\\
+3 & 4
+\end{bmatrix}
+$$
+
+- cofactor matrix $A_c$ is:
+
+$$
+A_c = \begin{bmatrix}
+1 \cdot |4| & (-1) \cdot |3|
+\\
+(-1) \cdot |2| & 1 \cdot |1|
+\end{bmatrix} = \begin{bmatrix}
+4 & -3
+\\
+-2 & 1
+\end{bmatrix}
+$$
+
+- adjoint matrix $\overline{A}$ is transposed matrix of cofactors $A_c$:
+
+$$
+\overline{A} = A_c^T = \begin{bmatrix}
+4 & -2
+\\
+-3 & 1
+\end{bmatrix}
+$$
+
 ## JavaScript Implementation
 
 ```
