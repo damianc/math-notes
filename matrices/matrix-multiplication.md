@@ -78,6 +78,8 @@ $$
 {\color{red}2}\cdot{\color{purple}1} +
 {\color{red}3}\cdot{\color{purple}2}
 \\
+\ 
+\\
 {\color{blue}3}\cdot{\color{green}2} +
 {\color{blue}4}\cdot{\color{green}3} +
 {\color{blue}5}\cdot{\color{green}4}
@@ -138,6 +140,57 @@ AB = \begin{bmatrix}
 \cdots
 &
 \lambda\binom{\text{A row }m}{\text{B col }p}
+\end{bmatrix}
+$$
+
+### Example
+
+$$
+\begin{bmatrix}
+{\color{red}1} & {\color{red}2} & {\color{red}3}
+\\
+{\color{blue}3} & {\color{blue}4} & {\color{blue}5}
+\end{bmatrix} \cdot \begin{bmatrix}{\color{green}2} & {\color{purple}4}
+\\
+{\color{green}3} & {\color{purple}1}
+\\
+{\color{green}4} & {\color{purple}2}
+\end{bmatrix} =
+$$
+
+$$
+\begin{bmatrix}
+\lambda\binom{\color{red}1,2,3}{\color{green}2,3,4}
+&
+\lambda\binom{\color{red}1,2,3}{\color{purple}4,1,2}
+\\
+\ 
+\\
+\lambda\binom{\color{blue}3,4,5}{\color{green}2,3,4}
+&
+\lambda\binom{\color{blue}3,4,5}{\color{purple}4,1,2}
+\end{bmatrix} =
+$$
+
+$$
+\begin{bmatrix}
+{\color{red}1}\cdot{\color{green}2}+{\color{red}2}\cdot{\color{green}3}+{\color{red}3}\cdot{\color{green}4}
+&
+{\color{red}1}\cdot{\color{purple}4}+{\color{red}2}\cdot{\color{purple}1}+{\color{red}3}\cdot{\color{purple}2}
+\\
+\ 
+\\
+{\color{blue}3}\cdot{\color{green}2}+{\color{blue}4}\cdot{\color{green}3}+{\color{blue}5}\cdot{\color{green}4}
+&
+{\color{blue}3}\cdot{\color{purple}4}+{\color{blue}4}\cdot{\color{purple}1}+{\color{blue}5}\cdot{\color{purple}2}
+\end{bmatrix} =
+$$
+
+$$
+\begin{bmatrix}
+20 & 12
+\\
+38 & 26
 \end{bmatrix}
 $$
 
