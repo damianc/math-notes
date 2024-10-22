@@ -23,3 +23,23 @@ C_{12} & C_{22} & \cdots
 \end{bmatrix}
 \end{array}
 $$
+
+## JavaScript Implementation
+
+```
+function adjointMatrix(M) {
+  return transpose(cofactors(M));
+}
+
+function transpose(M) {
+  const T = [];
+  for (let i=0; i<M[0].length; i++) {
+    let R = [];
+    for (let j=0; j<M.length; j++) {
+      R.push(M[j][i]);
+    }
+    T.push(R);
+  }
+  return T;
+}
+```
