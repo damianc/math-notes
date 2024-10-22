@@ -148,5 +148,7 @@ $$
 \end{array}
 $$
 
+----
 
+> [Implementation in JavaScript](https://github.com/damianc/math-notes/blob/master/matrices/matrix-determinant.md#javascript-implementation)
 
