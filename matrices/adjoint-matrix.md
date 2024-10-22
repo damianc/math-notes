@@ -28,7 +28,9 @@ $$
 
 ```
 function adjointMatrix(M) {
-  return transpose(cofactors(M));
+  return transpose(
+    cofactors(M)
+  );
 }
 
 function transpose(M) {
@@ -43,3 +45,5 @@ function transpose(M) {
   return T;
 }
 ```
+
+> [`cofactors()`](https://github.com/damianc/math-notes/blob/master/matrices/matrix-cofactors.md#javascript-implementation)
