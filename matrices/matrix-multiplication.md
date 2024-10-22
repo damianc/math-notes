@@ -108,7 +108,7 @@ $$
 Multiplication of matrices $A$ and $B$ can be represented as follows:
 
 $$
-AB = \begin{bmatrix}
+A_{m \times n} \cdot B_{n \times p} = \begin{bmatrix}
 \lambda\binom{\text{A row }1}{\text{B col }1}
 &
 \lambda\binom{\text{A row }1}{\text{B col }2}
@@ -140,7 +140,7 @@ AB = \begin{bmatrix}
 \cdots
 &
 \lambda\binom{\text{A row }m}{\text{B col }p}
-\end{bmatrix}
+\end{bmatrix}_{m \times p}
 $$
 
 ### Example
