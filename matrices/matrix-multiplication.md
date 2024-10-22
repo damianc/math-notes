@@ -18,6 +18,83 @@ $$
 
 > multiplication of matrices is not commutative, i.e., $AB \neq BA$
 
+## Multiplication of Matrices
+
+$$
+\begin{bmatrix}
+{\color{red}a_{11}} & {\color{red}a_{12}} & {\color{red}a_{13}}
+\\
+{\color{blue}a_{21}} & {\color{blue}a_{22}} & {\color{blue}a_{23}}
+\end{bmatrix} \cdot \begin{bmatrix}
+{\color{green}b_{11}} & {\color{purple}b_{12}}
+\\
+{\color{green}b_{21}} & {\color{purple}b_{22}}
+\\
+{\color{green}b_{31}} & {\color{purple}b_{32}}
+\end{bmatrix} =
+$$
+
+$$
+\begin{bmatrix}
+{\color{red}a_{11}}{\color{green}b_{11}} +
+{\color{red}a_{12}}{\color{green}b_{21}} +
+{\color{red}a_{13}}{\color{green}b_{31}}
+&
+{\color{red}a_{11}}{\color{purple}b_{12}} +
+{\color{red}a_{12}}{\color{purple}b_{22}} +{\color{red}a_{13}}{\color{purple}b_{32}}
+\\
+{\color{blue}a_{21}}{\color{green}b_{11}} +
+{\color{blue}a_{22}}{\color{green}b_{21}} +
+{\color{blue}a_{23}}{\color{green}b_{31}}
+&
+{\color{blue}a_{21}}{\color{purple}b_{12}} +
+{\color{blue}a_{22}}{\color{purple}b_{22}} +{\color{blue}a_{23}}{\color{purple}b_{32}}
+\end{bmatrix}
+$$
+
+### Example
+
+$$
+\begin{bmatrix}
+{\color{red}1} & {\color{red}2} & {\color{red}3}
+\\
+{\color{blue}3} & {\color{blue}4} & {\color{blue}5}
+\end{bmatrix} \cdot \begin{bmatrix}
+{\color{green}2} & {\color{purple}4}
+\\
+{\color{green}3} & {\color{purple}1}
+\\
+{\color{green}4} & {\color{purple}2}
+\end{bmatrix} =
+$$
+
+$$
+\begin{bmatrix}
+{\color{red}1}\cdot{\color{green}2} +
+{\color{red}2}\cdot{\color{green}3} +
+{\color{red}3}\cdot{\color{green}4}
+&
+{\color{red}1}\cdot{\color{purple}4} +
+{\color{red}2}\cdot{\color{purple}1} +
+{\color{red}3}\cdot{\color{purple}2}
+\\
+{\color{blue}3}\cdot{\color{green}2} +
+{\color{blue}4}\cdot{\color{green}3} +
+{\color{blue}5}\cdot{\color{green}4}
+&
+{\color{blue}3}\cdot{\color{purple}4} +
+{\color{blue}4}\cdot{\color{purple}1} +{\color{blue}5}\cdot{\color{purple}2}
+\end{bmatrix} =
+$$
+
+$$
+\begin{bmatrix}
+20 & 12
+\\
+38 & 26
+\end{bmatrix}
+$$
+
 ## JavaScript Implementation
 
 ```
