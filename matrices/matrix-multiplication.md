@@ -160,15 +160,31 @@ $$
 
 $$
 \begin{bmatrix}
-\lambda\binom{\color{red}1,2,3}{\color{green}2,3,4}
+\lambda\binom{
+\overbrace{\color{red}1,2,3}^{\text{A row 1}}
+}{
+\underbrace{\color{green}2,3,4}\_{\text{B col 1}}
+}
 &
-\lambda\binom{\color{red}1,2,3}{\color{purple}4,1,2}
+\lambda\binom{
+\overbrace{\color{red}1,2,3}^{\text{A row 1}}
+}{
+\underbrace{\color{purple}4,1,2}\_{\text{B col 2}}
+}
 \\
 \ 
 \\
-\lambda\binom{\color{blue}3,4,5}{\color{green}2,3,4}
+\lambda\binom{
+\overbrace{\color{blue}3,4,5}^{\text{A row 2}}
+}{
+\underbrace{\color{green}2,3,4}\_{\text{B col 1}}
+}
 &
-\lambda\binom{\color{blue}3,4,5}{\color{purple}4,1,2}
+\lambda\binom{
+\overbrace{\color{blue}3,4,5}^{\text{A row 2}}
+}{
+\underbrace{\color{purple}4,1,2}\_{\text{B col 2}}
+}
 \end{bmatrix} =
 $$
 
