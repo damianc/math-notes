@@ -12,7 +12,7 @@ a^{n-k} b^k
 \ 
 \\
 & &
-{\color{#aaa}\text{where }}
+\small{\color{#aaa}\text{where }}
 \color{#888}
 \binom{n}{k} = \frac{n!}{k!(n-k)!}
 \end{array}
