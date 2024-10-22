@@ -8,7 +8,7 @@
 
 $$
 \large
-A_{m \times n} \cdot B_{n \times p} = C_{m \times p}
+A_{{\color{red}m} \times n} \cdot B_{n \times {\color{blue}p}} = C_{{\color{red}m} \times {\color{blue}p}}
 $$
 
 ## JavaScript Implementation
