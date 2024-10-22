@@ -1,5 +1,16 @@
 # Matrix Multiplication
 
+- multiplication of matrices is not commutative, i.e., $AB \neq BA$
+- matrices $A$ and $B$ can be multiplied only if a number of columns in $A$ equals a number of rows in $B$
+- if $C$ is the resultant matrix ($A \cdot B$):
+  - a number of its rows equals a number of rows in $A$
+  - a number of its columns equals a number of columns in $B$
+
+$$
+\large
+A_{m \times n} \cdot B_{n \times p} = C_{m \times p}
+$$
+
 ## JavaScript Implementation
 
 ```
