@@ -210,6 +210,69 @@ $$
 \end{bmatrix}
 $$
 
+## Representation with Sums
+
+If $A_{m \times n} \cdot B_{n \times p} = C_{m \times p}$, element $c_{ij}$ of matrix $C$ is as follows:
+
+$$
+c_{ij} = \sum_{k=1}^n a_{ik} b_{kj}
+$$
+
+That is, for matrices $A$ and $B$:
+
+$$
+A = \begin{bmatrix}
+a_{11} & a_{12} & \cdots & a_{1n}
+\\
+a_{21} & a_{22} & \cdots & a_{2n}
+\\
+\vdots & \vdots & \ddots & \vdots
+\\
+a_{m1} & a_{m2} & \cdots & a_{mn}
+\end{bmatrix}_{m \times n}
+$$
+
+$$
+B = \begin{bmatrix}
+b_{11} & b_{12} & \cdots & b_{1p}
+\\
+b_{21} & b_{22} & \cdots & b_{2p}
+\\
+\vdots & \vdots & \ddots & \vdots
+\\
+b_{n1} & b_{n2} & \cdots & b_{np}
+\end{bmatrix}_{n \times p}
+$$
+
+Matrix $C = AB$ is as follows:
+
+$$
+C = \begin{bmatrix}
+\displaystyle\sum_{k=1}^n a_{1k}b_{k1} &
+\displaystyle\sum_{k=1}^n a_{1k}b_{k2} &
+\cdots &
+\displaystyle\sum_{k=1}^n a_{1k}b_{kp}
+\\
+\ 
+\\
+\displaystyle\sum_{k=1}^n a_{2k}b_{k1} &
+\displaystyle\sum_{k=1}^n a_{2k}b_{k2} &
+\cdots &
+\displaystyle\sum_{k=1}^n a_{2k}b_{kp}
+\\
+\ 
+\\
+\vdots & \vdots & \ddots & \vdots
+\\
+\ 
+\\
+\displaystyle\sum_{k=1}^n a_{mk}b_{k1} &
+\displaystyle\sum_{k=1}^n a_{mk}b_{k2} &
+\cdots &
+\displaystyle\sum_{k=1}^n a_{mk}b_{kp}
+\end{bmatrix}_{m \times p}
+$$
+
 ## JavaScript Implementation
 
 ```
