@@ -95,6 +95,52 @@ $$
 \end{bmatrix}
 $$
 
+## Alternative Representation
+
+Having the following function:
+
+$$
+\lambda\binom{R}{C} = R_1C_1 + R_2C_2 + \cdots + R_nC_n
+$$
+
+Multiplication of matrices $A$ and $B$ can be represented as follows:
+
+$$
+AB = \begin{bmatrix}
+\lambda\binom{\text{A row }1}{\text{B col }1}
+&
+\lambda\binom{\text{A row }1}{\text{B col }2}
+&
+\cdots
+&
+\lambda\binom{\text{A row }1}{\text{B col }p}
+\\
+\ 
+\\
+\lambda\binom{\text{A row }2}{\text{B col }1}
+&
+\lambda\binom{\text{A row }2}{\text{B col }2}
+&
+\cdots
+&
+\lambda\binom{\text{A row }2}{\text{B col }p}
+\\
+\ 
+\\
+\vdots & \vdots & \ddots & \vdots
+\\
+\ 
+\\
+\lambda\binom{\text{A row }m}{\text{B col }1}
+&
+\lambda\binom{\text{A row }m}{\text{B col }2}
+&
+\cdots
+&
+\lambda\binom{\text{A row }m}{\text{B col }p}
+\end{bmatrix}
+$$
+
 ## JavaScript Implementation
 
 ```
