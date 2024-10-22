@@ -1,6 +1,24 @@
 # Binomial Expansion
 
 $$
+\begin{array}{rl}
+\large{\boldsymbol{(a+b)^n}} &
+\large{=} &
+\large{\displaystyle
+\sum_{k=0}^n \binom{n}{k}
+a^{n-k} b^k
+}
+\\
+\ 
+\\
+& &
+{\color{#aaa}\text{where }}
+\color{#888}
+\binom{n}{k} = \frac{n!}{k!(n-k)!}
+\end{array}
+$$
+
+$$
 \begin{array}{rcl}
 \boldsymbol{(a+b)^2} & = &
 a^2+2ab+b^2
@@ -68,17 +86,6 @@ a^{10}+10a^9b+45a^8b^2\ +
 & & b^{10}+10ab^9+45a^2b^8\ +
 \\
 & & 120a^3b^7+210a^4b^6
-\\
-\\
-\boldsymbol{(a+b)^n} & = &
-\displaystyle
-\sum_{k=0}^n \binom{n}{k}
-a^{n-k} b^k
-\\
-& &
-{\color{#666}\text{where }}
-\binom{n}{k} =
-\frac{n!}{k!(n-k)!}
 \end{array}
 $$
 
