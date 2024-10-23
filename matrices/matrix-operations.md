@@ -64,7 +64,9 @@ ka_{21} & ka_{22}
 \end{bmatrix}
 $$
 
-## Matrix Multiplication
+## Multiplication of Matrices
+
+> Details are on the page: [Matrix Multiplication](https://github.com/damianc/math-notes/blob/master/matrices/matrix-multiplication.md)
 
 Having the following function:
 
