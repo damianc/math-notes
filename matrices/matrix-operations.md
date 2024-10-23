@@ -55,14 +55,14 @@ $$
 For example:
 
 $$
-k \cdot \begin{bmatrix}
+{\color{orange}k} \cdot \begin{bmatrix}
 a_{11} & a_{12}
 \\
 a_{21} & a_{22}
 \end{bmatrix} = \begin{bmatrix}
-ka_{11} & ka_{12}
+{\color{orange}k}a_{11} & {\color{orange}k}a_{12}
 \\
-ka_{21} & ka_{22}
+{\color{orange}k}a_{21} & {\color{orange}k}a_{22}
 \end{bmatrix}
 $$
 
