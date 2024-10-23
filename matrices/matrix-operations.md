@@ -13,17 +13,17 @@ For example:
 
 $$
 \begin{bmatrix}
-a_{11} & a_{12}
+{\color{red}a_{11}} & {\color{green}a_{12}}
 \\
-a_{21} & a_{22}
+{\color{blue}a_{21}} & {\color{purple}a_{22}}
 \end{bmatrix} \pm \begin{bmatrix}
-b_{11} & b_{12}
+{\color{red}b_{11}} & {\color{green}b_{12}}
 \\
-b_{21} & b_{22}
+{\color{blue}b_{21}} & {\color{purple}b_{22}}
 \end{bmatrix} = \begin{bmatrix}
-a_{11} \pm b_{11} & a_{12} \pm b_{12}
+{\color{red}a_{11} \pm b_{11}} & {\color{green}a_{12} \pm b_{12}}
 \\
-a_{21} \pm b_{21} & a_{22} \pm b_{22}
+{\color{blue}a_{21} \pm b_{21}} & {\color{purple}a_{22} \pm b_{22}}
 \end{bmatrix}
 $$
 
