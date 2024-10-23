@@ -1,6 +1,6 @@
 # Inverse Matrix
 
-An [inverse matrix](https://github.com/damianc/math-notes/blob/master/matrices/adjoint-matrix.md) of matrix $A$ is its adjoint matrix divided by its determinant.
+Inverse matrix of matrix $A$ is its [adjoint matrix](https://github.com/damianc/math-notes/blob/master/matrices/adjoint-matrix.md) divided by its determinant.
 
 $$
 \large
