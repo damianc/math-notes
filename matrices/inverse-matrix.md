@@ -65,7 +65,7 @@ $$
 -3 & 1
 \end{bmatrix}
 \\
-& & \begin{bmatrix}
+& & = \begin{bmatrix}
 -2 & 1
 \\
 1.5 & -0.5
