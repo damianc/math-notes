@@ -29,17 +29,17 @@ $$
 
 $$
 \begin{bmatrix}
-A & B
+{\color{red}A} & {\color{green}B}
 \\
-C & D
+{\color{blue}C} & {\color{purple}D}
 \end{bmatrix} \pm \begin{bmatrix}
-E & F
+{\color{red}E} & {\color{green}F}
 \\
-G & H
+{\color{blue}G} & {\color{purple}H}
 \end{bmatrix} = \begin{bmatrix}
-A \pm E & B \pm F
+{\color{red}A \pm E} & {\color{green}B \pm F}
 \\
-C \pm G & D \pm H
+{\color{blue}C \pm G} & {\color{purple}D \pm H}
 \end{bmatrix}
 $$
 
