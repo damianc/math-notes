@@ -34,3 +34,19 @@ $$
 & \ \ \ \ 2(ab+ac+ad+bc+bd+cd)
 \end{array}
 $$
+
+## Negative Summands
+
+The above formulas hold for sums with negative summands, just treat $-x$ like $+(-x)$.
+
+$$
+\begin{array}{rl}
+(a-b)^2 & = (a+(-b))^2
+\\
+& = a^2 + (-b)^2 + 2 \cdot a \cdot (-b)
+\\
+& = a^2 + b^2 + (-2ab)
+\\
+& = a^2 + b^2 - 2ab
+\end{array}
+$$
