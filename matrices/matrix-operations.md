@@ -117,16 +117,17 @@ $$
 For example:
 
 $$
+\overbrace{
 \begin{bmatrix}
 {\color{red}1} & {\color{red}2} & {\color{red}3}
 \\
 {\color{blue}3} & {\color{blue}4} & {\color{blue}5}
-\end{bmatrix} \cdot \begin{bmatrix}{\color{green}2} & {\color{purple}4}
+\end{bmatrix}}^{\text{A}} \cdot \overbrace{\begin{bmatrix}{\color{green}2} & {\color{purple}4}
 \\
 {\color{green}3} & {\color{purple}1}
 \\
 {\color{green}4} & {\color{purple}2}
-\end{bmatrix} =
+\end{bmatrix}}^{\text{B}} =
 $$
 
 $$
