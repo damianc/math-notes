@@ -4,7 +4,7 @@ Inverse matrix of matrix $A$ is its [adjoint matrix](https://github.com/damianc/
 
 $$
 \large
-A^{-1} = {\small\frac{1}{\det A}}\ \overline{A} = {\small\frac{1}{\det A}}\ A_c
+A^{-1} = {\small\frac{1}{\det A}}\ \overline{A} = {\small\frac{1}{\det A}}\ A_c^T
 $$
 
 ## Steps to Obtain Inverse Matrix
