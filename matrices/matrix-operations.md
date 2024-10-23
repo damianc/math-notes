@@ -5,6 +5,7 @@
 For matrix $C=A \pm B$, its element $c_{ij}$ is a sum/difference of respective elements, that is:
 
 $$
+\large
 c_{ij} = a_{ij} \pm b_{ij}
 $$
 
@@ -47,6 +48,7 @@ $$
 For matrix $B=k \cdot A$, its element $b_{ij}$ is element $a_{ij}$ multiplied by $k$, that is:
 
 $$
+\large
 b_{ij} = k \cdot a_{ij}
 $$
 
