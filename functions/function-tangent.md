@@ -22,3 +22,13 @@ $$
 
 > or just:  
 > $y = (x-x_0)f'(x_0)+f(x_0)$
+
+Coordinates of the tangent point $P$ are as follows:
+
+$$
+\begin{cases}
+P_x = x_0
+\\
+P_y = mx_0 + i
+\end{cases}
+$$
