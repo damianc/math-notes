@@ -44,6 +44,8 @@ $$
 
 1. Pick _the first function_ (sticking to the **ILATE rule**) and denote it as $\color{blue}u$:
 
+> $x$ is algebraic (**A**) function, $e^x$ is exponential (**E**) function: algebraic function has higher priority as **A** stands before **E** in **LIATE**
+
 $$
 {\color{blue}u} = x
 $$
