@@ -33,4 +33,59 @@ where:
 > 
 > For example, for a pair of _algebraic_ and _exponential_ functions, the _algebraic_ function is _the first function_, i.e., $\color{blue}u$ or $\color{blue}f(x)$.
 
+## Algorithm
+
+Example integrand: ${\color{blue}x} \cdot {\color{red}e^x}$:
+
+$$
+\large
+\int\ {\color{blue}x} \cdot {\color{red}e^x}
+$$
+
+1. Pick _the first function_ (sticking to the **ILATE rule**) and denote it as $\color{blue}u$:
+
+$$
+{\color{blue}u} = x
+$$
+
+2. Denote the other function as $\color{red}dv$:
+
+$$
+{\color{red}dv} = e^x
+$$
+
+3. Get a derivative of $\color{blue}u$ and denote it as $\color{purple}du$:
+
+$$
+{\color{purple}du} = {\color{blue}u}' = [x]' = 1
+$$
+
+4. Get an integral of $\color{red}dv$ and denote it as $\color{green}v$:
+
+$$
+{\color{green}v} = \int {\color{red}dv} = \int e^x\ dx = e^x
+$$
+
+5. Replace terms in the formula with respective functions/values:
+
+$$
+\int {\color{blue}u}\ {\color{red}dv} = {\color{blue}u}{\color{green}v} - \int {\color{green}v}\ {\color{purple}du}
+$$
+
+$$
+\int {\color{blue}x} \cdot {\color{red}e^x}\ dx = {\color{blue}x} \cdot {\color{green}e^x} - \int {\color{green}e^x} \cdot {\color{purple}1} \ dx
+$$
+
+6. Do remaining math:
+
+$$
+\begin{array}{rl}
+\int {\color{blue}x} \cdot {\color{red}e^x} \ dx & = {\color{blue}x} \cdot {\color{green}e^x} - \int {\color{green}e^x} \cdot {\color{purple}1} \ dx
+\\
+& = x \cdot e^x - e^x + C
+\\
+& = (x-1)e^x + C
+\end{array}
+$$
+
 
