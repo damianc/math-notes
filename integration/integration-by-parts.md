@@ -35,7 +35,7 @@ where:
 
 ## Algorithm
 
-Example integrand: ${\color{blue}x} \cdot {\color{red}e^x}$:
+Example integrand: ${\color{blue}x} \cdot {\color{red}e^x}$
 
 $$
 \large
