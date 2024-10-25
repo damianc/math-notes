@@ -90,4 +90,64 @@ $$
 \end{array}
 $$
 
+## Definite Integration by Parts
+
+- _UV formula_:
+
+$$
+\int_a^b {\color{blue}u}\ {\color{red}dv} = \Bigl[{\color{blue}u}{\color{green}v}\Bigr]_a^b - \int_a^b {\color{green}v}\ {\color{purple}du}
+$$
+
+- _functional formula_:
+
+$$
+\int_a^b {\color{blue}f(x)}\ {\color{red}g'(x)}\ dx = \Bigl[{\color{blue}f(x)}{\color{green}g(x)}\Bigr]_a^b - \int_a^b {\color{green}g(x)}\ {\color{purple}f'(x)}\ dx
+$$
+
+> $[f(x)]_a^b = f(b)-f(a)$
+
+### Example
+
+Example integrand: ${\color{red}1} \cdot {\color{blue}\ln(x)}$  
+Example interval of integration: $\langle 1,e \rangle$
+
+$$
+\int_1^e {\color{blue}\ln(x)}\ dx =
+\int_1^e {\color{red}1} \cdot {\color{blue}\ln(x)}\ dx
+$$
+
+$$
+\begin{array}{ll}
+{\color{blue}u}=\ln(x) & {\color{purple}du}=\frac{1}{x}
+\\
+{\color{red}dv}=1 & {\color{green}v}=x
+\end{array}
+$$
+
+$$
+\int_a^b {\color{blue}u}\ {\color{red}dv} = \Bigl[{\color{blue}u}{\color{green}v}\Bigr]_a^b - \int_a^b {\color{green}v}\ {\color{purple}du}
+$$
+
+$$
+\begin{array}{rl}
+\displaystyle\int_1^e {\color{blue}\ln(x)} \cdot {\color{red}1} & = \Bigl[{\color{blue}\ln(x)} \cdot {\color{green}x}\Bigr]_1^e - \displaystyle\int_1^e {\color{green}x} \cdot {\color{purple}\frac{1}{x}}
+\\
+\ 
+\\
+& = \Bigl[\ln(x) \cdot x\Bigr]_1^e - \Bigl[x\Bigr]_1^e
+\\
+\ 
+\\
+& = \Bigl[\ln(e) \cdot e - \ln(1) \cdot 1\Bigr] - \Bigl[e-1\Bigr]
+\\
+\ 
+\\
+& = \Bigl[e-0\Bigr] - \Bigl[e-1\Bigr]
+\\
+\ 
+\\
+& = 1
+\end{array}
+$$
+
 
