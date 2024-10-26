@@ -150,4 +150,62 @@ $$
 \end{array}
 $$
 
+## Apparent Recursion
+
+Sometimes we may end up with apparent recursion when using integration by parts (especially for product of trigonometric functions).
+
+- let's take integrand $\sin(x) \cos(x)$:
+
+$$
+\int {\color{blue}\sin(x)}\ {\color{red}\cos(x)}\ dx
+$$
+
+$$
+\begin{array}{ll}
+{\color{blue}u} = \sin(x) & {\color{purple}du} = \cos(x)
+\\
+{\color{red}dv} = \cos(x) & {\color{green}v} = \sin(x)
+\end{array}
+$$
+
+$$
+\int {\color{blue}u}\ {\color{red}dv} = {\color{blue}u}{\color{green}v} - \int {\color{green}v}\ {\color{purple}du}
+$$
+
+$$
+\int {\color{blue}\sin(x)}\ {\color{red}\cos(x)}\ dx = {\color{blue}\sin(x)}\ {\color{green}\sin(x)} - \int {\color{green}\sin(x)}\ {\color{purple}\cos(x)}\ dx
+$$
+
+- we have the same integral on both sides what apparently leads to infinite recursion:
+
+$$
+{\color{#f80}\int \sin(x)\cos(x)\ dx} = \sin^2(x) - {\color{#f80}\int \sin(x)\cos(x)\ dx}
+$$
+
+- nonetheless, it's still equation that can be altered - add $\color{#f80}\int \sin(x)\cos(x)$ to both sides:
+
+$$
+{\color{#f80}\int \sin(x)\cos(x)\ dx} + {\color{#f80}\int \sin(x) \cos(x)\ dx} = \sin^2(x)
+$$
+
+$$
+\equiv
+$$
+
+$$
+2 {\color{#f80}\int \sin(x)\cos(x)\ dx} = \sin^2(x)
+$$
+
+- continue transformation, here divide both sides by 2:
+
+$$
+{\color{#f80}\int \sin(x)\cos(x)\ dx} = \frac{1}{2} \sin^2(x)
+$$
+
+- hence the final integral:
+
+$$
+\int \sin(x)\cos(x)\ dx = \frac{1}{2} \sin^2(x) + C
+$$
+
 
