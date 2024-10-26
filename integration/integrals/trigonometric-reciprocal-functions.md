@@ -8,3 +8,11 @@
 | $\sec(ax+b)$ | $\frac{1}{a}\left[\text{arctanh}(\sin(\nabla))\right]$ |
 | $\cot(ax+b)$ | $\frac{1}{a}\left[\ln(\tan(\nabla))+\ln(\cos(\nabla))\right]$ |
 
+## Cubed Reciprocals
+
+| $f(x)$ | $\int f(x)$ |
+|--|--|
+| $\csc^2(ax+b)$ | $-\frac{1}{a} \cot(\nabla)$ |
+| $\sec^2(ax+b)$ | $\frac{1}{a} \tan(\nabla)$ |
+| $\cot^2(ax+b)$ | $-\frac{1}{a}\left[\arctan(\tan(\nabla))+\cot(\nabla)\right]$ |
+
