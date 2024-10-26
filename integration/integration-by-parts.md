@@ -208,4 +208,68 @@ $$
 \int \sin(x)\cos(x)\ dx = \frac{1}{2} \sin^2(x) + C
 $$
 
+### Rephrase Integrand
+
+Alternatively, one of trigonometric identities can be used to redefine integrand. As for the example above:
+
+$$
+\sin(x)\cos(x) = \frac{1}{2} \sin(2x)
+$$
+
+So the integral becomes:
+
+$$
+\begin{array}{rl}
+\int \sin(x)\cos(x)\ dx & = \int \frac{1}{2} \sin(2x)\ dx
+\\
+\ 
+\\
+& = \frac{1}{2} \int \sin(2x)\ dx
+\end{array}
+$$
+
+Here __integration by substitution__ can be employeed:
+
+$$
+\begin{array}{l}
+u = 2x
+\\
+du = 2\ dx \implies dx = \frac{du}{2}
+\end{array}
+$$
+
+$$
+\begin{array}{rl}
+\frac{1}{2} \int \sin(u) \cdot \frac{du}{2} & = \frac{1}{4} \int \sin(u)\ du
+\\
+\ 
+\\
+& = \frac{1}{4}(-\cos(u))
+\\
+\ 
+\\
+& = -\frac{1}{4} \cos(u)
+\\
+\ 
+\\
+& = -\frac{1}{4} \cos(2x)
+\\
+\ 
+\\
+\int \frac{1}{2} \sin(2x)\ dx & = -\frac{1}{4} \cos(2x) + C
+\end{array}
+$$
+
+> Let $f(x)$ be previously obtained integral and $g(x)$ currently obtained integral:
+>  
+> $f(x) = \frac{1}{2} \sin^2(x)$  
+> $g(x) -\frac{1}{4} \cos(2x)$
+> 
+> Though they differ:  
+> $f(k) \ne g(k)$
+> 
+> They both are proper integral of the original function:  
+> $[f(x)]_a^b = [g(x)]_a^b$  
+> $f(b)-f(a) = g(b)-g(a)$
+
 
