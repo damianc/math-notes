@@ -8,7 +8,7 @@
 | $\sec(ax+b)$ | $\frac{1}{a}\left[\text{arctanh}(\sin(\nabla))\right]$ |
 | $\cot(ax+b)$ | $\frac{1}{a}\left[\ln(\tan(\nabla))+\ln(\cos(\nabla))\right]$ |
 
-## Cubed Reciprocals
+## Squared Reciprocals
 
 | $f(x)$ | $\int f(x)$ |
 |--|--|
