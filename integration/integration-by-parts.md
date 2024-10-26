@@ -182,7 +182,7 @@ $$
 {\color{#f80}\int \sin(x)\cos(x)\ dx} = \sin^2(x) - {\color{#f80}\int \sin(x)\cos(x)\ dx}
 $$
 
-- nonetheless, it's still equation that can be altered - add $\color{#f80}\int \sin(x)\cos(x)$ to both sides:
+- nonetheless, it's still an equation and thus can be altered - add $\color{#f80}\int \sin(x)\cos(x)$ to both sides:
 
 $$
 {\color{#f80}\int \sin(x)\cos(x)\ dx} + {\color{#f80}\int \sin(x) \cos(x)\ dx} = \sin^2(x)
