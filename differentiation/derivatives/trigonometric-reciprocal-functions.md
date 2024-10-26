@@ -1,4 +1,4 @@
-# Derivatives of Reciprocals of Trigonometric Function
+# Derivatives of Reciprocals of Trigonometric Functions
 
 > $\nabla = ax+b$
 
