@@ -19,6 +19,73 @@ $$
 \frac{x^2}{a^2} + \frac{y^2}{b^2} = 1
 $$
 
+## Formulas
+
+### Surface Area
+
+$$
+S = \pi ab
+$$
+
+### Circumference
+
+A circumference of an ellipse can be obtained with use of [the complete elliptic integral of the second kind](https://en.m.wikipedia.org/wiki/Elliptic_integral#Complete_elliptic_integral_of_the_second_kind):
+
+$$
+\begin{array}{rl}
+\ell & = 4a\ E(e)
+\\
+\ 
+\\
+& = 4a \displaystyle\int_0^{\frac{\pi}{2}}
+\sqrt{1-e^2\sin^2\theta}\ d\theta
+\end{array}
+$$
+
+$$
+\text{where } e = \sqrt{1-\left(\frac{b}{a}\right)^2}
+$$
+
+#### Circumference Approximation
+
+- approximation:
+
+$$
+\ell \approx \pi\left(
+ \frac{3}{2} (a+b) - \sqrt{ab}
+\right)
+$$
+
+- more accurate approximation:
+
+$$
+\begin{array}{rl}
+\ell & \approx \pi[
+ 3(a+b)-\sqrt{(3a+b)(a+3b)}
+\Bigr]
+\\
+\ 
+\\
+& = \pi \Bigl[
+3(a+b)-\sqrt{3(a+b)^2+4ab}
+\Bigr]
+\end{array}
+$$
+
+- even more accurate approximation:
+
+$$
+\begin{array}{c}
+\ell \approx \pi\Bigl(a+b\Bigr)\left(
+1+\frac{3h}{10+\sqrt{4-3h}}
+\right)
+\\
+\ 
+\\
+\text{where } h = \frac{(a-b)^2}{(a+b)^2}
+\end{array}
+$$
+
 ## Point on Ellipse
 
 ![Point on Ellipse](https://raw.githubusercontent.com/damianc/math-notes/refs/heads/master/_images/anal-geom/ellipse/ellipse-point-location.png)
