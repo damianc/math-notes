@@ -22,9 +22,9 @@ $$
 \begin{array}{rl}
 \csc^3(ax+b) = \frac{1}{8a}\Bigl(
 \\
-& -\csc^2\left(\frac{1}{2}\nabla\right) + \sec^2\left(\frac{1}{2}\nabla\right)
+\quad\quad -\csc^2\left(\frac{1}{2}\nabla\right) + \sec^2\left(\frac{1}{2}\nabla\right)
 \\
-& +4\ln\left(\sin\left(\frac{1}{2}\nabla\right)\right) - 4\ln\left(\cos\left(\frac{1}{2}\nabla\right)\right)
+\quad\quad +4\ \ln\left(\sin\left(\frac{1}{2}\nabla\right)\right) - 4\ \ln\left(\cos\left(\frac{1}{2}\nabla\right)\right)
 \\
 \Bigr)
 \end{array}
@@ -34,14 +34,14 @@ $$
 \begin{array}{rl}
 \sec^3(ax+b) = \frac{1}{2a}\Bigl(
 \\
-& \tan(\nabla)\sec(\nabla)
+\quad\quad \tan(\nabla)\sec(\nabla)
 \\
-& -\ln\left(
+\quad\quad -\ln\left(
  \cos\left( \frac{1}{2}\nabla \right) -
  \sin\left( \frac{1}{2}\nabla \right)
 \right)
 \\
-& +\ln\left(
+\quad\quad +\ln\left(
  \cos\left( \frac{1}{2}\nabla \right) +
  \sin\left( \frac{1}{2}\nabla \right)
 \right)
@@ -51,16 +51,17 @@ $$
 $$
 
 $$
-\begin{array}{rll}
+\begin{array}{rl}
 \cot^3(ax+b) = -\frac{1}{2a} \Bigl(
 \\
-& \cot^2(\nabla) + 2\bigl(
+\quad\quad \cot^2(\nabla) + 2\bigl(
 \\
-& & \ln(\tan(\nabla))
+\quad\quad\quad\quad
+\ln(\tan(\nabla))
 \\
-& & + \ln(\cos(\nabla))
+\quad\quad\quad\quad + \ln(\cos(\nabla))
 \\
-& \bigr)
+\quad\quad \bigr)
 \\
 \Bigr)
 \end{array}
