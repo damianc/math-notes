@@ -22,35 +22,8 @@ $$
 | $$\frac{ax+b}{cx^2+dx}$$ | $$\frac{1}{cd}\Bigl[(ad-bc)\ln(cx+d)+bc\ln(x)\Bigr]$$ |
 | $$\frac{kx}{ax^2+b}$$ | $$\frac{1}{2a}\Bigl[k \ln(ax^2+b)\Bigr]$$ |
 | $$\frac{ax+b}{cx^2+d}$$ | $$\frac{a \ln(cx^2+d)}{2c}+\frac{b \arctan\left(\frac{\sqrt{c}\ x}{\sqrt{d}}\right)}{\sqrt{c}\sqrt{d}}$$ |
-
-$$
-\begin{array}{rl}
-\int \frac{kx}{ax^2+bx+c}\ dx & = \frac{k}{2a}\Bigl[
-\ln(x(ax+b)+c)-\frac{
-2b\arctan\left(\frac{2ax+b}{\nabla}\right)
-}{\nabla}
-\Bigr]
-\\
-\ 
-\\
-& \text{where } \nabla = \sqrt{4ac-b^2}
-\end{array}
-$$
-
-$$
-\begin{array}{rl}
-\int \frac{ax+b}{cx^2+tx+e}\ dx & = \frac{1}{2c}\Bigl[
-a\ln(x(cx+t)+e)-\frac{
-2(at-2bc)\arctan\left(
-\frac{2cx+t}{\nabla}
-\right)
-}{\nabla}
-\Bigr]
-\\
-\ 
-\\
-& \text{where } \nabla = \sqrt{ce-t^2}
-\end{array}
-$$
-
+| $$\frac{kx}{ax^2+bx+c}$$ | $$\frac{k}{2a}\Bigl[\ln(x(ax+b)+c)-\frac{2b\arctan\left(\large{\frac{2ax+b}{\nabla}}\right)}{\nabla}\Bigr]$$ |
+| | $$\nabla = \sqrt{4ac-b^2}$$ |
+| $$\frac{ax+b}{cx^2+tx+e}$$ | $$\frac{1}{2c}\Bigl[a\ln(x(cx+t)+e)-\frac{2(at-2bc)\arctan\left(\large{\frac{2cx+t}{\nabla}}\right)}{\nabla}\Bigr]$$ |
+| | $$\nabla = \sqrt{ce-t^2}$$ |
 
