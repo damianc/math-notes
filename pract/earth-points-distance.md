@@ -83,4 +83,64 @@ console.log(
 > Coordinates from:
 > [https://public.opendatasoft.com/explore/dataset/geonames-all-cities-with-a-population-1000/table](https://public.opendatasoft.com/explore/dataset/geonames-all-cities-with-a-population-1000/table/?disjunctive.cou_name_en&sort=name)
 
+## Coordinates Conversion
 
+```
+function decimalToDMS(lat, lon) {
+    const latDMS = convertToDMS(lat);
+    const lonDMS = convertToDMS(lon);
+
+    return {
+        latitude: `${latDMS.degrees}°${latDMS.minutes}'${latDMS.seconds.toFixed(2)}"${lat >= 0 ? "N" : "S"}`,
+        longitude: `${lonDMS.degrees}°${lonDMS.minutes}'${lonDMS.seconds.toFixed(2)}"${lon >= 0 ? "E" : "W"}`
+    };
+}
+
+function convertToDMS(degree) {
+    const absolute = Math.abs(degree);
+    const degrees = Math.floor(absolute);
+    const minutesNotTruncated = (absolute - degrees) * 60;
+    const minutes = Math.floor(minutesNotTruncated);
+    const seconds = (minutesNotTruncated - minutes) * 60;
+    return { degrees, minutes, seconds };
+}
+
+function decimalToDDM(lat, lon) {
+    const latDDM = convertToDDM(lat);
+    const lonDDM = convertToDDM(lon);
+
+    return {
+        latitude: `${latDDM.degrees}°${latDDM.minutes.toFixed(3)}'${lat >= 0 ? "N" : "S"}`,
+        longitude: `${lonDDM.degrees}°${lonDDM.minutes.toFixed(3)}'${lon >= 0 ? "E" : "W"}`
+    };
+}
+
+function convertToDDM(degree) {
+    const absolute = Math.abs(degree);
+    const degrees = Math.floor(absolute);
+    const minutes = (absolute - degrees) * 60;
+    return { degrees, minutes };
+}
+
+function DMSToDecimal(degrees, minutes, seconds, direction) {
+    let dd = degrees + minutes / 60 + seconds / 3600;
+    if (direction === "S" || direction === "W") dd = -dd;
+    return dd;
+}
+
+function DDMToDecimal(degrees, minutes, direction) {
+    let dd = degrees + minutes / 60;
+    if (direction === "S" || direction === "W") dd = -dd;
+    return dd;
+}
+```
+
+```
+const lat = 51.12345;
+const lon = 17.12345;
+
+console.log("DD to DMS:", decimalToDMS(lat, lon));
+console.log("DD to DDM:", decimalToDDM(lat, lon));
+console.log("DMS to DD:", DMSToDecimal(51, 7, 24.42, "N"), DMSToDecimal(17, 7, 24.42, "E"));
+console.log("DDM to DD:", DDMToDecimal(51, 7.407, "N"), DDMToDecimal(17, 7.407, "E"));
+```
