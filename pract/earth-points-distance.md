@@ -4,33 +4,31 @@
 * [UTM Coordinate System](https://en.wikipedia.org/wiki/Universal_Transverse_Mercator_coordinate_system)
 
 ---
+$$
+D(A,B) = 6371c
+$$
+
+where:
 
 $$
-D([lat_1,lon_1],[lat_2,lon_2]) = 6371c
-$$
-
-$$
-\iff
-\begin{cases}
-\varphi_{\Delta} = lat_2 - lat_1
+\begin{array}{l}
+c = 2\arctan_2(\sqrt{a},\sqrt{1-a})
 \\
-\lambda_{\Delta} = lon_2 - lon_1
-\\\ \\
-k = \cos(lat_1)\cos(lat_2)
-\\
-\theta = \sin^2\left(
+a = \sin^2\left(
  \frac{\varphi_{\Delta}}{2}
-\right) +
-\sin^2\left(
+\right) + n \sin^2\left(
  \frac{\lambda_{\Delta}}{2}
-\right) \cdot k
+\right)
 \\
-c = 2 \cdot \text{atan2} = (
- \sqrt{\theta},
- \sqrt{1-\theta}
-)
-\end{cases}
+n = \cos(A_{\text{lat}}) \cos(B_{\text{lat}})
+\\
+\varphi_{\Delta} = B_{\text{lat}}-A_{\text{lat}}
+\\
+\lambda_{\Delta} = B_{\text{lon}}-A_{\text{lon}}
+\end{array}
 $$
+
+## JavaScript Implementation
 
 ```
 function getDistance(A, B) {
