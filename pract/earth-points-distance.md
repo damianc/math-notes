@@ -15,13 +15,13 @@ $$
 \begin{array}{l}
 c = 2\arctan_2(\sqrt{a},\sqrt{1-a})
 \\
-a = \sin^2\left(
- \frac{\varphi_{\Delta}}{2}
-\right) + n \cdot \sin^2\left(
- \frac{\lambda_{\Delta}}{2}
-\right)
+a = {\text{hav}}(\varphi_{\Delta}) + n \cdot {\text{hav}}(\lambda_{\Delta})
 \\
 n = \cos(A_{\text{lat}}) \cos(B_{\text{lat}})
+\\
+{\text{hav}}(x) = \sin^2\left(
+ \frac{x}{2}
+\right)
 \\
 \varphi_{\Delta} = B_{\text{lat}}-A_{\text{lat}}
 \\
