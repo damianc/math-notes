@@ -54,7 +54,8 @@ function getDistance(A, B) {
   );
   const d = R * c;
 
-  return +d.toFixed(2); // KM
+  // distance in KM
+  return +d.toFixed(2);
 }
 ```
 
