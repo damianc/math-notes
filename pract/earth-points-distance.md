@@ -85,6 +85,15 @@ console.log(
 
 ## Coordinates Conversion
 
+**DD** (Decimal Degrees)  
+e.g., `51.12345, 17.12345`  
+
+**DMS** (Degrees, Minutes, Seconds)  
+e.g., `51°7'24.42"N, 17°7'24.42"E`  
+
+**DDM** (Degrees Decimal Minutes)  
+e.g., `51°7.407'N, 17°7.407'E`
+
 ```
 function decimalToDMS(lat, lon) {
     const latDMS = convertToDMS(lat);
@@ -139,8 +148,25 @@ function DDMToDecimal(degrees, minutes, direction) {
 const lat = 51.12345;
 const lon = 17.12345;
 
-console.log("DD to DMS:", decimalToDMS(lat, lon));
-console.log("DD to DDM:", decimalToDDM(lat, lon));
-console.log("DMS to DD:", DMSToDecimal(51, 7, 24.42, "N"), DMSToDecimal(17, 7, 24.42, "E"));
-console.log("DDM to DD:", DDMToDecimal(51, 7.407, "N"), DDMToDecimal(17, 7.407, "E"));
+console.log(
+  "DD to DMS:",
+  decimalToDMS(lat, lon)
+);
+
+console.log(
+  "DD to DDM:",
+  decimalToDDM(lat, lon)
+);
+
+console.log(
+  "DMS to DD:",
+  DMSToDecimal(51, 7, 24.42, "N"),
+  DMSToDecimal(17, 7, 24.42, "E")
+);
+
+console.log(
+  "DDM to DD:",
+  DDMToDecimal(51, 7.407, "N"),
+  DDMToDecimal(17, 7.407, "E")
+);
 ```
