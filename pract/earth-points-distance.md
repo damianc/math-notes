@@ -3,7 +3,8 @@
 * [Haversine Formula](https://en.wikipedia.org/wiki/Haversine_formula)
 * [UTM Coordinate System](https://en.wikipedia.org/wiki/Universal_Transverse_Mercator_coordinate_system)
 
----
+## Formula
+
 $$
 D(A,B) = 6371c
 $$
@@ -16,7 +17,7 @@ c = 2\arctan_2(\sqrt{a},\sqrt{1-a})
 \\
 a = \sin^2\left(
  \frac{\varphi_{\Delta}}{2}
-\right) + n \sin^2\left(
+\right) + n \cdot \sin^2\left(
  \frac{\lambda_{\Delta}}{2}
 \right)
 \\
