@@ -34,19 +34,19 @@ $$
 ```
 function getDistance(A, B) {
   const rad = n => n * Math.PI / 180;
+  const hav = x => Math.sin(x/2)**2;
+
   const [lat1,lon1] = A.map(rad);
   const [lat2,lon2] = B.map(rad);
-  
-  const sin2 = x => Math.sin(x)**2;
-  const R = 6371; // radius of Earth (KM)
+
+  // radius of Earth (KM)
+  const R = 6371;
 
   const latDelta = lat2 - lat1;
   const lonDelta = lon2 - lon1;
 
   const n = Math.cos(lat1) * Math.cos(lat2);
-  const a =
-    sin2(latDelta / 2) +
-    sin2(lonDelta / 2) * n;
+  const a = hav(latDelta) + n * hav(lonDelta);
 
   const c = 2 * Math.atan2(
     Math.sqrt(a),
