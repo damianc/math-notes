@@ -1,6 +1,6 @@
 # Even and Odd Functions
 
-## Evenness of Functions
+## Parity of Functions
 
  - $cos$ is an **even function**:
    - $\cos(-\alpha) = \cos(\alpha)$
@@ -11,7 +11,7 @@
   - $\tan(-\alpha) = -\tan(\alpha)$
   - therefore: $\tan(\alpha-\beta) = -\tan(\beta-\alpha)$
 
-## Sum and Difference in Terms of Evenness
+## Sum and Difference in Terms of Parity
 
 ### Sine/Cosine
 
