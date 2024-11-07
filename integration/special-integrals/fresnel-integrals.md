@@ -66,3 +66,30 @@ $$
 $$
 
 > $\nabla = \sqrt{a} \sqrt{\frac{2}{\pi}}$
+
+## JavaScript Implementation
+
+```
+function fresnelS(x, steps=1000) {
+  return _fresnel(x, Math.sin, steps);
+}
+function fresnelC(x, steps=1000) {
+  return _fresnel(x, Math.cos, steps);
+}
+
+function _fresnel(x, f, steps) {
+  const pi = Math.PI;
+  const dx = x/steps;
+  let sum = 0;
+	
+  for (let i=0; i<steps; i++) {
+    const t = i*dx;
+    const nextT = (i+1)*dx;
+    sum += (
+      f(pi*(t**2)/2) + f(pi*(nextT**2)/2)
+    )/2 * dx;
+  }
+	
+  return sum;
+}
+```
