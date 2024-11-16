@@ -124,3 +124,56 @@ p = \frac{x_1 + x_2}{2}
 q = -a(p-x_1)^2
 \end{array}
 $$
+
+## JavaScript Implementation
+
+```
+const { sqrt } = Math;
+
+function standardToVertex(a, b, c) {
+  const p = -b / (2*a);
+  const q = c - a * (p**2);
+  return { a, p, q };
+}
+
+function standardToIntercept(a, b, c) {
+  const delta = (b**2) - 4*a*c;
+  if (delta < 0) {
+    return null;
+  } else if (delta === 0) {
+    const x0 = -b/(2*a);
+    return {a,x0};
+  } else {
+    const x1 = (-b-sqrt(delta))/(2*a);
+    const x2 = (-b+sqrt(delta))/(2*a);
+    return {a,x1,x2};
+  }
+}
+
+function vertexToStandard(a, p, q) {
+  const b = -2*a*p;
+  const c = a * (p**2) + q;
+  return { a, b, c };
+}
+
+function vertexToIntercept(a, p, q) {
+  const {b,c} = vertexToStandard(a,p,q);
+  return standardToIntercept(a, b, c);
+}
+
+function interceptToStandard(a, x1, x2) {
+  const b = -a*(x1 + x2);
+  const c = a*x1*x2;
+  return { a, b, c };
+}
+
+function interceptToVertex(a, x1, x2) {
+  const p = (x1+x2) / 2;
+  const q = -a * ((p-x1)**2);
+  return { a, p, q };
+
+  // or
+  // const {b,c} = interceptToStandard(a,x1,x2);
+  // return standardToVertex(a,b,c);
+}
+```
