@@ -6,7 +6,7 @@ A slope of this line is the same as the function's slope at that point.
 
 ![Tangent of a function](https://raw.githubusercontent.com/damianc/math-notes/refs/heads/master/_images/functions/function-tangent.png)
 
-Equation for a tangent line of a function $f(x)$ at point $(x_0,0)$ is as follows:
+Equation for a tangent line of a function $f(x)$ at point $x_0$ is as follows:
 
 $$
 \begin{array}{l}
