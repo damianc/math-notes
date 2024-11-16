@@ -3,18 +3,21 @@
 #### standard/general form:
 
 $$
+\large
 y = ax^2+bx+c
 $$
 
 #### vertex form:
 
 $$
+\large
 y = a(x-p)^2+q
 $$
 
 #### intercept/factored form:
 
 $$
+\large
 y = a(x-x_1)(x-x_2)
 $$
 
@@ -23,6 +26,7 @@ $$
 $$
 
 $$
+\large
 y = a(x-x_0)^2
 $$
 
