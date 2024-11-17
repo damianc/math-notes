@@ -43,7 +43,6 @@ If roots or span is defined relative to a line $y=n$:
 $$
 \begin{array}{c}
 a = -\frac{q-n}{w^2} = \frac{n-q}{w^2}
-\end{array}
 \\
 \ 
 \\
@@ -52,6 +51,7 @@ a = -\frac{q-n}{w^2} = \frac{n-q}{w^2}
 \ 
 \\
 g(x) = f(x)+n
+\end{array}
 $$
 
 ## Converting to Standard Form
