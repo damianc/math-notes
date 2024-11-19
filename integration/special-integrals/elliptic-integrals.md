@@ -29,7 +29,7 @@ $$
 
 ## Complete Elliptic Integrals
 
-| Kind | Definition |
+| kind | definition |
 |--|--|
 | 1<sup>st</sup> | $$K(k) = F\left(\frac{\pi}{2},k\right)$$ |
 | 2<sup>nd</sup> | $$E(k) = E\left(\frac{\pi}{2},k\right)$$ |
