@@ -94,3 +94,62 @@ $$
 $$
 
 The obtained value is the result of the integration.
+
+## Another Example
+
+Let another example be a _double_ (rather than _triple_ as above one) _integral_:
+
+$$
+\int_0^1 \int_2^3
+\quad x^2y
+\quad dy\ dx
+$$
+
+1. Identify integrals:
+
+$$
+{\color{green}\int_0^1}
+{\color{red}\int_2^3}
+\quad x^2y
+\quad {\color{red}dy}\ {\color{green}dx}
+$$
+
+2. Integrate the inner integral:
+
+$$
+\begin{array}{cl}
+\displaystyle\int_2^3 x^2y\ dy & =
+x^2 \displaystyle\int_2^3 y\ dy
+\\
+\ 
+\\
+& = x^2 \Bigl[\frac{y^2}{2}\Bigr]_2^3
+\\
+\ 
+\\
+& = x^2(4.5-2)
+\\
+& = 2.5x^2
+\end{array}
+$$
+
+3. Integrate the outer integral:
+
+$$
+\begin{array}{cl}
+\displaystyle\int_0^1 2.5x^2 \ dx & =
+2.5 \displaystyle\int_0^1 x^2 \ dx
+\\
+\ 
+\\
+& = 2.5 \Bigl[\frac{x^3}{3}\Bigr]_0^1
+\\
+\ 
+\\
+& = 2.5\left(\frac{1}{3} - 0\right)
+\\
+\ 
+\\
+& = {\Large{\color{#2ae}\frac{5}{6}}}
+\end{array}
+$$
