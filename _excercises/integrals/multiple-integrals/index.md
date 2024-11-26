@@ -67,3 +67,21 @@ $$
 \frac{xy}{z}
 \ dz \ dy \ dx
 $$
+
+## 3. Double Integrals over Area
+
+3.1
+
+$$
+\int \int_C xy \ dy \ dx
+$$
+
+ for circle $C = \\{ (x,y) \in \Bbb{R}^2 \ |\ (x-2)^2 + (y-2)^2 \leq 4^2 \\}$
+
+3.2
+
+$$
+\int \int_S x+y \ dy \ dx
+$$
+
+for semi-circle $S = \\{ (x,y) \in \Bbb{R}^2 \ |\ 2 \leq y \leq \sqrt{4^2-(x-2)^2}+2 \\}$
