@@ -85,3 +85,19 @@ $$
 $$
 
 for semi-circle $S = \\{ (x,y) \in \Bbb{R}^2 \ |\ 2 \leq y \leq \sqrt{4^2-(x-2)^2}+2 \\}$
+
+3.3
+
+$$
+\int_0^2 \int_0^{y/2} xy \ dx \ dy
+$$
+
+i.e., area is a triangle whose sides are: $x$ axis, $y$ axis and $2x$ line
+
+3.4
+
+$$
+\int \int_T xy \ dx \ dy
+$$
+
+for triangle $T$ whose sides are: $x$ axis, $y$ axis and $2x+1$ line
