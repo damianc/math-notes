@@ -92,7 +92,7 @@ $$
 \int_0^2 \int_0^{y/2} xy \ dx \ dy
 $$
 
-i.e., area is a triangle whose sides are: $x$ axis, $y$ axis and $2x$ line
+i.e., area is a slice ($y \in [0,2]$) of a triangle whose sides are: $x$ axis, $y$ axis and $2x$ line
 
 3.4
 
@@ -100,4 +100,12 @@ $$
 \int \int_T xy \ dx \ dy
 $$
 
-for triangle $T$ whose sides are: $x$ axis, $y$ axis and $2x+1$ line
+for a trapezoid being a slice ($y \in [0,2]$) of a triangle whose sides are: $x$ axis, $y$ axis and $2x+1$ line
+
+3.5
+
+$$
+\int \int_P xy \ dx \ dy
+$$
+
+for area $P$ enclosed by a parabola $2x^2-4x-8$ with $y \in [0,2]$
