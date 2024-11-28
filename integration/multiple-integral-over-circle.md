@@ -1,6 +1,6 @@
 # Multiple Integral over a Circle
 
-> Example function: $(xy)^2$
+> Example function: $(xy)^2$  
 > Example circle: center at $(0,0)$ and radius $4$
 
 
@@ -99,7 +99,7 @@ $$
 
 ## Another Example
 
-> Example function: $xy$
+> Example function: $xy$  
 > Example circle: center at $(1,1)$ and radius $4$
 
 $$
