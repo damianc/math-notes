@@ -9,9 +9,9 @@ $$
 $$
 
 $$
-C = \{{
+C = \\{
 (x,y) \in \Bbb{R}^2 \ |\  x^2 + y^2 \leq 4^2
-\}}
+\\}
 $$
 
 1. Convert Cartesian to polar coordinates:
@@ -107,9 +107,9 @@ $$
 $$
 
 $$
-C = \{{
+C = \\{
 (x,y) \in \Bbb{R}^2 \ |\  (x-1)^2 + (y-1)^2 \leq 4^2
-\}}
+\\}
 $$
 
 1. Convert Cartesian to polar coordinates:
