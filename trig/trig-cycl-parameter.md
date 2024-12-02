@@ -74,3 +74,14 @@ $$
 & = \frac{\tan(\theta)-x}{1+x \tan(\theta)}
 \end{array}
 $$
+
+## Extended List
+
+|  $\square$ | $\sin(\square)$ | $\cos(\square)$ | $\tan(\square)$ | $\csc(\square)$ | $\sec(\square)$ | $\cot(\square)$ |
+|--|--|--|--|--|--|--|
+| $\arcsin(x)$ | $$x$$ | $$\sqrt{1-x^2}$$ | $$\frac{x}{\sqrt{1-x^2}}$$ | $$\frac{1}{x}$$ | $$\frac{1}{\sqrt{1-x^2}}$$ | $$\frac{\sqrt{1-x^2}}{x}$$ |
+| $\arccos(x)$ | $$\sqrt{1-x^2}$$ | $$x$$ | $$\frac{\sqrt{1-x^2}}{x}$$ | $$\frac{1}{\sqrt{1-x^2}}$$ | $$\frac{1}{x}$$ | $$\frac{x}{\sqrt{1-x^2}}$$ |
+| $\arctan(x)$ | $$\frac{x}{\sqrt{1+x^2}}$$ | $$\frac{1}{\sqrt{1+x^2}}$$ | $$x$$ | $$\frac{\sqrt{1+x^2}}{x}$$ | $$\sqrt{1+x^2}$$ | $$\frac{1}{x}$$ |
+| $\text{arccsc}(x)$ | $$\frac{1}{x}$$ | $$\frac{\sqrt{x^2-1}}{\vert x \vert}$$ | $$\frac{1}{\sqrt{x^2-1}}$$ | $$x$$ | $$\frac{\vert x \vert}{\sqrt{x^2-1}}$$ | $$\sqrt{x^2-1}$$ |
+| $\text{arcsec}(x)$ | $$\frac{\sqrt{x^2-1}}{\vert x \vert}$$ | $$\frac{1}{x}$$ | $$\sqrt{x^2-1}$$ | $$\frac{\vert x \vert}{\sqrt{x^2-1}}$$ | $$x$$ | $$\frac{1}{\sqrt{x^2-1}}$$ |
+| $\text{arccot}(x)$ | $$\frac{1}{\sqrt{1+x^2}}$$ | $$\frac{x}{\sqrt{1+x^2}}$$ | $$\frac{1}{x}$$ | $$\sqrt{1+x^2}$$ | $$\frac{\sqrt{1+x^2}}{x}$$ | $$x$$ |
