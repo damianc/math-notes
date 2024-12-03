@@ -65,6 +65,12 @@ $$
 }
 \\
 \therefore & \frac{\log_a(b)}{\log_c(d)} = \log_a(c) \cdot \log_d(b)
+\\
+\ 
+\\
+\because & \log_a(b) = \frac{1}{\log_b(a)}
+\\
+\therefore & \frac{\log_a(b)}{\log_c(d)} = \log_a(b) \cdot \log_d(c)
 \end{array}
 $$
 
