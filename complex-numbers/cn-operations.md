@@ -28,7 +28,7 @@ $$
 
 $$
 \begin{array}{rl}
-kz = k(a+bi) & = {\tiny (k+0i)(a+bi)}
+kz = {\tiny k(a+bi)} & = {\tiny (k+0i)(a+bi)}
 \\
 & = ka+kbi
 \end{array}
