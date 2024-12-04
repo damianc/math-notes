@@ -16,7 +16,7 @@ $$
 
 $$
 \begin{array}{rl}
-z_1 z_2 & = (a_1+b_1 i)(a_2+b_2 i)
+z_1 z_2 & = {\tiny (a_1+b_1 i)(a_2+b_2 i)}
 \\
 & = (a_1a_2-b_1b_2)+(a_1b_2+a_2b_1)i
 \end{array}
@@ -28,7 +28,7 @@ $$
 
 $$
 \begin{array}{rl}
-kz = k(a+bi) & = (k+0i)(a+bi)
+kz = k(a+bi) & = {\tiny (k+0i)(a+bi)}
 \\
 & = ka+kbi
 \end{array}
@@ -38,7 +38,7 @@ $$
 
 $$
 \begin{array}{rl}
-\frac{z_1}{z_2} & = \frac{(a_1+b_1 i)(a_2-b_2 i)}{a_2^2+b_2^2}
+\frac{z_1}{z_2} & = {\tiny \frac{(a_1+b_1 i)(a_2-b_2 i)}{a_2^2+b_2^2}}
 \\
 \ 
 \\
@@ -50,7 +50,7 @@ $$
 
 $$
 \begin{array}{rl}
-\frac{z}{k} = \frac{a+bi}{k} & = \frac{a+bi}{k+0i}
+\frac{z}{k} = {\tiny\frac{a+bi}{k}} & = {\tiny \frac{a+bi}{k+0i}}
 \\
 \ 
 \\
