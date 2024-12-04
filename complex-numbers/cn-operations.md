@@ -114,7 +114,7 @@ $$
 
 $$
 \begin{array}{rl}
-\frac{k}{z} & = \frac{3+0i}{6+9i}
+\frac{k}{z} & = \frac{3}{6+9i} = \frac{3+0i}{6+9i}
 \\
 \ 
 \\
