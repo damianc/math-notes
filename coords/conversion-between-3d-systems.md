@@ -52,7 +52,7 @@ $$
 \end{array}
 $$
 
-### Shperical to Cartesian
+### Spherical to Cartesian
 
 $$
 \begin{array}{l}
