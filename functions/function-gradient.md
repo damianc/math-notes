@@ -33,7 +33,11 @@ $$
 \nabla f(1,1) = (2,2)
 $$
 
-what means that at point $(1,1)$ the function $f$ has fastest increase towards point $(2,2)$.
+what means that at point $(1,1)$ the function $f$ has fastest increase towards point $(2,2)$; its rate is:
+
+$$
+\vert \vert \nabla f \vert \vert = \sqrt{2^2 + 2^2} = \sqrt{8} = 2\sqrt{2}
+$$
 
 ### Other Examples
 
