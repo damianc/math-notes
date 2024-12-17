@@ -34,3 +34,75 @@ $$
 $$
 
 what means that at point $(1,1)$ the function $f$ has fastest increase towards point $(2,2)$.
+
+### Other Examples
+
+- $f(x,y) = x^2$:
+
+$$
+\begin{array}{rl}
+\nabla f(x,y) & = \left(
+\frac{\partial f}{\partial x},
+\frac{\partial f}{\partial y}
+\right)
+\\
+\ 
+\\
+& = (2x,0)
+\end{array}
+$$
+
+- $f(x,y) = y^2$:
+
+$$
+\begin{array}{rl}
+\nabla f(x,y) & = \left(
+\frac{\partial f}{\partial x},
+\frac{\partial f}{\partial y}
+\right)
+\\
+\ 
+\\
+& = (0,2y)
+\end{array}
+$$
+
+
+
+- $f(x,y,z) = \frac{xy^2}{z}$:
+
+$$
+\begin{array}{rl}
+\nabla f(x,y,z) & = \left(
+\frac{\partial f}{\partial x},
+\frac{\partial f}{\partial y},
+\frac{\partial f}{\partial z}
+\right)
+\\
+\ 
+\\
+& = \left(
+\frac{y^2}{z},
+\frac{2xy}{z},
+-\frac{xy^2}{z^2}
+\right)
+\end{array}
+$$
+
+- $f(x,y,z,w,v) = xyz+w^2 v$:
+
+$$
+\begin{array}{rl}
+\nabla f(x,y,z,w,v) & = \left(
+\frac{\partial f}{\partial x},
+\frac{\partial f}{\partial y},
+\frac{\partial f}{\partial z},
+\frac{\partial f}{\partial w},
+\frac{\partial f}{\partial v}
+\right)
+\\
+\ 
+\\
+& = (yz,xz,xy,2wv,w^2)
+\end{array}
+$$
