@@ -51,21 +51,17 @@ $$
 $$
 
 $$
-b = \frac{a}{\sin(\alpha)} \sin\left(
- \pi - \left(
-  \alpha + \arcsin\left(
-   \frac{c}{a} \sin(\alpha)
-  \right)
- \right)
-\right)
+b = \frac{a\Phi(c)}{\sin(\alpha)} = a \Phi(c) \csc(\alpha)
 $$
 
 $$
-c = \frac{a}{\sin(\alpha)} \sin\left(
- \pi - \left(
-  \alpha + \arcsin\left(
-   \frac{b}{a} \sin(\alpha)
-  \right)
- \right)
-\right)
+c = \frac{a\Phi(b)}{\sin(\alpha)} = a \Phi(b) \csc(\alpha)
+$$
+
+- where:
+
+$$
+\Phi(x) = \sin\left( \pi - \left(\alpha + \arcsin\left(
+ \frac{x}{a} \sin(\alpha)
+\right)\right)\right)
 $$
