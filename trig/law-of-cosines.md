@@ -33,3 +33,39 @@ $$
 \gamma &=& \arccos\left( \frac{a^2+b^2-c^2}{2ab} \right)
 \end{array}
 $$
+
+## Implications
+
+- if:
+
+$$
+a^2 = b^2 + c^2 - 2bc \cos(\alpha)
+$$
+
+- then:
+
+$$
+\alpha = \arccos\left(
+ \frac{c^2 + b^2 - a^2}{2bc}
+\right)
+$$
+
+$$
+b = \frac{a}{\sin(\alpha)} \sin\left(
+ \pi - \left(
+  \alpha + \arcsin\left(
+   \frac{c}{a} \sin(\alpha)
+  \right)
+ \right)
+\right)
+$$
+
+$$
+c = \frac{a}{\sin(\alpha)} \sin\left(
+ \pi - \left(
+  \alpha + \arcsin\left(
+   \frac{b}{a} \sin(\alpha)
+  \right)
+ \right)
+\right)
+$$
