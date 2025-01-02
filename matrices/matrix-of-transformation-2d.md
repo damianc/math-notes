@@ -164,3 +164,5 @@ $$
 0 & 0 & 1
 \end{bmatrix}
 $$
+
+> nonetheless $T_{3,3} = 1$
