@@ -10,6 +10,10 @@ In other words, the rows of $A$ are written as the columns of $A^T$, or - what g
 
 Hence, if $A$ is a matrix $m \times n$, then $A^T$ is a matrix $n \times m$.
 
+> The transpose $A^T$ of a matrix $A$ can be obtained by reflecting the elements along its main diagonal.
+
+> Depending on a source, the transpose can be denoted as $A^T$, $^{\top} A$, $A^{\top}$, $A^{\intercal}$, $A'$, $A^{tr}$, $^t A$ or $A^t$.
+
 ## Examples
 
 $$
