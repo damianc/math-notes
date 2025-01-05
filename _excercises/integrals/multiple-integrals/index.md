@@ -5,6 +5,7 @@
 ### 1.1
 
 $$
+\large
 \int_0^1 \int_2^3 x^2y \ dy \ dx
 $$
 
@@ -13,42 +14,49 @@ $$
 ### 1.2
 
 $$
+\large
 \int_0^1 \int_2^3 \frac{x^2}{2y} \ dy \ dx
 $$
 
 ### 1.3
 
 $$
+\large
 \int_0^1 \int_2^3 \frac{2x}{y^2} \ dy \ dx
 $$
 
 ### 1.4
 
 $$
+\large
 \int_0^1 \int_2^3 \frac{e^x}{y} \ dy \ dx
 $$
 
 ### 1.5
 
 $$
+\large
 \int_0^1 \int_2^3 4y\ \sin(x) \ dy \ dx
 $$
 
 ### 1.6
 
 $$
+\large
 \int_0^1 \int_2^3 \sin(x+y) \ dy \ dx
 $$
 
 ### 1.7
 
 $$
+\large
 \int_0^1 \int_2^3 x^2+y^2 \ dy \ dx
 $$
 
 ### 1.8
 
 $$
+\large
 \int_0^1 \int_2^3 \ln(xy) \ dy \ dx
 $$
 
@@ -57,6 +65,7 @@ $$
 ### 2.1
 
 $$
+\large
 \int_0^1 \int_1^2 \int_2^3
 4x \times \frac{1}{2}yz
 \ dz \ dy \ dx
@@ -65,6 +74,7 @@ $$
 ### 2.2
 
 $$
+\large
 \int_0^1 \int_1^2 \int_2^3
 \frac{xy}{z}
 \ dz \ dy \ dx
@@ -75,6 +85,7 @@ $$
 ### 3.1
 
 $$
+\large
 \int \int_C xy \ dy \ dx
 $$
 
@@ -83,6 +94,7 @@ $$
 ### 3.2
 
 $$
+\large
 \int \int_S x+y \ dy \ dx
 $$
 
@@ -91,6 +103,7 @@ $$
 ### 3.3
 
 $$
+\large
 \int_T xy \ x \ y
 $$
 
@@ -99,6 +112,7 @@ $$
 ### 3.4
 
 $$
+\large
 \int_0^2 \int_0^{y/2} xy \ dx \ dy
 $$
 
@@ -107,6 +121,7 @@ $$
 ### 3.5
 
 $$
+\large
 \int \int_T xy \ dx \ dy
 $$
 
@@ -115,6 +130,7 @@ $$
 ### 3.6
 
 $$
+\large
 \int \int_P xy \ dx \ dy
 $$
 
