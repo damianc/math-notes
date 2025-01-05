@@ -8,6 +8,8 @@ $$
 \int_0^1 \int_2^3 x^2y \ dy \ dx
 $$
 
+[Solution](https://github.com/damianc/math-notes/blob/master/_excercises/integrals/multiple-integrals/ex-1-1.md)
+
 ### 1.2
 
 $$
