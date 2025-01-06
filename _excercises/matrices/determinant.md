@@ -72,3 +72,23 @@ x \text{ such that } \begin{vmatrix}
 \end{vmatrix} = 5x
 $$
 
+### 1.8
+
+$$
+x \gt 0 \text{ such that } \begin{vmatrix}
+2x & 8
+\\
+2 & x
+\end{vmatrix} = 4x
+$$
+
+### 1.9
+
+$$
+x \gt 0 \text{ such that } \begin{vmatrix}
+5x & 4x
+\\
+1 & x
+\end{vmatrix} = 12
+$$
+
