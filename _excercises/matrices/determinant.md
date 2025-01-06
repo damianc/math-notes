@@ -41,3 +41,24 @@ x & 1
 4 & 6
 \end{vmatrix} = 8
 $$
+
+### 1.5
+
+$$
+x \text{ such that } \begin{vmatrix}
+3x & 4
+\\
+x & 3
+\end{vmatrix} = 10
+$$
+
+### 1.6
+
+$$
+x \text{ such that } \begin{vmatrix}
+3x & 2
+\\
+1 & 2x
+\end{vmatrix} = 52
+$$
+
