@@ -8,3 +8,5 @@
 | 4 | $$\int 4x^2 \ \ln(x) \ dx$$ | [Solution](https://github.com/damianc/math-notes/blob/master/_excercises/integrals/int-by-parts/ex-4.md) |
 | 5 | $$\int \frac{\ln(x)}{x} \ dx$$ | |
 | 6 | $$\int xe^{-x} \ dx$$ | |
+| 7 | $$\int x \ \ln(x) \ dx$$ | |
+| 8 | $$\int \frac{1+x^2}{x} \ dx$$ | |
