@@ -141,3 +141,23 @@ $$
 $$
 
 > for area $P$ enclosed by a parabola $2x^2-4x-8$ with $y \in [0,2]$
+
+## 4. Triple Integrals over Region
+
+### 4.1
+
+$$
+\large
+\int \int \int_C xy \ dx \ dy \ dz
+$$
+
+> for cylinder $C = \\{ (x,y,z) \in \Bbb{R}^3 \ | \ (x-1)^2+(y-1)^2 \leq 16 \ \land \ 0 \leq z \leq 10 \\}$
+
+### 4.2
+
+$$
+\large
+\int \int \int_C xyz \ dx \ dy \ dz
+$$
+
+> for cylinder $C = \\{ (x,y,z) \in \Bbb{R}^3 \ | \ (x-1)^2+(y-1)^2 \leq 16 \ \land \ 0 \leq z \leq 10 \\}$
