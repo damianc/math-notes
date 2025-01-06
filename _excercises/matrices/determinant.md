@@ -92,3 +92,12 @@ x \gt 0 \text{ such that } \begin{vmatrix}
 \end{vmatrix} = 12
 $$
 
+### 1.10
+
+$$
+x \gt 0 \text{ such that } \begin{vmatrix}
+5x & 4x
+\\
+1 & x
+\end{vmatrix} = 6x
+$$
