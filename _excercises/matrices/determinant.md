@@ -21,3 +21,23 @@ $$
 2 & 4
 \end{bmatrix}
 $$
+
+### 1.3
+
+$$
+x \text{ such that } \begin{vmatrix}
+2 & x
+\\
+4 & 6
+\end{vmatrix} = 10
+$$
+
+### 1.4
+
+$$
+x \text{ such that } \begin{vmatrix}
+x & 1
+\\
+4 & 6
+\end{vmatrix} = 8
+$$
