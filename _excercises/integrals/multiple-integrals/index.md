@@ -27,6 +27,8 @@ $$
 \int_0^1 \int_2^3 \frac{2x}{y^2} \ dy \ dx
 $$
 
+[Solution](https://github.com/damianc/math-notes/blob/master/_excercises/integrals/multiple-integrals/ex-1-3.md)
+
 ### 1.4
 
 $$
