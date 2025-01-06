@@ -1,4 +1,4 @@
-# Integration by Parts: Exercises
+# Exercises: Integration by Parts
 
 | # | Integral | |
 |--|--|--|
