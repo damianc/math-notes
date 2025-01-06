@@ -62,3 +62,13 @@ x \text{ such that } \begin{vmatrix}
 \end{vmatrix} = 52
 $$
 
+### 1.7
+
+$$
+x \text{ such that } \begin{vmatrix}
+3x & 4
+\\
+2 & 3
+\end{vmatrix} = 5x
+$$
+
