@@ -31,6 +31,8 @@ x^2 \ e^x - \displaystyle\int 2x \ e^x \ dx & = x^2 \ e^x - 2e^x(x-1)
 \end{array}
 $$
 
+> Solution for $\int 2x \ e^x \ dx$ is [here](https://github.com/damianc/math-notes/blob/master/_excercises/integrals/int-by-parts/ex-1.md)
+
 ## Result
 
 $$
