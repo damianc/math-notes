@@ -125,9 +125,23 @@ $$
 ## Other Functions
 
 $$
-1+\tan^2(\theta) = \frac{1}{\cos^2(\theta)} = \sec^2(\theta)
-$$
-
-$$
-1+\cot^2(\theta) = \frac{1}{\sin^2(\theta)} = \csc^2(\theta)
+\begin{array}{rl}
+1+\tan^2(\theta) & = \frac{1}{\cos^2(\theta)} = \sec^2(\theta)
+\\
+\ 
+\\
+1-\tan^2(\theta) & = (1-2\sin^2(\theta))\sec^2(\theta)
+\\
+\ 
+\\
+1+\cot^2(\theta) & = \frac{1}{\sin^2(\theta)} = \csc^2(\theta)
+\\
+\ 
+\\
+1-\cot^2(\theta) & = (2\sin^2(\theta)-1)\csc^2(\theta)
+\\
+\ 
+\\
+& = 2-\csc^2(\theta)
+\end{array}
 $$
