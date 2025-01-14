@@ -50,3 +50,5 @@ $$
 k^n = \prod_{i=0}^{\infty}
 k^{\frac{\partial p(n,i)}{10^i}} \equiv \prod_{i=0}^{\infty} \sqrt[10^i]{k^{\partial p(n,i)}}
 $$
+
+> more often than not, $\infty$ can be replaced with some small number like $4$ or $10$, depending on how accurate the result is expected to be
