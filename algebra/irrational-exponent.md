@@ -47,6 +47,6 @@ $$
 
 $$
 \Large
-k^n \equiv \prod_{i=0}^{\infty}
-k^{\frac{\partial p(n,i)}{10^i}} = \prod_{i=0}^{\infty} \sqrt[10^i]{k^{\partial p(n,i)}}
+k^n = \prod_{i=0}^{\infty}
+k^{\frac{\partial p(n,i)}{10^i}} \equiv \prod_{i=0}^{\infty} \sqrt[10^i]{k^{\partial p(n,i)}}
 $$
