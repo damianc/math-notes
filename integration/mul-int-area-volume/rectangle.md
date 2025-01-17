@@ -3,9 +3,9 @@
 A rectangle $a$ in width and $b$ in height:
 
 $$
-R = \{{
+R = \\{
 (x,y) \in \Bbb{R}^2 \ |\ x \in [0,a] \land y \in [0,b]
-\}}
+\\}
 $$
 
 Integral:
