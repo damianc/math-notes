@@ -1,6 +1,8 @@
 # Multiple Integrals: Rectangle Area
 
-A rectangle $a$ in width and $b$ in height:
+A rectangle:
+- $a$ in width
+- $b$ in height
 
 $$
 R = \\{
