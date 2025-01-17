@@ -37,7 +37,7 @@ I_2 = \displaystyle\int_0^a \ dx & = [x]_0^a
 $$
 
 $$
-I_1 I_2 = ba = ab
+I_1 I_2 = ba \equiv ab
 $$
 
  ## Single Integral
@@ -66,6 +66,6 @@ $$
 \\
 & = b(a-0)
 \\
-& = ba
+& = ba \equiv ab
  \end{array}
  $$
