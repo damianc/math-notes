@@ -18,7 +18,7 @@ Math:
 
 $$
 \begin{array}{rl}
-\displaystyle\int_0^b dy & = [y]_0^b
+I_1 = \displaystyle\int_0^b dy & = [y]_0^b
 \\
 & = b-0
 \\
@@ -28,16 +28,16 @@ $$
 \\
 \ 
 \\
-\displaystyle\int_0^a b \ dx & = b \displaystyle\int_0^a dx
+I_2 = \displaystyle\int_0^a \ dx & = [x]_0^a
 \\
-\ 
+& = a-0
 \\
-& = b [x]_0^a
-\\
-& = b(a-0)
-\\
-& = ba
+& = a
 \end{array}
+$$
+
+$$
+I_1 I_2 = ba = ab
 $$
 
  ## Single Integral
