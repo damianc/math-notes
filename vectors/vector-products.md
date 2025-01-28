@@ -72,6 +72,20 @@ a \otimes b = ab^{\intercal} = \begin{bmatrix}
 \end{bmatrix}
 $$
 
+for example:
+
+$$
+[1,2] \otimes [3,4] = [1,2] \cdot \begin{bmatrix}
+3
+\\
+4
+\end{bmatrix} = \begin{bmatrix}
+3 & 4
+\\
+6 & 8
+\end{bmatrix}
+$$
+
 ## Kronecker Product
 
 $$
@@ -84,4 +98,50 @@ A \otimes B = \begin{bmatrix}
   \\
   a_{m1}B & a_{m2}B & \cdots & a_{mn}B
 \end{bmatrix}
+$$
+
+for example:
+
+$$
+\begin{bmatrix}
+1 & 2
+\\
+3 & 4
+\end{bmatrix} \otimes
+\begin{bmatrix}
+0 & 5
+\\
+6 & 7
+\end{bmatrix} = \begin{bmatrix}
+1\begin{bmatrix}
+0 & 5
+\\
+6 & 7
+\end{bmatrix} & 2\begin{bmatrix}
+0 & 5
+\\
+6 & 7
+\end{bmatrix}
+\\
+\ 
+\\
+3\begin{bmatrix}
+0 & 5
+\\
+6 & 7
+\end{bmatrix} & 4\begin{bmatrix}
+0 & 5
+\\
+6 & 7
+\end{bmatrix}
+\end{bmatrix} = \left[\begin{array}{cc|cc}
+0 & 5 & 0 & 10
+\\
+6 & 7 & 12 & 14
+\\
+\hline
+0 & 15 & 0 & 20
+\\
+18 & 21 & 24 & 28
+\end{array}\right]
 $$
