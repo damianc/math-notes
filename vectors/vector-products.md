@@ -1,0 +1,87 @@
+# Vector Products
+
+The following vectors are considered:
+
+$$
+\begin{array}{l}
+\vec{a} = [a_1, a_2, a_3]
+\\
+\vec{b} = [b_1, b_2, b_3]
+\end{array}
+$$
+
+## Multiplication by Scalar
+
+$$
+k\vec{a} = [ka_1, ka_2, ka_3]
+$$
+
+## Dot/Scalar Product
+
+$$
+\vec{a} \cdot \vec{b} = a_1b_1 + a_2b_2 + a_3b_3
+$$
+
+> generally:  
+> $$\vec{a} \cdot \vec{b} = \vec{a}^{\intercal} \vec{b} = \|\vec{a}\|\|\vec{b}\| \cos\theta = \sum_{k=1}^{n} a_k b_k$$
+
+> Properties of the dot product:
+> - $\vec{a} \cdot \vec{a} = \| \vec{a} \|^2$
+> - $\vec{a} \cdot \vec{b} = \vec{b} \cdot \vec{a}$
+> - $\vec{a} \cdot (\vec{b}+\vec{c}) = \vec{a} \cdot \vec{b} + \vec{a} \cdot \vec{c}$
+
+## Cross/Vector Product (in $\Bbb{R}^3$)
+
+$$
+\begin{array}{rl}
+\vec{a} \times \vec{b} & = \begin{vmatrix}
+ \vec{i} & \vec{j} & \vec{k}
+ \\
+ a_1 & a_2 & a_3
+ \\
+ b_1 & b_2 & b_3
+\end{vmatrix}
+\\
+\ 
+\\
+& = [(a_2b_3-a_3b_2)]\vec{i} - [(a_1b_3-a_3b_1)]\vec{j} + [(a_1b_2-a_2b_1)]\vec{k}
+\\
+\ 
+\\
+& = [a_2b_3-a_3b_2, a_1b_3-a_3b_1, a_1b_2-a_2b_1]
+\end{array}
+$$
+
+- $\vec{i}$ - the unit vector in the direction of  the **x**, i.e., $[1,0,0]$
+- $\vec{j}$ - the unit vector in the direction of  the **y**, i.e., $[0,1,0]$
+- $\vec{k}$ - the unit vector in the direction of  the **z**, i.e., $[0,0,1]$
+
+> for example, vector $\vec{a} = [2,-1,3]$ can be written as $\vec{a} = 2\vec{i} - \vec{j} + 3\vec{k}$
+
+## Outer Product
+
+$$
+a \otimes b = ab^{\intercal} = \begin{bmatrix}
+ a_1b_1 & a_1b_2 & a_1b_3 & \cdots & a_1b_n
+ \\
+ a_2b_1 & a_2b_2 & a_2b_3 & \cdots & a_2b_n
+ \\
+ \vdots & \vdots & \vdots & \ddots & \vdots
+ \\
+ a_m b_1 & a_m b_2 & a_m b_3 & \cdots & a_m b_n
+\end{bmatrix}
+$$
+
+## Kronecker Product
+
+$$
+A \otimes B = \begin{bmatrix}
+ a_{11}B & a_{12}B & \cdots & a_{1n}B
+ \\
+  a_{21}B & a_{22}B & \cdots & a_{2n}B
+  \\
+  \vdots & \vdots & \ddots & \vdots
+  \\
+  a_{m1}B & a_{m2}B & \cdots & a_{mn}B
+\end{bmatrix}
+$$
