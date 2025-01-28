@@ -23,7 +23,7 @@ $$
 $$
 
 > generally:  
-> $$\vec{a} \cdot \vec{b} = \vec{a}^{\intercal} \vec{b} = \|\vec{a}\|\|\vec{b}\| \cos\theta = \sum_{k=1}^{n} a_k b_k$$
+> $$\vec{a} \cdot \vec{b} = \vec{a}^{\intercal} \vec{b} = \|\vec{a}\|\|\vec{b}\| \cos\theta = \displaystyle\sum_{k=1}^{n} a_k b_k$$
 
 > Properties of the dot product:
 > - $\vec{a} \cdot \vec{a} = \| \vec{a} \|^2$
