@@ -24,3 +24,59 @@ $$
 
 > Due to the above:
 > $$\int \frac{f'(x)}{f(x)}\ dx = \ln(f(x)) + C$$
+
+## The Chain Rule Partially Defined with Specific Functions
+
+$$
+\begin{array}{ll}
+\text{\tiny trigonometric}
+\\
+\ 
+\\
+\frac{d}{dx} \sin(g(x)) & = \cos(g(x))g'(x)
+\\
+\ 
+\\
+\frac{d}{dx} \cos(g(x)) & = -\sin(g(x))g'(x)
+\\
+\ 
+\\
+\frac{d}{dx} \tan(g(x)) & = \sec^2(g(x))g'(x)
+\\
+\ 
+\\
+\text{\tiny exponential}
+\\
+\ 
+\\
+\frac{d}{dx} e^{g(x)} & = e^{g(x)}g'(x)
+\\
+\ 
+\\
+\frac{d}{dx} a^{g(x)} & = a^{g(x)} \ln(a) g'(x)
+\\
+\ 
+\\
+\text{\tiny logarithmic}
+\\
+\ 
+\\
+\frac{d}{dx} \ln(g(x)) & = \frac{g'(x)}{g(x)}
+\\
+\ 
+\\
+\frac{d}{dx} \log_b(g(x)) & = \frac{g'(x)}{g(x) \ln(b)}
+\\
+\ 
+\\
+\text{\tiny power}
+\\
+\ 
+\\
+\frac{d}{dx} g^2(x) & = 2 g(x) g'(x)
+\\
+\ 
+\\
+\frac{d}{dx} g^p(x) & = pg^{p-1}(x) g'(x)
+\end{array}
+$$
