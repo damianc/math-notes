@@ -1,5 +1,7 @@
 # Operations on Vectors
 
+- Details of vector products are covered in [this article](https://github.com/damianc/math-notes/blob/master/vectors/vector-products.md).
+
 The following vectors are considered:
 
 $$
