@@ -2,7 +2,7 @@
 
 📏📐 Handy math stuff
 
-> **you ain't no mathematician if you never fucked up basic algebra**
+> **you ain't no mathematician if you never fucked up basic algebra**  
 > *\~ common wisdom*
 
 > $\because$ **Einstein**: $E = MC^2$  
@@ -10,7 +10,7 @@
 
 ----
 
-> I have no hesitation in recommending another excellent source:
+> I have no hesitation in recommending another excellent source:  
 [Paul's Online Notes](https://tutorial.math.lamar.edu/)
 
 ----
