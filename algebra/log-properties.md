@@ -10,7 +10,7 @@ $$
 \end{array}
 $$
 
-## Power Property 
+## Power/Radical Property 
 
 $$
 \begin{array}{l}
