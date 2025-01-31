@@ -91,3 +91,79 @@ ax^2+bx+c = n & \implies & x = \sqrt{
 & & p = \frac{-b}{2a} \text{ and } q = c-ap^2
 \end{array}
 $$
+
+## Derivation
+
+- $a^x = n \implies x = \log_a(n)$
+
+$$
+\begin{array}{ll}
+a^x = n
+\\
+& \backslash \ln(\square)
+\\
+\ln(a^x) = \ln(n)
+\\
+& {\small \because \ln(k^p) = p \ln(k)}
+\\
+x \ln(a) = \ln(n)
+\\
+& \backslash : \ln(a)
+\\
+x = \frac{\ln(n)}{\ln(a)} = \log_a(n)
+\end{array}
+$$
+
+- $\sqrt[x]{a} = n \implies x = \log_n(a)$
+
+$$
+\begin{array}{ll}
+\sqrt[x]{a} = n
+\\
+& \backslash \ln(\square)
+\\
+\ln(\sqrt[x]{a}) = \ln(n)
+\\
+& {\small \because \ln(\sqrt[d]{k}) = \frac{\ln(k)}{d} }
+\\
+\frac{1}{x} \ln(a) = \ln(n)
+\\
+& \backslash \square^{-1}
+\\
+\frac{x}{\ln(a)} = \frac{1}{\ln(n)}
+\\
+& \backslash \cdot \ln(a)
+\\
+x = \frac{\ln(a)}{\ln(n)} = \log_n(a)
+\end{array}
+$$
+
+> $\square^{-1}$ can be skipped by use of the fact that $\frac{a}{b} = c \implies \frac{a}{c} = b$
+
+- $\log_b(x) = n \implies x = b^n$
+
+$$
+\begin{array}{ll}
+\log_b(x) = n
+\\
+& {\small \because \log_b(a) = k \implies b^k = a }
+\\
+x = b^n
+\end{array}
+$$
+
+- $\log_x(a) = n \implies x = \sqrt[n]{a}$
+
+$$
+\begin{array}{ll}
+\log_x(a) = n
+\\
+& {\small \because \log_b(a) = k \implies b^k = a }
+\\
+x^n = a
+\\
+& \backslash \sqrt[n]{\square}
+\\
+x = \sqrt[n]{a}
+\end{array}
+$$
