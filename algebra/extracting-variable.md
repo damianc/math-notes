@@ -30,6 +30,8 @@ x^p = n & \implies & x = \sqrt[p]{n}
 \\
 a^x = n & \implies & x = \log_a(n)
 \\
+\ 
+\\
 e^x = n & \implies & x = \ln(n)
 \end{array}
 $$
@@ -42,6 +44,8 @@ $$
 \\
 \sqrt[x]{a} = n & \implies & x = \log_n(a)
 \\
+\ 
+\\
 \sqrt[x]{e} = n & \implies & x = \log_n(e) = \frac{1}{\ln(n)}
 \end{array}
 $$
@@ -53,6 +57,12 @@ $$
 \log_b(x) = n & \implies & x = b^n
 \\
 \log_x(a) = n & \implies & x = \sqrt[n]{a}
+\\
+\ 
+\\
+\ln(x) = n & \implies & x = e^n = \exp(n)
+\\
+\log_x(e) = n & \implies & x = \sqrt[n]{e} = \exp\left(\frac{1}{n}\right)
 \end{array}
 $$
 
