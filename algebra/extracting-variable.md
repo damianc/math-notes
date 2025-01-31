@@ -29,6 +29,8 @@ $$
 x^p = n & \implies & x = \sqrt[p]{n}
 \\
 a^x = n & \implies & x = \log_a(n)
+\\
+e^x = n & \implies & x = \ln(n)
 \end{array}
 $$
 
@@ -39,6 +41,8 @@ $$
 \sqrt[d]{x} = n & \implies & x = n^d
 \\
 \sqrt[x]{a} = n & \implies & x = \log_n(a)
+\\
+\sqrt[x]{e} = n & \implies & x = \log_n(e) = \frac{1}{\ln(n)}
 \end{array}
 $$
 
