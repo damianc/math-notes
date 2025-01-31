@@ -44,6 +44,16 @@ $$
 \log_n(x) = \log_n(k) \cdot \log_k(x)
 $$
 
+## Power/Radical Base Property
+
+$$
+\begin{array}{l}
+\log_{n^p}(x) = \frac{\log_n(x)}{p} = \log_n(\sqrt[p]{x})
+\\
+\log_{\sqrt[d]{n}}(x) = d \log_n(x) = \log_n(x^d)
+\end{array}
+$$
+
 ## Base Swap Property
 
 $$
