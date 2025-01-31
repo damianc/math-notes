@@ -119,7 +119,7 @@
 - [Pochhammer Symbol](https://github.com/damianc/math-notes/blob/master/functions/specials/pochhammer-symbol.md)
 - [Polylogarithm Function](https://github.com/damianc/math-notes/blob/master/functions/specials/polylogarithm-function.md)
 
-## Differentation
+## Differentiation
 
 - [Derivatives Rules](https://github.com/damianc/math-notes/blob/master/differentiation/derivatives-rules.md)
 - [Chain Rule](https://github.com/damianc/math-notes/blob/master/differentiation/chain-rule.md)
