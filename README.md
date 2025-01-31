@@ -148,7 +148,7 @@
 - [Multiple Integrals Rules](https://github.com/damianc/math-notes/blob/master/integration/multiple-integrals-rules.md)
 - [Multiple Integral over a Circle](https://github.com/damianc/math-notes/blob/master/integration/multiple-integral-over-circle.md)
 
-#### Area and Volume  by Multiple Integrals
+#### Area and Volume by Multiple Integrals
 
 - [Rectangle Area](https://github.com/damianc/math-notes/blob/master/integration/mul-int-area-volume/rectangle.md)
 - [Cuboid Volume](https://github.com/damianc/math-notes/blob/master/integration/mul-int-area-volume/cuboid.md)
