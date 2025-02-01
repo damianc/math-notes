@@ -68,6 +68,8 @@ $$
 
 ## Function
 
+> $f^{-1}(\square)$ denotes an inverse function
+
 $$
 \begin{array}{lcl}
 {\large f(kx) = n} & \implies & {\large x = \frac{1}{k} f^{-1}(n)}
