@@ -252,6 +252,12 @@ x = \sqrt{\frac{n}{a}+z^2}
 \end{array}
 $$
 
+- $a(x-f)(x-s) = n \implies x = \sqrt{\frac{n-q}{a}}+p$
+
+intercept form $a(x-f)(x-s)$ is converted to vertex form $a(x-p)^2+q$
+
+math is done in the very next example
+
 - $ax^2+bx+c=n \implies x=\sqrt{\frac{n-q}{a}}+p$
 
 > conversion from standard form $ax^2+bx+c$ to vertex form $a(x-p)^2+q$ takes place ([details](https://github.com/damianc/math-notes/blob/master/functions/quadratic/forms.md#to-vertex-form))
