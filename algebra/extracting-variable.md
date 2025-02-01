@@ -254,7 +254,7 @@ $$
 
 - $a(x-f)(x-s) = n \implies x = \sqrt{\frac{n-q}{a}}+p$
 
-intercept form $a(x-f)(x-s)$ is converted to vertex form $a(x-p)^2+q$
+intercept form $a(x-f)(x-s)$ is converted to vertex form $a(x-p)^2+q$ ([details](https://github.com/damianc/math-notes/blob/master/functions/quadratic/forms.md#to-vertex-form-1))
 
 math is done in the very next example
 
