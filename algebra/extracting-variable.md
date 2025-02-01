@@ -92,6 +92,18 @@ a(x-z)(x+z) = n & \implies & x = \sqrt{\frac{n}{a} + z^2}
 \\
 \ 
 \\
+a(x-f)(x-s) = n & \implies & x = \sqrt{\frac{n}{a}+\frac{1}{4}(s-f)^2} + \frac{1}{2}(f+s)
+\\
+& & \text{or}
+\\
+& \implies & x = \sqrt{\frac{n-q}{a}}+p
+\\
+& & \text{where}
+\\
+& & p=\frac{f+s}{2} \text{ and } q=-a(p-f)^2
+\\
+\ 
+\\
 ax^2+bx+c = n & \implies & x = \sqrt{
  \frac{x-c}{a} + \left(
   \frac{b}{2a}
