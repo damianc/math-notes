@@ -242,7 +242,7 @@ $$
 
 - $ax^2+bx+c=n \implies x=\sqrt{\frac{n-q}{a}}+p$
 
-> conversion from standard form $ax^2+bx+c$ to vertex form $a(x-p)^2+q$ takes place (details)
+> conversion from standard form $ax^2+bx+c$ to vertex form $a(x-p)^2+q$ takes place ([details](https://github.com/damianc/math-notes/blob/master/functions/quadratic/forms.md#to-vertex-form))
 
 $$
 \begin{array}{ll}
