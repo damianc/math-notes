@@ -183,3 +183,85 @@ x^n = a
 x = \sqrt[n]{a}
 \end{array}
 $$
+
+- $\frac{ax+b}{cx+d} = n \implies x = \frac{nd-b}{a-nc}$
+
+$$
+\begin{array}{ll}
+\frac{ax+b}{cx+d} = n
+\\
+& \backslash \cdot (cx+d)
+\\
+ax+b = n(cx+d)
+\\
+& {\small \because k(a+b) = ka+kb}
+\\
+ax+b = ncx+nd
+\\
+& \backslash -(ncx+nd)
+\\
+ax+b-ncx-nd = 0
+\\
+& \backslash +nd-b
+\\
+ax-ncx = nd-b
+\\
+& {\small \because ka+kb = k(a+b)}
+\\
+x(a-nc) = nd-b
+\\
+& \backslash : (a-nc)
+\\
+x = \frac{nd-b}{a-nc}
+\end{array}
+$$
+
+- $a(x-z)(x+z) = n \implies x = \sqrt{\frac{n}{a}+z^2}$
+
+$$
+\begin{array}{ll}
+a(x-z)(x+z) = n
+\\
+& {\small \because (a-b)(a+b) = a^2-b^2}
+\\
+a(x^2-z^2) = n
+\\
+& \backslash : a
+\\
+x^2-z^2 = \frac{n}{a}
+\\
+& \backslash +z^2
+\\
+x^2 = \frac{n}{a}+z^2
+\\
+& \backslash \sqrt{\square}
+\\
+x = \sqrt{\frac{n}{a}+z^2}
+\end{array}
+$$
+
+- $ax^2+bx+c=n \implies x=\sqrt{\frac{n-q}{a}}+p$
+
+> conversion from standard form $ax^2+bx+c$ to vertex form $a(x-p)^2+q$ takes place (details)
+
+$$
+\begin{array}{ll}
+a(x-p)^2+q = n
+\\
+& \backslash -q
+\\
+a(x-p)^2 = n-q
+\\
+& \backslash :a
+\\
+(x-p)^2 = \frac{n-q}{a}
+\\
+& \backslash \sqrt{\square}
+\\
+x-p = \sqrt{\frac{n-q}{a}}
+\\
+& \backslash +p
+\\
+x = \sqrt{\frac{n-q}{a}}+p
+\end{array}
+$$
