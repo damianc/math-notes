@@ -34,11 +34,11 @@
     - [Area and Volume by Multiple Integrals](#area-and-volume-by-multiple-integrals)
   - [Special Integrals](#special-integrals)
   - [Integrals](#integrals)
-- [Sets](#sets)
-- [Sequences](#sequences)
 - [Vectors](#vectors)
 - [Matrices](#matrices)
   - [Transformation Matrices](#transformation-matrices)
+- [Sets](#sets)
+- [Sequences](#sequences)
 - [Complex Numbers](#complex-numbers)
 - [Statistics](#statistics)
 - [Combinatorial Analysis](#combinatorial-analysis)
@@ -171,21 +171,6 @@
 - [Hyperbolic Functions](https://github.com/damianc/math-notes/blob/master/integration/integrals/hyperbolic-functions.md)
 - [Inverse Hyperbolic Functions](https://github.com/damianc/math-notes/blob/master/integration/integrals/inverse-hyperbolic-functions.md)
 
-## Sets
-
-- [Operations on Sets](https://github.com/damianc/math-notes/blob/master/sets/sets-operations.md)
-- [Set-Builder Notation](https://github.com/damianc/math-notes/blob/master/sets/set-builder-notation.md)
-- [Set-Builder Notation: Quantifiers](https://github.com/damianc/math-notes/blob/master/sets/set-builder-quantifiers.md)
-- [Indexed Family of Sets](https://github.com/damianc/math-notes/blob/master/sets/indexed-family-of-sets.md)
-- [Generalized Union and Intersection of Sets](https://github.com/damianc/math-notes/blob/master/sets/generalized-union-and-intersection.md)
-- [Properties of Generalized Unions and Intersections](https://github.com/damianc/math-notes/blob/master/sets/gen-un-int-properties.md)
-
-## Sequences
-
-- [Arithmetic Sequence](https://github.com/damianc/math-notes/blob/master/sequences/arithmetic-sequence.md)
-- [Geometric Sequence](https://github.com/damianc/math-notes/blob/master/sequences/geometric-sequence.md)
-- [Arithmetic Sequence: Special Sums](https://github.com/damianc/math-notes/blob/master/sequences/arith-seq-special-sums.md)
-
 ## Vectors
 
 - [Operations on Vectors](https://github.com/damianc/math-notes/blob/master/vectors/vectors-operations.md)
@@ -208,6 +193,20 @@
 
 - [Matrix of Transformation 2D](https://github.com/damianc/math-notes/blob/master/matrices/matrix-of-transformation-2d.md)
 - [Combining Transformation Matrices](https://github.com/damianc/math-notes/blob/master/matrices/combining-transformation-matrices.md)
+
+## Sets
+- [Operations on Sets](https://github.com/damianc/math-notes/blob/master/sets/sets-operations.md)
+- [Set-Builder Notation](https://github.com/damianc/math-notes/blob/master/sets/set-builder-notation.md)
+- [Set-Builder Notation: Quantifiers](https://github.com/damianc/math-notes/blob/master/sets/set-builder-quantifiers.md)
+- [Indexed Family of Sets](https://github.com/damianc/math-notes/blob/master/sets/indexed-family-of-sets.md)
+- [Generalized Union and Intersection of Sets](https://github.com/damianc/math-notes/blob/master/sets/generalized-union-and-intersection.md)
+- [Properties of Generalized Unions and Intersections](https://github.com/damianc/math-notes/blob/master/sets/gen-un-int-properties.md)
+
+## Sequences
+
+- [Arithmetic Sequence](https://github.com/damianc/math-notes/blob/master/sequences/arithmetic-sequence.md)
+- [Geometric Sequence](https://github.com/damianc/math-notes/blob/master/sequences/geometric-sequence.md)
+- [Arithmetic Sequence: Special Sums](https://github.com/damianc/math-notes/blob/master/sequences/arith-seq-special-sums.md)
 
 ## Complex Numbers
 
