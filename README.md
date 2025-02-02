@@ -35,6 +35,7 @@
   - [Special Integrals](#special-integrals)
   - [Integrals](#integrals)
 - [Vectors](#vectors)
+  - [Vector Calculus](#vector-calculus)
 - [Matrices](#matrices)
   - [Transformation Matrices](#transformation-matrices)
 - [Sets](#sets)
@@ -106,7 +107,6 @@
 ## Functions
 
 - [Tangent Line of a Function](https://github.com/damianc/math-notes/blob/master/functions/function-tangent.md)
-- [Gradient of a Function](https://github.com/damianc/math-notes/blob/master/functions/function-gradient.md)
 
 ### Quadratic Functions
 
@@ -175,6 +175,10 @@
 
 - [Operations on Vectors](https://github.com/damianc/math-notes/blob/master/vectors/vectors-operations.md)
 - [Vector Products](https://github.com/damianc/math-notes/blob/master/vectors/vector-products.md)
+
+### Vector Calculus
+
+- [Gradient of a Function](https://github.com/damianc/math-notes/blob/master/vectors/vc/function-gradient.md)
 
 ## Matrices
 
