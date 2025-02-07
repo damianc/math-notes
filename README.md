@@ -131,6 +131,7 @@
 - [Rational Functions](https://github.com/damianc/math-notes/blob/master/differentiation/derivatives/rational-functions.md)
 - [Exponential Functions](https://github.com/damianc/math-notes/blob/master/differentiation/derivatives/exponential-functions.md)
 - [Logarithmic Functions](https://github.com/damianc/math-notes/blob/master/differentiation/derivatives/logarithmic-functions.md)
+- [Radical Functions](https://github.com/damianc/math-notes/blob/master/differentiation/derivatives/radical-functions.md)
 - [Trigonometric Functions](https://github.com/damianc/math-notes/blob/master/differentiation/derivatives/trigonometric-functions.md)
 - [Reciprocals of Trigonometric Functions](https://github.com/damianc/math-notes/blob/master/differentiation/derivatives/trigonometric-reciprocal-functions.md)
 - [Cyclometric Functions (Inverse Trigonometric Functions)](https://github.com/damianc/math-notes/blob/master/differentiation/derivatives/cyclometric-functions.md)
