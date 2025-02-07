@@ -165,6 +165,7 @@
 - [Rational Functions](https://github.com/damianc/math-notes/blob/master/integration/integrals/rational-functions.md)
 - [Exponential Functions](https://github.com/damianc/math-notes/blob/master/integration/integrals/exponential-functions.md)
 - [Logarithmic Functions](https://github.com/damianc/math-notes/blob/master/integration/integrals/logarithmic-functions.md)
+- [Radical Functions](https://github.com/damianc/math-notes/blob/master/integration/integrals/radical-functions.md)
 - [Trigonometric Functions](https://github.com/damianc/math-notes/blob/master/integration/integrals/trigonometric-functions.md)
 - [Reciprocals of Trigonometric Functions](https://github.com/damianc/math-notes/blob/master/integration/integrals/trigonometric-reciprocal-functions.md)
 - [Cyclometric Functions (Inverse Trigonometric Functions)](https://github.com/damianc/math-notes/blob/master/integration/integrals/cyclometric-functions.md)
