@@ -28,6 +28,7 @@
   - [Quadratic Functions](#quadratic-functions)
   - [Special Functions](#special-functions)
 - [Differentiation](#differentiation)
+  - [Partial Derivatives](#partial-derivatives)
   - [Derivatives](#derivatives)
 - [Integration](#integration)
   - [Multiple Integrals](#multiple-integrals)
@@ -124,6 +125,10 @@
 - [Derivatives Rules](https://github.com/damianc/math-notes/blob/master/differentiation/derivatives-rules.md)
 - [Chain Rule](https://github.com/damianc/math-notes/blob/master/differentiation/chain-rule.md)
 
+## Partial Derivatives
+
+- [Hessian Matrix](https://github.com/damianc/math-notes/blob/master/differentiation/partial/hessian-matrix.md)
+
 ### Derivatives
 
 - [Polynomial Functions](https://github.com/damianc/math-notes/blob/master/differentiation/derivatives/polynomial-functions.md)
@@ -182,6 +187,7 @@
 
 - [Vector Differential Operator (∇)](https://github.com/damianc/math-notes/blob/master/vectors/vc/vector-diff-op.md)
 - [Gradient of a Function](https://github.com/damianc/math-notes/blob/master/vectors/vc/function-gradient.md)
+- [Hessian Matrix](https://github.com/damianc/math-notes/blob/master/differentiation/partial/hessian-matrix.md)
 
 ## Matrices
 
