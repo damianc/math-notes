@@ -2,8 +2,8 @@
 
 Covariance is a measure that shows the linear relationship between two random variables:
 
-- $\text{cov} \to 1$: as one variable increases, other variable also increases
-- $\text{cov} \to -1$: as one variable increases, other variable decreases
+- $\text{cov} \gt 0$: as one variable increases, other variable also increases
+- $\text{cov} \lt 0$: as one variable increases, other variable decreases
 - $\text{cov} \approx 0$: there's not the linear relationship between variables (still, there can occur other type of relationship)
 
 ## Formula
