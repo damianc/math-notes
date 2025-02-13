@@ -98,25 +98,25 @@ $$
 The function:
 
 $$
-f(x,y) = y^2 \sin(x)
+f(x,y) = y^2 \ \sin(x)
 $$
 
 The gradient:
 
 $$
 \because \left[\begin{array}{l}
-\frac{\partial}{\partial x}(y^2 \sin(x)) = y^2 \frac{\partial}{\partial x}(\sin(x)) = y^2 \cos(x)
+\frac{\partial}{\partial x}(y^2 \ \sin(x)) = y^2 \frac{\partial}{\partial x}(\sin(x)) = y^2 \ \cos(x)
 \\
 \ 
 \\
-\frac{\partial}{\partial y}(y^2 \sin(x)) = \sin(x) \frac{\partial}{\partial y}(y^2) = 2y \sin(x)
+\frac{\partial}{\partial y}(y^2 \ \sin(x)) = \sin(x) \frac{\partial}{\partial y}(y^2) = 2y \ \sin(x)
 \end{array}\right.
 $$
 
 $$
 \nabla f = \left(
   \frac{\partial f}{\partial x}, \frac{\partial f}{\partial y}
-\right) = (y^2 \cos(x), 2y \sin(x))
+\right) = (y^2 \ \cos(x), 2y \ \sin(x))
 $$
 
 ### Example 4
