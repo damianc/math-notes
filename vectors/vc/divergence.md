@@ -45,7 +45,11 @@ $$
 $$
 
 $$
-\text{div} \ \vec{F} = \nabla \cdot \vec{F} = 2x + 2y + 2z = 2(x+y+z)
+\begin{array}{lr}
+\text{div} \ \vec{F} = \nabla \cdot \vec{F} & = 2x + 2y + 2z
+\\
+& = 2(x+y+z)
+\end{array}
 $$
 
 ### Example 2
@@ -77,5 +81,9 @@ $$
 $$
 
 $$
-\text{div} \ \vec{F} = \nabla \cdot \vec{F} = z + xz = (1+x)z
+\begin{array}{rl}
+\text{div} \ \vec{F} = \nabla \cdot \vec{F} & = z + xz
+\\
+& = (1+x)z
+\end{array}
 $$
