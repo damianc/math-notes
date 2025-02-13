@@ -5,7 +5,7 @@ The divergence measures the scalar of a _source_ or _sink_ at a given point in a
 For a vector field $\vec{F}$:
 
 $$
-\vec{F} = P\hat{i} + Q\hat{j} + R\hat{k}
+\vec{F} = P\hat{i} + Q\hat{j} + R\hat{k} = (P,Q,R)
 $$
 
 The divergence is:
