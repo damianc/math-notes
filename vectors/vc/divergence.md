@@ -1,6 +1,6 @@
 # Divergence
 
-The divergence measures the scalar of a _source_ or _sink_ at a given point in a vector field.
+The divergence measures the scalar of a _source_ or _sink_ at a given point in a _vector field_.
 
 For a vector field $\vec{F}$:
 
