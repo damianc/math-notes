@@ -30,7 +30,7 @@ $$
 | gradient | $\text{grad}(f) = \nabla f$ | Measures the rate and direction of change in _a scalar field_. | maps _scalar fields_ to _vector fields_ |
 | divergence | $\text{div}(F) = \nabla \cdot F$ | Measures the scalar of a _source_ or _sink_ at a given point in _a vector field_. | maps _vector fields_ to _scalar fields_ |
 | curl | $\text{curl}(F) = \nabla \times F$ | Measures the tendency to rotate about a point in _a vector field_ in $\Bbb{R}^3$. | maps _vector fields_ to _(pseudo)vector fields_ |
-| Laplacian | $\Delta f = \nabla^2 = \nabla \cdot \nabla f$ | Measures the difference between the value of the scalar field with its average on infinitesimal balls. | maps between _scalar fields_ |
+| Laplacian | $\Delta f = \nabla^2 f = \nabla \cdot \nabla f$ | Measures the difference between the value of the scalar field with its average on infinitesimal balls. | maps between _scalar fields_ |
 | vector Laplacian | $\nabla^2 F = \nabla(\nabla \cdot F) - \nabla \times (\nabla \times F)$ | Measures the difference between the value of the vector field with its average on infinitesimal balls. | maps between _vector fields_ |
 
 ### Gradient
