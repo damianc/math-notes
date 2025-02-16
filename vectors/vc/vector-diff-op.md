@@ -108,3 +108,19 @@ P & Q & R
 \end{bmatrix}^{\intercal}
 \end{array}
 $$
+
+### Laplacian
+
+For a function $f(x,y,z)$, the Laplacian is:
+
+$$
+\Delta f = \nabla^2 f = \frac{\partial^2 f}{\partial x^2} + \frac{\partial^2 f}{\partial y^2} + \frac{\partial^2 f}{\partial z^2}
+$$
+
+### Vector Laplacian
+
+For a function $\vec{F} = P\hat{i} + Q\hat{j} + R\hat{k}$, the vector Laplacian is:
+
+$$
+\Delta F = \nabla^2 F = (\Delta P, \Delta Q, \Delta R)
+$$
