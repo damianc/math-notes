@@ -39,12 +39,12 @@ For a function $f(x,y,z)$, the gradient is:
 
 $$
 \begin{array}{ll}
-\text{grad} \ f = \nabla f{\color{#aaa} (x,y,z)} & = \frac{\partial}{\partial x} \hat{i} + \frac{\partial}{\partial y} \hat{j} + \frac{\partial}{\partial z} \hat{k}
+\text{grad} \ f = \nabla f{\color{#aaa} (x,y,z)} & = \frac{\partial f}{\partial x} \hat{i} + \frac{\partial f}{\partial y} \hat{j} + \frac{\partial f}{\partial z} \hat{k}
 \\
 \ 
 \\
 & = \left[
-\frac{\partial}{\partial x}, \frac{\partial}{\partial y}, \frac{\partial}{\partial z}
+\frac{\partial f}{\partial x}, \frac{\partial f}{\partial y}, \frac{\partial f}{\partial z}
 \right]^{\intercal}
 \end{array}
 $$
