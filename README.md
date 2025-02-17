@@ -29,6 +29,7 @@
   - [Special Functions](#special-functions)
 - [Differentiation](#differentiation)
   - [Partial Derivatives](#partial-derivatives)
+  - [Numerical Differentiation](#numerical-differentiation)
   - [Derivatives](#derivatives)
 - [Integration](#integration)
   - [Multiple Integrals](#multiple-integrals)
@@ -128,6 +129,10 @@
 ### Partial Derivatives
 
 - [Hessian Matrix](https://github.com/damianc/math-notes/blob/master/differentiation/partial/hessian-matrix.md)
+
+### Numerical Differentiation
+
+- [Finite Difference Method](https://github.com/damianc/math-notes/blob/master/differentiation/numerical/fdm.md)
 
 ### Derivatives
 
