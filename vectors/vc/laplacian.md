@@ -2,22 +2,14 @@
 
 Measures the difference between the value of _the scalar field_ with its average on infinitesimal balls.
 
-For a vector field $\vec{F}$:
-
-$$
-\vec{F} = P\hat{i} + Q\hat{j} + R\hat{k}
-$$
-
-The Laplacian is:
+For a function $f(x,y,z)$, the Laplacian is:
 
 $$
 \Delta f = \nabla^2 f = \frac{\partial^2 f}{\partial x^2} + \frac{\partial^2 f}{\partial y^2} + \frac{\partial^2 f}{\partial z^2}
 $$
 
-> in general, the Laplacian in $\Bbb{R}^n$ is:
-> $$
-> \Delta f = \sum_{i=1}^n \frac{\partial^2 f}{\partial x_i^2}
-> $$
+> in general, the Laplacian in $\Bbb{R}^n$ is:  
+> $$\Delta f = \displaystyle\sum_{i=1}^n \frac{\partial^2 f}{\partial x_i^2}$$
 
 ## Examples
 
