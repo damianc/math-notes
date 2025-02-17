@@ -194,6 +194,8 @@
 - [Gradient of a Function](https://github.com/damianc/math-notes/blob/master/vectors/vc/function-gradient.md)
 - [The Divergence](https://github.com/damianc/math-notes/blob/master/vectors/vc/divergence.md)
 - [The Curl](https://github.com/damianc/math-notes/blob/master/vectors/vc/curl.md)
+- [Laplacian](https://github.com/damianc/math-notes/blob/master/vectors/vc/laplacian.md)
+- [Vector Laplacian](https://github.com/damianc/math-notes/blob/master/vectors/vc/vector-laplacian.md)
 - [Hessian Matrix](https://github.com/damianc/math-notes/blob/master/differentiation/partial/hessian-matrix.md)
 
 ## Matrices
