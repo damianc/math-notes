@@ -45,7 +45,7 @@
 - [Complex Numbers](#complex-numbers)
 - [Statistics](#statistics)
 - [Combinatorial Analysis](#combinatorial-analysis)
-- [Practic Use of Math](#practic-use-of-math)
+- [Practical Use of Math](#practical-use-of-math)
 - [Tools](#tools)
   - [Desmos](#desmos)
   - [MathJax](#mathjax)
@@ -251,7 +251,7 @@
 - [Permutations and Combinations with Repetition](https://github.com/damianc/math-notes/blob/master/combinatorics/permutations-combinations-with-repetition.md)
 - [Quick Examples of Permutations, Combinations and Variations](https://github.com/damianc/math-notes/blob/master/combinatorics/perm-comb-var-quick-examples.md)
 
-## Practic Use of Math
+## Practical Use of Math
 
 - [Math Outside](https://github.com/damianc/math-notes/blob/master/pract/math-outside.md)
 - [Distance Between 2 Points on Earth](https://github.com/damianc/math-notes/blob/master/pract/earth-points-distance.md)
