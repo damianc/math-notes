@@ -48,6 +48,7 @@
 - [Practical Use of Math](#practical-use-of-math)
 - [Tools](#tools)
   - [Desmos](#desmos)
+    - [Desmos 3D](#desmos-3d)
   - [MathJax](#mathjax)
 
 ## Algebra
@@ -268,6 +269,10 @@
 - [Circle Sector](https://github.com/damianc/math-notes/blob/master/desmos/circle-sector.md)
 - [Circle Segment](https://github.com/damianc/math-notes/blob/master/desmos/circle-segment.md)
 - [Line Equation by Points Angles (On a Circle)](https://github.com/damianc/math-notes/blob/master/desmos/line-equation-by-points-angles.md)
+
+#### Desmos 3D
+
+- [Gradient of a Function](https://github.com/damianc/math-notes/blob/master/desmos/desmos-3d/gradient.md)
 
 ### MathJax
 
