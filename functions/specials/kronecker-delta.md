@@ -3,6 +3,7 @@
 The **Kronecker delta** is a function that checks if two variables are equal.
 
 $$
+\large
 \delta_{ij} = \begin{cases}
 0 & \text{if } i \neq j
 \\
@@ -33,6 +34,16 @@ $$
 
 $$
 \text{tr}(M) = \sum_{i,j=1}^n M_{ij} \delta_{ij} = \sum_{i=1}^n M_{ii}
+$$
+
+- the _Lagrange interpolation_:
+
+$$
+P(x) = \sum_{i=1}^n y_i \left[
+\prod_{j=1}^n \left(
+\frac{x-x_j}{x_i-x_j}
+\right)^{1-\delta_{ij}}
+\right]
 $$
 
 ## Kronecker Delta as a Filter
