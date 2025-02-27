@@ -20,3 +20,8 @@ $$
 \large
 P(x) = \sum_{i=1}^n y_i \ell_i(x), \quad 
 \ell_i(x) = \prod_{j \neq i}  \frac{x-x_j}{x_i-x_j}  $$
+
+### Related Articles
+
+- [Finding a Line by Two Points](https://github.com/damianc/math-notes/blob/master/analytic-geometry/finding-line.md#by-two-points)
+- [Finding a Parabola by Roots and Vertex](https://github.com/damianc/math-notes/blob/master/functions/quadratic/constructing-parabola.md)
