@@ -36,7 +36,7 @@ $$
 \text{tr}(M) = \sum_{i,j=1}^n M_{ij} \delta_{ij} = \sum_{i=1}^n M_{ii}
 $$
 
-- the _Lagrange interpolation_:
+- [the _Lagrange interpolation_](https://github.com/damianc/math-notes/blob/master/functions/lagrange-interpolation.md):
 
 $$
 P(x) = \sum_{i=1}^n y_i \left[
