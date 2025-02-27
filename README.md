@@ -110,6 +110,7 @@
 ## Functions
 
 - [Tangent Line of a Function](https://github.com/damianc/math-notes/blob/master/functions/function-tangent.md)
+- [Lagrange Interpolation](https://github.com/damianc/math-notes/blob/master/functions/lagrange-interpolation.md)
 
 ### Quadratic Functions
 
