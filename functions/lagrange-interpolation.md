@@ -25,3 +25,60 @@ P(x) = \sum_{i=1}^n y_i \ell_i(x), \quad
 
 - [Finding a Line by Two Points](https://github.com/damianc/math-notes/blob/master/analytic-geometry/finding-line.md#by-two-points)
 - [Finding a Parabola by Roots and Vertex](https://github.com/damianc/math-notes/blob/master/functions/quadratic/constructing-parabola.md)
+
+## Expansion
+
+- For two points $(x_1,y_1), (x_2,y_2)$:
+
+$$
+\begin{array}{rl}
+P(x) & = y_1\left(
+\frac{x-x_2}{x_1-x_2}
+\right) + y_2\left(
+\frac{x-x_1}{x_2-x_1}
+\right)
+\\
+\ 
+\\
+& = \frac{
+y_1(x-x_2)(x_2-x_1)+y_2(x-x_1)(x_1-x_2)
+}{
+-(x_1-x_2)^2
+}
+\\
+\ 
+\\
+& = \frac{
+(x_1-x_2)(y_1(x-x_2)-y_2(x-x_1))
+}{
+-(x_1-x_2)^2
+}
+\\
+\ 
+\\
+& = \frac{
+y_2(x-x_1)-y_1(x-x_2)
+}{
+x_2-x_1
+}
+\end{array}
+$$
+
+- For three points $(x_1,y_1), (x_2,y_2), (x_3,y_3)$:
+
+$$
+\begin{array}{rl}
+P(x) & = y_1\left(
+\frac{x-x_2}{x_1-x_2} \frac{x-x_3}{x_1-x_3}
+\right) + y_2\left(
+\frac{x-x_1}{x_2-x_1} \frac{x-x_3}{x_2-x_3}\right) + y_3\left(
+\frac{x-x_1}{x_3-x_1} \frac{x-x_2}{x_3-x_2}
+\right)
+\\
+\ 
+\\
+& = \frac{y_1(x-x_2)(x-x_3)}{(x_1-x_2)(x_1-x_3)} +
+\frac{y_2(x-x_1)(x-x_3)}{(x_2-x_1)(x_2-x_3)} +
+\frac{y_3(x-x_1)(x-x_2)}{(x_3-x_1)(x_3-x_2)}
+\end{array}
+$$
