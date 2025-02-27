@@ -120,6 +120,7 @@
 
 ### Special Functions
 
+- [Kronecker Delta](https://github.com/damianc/math-notes/blob/master/functions/specials/kronecker-delta.md)
 - [Pochhammer Symbol](https://github.com/damianc/math-notes/blob/master/functions/specials/pochhammer-symbol.md)
 - [Polylogarithm Function](https://github.com/damianc/math-notes/blob/master/functions/specials/polylogarithm-function.md)
 
