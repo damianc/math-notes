@@ -1,6 +1,6 @@
 # Lagrange Interpolation
 
-**Lagrange interpolation** finds a polynomial function whose graph passes through given points. That is, by a set of points $(x_1,y_1),(x_2,y_2),\dots,(x_n,y_n)$, we can find such a function $P(x)$ for which the following holds:
+**Lagrange interpolation** (or **polynomial interpolation**) finds a polynomial function whose graph passes through given points. That is, by a set of points $(x_1,y_1),(x_2,y_2),\dots,(x_n,y_n)$, we can find such a function $P(x)$ for which the following holds:
 
   $$
   \begin{cases}
