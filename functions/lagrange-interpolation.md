@@ -19,7 +19,19 @@
 $$
 \large
 P(x) = \sum_{i=1}^n y_i \ell_i(x), \quad 
-\ell_i(x) = \prod_{j \neq i}  \frac{x-x_j}{x_i-x_j}  $$
+\ell_i(x) = \prod_{j \neq i}  \frac{x-x_j}{x_i-x_j}
+$$
+
+or with the _Kronecker delta_:
+
+$$
+\large
+P(x) = \sum_{i=1}^n y_i \left[
+\prod_{j=1}^n \left(
+\frac{x-x_j}{x_i-x_j}
+\right)^{1-\delta_{ij}}
+\right]
+$$
 
 ### Related Articles
 
