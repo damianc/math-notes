@@ -111,6 +111,7 @@
 
 - [Tangent Line of a Function](https://github.com/damianc/math-notes/blob/master/functions/function-tangent.md)
 - [Lagrange Interpolation](https://github.com/damianc/math-notes/blob/master/functions/lagrange-interpolation.md)
+- [Newton Interpolation](https://github.com/damianc/math-notes/blob/master/functions/newton-interpolation.md)
 
 ### Quadratic Functions
 
