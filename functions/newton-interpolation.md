@@ -1,32 +1,32 @@
 # Newton Interpolation
 
-The **Newton interpolation** finds a function  $P_k(x)$ by a set of points $(x_0,y_0),(x_1,y_1),\dots,(x_k,y_k)$ it passes through.
+The **Newton interpolation** finds a function  $P_k(x)$ by a set of points $(x_1,y_1),(x_2,y_2),\dots,(x_k,y_k), (x_{k+1},y_{k+1})$ it passes through.
 
 > $k$ in the name of a function - $P_k(x)$ - is a number of points decreased by one
 
 Such a function is defined as:
 
 $$
-P_k(x) = \Delta^0_0 + \sum_{r=1}^k \Delta^r_0 \cdot \prod_{i=1}^r x-x_i
+P_k(x) = \Delta^0_1 + \sum_{r=1}^k \Delta^r_1 \cdot \prod_{i=1}^r x-x_i
 $$
 
 which expands to:
 
 $$
 \begin{array}{rl}
-P_k(x) = & \Delta^0_0 \ +
+P_k(x) = & \Delta^0_1 \ +
 \\
-& \Delta^1_0(x-x_1) \ +
+& \Delta^1_1(x-x_1) \ +
 \\
-& \Delta^2_0(x-x_1)(x-x_2) \ +
+& \Delta^2_1(x-x_1)(x-x_2) \ +
 \\
 & \cdots \ +
 \\
-& \Delta^k_0(x-x_1)(x-x_2)\cdots(x-x_k)
+& \Delta^k_1(x-x_1)(x-x_2)\cdots(x-x_k)
 \end{array}
 $$
 
-where $\Delta^n_0$ is a specific factor - _divided difference_, which can be written out in _a triangular table_:
+where $\Delta^n_1$ is a specific factor - _divided difference_, which can be written out in _a triangular table_:
 
 $$
 \begin{array}{l|lllcll}
@@ -36,23 +36,23 @@ x_i & y_i = \Delta^0_i & \Delta^1_i & \Delta^2_i & \cdots & \Delta^{k-1}\_i & \D
 \\
 \hline
 \\
-x_0 & y_0 & \Delta^1_0 & \Delta^2_0 & \cdots & \Delta^{k-1}\_0 & \Delta^k_0
+x_1 & y_1 & \Delta^1_1 & \Delta^2_1 & \cdots & \Delta^{k-1}\_1 & \Delta^k_1
 \\
 \ 
 \\
-x_1 & y_1 & \Delta^1_1 & \Delta^2_1 & \cdots & \Delta^{k-1}\_1
+x_2 & y_2 & \Delta^1_2 & \Delta^2_2 & \cdots & \Delta^{k-1}\_2
 \\
 \ \ \vdots & \ \ \vdots & \ \ \vdots & \ \ \vdots & \large\cdot^{\large\cdot^{\large\cdot}}
 \\
-x_{k-2} & y_{k-2} & \Delta^1_{k-2} & \Delta^2_{k-2}
+x_{k-1} & y_{k-1} & \Delta^1_{k-1} & \Delta^2_{k-1}
 \\
 \ 
 \\
-x_{k-1} & y_{k-1} & \Delta^1_{k-1}
+x_k & y_k & \Delta^1_k
 \\
 \ 
 \\
-x_k & y_k
+x_{k+1} & y_{k+1}
 \end{array}
 $$
 
@@ -67,8 +67,6 @@ x_{i+k} - x_i
 $$
 
 ## Examples
-
-> in the examples below, counting will be performed starting with $1$ rather than $0$
 
 ### Example 1
 
