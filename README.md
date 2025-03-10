@@ -267,6 +267,7 @@
 
 ### Desmos
 
+- [Sort in Descending Order](https://github.com/damianc/math-notes/blob/master/desmos/sort-desc.md)
 - [Line Segment](https://github.com/damianc/math-notes/blob/master/desmos/line-segment.md)
 - [Circle Chord and Arc](https://github.com/damianc/math-notes/blob/master/desmos/circle-chord-and-arc.md)
 - [Circle Sector](https://github.com/damianc/math-notes/blob/master/desmos/circle-sector.md)
