@@ -208,6 +208,7 @@
 
 - [Operations on Matrices](https://github.com/damianc/math-notes/blob/master/matrices/matrix-operations.md)
 - [Matrix Multiplication](https://github.com/damianc/math-notes/blob/master/matrices/matrix-multiplication.md)
+- [Hadamard Product](https://github.com/damianc/math-notes/blob/master/matrices/hadamard-product.md)
 - [Transpose of a Matrix](https://github.com/damianc/math-notes/blob/master/matrices/transpose-of-matrix.md)
 - [Matrix Determinant](https://github.com/damianc/math-notes/blob/master/matrices/matrix-determinant.md)
 - [Sarrus' Rule](https://github.com/damianc/math-notes/blob/master/matrices/sarrus-rule.md)
