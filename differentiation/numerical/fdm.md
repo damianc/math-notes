@@ -23,3 +23,39 @@ f'(x) \approx \frac{f(x)-f(x-h)}{h}
 $$
 
 > $h$ - a small numerical step
+
+## Partial Derivatives
+
+When handling partial derivatives, we only shift a variable the differentation is performed with respect to. For _central difference_ it goes as follows:
+
+$$
+\frac{\partial}{\partial x} f(x,y,z) \approx \frac{f(x+h,y,z)-f(x-h,y,z)}{2h}
+$$
+
+$$
+\frac{\partial}{\partial y} f(x,y,z) \approx \frac{f(x,y+h,z)-f(x,y-h,z)}{2h}
+$$
+
+$$
+\frac{\partial}{\partial z} f(x,y,z) \approx \frac{f(x,y,z+h)-f(x,y,z-h)}{2h}
+$$
+
+### Implementation
+
+In the implementaion below, the `varIndex` is assigned value $0$ if we perform differentation with respect to variable $x$; $1$ is for variable $y$, and $2$ is for variable $z$.
+
+```
+function fdm(f,varIndex) {
+  return (x,y,z) => {
+    const h = 0.001;
+    const arg = [0,0,0];
+    arg[varIndex] = h;
+  
+    const [dx,dy,dz] = arg;
+    const R = f(x+dx,y+dy,z+dz);
+    const L = f(x-dx,y-dy,z-dz);
+    
+    return (R-L)/(2*h);
+  };
+}
+```
