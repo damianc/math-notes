@@ -59,3 +59,57 @@ function fdm(f,varIndex) {
   };
 }
 ```
+
+## Higher-Order Derivatives
+
+### Second-Order Derivatives
+
+- **central difference**
+
+$$
+f''(x) \approx \frac{
+f(x+h)-2f(x)+f(x-h)
+}{h^2}
+$$
+
+- **forward difference**
+
+$$
+f''(x) \approx \frac{
+f(x+2h)-2f(x+h)+f(x)
+}{h^2}
+$$
+
+- **backward difference**
+
+$$
+f''(x) \approx \frac{
+f(x)-2f(x-h)+f(x-2h)
+}{h^2}
+$$
+
+### Third-Order Derivatives
+
+- **central difference**
+
+$$
+f'''(x) \approx \frac{
+f(x+2h)-2f(x+h)+2f(x-h)-f(x-2h)
+}{2h^3}
+$$
+
+- **forward difference**
+
+$$
+f'''(x) \approx \frac{
+f(x+3h)-3f(x+2h)+3f(x+h)-f(x)
+}{h^3}
+$$
+
+- **backward difference**
+
+$$
+f'''(x) \approx \frac{
+f(x)-3f(x-h)+3f(x-2h)-f(x-3h)
+}{h^3}
+$$
