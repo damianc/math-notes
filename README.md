@@ -46,6 +46,7 @@
 - [Statistics](#statistics)
 - [Combinatorial Analysis](#combinatorial-analysis)
 - [Practical Use of Math](#practical-use-of-math)
+- [Extras](#extras)
 - [Tools](#tools)
   - [Desmos](#desmos)
     - [Desmos 3D](#desmos-3d)
@@ -263,6 +264,10 @@
 - [Math Outside](https://github.com/damianc/math-notes/blob/master/pract/math-outside.md)
 - [Distance Between 2 Points on Earth](https://github.com/damianc/math-notes/blob/master/pract/earth-points-distance.md)
 - [Box Construction (How to Obtain Largest Volume)](https://github.com/damianc/math-notes/blob/master/pract/box-construction.md)
+
+## Extras
+
+- [Greek Letters](https://github.com/damianc/math-notes/blob/master/extras/greek-letters.md)
 
 ## Tools
 
