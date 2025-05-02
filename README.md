@@ -267,7 +267,7 @@
 
 ## Extras
 
-- [Greek Letters](https://github.com/damianc/math-notes/blob/master/extras/greek-letters.md)
+- [Greek Alphabet](https://github.com/damianc/math-notes/blob/master/extras/greek-alphabet.md)
 
 ## Tools
 
