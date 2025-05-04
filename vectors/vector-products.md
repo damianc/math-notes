@@ -100,6 +100,12 @@ A \otimes B = \begin{bmatrix}
 \end{bmatrix}
 $$
 
+in short:
+
+$$
+(A \otimes B)\_{ij} = a_{ij} B
+$$
+
 for example:
 
 $$
@@ -144,4 +150,16 @@ $$
 \\
 18 & 21 & 24 & 28
 \end{array}\right]
+$$
+
+## Hadamard Product
+
+$$
+(A \odot B)\_{ij} = a_{ij} b_{ij}
+$$
+
+for example:
+
+$$
+[1,2,0] \odot [4,4,4] = [1 \cdot 4, 2 \cdot 4, 0 \cdot 4] = [4,8,0]
 $$
