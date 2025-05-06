@@ -2,6 +2,8 @@
 
 The **Hadamard product** multiplies corresponding terms of a matrix.
 
+> the **Hadamard product** is denoted by $A \odot B$ (sometimes $A \circ B$)
+
 If $M = A \odot B$, then:
 
 $$
