@@ -1,6 +1,6 @@
 # Penetrating Face Product
 
-The **penetrating face product** of a matrix $A_{p \times g}$ and a matrix $B$ that consists of $p \times g$ blocks produces a matrix that consists of $p \times g$ blocks such that n-th block is the **Hadamard product** of $A$ and n-th block of $B$.
+The **penetrating face product** of a matrix $A_{p \times g}$ and a matrix $B$ that consists of $p \times g$ blocks produces a matrix that consists of $p \times g$ blocks such that n-th block is the [Hadamard product](https://github.com/damianc/math-notes/blob/master/matrices/hadamard-product.md) of $A$ and n-th block of $B$.
 
 $$
 A [\circ] B = \bigl[
