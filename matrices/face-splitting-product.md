@@ -8,7 +8,7 @@ a_{ij} \cdot B_i
 \bigr]
 $$
 
-It can be defined in terms of the **Kronecker product** as:
+It can be defined in terms of the [Kronecker product](https://github.com/damianc/math-notes/blob/master/matrices/kronecker-product.md) as:
 
 $$
 \begin{bmatrix}
