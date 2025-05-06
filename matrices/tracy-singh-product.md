@@ -1,6 +1,6 @@
 # Tracy-Singh Product
 
-Basically the **Tracy-Singh product** is the pairwise _Kronecker product_ for each pair of partitions in two matrices.
+Basically the **Tracy-Singh product** is the pairwise [Kronecker product](https://github.com/damianc/math-notes/blob/master/matrices/kronecker-product.md) for each pair of partitions in two matrices.
 
 Its definition is as follows:
 
