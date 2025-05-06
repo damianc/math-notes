@@ -223,6 +223,7 @@
 
 - [Hadamard Product](https://github.com/damianc/math-notes/blob/master/matrices/hadamard-product.md)
 - [Kronecker Product](https://github.com/damianc/math-notes/blob/master/matrices/kronecker-product.md)
+- [Face Penetrating Product](https://github.com/damianc/math-notes/blob/master/matrices/penetrating-face-product.md)
 - [Tracy-Singh Product](https://github.com/damianc/math-notes/blob/master/matrices/tracy-singh-product.md)
 
 ### Transformation Matrices
