@@ -31,7 +31,7 @@ A_{21} \otimes B_{21} & A_{22} \otimes B_{22}
 \end{array}\right]
 $$
 
-> each partition in the example above is a partition in a corresponding corner of the Tracy-Singh product
+> each partition in the example above is a partition in a corresponding corner of the [Tracy-Singh product](https://github.com/damianc/math-notes/blob/master/matrices/tracy-singh-product.md)
 
 ## Example
 
