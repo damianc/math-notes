@@ -6,7 +6,7 @@ $$
 A * B = (A_{ij} \otimes B_{ij})_{ij}
 $$
 
-in which the ij-th block is the $m_i p_i \times n_j q_j$ sized Kronecker product of the corresponding blocks of $A$ and $B$, assuming the number of row and column partitions of both matrices is equal. The size of the product is then $(\Sigma_i m_i p_i) \times (\Sigma_j n_j q_j)$.
+in which the ij-th block is the $m_i p_i \times n_j q_j$ sized [Kronecker product](https://github.com/damianc/math-notes/blob/master/matrices/kronecker-product.md) of the corresponding blocks of $A$ and $B$, assuming the number of row and column partitions of both matrices is equal. The size of the product is then $(\Sigma_i m_i p_i) \times (\Sigma_j n_j q_j)$.
 
 $$
 \left[\begin{array}{c|c}
@@ -99,7 +99,7 @@ The **column-wise Kronecker product** of two matrices is a special case of the *
 
 This product assumes the partitions of the matrices are their columns. In this case $m_1 = m$, $p_1 = p$, $n=q$ and $\forall_j \ n_j = q_j = 1$.
 
-The resulting product is a $mp \times n$ matrix of which each column is the **Kronecker product** of the corresponding columns of $A$ and $B$.
+The resulting product is a $mp \times n$ matrix of which each column is the [Kronecker product](https://github.com/damianc/math-notes/blob/master/matrices/kronecker-product.md) of the corresponding columns of $A$ and $B$.
 
 ### Example
 
