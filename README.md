@@ -134,6 +134,7 @@
 
 ### Partial Derivatives
 
+- [Partial Derivatives](https://github.com/damianc/math-notes/blob/master/differentiation/partial/partial-derivatives.md)
 - [Jacobian Matrix](https://github.com/damianc/math-notes/blob/master/differentiation/partial/jacobian-matrix.md)
 - [Hessian Matrix](https://github.com/damianc/math-notes/blob/master/differentiation/partial/hessian-matrix.md)
 
