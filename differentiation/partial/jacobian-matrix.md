@@ -42,7 +42,7 @@ $$
 
 ## In Terms of the Gradient
 
-The **Jacobian matrix** can be defined in terms of _the gradient_ as:
+The **Jacobian matrix** can be defined in terms of the [gradient](https://github.com/damianc/math-notes/blob/master/vectors/vc/function-gradient.md) as:
 
 $$
 {\boldsymbol J}_f = \begin{bmatrix}
