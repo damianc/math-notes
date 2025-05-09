@@ -1,6 +1,6 @@
 # Getting Function from Gradient
 
-A vector-field poses the [gradient](https://github.com/damianc/math-notes/blob/master/vectors/vc/function-gradient.md) of some function if the **Jacobian matrix** is a symmetric matrix.
+A vector-field poses the [gradient](https://github.com/damianc/math-notes/blob/master/vectors/vc/function-gradient.md) of some function if the [Jacobian matrix](https://github.com/damianc/math-notes/blob/master/differentiation/partial/jacobian-matrix.md) is a symmetric matrix.
 
 ## Function of Two Variables
 
