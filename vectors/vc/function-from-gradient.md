@@ -115,7 +115,7 @@ i \lt j \leqslant 3
 \quad \frac{\partial F_i}{\partial v_j} = \frac{\partial F_j}{\partial v_i}
 $$
 
-> alternatively, we can check if the vector-field does not have the rotation, i.e., if $\nabla \times \vec{F} = \vec{0}$
+> alternatively, we can check if the vector-field does not have the [rotation](https://github.com/damianc/math-notes/blob/master/vectors/vc/curl.md), i.e., if $\nabla \times \vec{F} = \vec{0}$
 
 with the condition fulfilled, the vector-field:
 
