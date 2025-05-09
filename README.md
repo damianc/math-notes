@@ -200,6 +200,7 @@
 
 - [Vector Differential Operator (∇)](https://github.com/damianc/math-notes/blob/master/vectors/vc/vector-diff-op.md)
 - [Gradient of a Function](https://github.com/damianc/math-notes/blob/master/vectors/vc/function-gradient.md)
+- [Getting Function from Gradient](https://github.com/damianc/math-notes/blob/master/vectors/vc/function-from-gradient.md)
 - [The Divergence](https://github.com/damianc/math-notes/blob/master/vectors/vc/divergence.md)
 - [The Curl](https://github.com/damianc/math-notes/blob/master/vectors/vc/curl.md)
 - [Laplacian](https://github.com/damianc/math-notes/blob/master/vectors/vc/laplacian.md)
