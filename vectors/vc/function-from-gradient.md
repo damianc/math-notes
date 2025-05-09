@@ -338,3 +338,125 @@ f(x,y,z,w) & = p(x,y,z,w) + q(y,z,w) + r(z,w) + s(w)
 & = x^2+yz+w(x+2)
 \end{array}
 $$
+
+### Academic Example
+
+> In this example, let $[x,y,z,t,w,p] \equiv [v_1,v_2,v_3,v_4,v_5,v_6]$ and $V_n = [v_n, v_{n+1}, \dots, v_6]$.
+
+If the vector-field $\vec{F}$ is defined as follows:
+
+$$
+\begin{array}{rl}
+\vec{F}(V_1) & = (F_1,F_2,F_3,F_4,F_5,F_6)
+\\
+& = \left(x(2+3px),z,y,4t,-\frac{1}{2}, x^3\right)
+\end{array}
+$$
+
+Then:
+
+$$
+\begin{array}{rl}
+\boldsymbol{f_1(V_1)} & = \int F_1(V_1) \ dx
+\\
+& = \int x(2+3px) \ dx
+\\
+& = \int (2x+3px^2) \ dx
+\\
+& = \boldsymbol{x^2+px^3}
+\\
+\ 
+\\
+\lambda_{f_2}(V_2) & = F_2-\frac{\partial f_1}{\partial y}
+\\
+& = z-\frac{\partial}{\partial y} (x^2+px^3)
+\\
+& = z - 0
+\\
+& = z
+\\
+\boldsymbol{f_2(V_2)} & = \int \lambda_{f_2}(V_2) \ dy
+\\
+& = \int z \ dy
+\\
+& = \boldsymbol{yz}
+\\
+\ 
+\\
+\lambda_{f_3}(V_3) & = F_3-\frac{\partial}{\partial z} (f_1+f_2)
+\\
+& = y-\frac{\partial}{\partial z} (x^2+px^3+yz)
+\\
+& = y-y
+\\
+& = 0
+\\
+\boldsymbol{f_3(V_3)} & = \int \lambda_{f_3}(V_3) \ dz
+\\
+& = \int 0 \ dz
+\\
+& = \boldsymbol{0}
+\\
+\ 
+\\
+\lambda_{f_4}(V_4) & = F_4-\frac{\partial}{\partial t} \left( \displaystyle\sum_{1 \leqslant i \le 4} f_i \right)
+\\
+& = 4t-\frac{\partial}{\partial t} (x^2+px^3+yz+0)
+\\
+& = 4t-0
+\\
+& = 4t
+\\
+\boldsymbol{f_4(V_4)} & = \int \lambda_{f_4}(V_4) \ dt
+\\
+& = \int 4t \ dt
+\\
+& = \boldsymbol{2t^2}
+\\
+\ 
+\\
+\lambda_{f_5}(V_5) & = F_5-\frac{\partial}{\partial w} \left( \displaystyle\sum_{1 \leqslant i \le 5} f_i \right)
+\\
+& = -\frac{1}{2}-\frac{\partial}{\partial w} (x^2+px^3+yz+0+2t^2)
+\\
+& = -\frac{1}{2}-0
+\\
+& = -\frac{1}{2}
+\\
+\boldsymbol{f_5(V_5)} & = \int \lambda_{f_5}(V_5) \ dw
+\\
+& = \int -\frac{1}{2} \ dw
+\\
+& = \boldsymbol{-\frac{1}{2} w}
+\\
+\ 
+\\
+\lambda_{f_6}(V_6) & = F_6-\frac{\partial}{\partial p} \left( \displaystyle\sum_{1 \leqslant i \le 6} f_i \right)
+\\
+& = x^3-\frac{\partial}{\partial p} \left(x^2+px^3+yz+0+2t^2-\frac{1}{2} w\right)
+\\
+& = x^3-x^3
+\\
+& = 0
+\\
+\boldsymbol{f_6(V_6)} & = \int \lambda_{f_6}(V_6) \ dp
+\\
+& = \int 0 \ dp
+\\
+& = \boldsymbol{0}
+\end{array}
+$$
+
+Finally:
+
+$$
+\begin{array}{rl}
+f(x,y,z,t,w,p) & = \displaystyle\sum_{1 \leqslant i \leqslant 6} f_i(V_i)
+\\
+& = x^2+px^3+yz+0+2t^2-\frac{1}{2} w+0
+\\
+& = x^2+px^3+yz+2t^2-\frac{1}{2} w
+\\
+& = x^2(1+px)+yz+2t^2-\frac{1}{2} w
+\end{array}
+$$
