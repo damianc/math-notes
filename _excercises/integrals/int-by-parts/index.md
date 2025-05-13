@@ -10,3 +10,7 @@
 | 6 | $$\int xe^{-x} \ dx$$ | |
 | 7 | $$\int x \ \ln(x) \ dx$$ | |
 | 8 | $$\int \frac{1+x^2}{x} \ dx$$ | |
+| 9 | $$\int x^2 \ \sin(x) \ dx$$ | |
+| 10 | $$\int (x+1)\sin(x) \ dx$$ | |
+| 11 | $$\int \frac{x}{e^{-x}} \ dx$$ | |
+| 12 | $$\int \frac{x^{-1} \ln(x)}{x} \ dx$$ | |
