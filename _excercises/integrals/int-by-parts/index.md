@@ -13,4 +13,4 @@
 | 9 | $$\int x^2 \ \sin(x) \ dx$$ | [Solution](https://github.com/damianc/math-notes/blob/master/_excercises/integrals/int-by-parts/ex-9.md) |
 | 10 | $$\int (x+1)\sin(x) \ dx$$ | [Solution](https://github.com/damianc/math-notes/blob/master/_excercises/integrals/int-by-parts/ex-10.md) |
 | 11 | $$\int \frac{x}{e^{-x}} \ dx$$ | [Solution](https://github.com/damianc/math-notes/blob/master/_excercises/integrals/int-by-parts/ex-11.md) |
-| 12 | $$\int \frac{x^{-1} \ln(x)}{x} \ dx$$ | |
+| 12 | $$\int \frac{x^{-1} \ln(x)}{x} \ dx$$ | [Solution](https://github.com/damianc/math-notes/blob/master/_excercises/integrals/int-by-parts/ex-12.md) |
