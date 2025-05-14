@@ -8,8 +8,8 @@
 | 4 | $$\int 4x^2 \ \ln(x) \ dx$$ | [Solution](https://github.com/damianc/math-notes/blob/master/_excercises/integrals/int-by-parts/ex-4.md) |
 | 5 | $$\int \frac{\ln(x)}{x} \ dx$$ | [Solution](https://github.com/damianc/math-notes/blob/master/_excercises/integrals/int-by-parts/ex-5.md) |
 | 6 | $$\int xe^{-x} \ dx$$ | [Solution](https://github.com/damianc/math-notes/blob/master/_excercises/integrals/int-by-parts/ex-6.md) |
-| 7 | $$\int x \ \ln(x) \ dx$$ | |
-| 8 | $$\int \frac{1+x^2}{x} \ dx$$ | |
+| 7 | $$\int x \ \ln(x) \ dx$$ | [Solution](https://github.com/damianc/math-notes/blob/master/_excercises/integrals/int-by-parts/ex-7.md) |
+| 8 | $$\int \frac{1+x^2}{x} \ dx$$ | [Solution](https://github.com/damianc/math-notes/blob/master/_excercises/integrals/int-by-parts/ex-8.md) |
 | 9 | $$\int x^2 \ \sin(x) \ dx$$ | |
 | 10 | $$\int (x+1)\sin(x) \ dx$$ | |
 | 11 | $$\int \frac{x}{e^{-x}} \ dx$$ | |
