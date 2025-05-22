@@ -69,7 +69,7 @@ q+pa = A(a-b)
 \\
 \ 
 \\
-A = \frac{q+pa}{a-b}
+{\color{red} A} = {\color{red} \frac{q+pa}{a-b}}
 \end{array}
 $$
 
@@ -93,6 +93,18 @@ q+pb = B(b-a)
 \\
 \ 
 \\
-B = \frac{q+pb}{b-a}
+{\color{green} B} = {\color{green} \frac{q+pb}{b-a}}
+\end{array}
+$$
+
+#### 5. Insert the obtained terms into the partial fractions
+
+$$
+\begin{array}{rl}
+\frac{px+q}{(x-a)(x-b)} & = \frac{{\color{red} A}}{x-a} + \frac{{\color{green} B}}{x-b}
+\\
+\ 
+\\
+& = \frac{{\color{red} ap+q}}{{\color{red} (a-b)}(x-a)} + \frac{{\color{green} pb+q}}{{\color{green} (b-a)}(x-b)}
 \end{array}
 $$
