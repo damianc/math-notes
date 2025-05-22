@@ -18,6 +18,7 @@
 ## Categories
 
 - [Algebra](#algebra)
+  - [Partial Fractions](#partial-fractions)
 - [Analytic Geometry](#analytic-geometry)
 - [Coordinates](#coordinates)
 - [Figures](#figures)
@@ -63,6 +64,10 @@
 - [Binomial Expansion](https://github.com/damianc/math-notes/blob/master/algebra/binomial-expansion.md)
 - [Pascal's Triangle](https://github.com/damianc/math-notes/blob/master/algebra/pascals-triangle.md)
 - [Summation](https://github.com/damianc/math-notes/blob/master/algebra/summation.md)
+
+### Partial Fractions
+
+- [Decomposition of (px+q) ÷ [(x-a)(x-b)]](https://github.com/damianc/math-notes/blob/master/algebra/partial-fractions/decomposition-L-by-2R.md)
 
 ## Analytic Geometry
 
