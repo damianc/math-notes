@@ -15,6 +15,8 @@ $$
 \frac{px+q}{(x-a)(x-b)} = \frac{A(x-b) + B(x-a)}{(x-a)(x-b)}
 $$
 
+> __Step 1__ can be replaced with just multiplying both sides by the LHS denominator $(x-a)(x-b)$.
+
 #### 2. Compare the numerators of both fractions
 
 $$
