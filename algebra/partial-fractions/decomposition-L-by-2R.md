@@ -112,28 +112,26 @@ $$
 \frac{2x+3}{(x-1)(x+2)} = \frac{A}{x-1} + \frac{B}{x+2}
 $$
 
-- sum up the RHS fractions to obtain a common denominator:
+- multiply both sides by the LHS denominator $(x-1)(x+2)$:
 
 $$
-\frac{2x+3}{(x-1)(x+2)} = \frac{A(x+2)+B(x-1)}{(x-1)(x+2)}
+\frac{(2x+3)(x-1)(x+2)}{(x-1)(x+2)} = \frac{A(x-1)(x+2)}{x-1} + \frac{B(x-1)(x+2)}{x+2}
 $$
 
-- compare the numerators of both fractions:
-
 $$
-2x+3 = A(x+2)+B(x-1)
+2x+3 = A(x+2) + B(x-1)
 $$
 
-- expand the RHS expression:
+- expand the RHS expression and combine like terms:
 
 $$
-2x+3 = Ax+2A+Bx-B
-$$
-
-- combine like terms of the RHS expression:
-
-$$
-2x+3 = (A+B)x+2A-B
+\begin{array}{rl}
+2x+3 & = A(x+2)+B(x-1)
+\\
+& = Ax+2A+Bx-B
+\\
+& = (A+B)x+2A-B
+\end{array}
 $$
 
 - match terms on both sides to obtain a system of equations:
