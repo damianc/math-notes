@@ -9,30 +9,24 @@ $$
 
 ## Decomposition
 
-#### 1. Sum up the RHS fractions to obtain a common denominator
+#### 1. Multiply both sides by the LHS denominator $(x-a)(x-b)$:
 
 $$
-\frac{px+q}{(x-a)(x-b)} = \frac{A(x-b) + B(x-a)}{(x-a)(x-b)}
+\frac{(px+q)(x-a)(x-b)}{(x-a)(x-b)} = \frac{A(x-a)(x-b)}{x-a} + \frac{B(x-a)(x-b)}{x-b}
 $$
 
-> __Step 1__ can be replaced with just multiplying both sides by the LHS denominator $(x-a)(x-b)$.
-
-#### 2. Compare the numerators of both fractions
-
 $$
-px+q = A(x-b)+B(x-a)
+px+q = A(x-b) + B(x-a)
 $$
 
-- expand the RHS expression
+#### 2. Expand the RHS expression and combine like terms
 
 $$
-px+q = Ax-Ab+Bx-Ba
-$$
-
-- combine like terms of the RHS expression
-
-$$
-px+q = (A+B)x-Ab-Ba
+\begin{array}{rl}
+px+q & = Ax-Ab+Bx-Ba
+\\
+& = (A+B)x-Ab-Ba
+\end{array}
 $$
 
 #### 3. Match terms on both sides to obtain a system of equations
