@@ -96,3 +96,75 @@ h = \frac{
  \mu_2 t_1 - \mu_1 t_2
 }
 $$
+
+### with 4 angles
+
+![Trapezoid with measured angles](https://github.com/damianc/math-notes/blob/master/_images/pract/env/env-07.png)
+
+$$
+X = \sqrt{
+P^2 + Q^2 + 2PQ \cos(\theta_1 + \theta_2)
+}
+$$
+
+$$
+\iff
+$$
+
+$$
+\begin{array}{l}
+P = \frac{D \sin(\theta_2) \sin(\alpha-\theta_1)}{\sin(\theta_1+\theta_2) \sin(\alpha+\theta_2)}
+\\
+\ 
+\\
+Q = \frac{D \sin(\theta_1) \sin(\beta-\theta_2)}{\sin(\theta_1+\theta_2) \sin(\beta+\theta_1)}
+\end{array}
+$$
+
+#### or with functions:
+
+$$
+\begin{array}{l}
+P = k \ \lambda_{2,1}(\alpha)
+\\
+Q = k \ \lambda_{1,2}(\beta)
+\end{array}
+$$
+
+$$
+\iff
+$$
+
+$$
+\begin{array}{l}
+k = \frac{D}{\sin(\theta_1+\theta_2)}
+\\
+\ 
+\\
+\lambda_{i,j}(\varphi) = \sin(\theta_i) \cdot \frac{\sin(\varphi-\theta_j)}{\sin(\varphi+\theta_i)}
+\\
+{\color{gray} \tiny i,j \in \{{ 1,2 \}}, \ i \neq j}
+\end{array}
+$$
+
+#### alternatively (with the same $k$):
+
+$$
+\begin{array}{l}
+P = k \ \lambda(\alpha; \theta_2, \theta_1)
+\\
+Q = k \ \lambda(\beta; \theta_1, \theta_2)
+\end{array}
+$$
+
+$$
+\iff
+$$
+
+$$
+\begin{array}{l}
+\lambda(m; \varphi_1, \varphi_2) = \sin(\varphi_1) \cdot \frac{\sin(m-\varphi_2)}{\sin(m+\varphi_2)}
+\\
+{\color{gray} \tiny m,\varphi_1,\varphi_2 \in \left(0,\frac{1}{2}\pi\right), \min(m,\varphi_1,\varphi_2) \neq m}
+\end{array}
+$$
