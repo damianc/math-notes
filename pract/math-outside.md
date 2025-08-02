@@ -143,7 +143,7 @@ k = \frac{D}{\sin(\theta_1+\theta_2)}
 \\
 \lambda_{i,j}(\varphi) = \sin(\theta_i) \cdot \frac{\sin(\varphi-\theta_j)}{\sin(\varphi+\theta_i)}
 \\
-{\color{gray} \tiny i,j \in \{{ 1,2 \}}, \ i \neq j}
+{\color{gray} \tiny i,j \in \\{ 1,2 \\}, \ i \neq j}
 \end{array}
 $$
 
