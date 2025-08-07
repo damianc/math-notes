@@ -100,6 +100,7 @@
 
 ### Trigonometric Identities
 
+- [Reduction Identities](https://github.com/damianc/math-notes/blob/master/trig/reduction-identities.md)
 - [Even and Odd Functions](https://github.com/damianc/math-notes/blob/master/trig/even-odd-function.md)
 - [Trigonometric Functions with Angles Sum/Difference](https://github.com/damianc/math-notes/blob/master/trig/functions-of-sum-diff.md)
 - [Sum and Difference of Functions](https://github.com/damianc/math-notes/blob/master/trig/sum-and-diff-of-functions.md)
