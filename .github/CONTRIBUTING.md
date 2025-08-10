@@ -8,3 +8,9 @@ Be explicit:
 | $\sin^{-1}(x)$ | $\text{asin}(x)$ or $\arcsin(x)$, $\csc(x)$ |
 | $\log(x)$ | $\ln(x)$, $\log_{10}(x)$ |
 | $\sin \ x+k$ | $\sin(x+k)$, $\sin(x)+k$ |
+
+- for natural numbers including 0:
+
+$$
+\Bbb{N}_0
+$$
