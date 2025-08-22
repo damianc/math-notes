@@ -10,3 +10,5 @@
 | **D** | **inscribed** (circles touch internally) | $$d = \vert r_1 - r_2 \vert$$ | 1 |
 | **E** | **intersected** (circles intersect at two points) | $$\vert r_1 - r_2 \vert \lt d \lt r_1 + r_2$$ | 2 |
 | **F** | **equal** (circles have the same center and radius) | $$d + \vert r_1 - r_2 \vert = 0$$ | $\infty$ |
+
+> [Common Points and Area of Two Circles](https://github.com/damianc/math-notes/blob/master/analytic-geometry/two-circles-common-stuff.md)
