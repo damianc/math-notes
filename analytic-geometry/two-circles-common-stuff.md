@@ -6,6 +6,8 @@
 
 ## Common Points
 
+![Common points of two circles in details](https://raw.githubusercontent.com/damianc/math-notes/refs/heads/master/_images/anal-geom/circle/two-circles-with-details.jpg)
+
 If two circles have common points, $P$ and $Q$, their coordinates are:
 
 $$
