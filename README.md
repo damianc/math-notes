@@ -75,6 +75,7 @@
 - [Distances 2D](https://github.com/damianc/math-notes/blob/master/analytic-geometry/distances-2d.md)
 - [Point Moved Along Line](https://github.com/damianc/math-notes/blob/master/analytic-geometry/point-moved-along-line.md)
 - [Line Intersection (with Parabola/Hyperbola/Circle/Ellipse)](https://github.com/damianc/math-notes/blob/master/analytic-geometry/line-intersection-with-phce.md)
+- [Common Points and Area of Two Circles](https://github.com/damianc/math-notes/blob/master/analytic-geometry/two-circles-common-stuff.md)
 - [Ellipse](https://github.com/damianc/math-notes/blob/master/analytic-geometry/ellipse.md)
 - [Rotated Ellipse](https://github.com/damianc/math-notes/blob/master/analytic-geometry/rotated-ellipse.md)
 
