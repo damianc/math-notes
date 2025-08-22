@@ -119,6 +119,8 @@ $$
 
 ## Area of the Common Region
 
+![Common region of two circles](https://raw.githubusercontent.com/damianc/math-notes/refs/heads/master/_images/anal-geom/circle/two-circles-common-area.png)
+
 If two circles partially overlap, area of the common region is:
 
 $$
