@@ -1,3 +1,7 @@
+# Relationships Between Two Circles
+
+![Two circles relationships](https://raw.githubusercontent.com/damianc/math-notes/refs/heads/master/_images/anal-geom/circle/two-circles-relationships.jpg)
+
 | Case | Description | Condition |  Common Points |
 |--|--|--|--|
 | **A** | **separated** (one circle is completely outside the other) | $$d \gt r_1 + r_2$$ | 0 |
