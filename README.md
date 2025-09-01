@@ -64,6 +64,7 @@
 - [Binomial Expansion](https://github.com/damianc/math-notes/blob/master/algebra/binomial-expansion.md)
 - [Pascal's Triangle](https://github.com/damianc/math-notes/blob/master/algebra/pascals-triangle.md)
 - [Summation](https://github.com/damianc/math-notes/blob/master/algebra/summation.md)
+- [Factorial and Multifactorial](https://github.com/damianc/math-notes/blob/master/algebra/factorial-and-multifactorial.md)
 
 ### Partial Fractions
 
