@@ -72,6 +72,7 @@
 - [Decomposition of (px+q) ÷ (x-a)²](https://github.com/damianc/math-notes/blob/master/algebra/partial-fractions/decomposition-L-by-1S.md)
 - [Decomposition of (px+q) ÷ [(x-a)(x-b)(x-c)]](https://github.com/damianc/math-notes/blob/master/algebra/partial-fractions/decomposition-L-by-3R.md)
 - [Decomposition of (px+q) ÷ [(x-a)²(x-c)]](https://github.com/damianc/math-notes/blob/master/algebra/partial-fractions/decomposition-L-by-SR.md)
+- [Decomposition of (px+q) ÷ (x-a)³](https://github.com/damianc/math-notes/blob/master/algebra/partial-fractions/decomposition-L-by-C.md)
 
 ## Analytic Geometry
 
