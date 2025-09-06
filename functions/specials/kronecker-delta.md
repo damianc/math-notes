@@ -16,6 +16,20 @@ For example:
 - $\delta_{11} = 1$ because $1 = 1$
 - $\delta_{12} = 0$ because $1 \neq 2$
 
+> ℹ️ **A SINGLE-ARGUMENT VARIANT**
+> 
+> There is a variant of the **Kronecker delta** with only one variable - $\delta_i$, which is equivalent to setting $j=0$:
+>
+> 
+> $$
+\delta_i = \delta_{i0} = \begin{cases}
+0 \quad \text{if } i \neq 0
+\\
+1 \quad \text{if } i=0
+\end{cases}
+$$
+
+
 ## Use Examples
 
 - entries of the $n \times n$ _identity matrix_ **I**:
