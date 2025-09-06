@@ -13,3 +13,12 @@ For example:
 - $(3)_4 = 3 \cdot  4 \cdot 5 \cdot 6 = 360$
 - $(1)_n = 1 \cdot 2 \dots n = n!$
 - $(a)_0 = 1$
+
+> ⚠️ **THERE IS A MESS**
+>
+> Depending on author and source, the **Pochhammer symbol** may denote either the _rising_ or the _falling factorial_.
+>
+> In combinatorics, $(x)_n$ is for the **falling factorial** and $x^{(n)}$ is for the **rising factorial**.
+>
+> Consider _Knuth's_ underline and overline notations: $x^{\underline{n}}$ for the **falling factorial**, and $x^{\overline{n}}$ for the **rising factorial**.
+
