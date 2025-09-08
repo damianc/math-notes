@@ -90,3 +90,9 @@ Following descriptors can be used as long as there is explanation accompanying:
 - $\Bbb{O}$ for odd numbers
 - $\Bbb{I}$ for imaginary numbers ($0+bi$)
 
+A simple text descriptor can be used under capital _sigma_ or _pi_ letter denoting a sum or product, respectively.
+
+- prime numbers: $\displaystyle\sum_{p \ \in \ \text{primes}}$ or $\displaystyle\prod_{p \ \in \ \text{primes}}$
+- even numbers: $\displaystyle\sum_{n \ \in \ \text{evens}}$ or $\displaystyle\prod_{n \ \in \ \text{evens}}$
+- odd numbers: $\displaystyle\sum_{n \ \in \ \text{odds}}$ or $\displaystyle\prod_{n \ \in \ \text{odds}}$
+
