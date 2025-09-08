@@ -9,14 +9,6 @@ Be explicit:
 | $\log(x)$ | $\ln(x)$, $\log_{10}(x)$ |
 | $\sin \ x+k$ | $\sin(x+k)$, $\sin(x)+k$ |
 
-- for natural numbers including 0:
-
-$$
-\Bbb{N}_0
-$$
-
-
-
 ## Allowed Descriptors
 
 ### Functions
