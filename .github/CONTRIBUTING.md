@@ -39,6 +39,9 @@ Stick to the list below. Strange stuff like _tg_, _ctg_ or _lb_ is not allowed.
 | greatest common divisor/factor | $\gcd$ or $\text{GCD}$ |
 | determinant | $\det$ |
 | degree | $\deg$ |
+| gradient | $\text{grad}(f)$ or $\nabla f$ |
+| divergence | $\text{div}(F)$ or $\nabla \cdot F$ |
+| curl/rotation | $\text{curl}(F)$ or $\nabla \times F$ |
 
 Rarely used trigonometric functions:
 
