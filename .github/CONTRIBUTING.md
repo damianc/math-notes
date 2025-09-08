@@ -14,3 +14,46 @@ Be explicit:
 $$
 \Bbb{N}_0
 $$
+
+
+
+## Allowed Descriptors
+
+Stick to the list below. Strange stuff like _tg_, _ctg_ or _lb_ is not allowed.
+
+| Function | Allowed descriptor(s) |
+|--|--|
+| sine | $\sin$ |
+| cosine | $\cos$ |
+| tangent | $\tan$ |
+| cosecant | $\csc$ |
+| secant | $\sec$ |
+| cotangent | $\cot$ |
+| arcus sine (etc.) | $\text{asin}$ or $\arcsin$ (etc.) |
+| hyperbolic sine (etc.) | $\sinh$ (etc.) |
+| inverse hyperbolic sine (etc.) | $\text{asinh}$ or $\text{arcsinh}$ (etc.) |
+| natural logarithm | $\ln$ |
+| n-base logarithm | $\log_n$ (e.g., $\log_2$, $\log_{10}$ etc.) |
+| least/lowest common multiple | $\text{lcm}$ or $\text{LCM}$ |
+| lowest/least common denominator | $\text{lcd}$ or $\text{LCD}$ |
+| greatest common divisor/factor | $\gcd$ or $\text{GCD}$ |
+| determinant | $\det$ |
+| degree | $\deg$ |
+
+Rarely used trigonometric functions:
+
+| Function | Allowed descriptor | Definition |
+|--|--|--|
+| excosecant/coexsecant (_external cosecant_) | exc | exc(x) = csc(x)-1 |
+| exsecant (_external secant_) | exs | exs(x) = sec(x)-1 |
+| versin (_versed sine_) | ver | ver(x) = 1-cos(x) |
+| coversin (_coversed sine_) | cvs | cvs(x) = 1-sin(x) |
+| vercos (_versed cosine_) | vcs | vcs(x) = 1+cos(x) |
+| covercos (_coversed cosine_) | cvc | cvc(x) = 1+sin(x) |
+| haversin (_half-versed sine_) | hav | hav(x) = ½ver(x) |
+| hacoversin (_half-coversed sine_) | hcv | hcv(x) = ½cvs(x) |
+| havercos (_half-versed cosine_) | hvc | hvc(x) = ½vcs(x) |
+| hacovercos (_half-coversed cosine_) | hcc | hcc(x) = ½cvc(x) |
+
+
+
