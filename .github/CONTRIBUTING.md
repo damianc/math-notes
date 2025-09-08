@@ -19,6 +19,8 @@ $$
 
 ## Allowed Descriptors
 
+### Functions
+
 Stick to the list below. Strange stuff like _tg_, _ctg_ or _lb_ is not allowed.
 
 | Function | Allowed descriptor(s) |
@@ -58,5 +60,36 @@ Rarely used trigonometric functions:
 | havercos (_half-versed cosine_) | hvc | hvc(x) = ½vcs(x) |
 | hacovercos (_half-coversed cosine_) | hcc | hcc(x) = ½cvc(x) |
 
+### Sets
 
+| Numbers | Descriptor | Info to add |
+|--|--|--|
+| real | $\Bbb{R}$ | |
+| complex | $\Bbb{C}$ | |
+| integer | $\Bbb{Z}$ | |
+| rational | $\Bbb{Q}$ | |
+| natural | $\Bbb{N}$ | |
+| natural with 0 | $\Bbb{N}_0$ | |
+| positive real (etc.) | $\Bbb{R}^{+}$ (etc.) |  whether or not with 0 |
+| negative real (etc.) | $\Bbb{R}^{-}$ (etc.) | whether or not with 0 |
+| non-negative real (etc.) | $\Bbb{R}_0^{+}$ (etc.) | |
+| non-positive real (etc.) | $\Bbb{R}_0^{-}$ (etc.) | |
+
+Sets should be defined with the **set-builder notation**, for example:
+
+$$
+E^{+} = \\{ 2n \in \Bbb{N} \ | \ n \geq 0 \\}
+$$
+
+As simple set as an arithmeric sequence can be defined in a convenient manner like below:
+
+- $\\{ 1,2, \ \dots \ n \\}$ or $\\{ 1,2, \ \dots \\}$
+- $\\{ 1,1.5,2, \ \dots \ n \\}$ or $\\{ 1,1.5,2, \ \dots \\}$
+
+Following descriptors can be used as long as there is explanation accompanying:
+
+- $\Bbb{P}$ for prime numbers
+- $\Bbb{E}$ for even numbers
+- $\Bbb{O}$ for odd numbers
+- $\Bbb{I}$ for imaginary numbers ($0+bi$)
 
