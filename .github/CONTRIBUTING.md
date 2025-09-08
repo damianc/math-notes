@@ -73,10 +73,15 @@ $$
 E^{+} = \\{ 2n \in \Bbb{N} \ | \ n \geq 0 \\}
 $$
 
-As simple set as an arithmeric sequence can be defined in a convenient manner like below:
+As simple set as an **arithmeric sequence** can be defined in a convenient manner like below:
 
 - $\\{ 1,2, \ \dots \ n \\}$ or $\\{ 1,2, \ \dots \\}$
 - $\\{ 1,1.5,2, \ \dots \ n \\}$ or $\\{ 1,1.5,2, \ \dots \\}$
+
+For a **geometric sequence**, give first three or four terms and attach recursive formula for a term, for example:
+
+- $S=\\{ 2,4,8,16, \ \dots \ n \\}, \ S_{i+1} = 2S_i$
+- $S = \\{ 2,6,18, \ \dots \\}, \ S_{i+1} = 3S_i$
 
 Following descriptors can be used as long as there is explanation accompanying:
 
