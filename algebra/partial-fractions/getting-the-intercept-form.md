@@ -64,3 +64,104 @@ $$
 \end{array}
 $$
 
+## Examples
+
+### Example #1: Vertex → Intercept
+
+$$
+\begin{array}{l}
+{\color{gray} a(x-p)^2+q = \ }
+2\left( x+\frac{1}{2} \right)^2 - 12.5
+\\
+{\small \quad a=2}
+\\
+{\small \quad p=-\frac{1}{2}}
+\\
+{\small \quad q=-12.5}
+\\
+\ 
+\\
+\Delta = -4aq = -4 \cdot 2 \cdot (-12.5) = 100
+\\
+\sqrt{\Delta} = 10
+\\
+\ 
+\\
+x_1 = p+\frac{\sqrt{\Delta}}{2a} = -\frac{1}{2} + \frac{10}{4} = \frac{5}{2} - \frac{1}{2} = 2
+\\
+x_2 = p-\frac{\sqrt{\Delta}}{2a} = -\frac{1}{2} - \frac{10}{4} = -\left(\frac{1}{2} + \frac{5}{2}\right) = -3
+\\
+\ 
+\\
+{\color{gray} a(x-x_1)(x-x_2) = \ } 2(x-2)(x+3)
+\end{array}
+$$
+
+> $2\left(x+\frac{1}{2}\right)^2-12.5 \ \equiv \ 2(x-2)(x+3)$
+
+### Example #2: Vertex → Standard → Intercept
+
+1. First **vertex → standard**:
+
+$$
+\begin{array}{l}
+{\color{gray} a(x-p)^2+q = \ }
+2\left( x+\frac{1}{2} \right)^2 - 12.5
+\\
+{\small \quad a=2}
+\\
+{\small \quad p=-\frac{1}{2}}
+\\
+{\small \quad q=-12.5}
+\\
+\ 
+\\
+a = 2
+\\
+b = -2ap = -2 \cdot 2 \cdot \left(-\frac{1}{2}\right) = 2
+\\
+c = ap^2+q = 2 \cdot \left(-\frac{1}{2}\right)^2 - 12.5 = -12
+\\
+\ 
+\\
+{\color{gray} ax^2+bx+c = \ } 2x^2+2x-12
+\end{array}
+$$
+
+2. Then **standard → intercept**: just like below.
+
+### Example #3: Standard → Intercept
+
+$$
+\begin{array}{l}
+{\color{gray} ax^2+bx+c = \ }
+2x^2+2x-12
+\\
+{\small \quad a=2}
+\\
+{\small \quad b=2}
+\\
+{\small \quad c=-12}
+\\
+\ 
+\\
+\Delta = b^2-4ac = 4+96 = 100
+\\
+\sqrt{\Delta} = 10
+\\
+\ 
+\\
+x_1 = \frac{-b+\sqrt{\Delta}}{2a} = \frac{-2+10}{4} = 2
+\\
+x_2 = \frac{-b-\sqrt{\Delta}}{2a} = \frac{-2-10}{4} = -3
+\\
+\ 
+\\
+{\color{gray} a(x-x_1)(x-x_2) = \ } 2(x-2)(x+3)
+\end{array}
+$$
+
+> $2x^2+2x-12 \ \equiv \ 2(x-2)(x+3)$
+
+
+
