@@ -19,6 +19,7 @@
 
 - [Algebra](#algebra)
   - [Partial Fractions](#partial-fractions)
+    - [Decomposition](#decomposition)
 - [Analytic Geometry](#analytic-geometry)
 - [Coordinates](#coordinates)
 - [Figures](#figures)
