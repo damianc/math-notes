@@ -16,6 +16,8 @@ $$
 \frac{mx+i}{ax^2+bx+c} \mapsto \frac{mx+i}{a(x-x_1)(x-x_2)}
 $$
 
+> For detailed conversion, see [Forms of Quadratic Functions](https://github.com/damianc/math-notes/blob/master/functions/quadratic/forms.md).
+
 ## From the Vertex Form
 
 > $a(x-p)^2+q \ \mapsto \ a(x-x_1)(x-x_2)$
