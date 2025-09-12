@@ -14,6 +14,15 @@ For example:
 - $(1)_n = 1 \cdot 2 \dots n = n!$
 - $(a)_0 = 1$
 
+> ℹ️ **SPECIAL CASES**
+>
+> - $(n)_0 = 1$
+> - $(n)_1 = n$
+> - $(0)_n = 0$
+> - $(1)_n = n!$
+> - $(0)_0 = 1$
+> - $(1)_1 = 1$
+
 > ⚠️ **THERE IS A MESS**
 >
 > Depending on author and source, the **Pochhammer symbol** may denote either the _rising_ or the _falling factorial_.
