@@ -1,5 +1,7 @@
 # Trigonometric Functions
 
+## Definitions
+
 | Function | $f(x)$ | $f^{-1}(x)$ |
 |--|--|--|
 | sine | $\sin(x)$ | $\arcsin(x)$ |
@@ -21,3 +23,20 @@
 
 > In terms of naming, _*sin_ = _*sine_, as well as _*cos_ = _*cosin(e)_.
 
+## Domain and Range
+
+### Primary Trigonometric Functions
+
+| Function | Domain | Range | Inv. Function | Domain | Range |
+|--|--|--|--|--|--|
+| sine | ℝ | [-1,1] | arcus sine | [-1,1] | [-½π,½π] |
+| cosine | ℝ | [-1,1] | arcus cosine | [-1,1] | [0,π] |
+| tangent | {x ∈ ℝ: xπ⁻¹ + ½ ∉ ℤ} | ℝ | arcus tangent | ℝ | (-½π,½π) |
+
+### Secondary Trigonometric Functions
+
+| Function | Domain | Range | Inv. Function | Domain | Range |
+|--|--|--|--|--|--|
+| cosecant | {x ∈ ℝ: xπ⁻¹ ∉ ℤ} | ℝ\\(-1,1) | arcus cosecant | ℝ\\(-1,1) | [-½π,½π]\\{0} |
+| secant | {x ∈ ℝ: xπ⁻¹ + ½ ∉ ℤ} | ℝ\\(-1,1) | arcus secant | ℝ\\(-1,1) | [0,π]\\{½π} |
+| cotangent | {x ∈ ℝ: xπ⁻¹ ∉ ℤ} | ℝ | arcus cotangent | ℝ | (-½π,½π)\\{0} |
