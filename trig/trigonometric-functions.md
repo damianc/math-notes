@@ -40,3 +40,30 @@
 | cosecant | {x ∈ ℝ: xπ⁻¹ ∉ ℤ} | ℝ\\(-1,1) | arcus cosecant | ℝ\\(-1,1) | [-½π,½π]\\{0} |
 | secant | {x ∈ ℝ: xπ⁻¹ + ½ ∉ ℤ} | ℝ\\(-1,1) | arcus secant | ℝ\\(-1,1) | [0,π]\\{½π} |
 | cotangent | {x ∈ ℝ: xπ⁻¹ ∉ ℤ} | ℝ | arcus cotangent | ℝ | (-½π,½π)\\{0} |
+
+### Other Trigonometric Functions
+
+| Function | Domain | Range | Inv. Function | Domain | Range |
+|--|--|--|--|--|--|
+| exsecant | {x ∈ ℝ: xπ⁻¹ + ½ ∉ ℤ} | ℝ\\(-2,0) | arcus exsecant | ℝ\\(-2,0) | [0,π]\\{½π} |
+| excosecant | {x ∈ ℝ: xπ⁻¹ ∉ ℤ} | ℝ\\(-2,0) | arcus excosecant | ℝ\\(-2,0) | [-½π,½π]\\{0} |
+
+#### [Co]Versed Functions
+
+
+| Function | Domain | Range | Inv. Function | Domain | Range |
+|--|--|--|--|--|--|
+| versine | ℝ | [0,2] | arcus versine | [0,2] | [0,π] |
+| coversine | ℝ | [0,2] | arcus coversine | [0,2] | [-½π,½π] |
+| vercosine | ℝ | [0,2] | arcus vercosine | [0,2] | [0,π] |
+| covercosine | ℝ | [0,2] | arcus covercosine | [0,2] | [-½π,½π] |
+
+#### Half-[Co]Versed Functions
+
+
+| Function | Domain | Range | Inv. Function | Domain | Range |
+|--|--|--|--|--|--|
+| haversine | ℝ | [0,1] | arcus haversine | [0,1] | [0,π] |
+| hacoversine | ℝ | [0,1] | arcus hacoversine | [0,1] | [-½π,½π] |
+| havercosine | ℝ | [0,1] | arcus havercosine | [0,1] | [0,π] |
+| hacovercosine | ℝ | [0,1] | arcus hacovercosine | [0,1] | [-½π,½π] |
