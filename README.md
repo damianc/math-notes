@@ -50,6 +50,7 @@
 - [Combinatorial Analysis](#combinatorial-analysis)
 - [Practical Use of Math](#practical-use-of-math)
 - [Extras](#extras)
+- [Code](#code)
 - [Tools](#tools)
   - [Desmos](#desmos)
     - [Desmos 3D](#desmos-3d)
@@ -297,6 +298,10 @@
 ## Extras
 
 - [Greek Alphabet](https://github.com/damianc/math-notes/blob/master/extras/greek-alphabet.md)
+
+## Code
+
+- [Obtaining a Random Value](https://github.com/damianc/math-notes/blob/master/code/random-value.md)
 
 ## Tools
 
