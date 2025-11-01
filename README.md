@@ -302,6 +302,7 @@
 ## Code
 
 - [Obtaining a Random Value](https://github.com/damianc/math-notes/blob/master/code/random-value.md)
+- [Tetration](https://github.com/damianc/math-notes/blob/master/code/tetration.md)
 
 ## Tools
 
