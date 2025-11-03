@@ -309,6 +309,7 @@
 
 - [Initializing Matrix](https://github.com/damianc/math-notes/blob/master/code/matrices/initializing-matrix.md)
 - [Matrix Determinant](https://github.com/damianc/math-notes/blob/master/code/matrices/determinant.md)
+- [Adjugate Matrix, Cofactor Matrix and Minors](https://github.com/damianc/math-notes/blob/master/code/matrices/adjugate-cofactor-minors.md)
 
 ## Tools
 
