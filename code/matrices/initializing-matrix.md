@@ -2,11 +2,11 @@
 
 ## General Matrix
 
-> **initMatrix**(
-> $\quad$ rows: int$^{+}$,
-> $\quad$ cols: int$^{+}$,
-> $\quad$ val: any | (int$^{+}$, int$^{+}$, uint) => any
->): any[][]
+> **initMatrix**(  
+> $\quad$ rows: int $^{+}$,  
+> $\quad$ cols: int $^{+}$,  
+> $\quad$ val: any | (int $^{+}$, int $^{+}$, uint) => any  
+> ): any[][]
 
 `val` can be a scalar value or a function that takes the following parameters: _row_, _column_ and _index_; first two are counted from 1, the last - from 0.
 
@@ -36,9 +36,9 @@ function initMatrix(rows,cols=rows,v=0) {
 
 ## Square Matrix
 
-> **initSquareMatrix**(
-> $\quad$ size: int$^{+}$,
-> $\quad$ val: any | (int$^{+}$, int$^{+}$, uint, boolean, boolean) => any
+> **initSquareMatrix**(  
+> $\quad$ size: int $^{+}$,  
+> $\quad$ val: any | (int $^{+}$, int $^{+}$, uint, boolean, boolean) => any  
 > ): any[][]
 
 `val` can be a scalar value or a function that takes the following parameters: _row_, _column_ (both are counted from 1), _index_ (counted from 0), and two boolean values indicating whether a term lays on _diagonal_, and next - on _anti-diagonal_.
@@ -67,9 +67,9 @@ function initSquareMatrix(size,v=1) {
 
 ## Diagonal Matrix
 
-> **initDiagonalMatrix**(
-> $\quad$ size: int$^{+}$,
-> $\quad$ val: any | (int$^{+}$, int$^{+}$, uint) => any
+> **initDiagonalMatrix**(  
+> $\quad$ size: int $^{+}$,  
+> $\quad$ val: any | (int $^{+}$, int $^{+}$, uint) => any  
 > ): any[][]
 
 ```
@@ -86,9 +86,9 @@ function initDiagonalMatrix(size,v=1) {
 
 ## Scalar Matrix
 
-> **initScalarMatrix**(
-> $\quad$ size: int$^{+}$,
-> $\quad$ val: any
+> **initScalarMatrix**(  
+> $\quad$ size: int $^{+}$,  
+> $\quad$ val: any  
 > ): any[][]
 
 ```
@@ -99,8 +99,8 @@ function initScalarMatrix(size,v=1) {
 
 ## Unit Matrix
 
-> **initUnitMatrix**(
-> $\quad$ size: int$^{+}$
+> **initUnitMatrix**(  
+> $\quad$ size: int $^{+}$  
 > ): (0|1)[][]
 
 ```
