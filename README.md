@@ -51,6 +51,7 @@
 - [Practical Use of Math](#practical-use-of-math)
 - [Extras](#extras)
 - [Code](#code)
+  - [Matrices](#code-for-matrices)
 - [Tools](#tools)
   - [Desmos](#desmos)
     - [Desmos 3D](#desmos-3d)
@@ -303,6 +304,10 @@
 
 - [Obtaining a Random Value](https://github.com/damianc/math-notes/blob/master/code/random-value.md)
 - [Tetration](https://github.com/damianc/math-notes/blob/master/code/tetration.md)
+
+### Code for Matrices
+
+- [Initializing Matrix](https://github.com/damianc/math-notes/blob/master/code/matrices/initializing-matrix.md)
 
 ## Tools
 
