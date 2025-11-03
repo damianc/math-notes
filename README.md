@@ -308,6 +308,7 @@
 ### Code for Matrices
 
 - [Initializing Matrix](https://github.com/damianc/math-notes/blob/master/code/matrices/initializing-matrix.md)
+- [Matrix Determinant](https://github.com/damianc/math-notes/blob/master/code/matrices/determinant.md)
 
 ## Tools
 
