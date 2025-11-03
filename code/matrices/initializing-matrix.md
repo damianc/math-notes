@@ -1,4 +1,4 @@
-# Init Matrix
+# Initializing Matrix
 
 ## General Matrix
 
