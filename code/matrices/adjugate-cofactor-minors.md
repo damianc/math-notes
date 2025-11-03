@@ -47,3 +47,43 @@ function minorMatrix(M) {
 }
 ```
 
+## Version with Matrix Mapper
+
+```
+function cofactorMatrix(M) {
+	return mapTerms(
+		M, (_,r,c) => cofactor(M,r,c)
+	);
+}
+
+function minorMatrix(M) {
+	return mapTerms(
+		M, (_,r,c) => minor(M,r,c)
+	);
+}
+```
+
+Arguments passed to a callback of the following mapper are as follows:
+- current matrix term
+- a number of a row (starting from 1)
+- a number of a column (starting from 1)
+- an overall number of a matrix term (starting from 1)
+
+```
+function mapTerms(M, cb) {
+	const rows = M.length;
+	const cols = M[0].length;
+	const N = [];
+	let numOfTerm = 1;
+	for (let ri=0; ri<rows; ri++) {
+		N.push([]);
+		for (let ci=0; ci<cols; ci++) {
+			const nv = cb(
+				M[ri][ci], ri+1, ci+1, numOfTerm++
+			);
+			N[ri].push(nv);
+		}
+	}
+	return N;
+}
+```
