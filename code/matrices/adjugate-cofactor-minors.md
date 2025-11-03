@@ -26,3 +26,24 @@ function cofactorMatrix(M) {
 	});
 }
 ```
+
+## Minors
+
+```
+function minorize(M,r,c) {
+	return removeRow(removeCol(M,c),r);
+}
+
+function minor(M,r,c) {
+	return det(minorize(M,r,c));
+}
+
+function minorMatrix(M) {
+	return M.map((row,rIdx) => {
+		return row.map((col,cIdx) => {
+			return minor(M,rIdx+1,cIdx+1);
+		});
+	});
+}
+```
+
