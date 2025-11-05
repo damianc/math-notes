@@ -311,6 +311,7 @@
 - [Matrix Multiplication](https://github.com/damianc/math-notes/blob/master/code/matrices/matrix-multiplication.md)
 - [Matrix Determinant](https://github.com/damianc/math-notes/blob/master/code/matrices/determinant.md)
 - [Adjugate Matrix, Cofactor Matrix and Minors](https://github.com/damianc/math-notes/blob/master/code/matrices/adjugate-cofactor-minors.md)
+- [Matrix Concatenation](https://github.com/damianc/math-notes/blob/master/code/matrices/matrix-concatenation.md)
 
 ## Tools
 
