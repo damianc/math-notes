@@ -308,6 +308,7 @@
 ### Code for Matrices
 
 - [Initializing Matrix](https://github.com/damianc/math-notes/blob/master/code/matrices/initializing-matrix.md)
+- [Matrix Multiplication](https://github.com/damianc/math-notes/blob/master/code/matrices/matrix-multiplication.md)
 - [Matrix Determinant](https://github.com/damianc/math-notes/blob/master/code/matrices/determinant.md)
 - [Adjugate Matrix, Cofactor Matrix and Minors](https://github.com/damianc/math-notes/blob/master/code/matrices/adjugate-cofactor-minors.md)
 
