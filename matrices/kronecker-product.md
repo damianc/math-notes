@@ -10,7 +10,7 @@ a_{21}B & a_{22}B & \cdots & a_{2n}B
 \\
 \vdots & \vdots & \ddots & \vdots
 \\
-a_{m1}B & a_{m2} & \cdots & a_{mn}B
+a_{m1}B & a_{m2}B & \cdots & a_{mn}B
 \end{bmatrix}_{pm \times qn}
 $$
 
