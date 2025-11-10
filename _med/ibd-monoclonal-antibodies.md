@@ -23,7 +23,7 @@
 | Priliximab | mab/chimeric | CD4 | CD (+) |
 | Ravagalimab | mab/humanized | CD40 | CD |
 | Risankizumab | mab/humanized | IL-23A | CD (+) |
-| Ontamalimab (SHP647) | -/human | mucosal addressin cell adhesion molecule | CD |
+| Ontamalimab (SHP647) | -/human | MAdCAM (mucosal addressin cell adhesion molecule) | CD |
 | Urtoxazumab | mab/humanized | _Escherichia coli_ | diarrhoea caused by _E. coli_ |
 | Ustekinumab | mab/human | IL-12, IL-23 | CD (+) |
 | Vedolizumab | mab/humanized | integrin α₄ β₇ | CD, UC |
