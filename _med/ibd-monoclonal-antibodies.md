@@ -15,6 +15,7 @@
 | Eldelumab | mab/human | CXCL10 (IP-10) | CD, UC |
 | Etrolizumab | mab/humanized | integrin β₇ | IBD |
 | Fontolizumab | mab/humanized | IFN-γ | CD etc. |
+| Golimumab | mab/human | TNF-α | UC (+) |
 | Infliximab | mab/chimeric | TNF-α | CD, UC (+) |
 | Mirikizumab | mab/humanized | IL-23 | UC |
 | Natalizumab | mab/humanized | integrin α₄ | CD (+) |
