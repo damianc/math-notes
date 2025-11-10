@@ -38,6 +38,8 @@
 > **IBD** - Inflammatory Bowel Disease  
 > **UC** - ulcerative colitis  
 > **CD** - Crohn's disease
+>
+> (+) - and others
 
 > [List of monoclonal antibodies](https://en.wikipedia.org/wiki/List_of_therapeutic_monoclonal_antibodies)
 
