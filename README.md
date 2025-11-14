@@ -317,6 +317,7 @@
 
 ### Desmos
 
+- [Piecewise Functions](https://github.com/damianc/math-notes/blob/master/desmos/piecewise-functions.md)
 - [Sort in Descending Order](https://github.com/damianc/math-notes/blob/master/desmos/sort-desc.md)
 - [Sorting of Points](https://github.com/damianc/math-notes/blob/master/desmos/sort-points.md)
 - [Line Segment](https://github.com/damianc/math-notes/blob/master/desmos/line-segment.md)
