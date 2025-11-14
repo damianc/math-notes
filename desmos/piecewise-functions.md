@@ -18,6 +18,8 @@ f(x) = \\{
 \end{array}
 $$
 
+> A _default expression_ is optional.
+
 ## Example 1
 
 $$
