@@ -4,15 +4,15 @@ $$
 \begin{array}{ll}
 f(x) = \\{
 \\
-& CONDITION-1: EXPR-1,
+& \text{CONDITION-1: EXPR-1,} 
 \\
-& CONDITION-2: EXPR-2,
+& \text{CONDITION-2: EXPR-2,}
 \\
-& ...,
+& \text{...,}
 \\
-& CONDITION-N: EXPR-N,
+& \text{CONDITION-N: EXPR-N,}
 \\
-& DEFAULT-EXPR
+& \text{[DEFAULT-EXPR]}
 \\
 \\}
 \end{array}
