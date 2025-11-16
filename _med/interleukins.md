@@ -1,8 +1,8 @@
 # Interleukins
 
-| Interleukin | Main Source / Type | Property | Main Mechanism / Function |
+| Interleukin | Main Source/Type | Property | Main Mechanism/Function |
 |-------------|--------------------|----------|----------------------------|
-| **IL-1α/β** | Macrophages, epithelial cells | $\textcolor{red}{pro}$ | Fever, acute inflammation, activates endothelium |
+| **IL-1α/β** | Macrophages, epithelial cells | $\textcolor{red} {pro}$ | Fever, acute inflammation, activates endothelium |
 | **IL-2** | Activated T cells | $\textcolor{red}{pro}$ | T-cell proliferation and survival |
 | **IL-3** | T cells | $\textcolor{blue}{mixed}$ | Hematopoiesis, supports myeloid precursors |
 | **IL-4** | Th2 cells, mast cells | $\textcolor{green}{anti}$ / $\textcolor{blue}{mixed}$ | IgE class switching, Th2 polarization |
