@@ -1,4 +1,4 @@
-# Substitution When There Are Multiple $x$'s
+# Substitution When There Are Multiple $x$'s (Substitution with Inverse Function)
 
 If an integrand consists of multiple expressions that contain $x$, each should be respectively changed.
 
