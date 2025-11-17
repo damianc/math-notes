@@ -9,7 +9,7 @@
 | $$\frac{1}{\sqrt{k+nx}}$$ | $$\frac{2\sqrt{k+nx}}{n}$$ |
 | $$\frac{1}{\sqrt{k+nx^2}}$$ | $$\frac{\text{atanh}\left(\frac{\sqrt{n}x}{\sqrt{k+nx^2}}\right)}{\sqrt{n}}$$ |
 
-## Radical in Nominator
+## Radical in Numerator
 
 | $\boldsymbol{f(x)}$ | $\boldsymbol{\int f(x) \ dx}$ |
 |--|--|
