@@ -34,6 +34,7 @@
   - [Numerical Differentiation](#numerical-differentiation)
   - [Derivatives](#derivatives)
 - [Integration](#integration)
+  - [Numerical Integration](#numerical-integration)
   - [Multiple Integrals](#multiple-integrals)
     - [Area and Volume by Multiple Integrals](#area-and-volume-by-multiple-integrals)
   - [Special Integrals](#special-integrals)
@@ -181,6 +182,10 @@
 - [Integration by Substitution](https://github.com/damianc/math-notes/blob/master/integration/integration-by-substitution.md)
 - [Substitution When There Are Multiple x's (Substitution with Inverse Function)](https://github.com/damianc/math-notes/blob/master/integration/substitution-multiple-x.md)
 - [Integration by Parts](https://github.com/damianc/math-notes/blob/master/integration/integration-by-parts.md)
+
+### Numerical Integration
+
+- [Riemann Sum](https://github.com/damianc/math-notes/blob/master/integration/numerical/riemann-sum.md)
 
 ### Multiple Integrals
 
