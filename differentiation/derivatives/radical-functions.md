@@ -9,7 +9,7 @@
 | $$\frac{1}{\sqrt{k+nx}}$$ | $$-\frac{n}{2(k+nx)^{3/2}}$$ |
 | $$\frac{1}{\sqrt{k+nx^2}}$$ | $$-\frac{nx}{(k+nx^2)^{3/2}}$$ |
 
-## Radical in Nominator
+## Radical in Numerator
 
 | $\boldsymbol{f(x)}$ | $\boldsymbol{\frac{d}{dx} f(x)}$ |
 |--|--|
