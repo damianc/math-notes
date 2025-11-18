@@ -2,6 +2,8 @@
 
 The **trapezoid(al) rule** is a technique for numerical integration, i.e. approximating the definite integral; area of the region under the graph is approximated by area of trapezoids under it.
 
+![Trapezoid rule](https://raw.githubusercontent.com/damianc/math-notes/refs/heads/master/_images/integration/num-int-trapezoids.jpg)
+
 $$
 \int_a^b f(x) \ dx \approx
 \frac{1}{2} \Delta
