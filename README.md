@@ -186,6 +186,7 @@
 ### Numerical Integration
 
 - [Riemann Sum](https://github.com/damianc/math-notes/blob/master/integration/numerical/riemann-sum.md)
+- [Trapezoid Rule](https://github.com/damianc/math-notes/blob/master/integration/numerical/trapezoid-rule.md)
 
 ### Multiple Integrals
 
