@@ -18,5 +18,5 @@ $$
 \right)
 $$
 
-> $\Delta = \frac{b-a}{n}, \quad n \in \Bbb{N}$  
-> $y_i = f(a+i\Delta)$
+> $y_i = f(a+i\Delta)$  
+> $\Delta = \frac{b-a}{n}, \quad n \in \Bbb{N}$
