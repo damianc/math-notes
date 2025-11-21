@@ -6,6 +6,7 @@ Be explicit:
 |--|--|
 | $a\frac{b}{c}$ | $a \cdot \frac{b}{c}$, $a + \frac{b}{c}$ |
 | $\sin^{-1}(x)$ | $\text{asin}(x)$ or $\arcsin(x)$, $\csc(x)$ |
+| $\text{sinh}^{-1}(x)$ | $\text{asinh}(x)$ or $\text{arcsinh}(x)$, $\text{csch}(x)$ |
 | $\log(x)$ | $\ln(x)$, $\log_{10}(x)$ |
 | $\sin \ x+k$ | $\sin(x+k)$, $\sin(x)+k$ |
 | $$\Sigma \ x_i + k$$ | $$\Sigma \ (x_i + k)$$ or $$(\Sigma \ x_i) + k$$ |
