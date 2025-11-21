@@ -8,6 +8,7 @@ Be explicit:
 | $\sin^{-1}(x)$ | $\text{asin}(x)$ or $\arcsin(x)$, $\csc(x)$ |
 | $\log(x)$ | $\ln(x)$, $\log_{10}(x)$ |
 | $\sin \ x+k$ | $\sin(x+k)$, $\sin(x)+k$ |
+| $$\Sigma \ x_i + k$$ | $$\Sigma \ (x_i + k)$$ or $$(\Sigma \ x_i) + k$$ |
 
 ## Allowed Descriptors
 
