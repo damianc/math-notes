@@ -87,6 +87,7 @@
 - [Finding a Line](https://github.com/damianc/math-notes/blob/master/analytic-geometry/finding-line.md)
 - [Distances 2D](https://github.com/damianc/math-notes/blob/master/analytic-geometry/distances-2d.md)
 - [Point Moved Along Line](https://github.com/damianc/math-notes/blob/master/analytic-geometry/point-moved-along-line.md)
+- [Section Formula](https://github.com/damianc/math-notes/blob/master/analytic-geometry/section-formula.md)
 - [Line Intersection (with Parabola/Hyperbola/Circle/Ellipse)](https://github.com/damianc/math-notes/blob/master/analytic-geometry/line-intersection-with-phce.md)
 - [Relationships Between Two Circles](https://github.com/damianc/math-notes/blob/master/analytic-geometry/two-circles-relationships.md)
 - [Common Points and Area of Two Circles](https://github.com/damianc/math-notes/blob/master/analytic-geometry/two-circles-common-stuff.md)
