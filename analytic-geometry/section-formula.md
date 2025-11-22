@@ -43,7 +43,7 @@ $$
 
 ## Midpoint
 
-The midpoint $\color{#f44}P$ - lying in the middle of the line segment $\overline{AB}$ - divides it internally in the ratio $1:1$, hence its coordinates are:
+The midpoint $\color{#f44}P$ - lying in the middle of the line segment $\overline{AB}$ - divides it internally in the ratio 1:1, hence its coordinates are:
 
 $$
 {\color{#f44}P} = \left(
@@ -76,7 +76,7 @@ $$
 
 ## Centroid
 
-The centroid of a triangle is a point in which the medians intersect. Each median is divided in the ratio $2:1$.
+The centroid of a triangle is a point in which the medians intersect. Each median is divided in the ratio 2:1.
 
 For triangle $\triangle_{ABC}$, coordinates of its centroid are:
 
