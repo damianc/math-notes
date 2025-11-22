@@ -34,9 +34,9 @@ $$
 
 > **VECTORS**
 > 
-> If $\vec{a}$ and $\vec{b}$ are position vectors of points $A$ and $B$, respectively, the position vector of a point $P$ is as follows:
+> If $\vec{a}$ and $\vec{b}$ are position vectors of points $A$ and $B$, respectively, the position vector $\vec{p}$ of a point $P$ is as follows:
 > 
-> $$\frac{m\vec{b} \pm n\vec{a}}{m \pm n}$$
+> $$\vec{p} = \frac{m\vec{b} \pm n\vec{a}}{m \pm n}$$
 > 
 > **+** is for **internal section**  
 > **-** is for **external section**
