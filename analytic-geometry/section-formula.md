@@ -13,7 +13,7 @@ $$
 \right)
 $$
 
-[]
+![Internal Section](https://raw.githubusercontent.com/damianc/math-notes/refs/heads/master/_images/anal-geom/line/ls-internal-section.jpg)
 
 > $A{\color{#f44}P} : {\color{#f44}P}B = {\color{#fa0}m} : {\color{purple}n}$
 
@@ -28,7 +28,7 @@ $$
 \right)
 $$
 
-[]
+![External Section](https://raw.githubusercontent.com/damianc/math-notes/refs/heads/master/_images/anal-geom/line/ls-external-section.jpg)
 
 > $A{\color{#f44}P} : B{\color{#f44}P} = {\color{#fa0}m} : {\color{purple}n}$
 
