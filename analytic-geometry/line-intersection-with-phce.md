@@ -105,8 +105,8 @@ $$
 >  
 > $t=i+mh-k$  
 > $A=b^2+a^2m^2$  
-> $B=2a^2mn$  
-> $C=a^2(n^2-b^2)$  
+> $B=2a^2mt$  
+> $C=a^2(t^2-b^2)$  
 > $\Delta=B^2-4AC$  
 > $x_{1,2} = \frac{-B \pm \sqrt{\Delta}}{2A}+h$
 
