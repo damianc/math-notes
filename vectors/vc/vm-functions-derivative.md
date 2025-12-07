@@ -148,3 +148,124 @@ $$
 \frac{\partial f}{\partial x_{m1}} & \cdots & \frac{\partial f}{\partial x_{mn}}
 \end{bmatrix}
 $$
+
+## Examples
+
+### Parametric Curve: Spiral
+
+$$
+{\boldsymbol{f}}: \Bbb{R} \rightarrow \Bbb{R}^m
+$$
+
+$$
+{\boldsymbol{f}}(t) = \begin{bmatrix}
+t \cos(t)
+\\
+t \sin(t)
+\end{bmatrix}
+$$
+
+$$
+\frac{\partial {\boldsymbol{f}}}{\partial t} = \begin{bmatrix}
+\cos(t) - t \sin(t)
+\\
+\sin(t) + t \cos(t)
+\end{bmatrix}
+$$
+
+### Scalar-to-Matrix Function
+
+$$
+{\boldsymbol{F}}: \Bbb{R} \rightarrow \Bbb{R}^{m \times n}
+$$
+
+$$
+{\boldsymbol{F}}(\theta) = \begin{bmatrix}
+\cos(\theta) & -\sin(\theta)
+\\
+\sin(\theta) & \cos(\theta)
+\end{bmatrix}
+$$
+
+$$
+\frac{\partial {\boldsymbol{F}}}{\partial \theta} = \begin{bmatrix}
+-\sin(\theta) & -\cos(\theta)
+\\
+\cos(\theta) & -\sin(\theta)
+\end{bmatrix}
+$$
+
+### Scalar Field
+
+$$
+f: \Bbb{R}^m \rightarrow \Bbb{R}
+$$
+
+$$
+f({\boldsymbol{p}}) =
+f\left(\begin{bmatrix}
+x
+\\
+y
+\\
+z
+\end{bmatrix}\right) = x^2 + y + 2z
+$$
+
+$$
+\frac{\partial f}{\partial {\boldsymbol{p}}} = \nabla f = \begin{bmatrix}
+2x
+\\
+1
+\\
+2
+\end{bmatrix}
+$$
+
+###  Vector Field
+
+$$
+{\boldsymbol{f}}: \Bbb{R}^m \rightarrow \Bbb{R}^n
+$$
+
+$$
+{\boldsymbol{f}}({\boldsymbol{p}}) = f\left(\begin{bmatrix}
+r
+\\
+\theta
+\end{bmatrix}\right) = \begin{bmatrix}
+r \cos(\theta)
+\\
+r \sin(\theta)
+\end{bmatrix}
+$$
+
+$$
+\frac{\partial{\boldsymbol{f}}}{\partial{\boldsymbol{p}}} = {\boldsymbol{J}}_f = \begin{bmatrix}
+\cos(\theta) & - r \sin(\theta)
+\\
+\sin(\theta) & r \cos(\theta)
+\end{bmatrix}
+$$
+
+### Matrix-to-Scalar Function
+
+$$
+f: \Bbb{R}^{m \times n} \rightarrow \Bbb{R}
+$$
+
+$$
+f({\boldsymbol{M}}) = f\left(\begin{bmatrix}
+a & b
+\\
+c & d
+\end{bmatrix}\right) = ad-bc
+$$
+
+$$
+\frac{\partial f}{\partial {\boldsymbol{M}}} = \begin{bmatrix}
+d & -c
+\\
+-b & a
+\end{bmatrix}
+$$
