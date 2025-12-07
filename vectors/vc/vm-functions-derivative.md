@@ -26,6 +26,8 @@ $$
 \end{bmatrix}
 $$
 
+> it's called a **tangent vector**
+
 ## Function Scalar-to-Matrix
 
 For a matrix-valued function of one variable ${\boldsymbol{F}}: \Bbb{R} \rightarrow \Bbb{R}^{m \times n}$:
@@ -51,6 +53,8 @@ $$
 \frac{\partial f_{m1}}{\partial x} & \cdots & \frac{\partial f_{mn}}{\partial x}
 \end{bmatrix}
 $$
+
+> it's called a **tangent matrix**
 
 ## Function Vector-to-Scalar
 
