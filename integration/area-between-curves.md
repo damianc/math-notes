@@ -2,13 +2,17 @@
 
 The idea of obtaining the area between curves comes down to subtracting the area of one region from the area of the other region on the interval determined by the common points of the curves.
 
+![Obtaining the area between curves](https://github.com/damianc/math-notes/blob/master/_images/integration/abc-difference-idea.jpg)
+
 If there are two curves - $f(x)$ and $g(x)$, and they intersect at $x_1$ and $x_2$, the area $A$ between them is:
 
 $$
 A = \int_{x_1}^{x_2} \bigl(g(x) - f(x)\bigr) \ dx
 $$
 
-Of course, _minuend_ and _subtrahend_ are chosen so that it makes sense.
+> Of course, _minuend_ and _subtrahend_ are chosen so that it makes sense.
+
+![Details of obtaining the area between curves](https://github.com/damianc/math-notes/blob/master/_images/integration/abc-area-between-curves.jpg)
 
 ## Example
 
