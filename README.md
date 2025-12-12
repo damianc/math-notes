@@ -183,6 +183,7 @@
 - [Integration by Substitution](https://github.com/damianc/math-notes/blob/master/integration/integration-by-substitution.md)
 - [Substitution When There Are Multiple x's (Substitution with Inverse Function)](https://github.com/damianc/math-notes/blob/master/integration/substitution-multiple-x.md)
 - [Integration by Parts](https://github.com/damianc/math-notes/blob/master/integration/integration-by-parts.md)
+- [Area Between Curves](https://github.com/damianc/math-notes/blob/master/integration/area-between-curves.md)
 
 ### Numerical Integration
 
