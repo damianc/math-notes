@@ -34,6 +34,8 @@
 | $\perp$ | `\perp` | $\cancel{\perp}$ | `\cancel{\perp}` |
 | $\sum$ | `\sum` | | |
 | $\prod$ | `\prod` | $\coprod$ | `\coprod` |
+| $\intercal$ | `\intercal` | $\complement$ | `\complement` |
+| $\dagger$ | `\dagger` | | |
 
 $$
 \overline{x} = \frac{
