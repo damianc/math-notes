@@ -15,6 +15,8 @@
 
 ----
 
+> 🛑 **GitHub** no longer displays **MathJax** properly.
+
 ## Categories
 
 - [Algebra](#algebra)
