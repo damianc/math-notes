@@ -15,7 +15,7 @@
 
 ----
 
-> 🛑 **GitHub** no longer displays **MathJax** properly. If need be, copy&paste a respective _MathJax_ code to [StackEdit editor](https://stackedit.io).
+> 🛑 **GitHub** no longer displays **MathJax** properly. If need be, copy&paste a respective _MathJax_ code to [StackEdit](https://stackedit.io), [this editor](https://www.cs.odu.edu/~zeil/cs390/latest/Public/texmath/demo.html) or other tool.
 
 ## Categories
 
