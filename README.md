@@ -67,6 +67,7 @@
 - [Properties of Logarithms](https://github.com/damianc/math-notes/blob/master/algebra/log-properties.md)
 - [Irrational Exponent](https://github.com/damianc/math-notes/blob/master/algebra/irrational-exponent.md)
 - [Square of a Sum](https://github.com/damianc/math-notes/blob/master/algebra/square-of-a-sum.md)
+- [Cube of a Sum](https://github.com/damianc/math-notes/blob/master/algebra/cube-of-a-sum.md)
 - [Binomial Expansion](https://github.com/damianc/math-notes/blob/master/algebra/binomial-expansion.md)
 - [Pascal's Triangle](https://github.com/damianc/math-notes/blob/master/algebra/pascals-triangle.md)
 - [Summation](https://github.com/damianc/math-notes/blob/master/algebra/summation.md)
