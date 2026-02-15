@@ -39,7 +39,9 @@ $$
 \end{array}
 $$
 
-## Power of 2
+## First Expansions
+
+### Power of 2
 
 $$
 \begin{array}{l}
@@ -63,7 +65,7 @@ $$
 \end{array}
 $$
 
-## Power of 3
+### Power of 3
 
 $$
 \begin{array}{l}
@@ -89,7 +91,7 @@ $$
 \end{array}
 $$
 
-## Power of 4
+### Power of 4
 
 $$
 \begin{array}{l}
@@ -135,7 +137,7 @@ $$
 \end{array}
 $$
 
-## Power of 5
+### Power of 5
 
 $$
 \begin{array}{l}
@@ -187,7 +189,7 @@ $$
 \end{array}
 $$
 
-## Power of 6
+### Power of 6
 
 $$
 \begin{array}{l}
