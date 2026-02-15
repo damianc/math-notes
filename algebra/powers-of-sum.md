@@ -1,6 +1,7 @@
 # The Powers of a Sum
 
 $$
+\large
 \left(
 \sum_{i=1}^n a_i
 \right)^p =
