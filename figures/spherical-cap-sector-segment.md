@@ -51,7 +51,7 @@ $$
 V = \frac{2}{3} \pi r^2h = \frac{2}{3} \pi r^3 (1-\cos(\theta))
 $$
 
-Using the lateral surface area of the spherical cap $S$:
+Using **the lateral surface area of the spherical cap** $S$:
 
 $$
 V = \frac{1}{3} r \cdot S
