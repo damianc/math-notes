@@ -108,6 +108,7 @@
 ## Figures
 
 - [Circle](https://github.com/damianc/math-notes/blob/master/figures/circle.md)
+- [Spherical Cap/Dome, Sector and Segment](https://github.com/damianc/math-notes/blob/master/figures/spherical-cap-sector-segment.md)
 
 ## Trigonometry
 
